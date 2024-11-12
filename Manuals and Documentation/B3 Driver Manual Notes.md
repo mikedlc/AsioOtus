@@ -12,9 +12,15 @@
 	- 0x08 is BRKR Output signal of the magnetic brake control. Set MBT1 P1.042 and MBT2 P1.043 to adjust the delay time before and after the brake control is activated and deactivated..
 	- Notes to refer to the note in P1.042
 - Physical/software control option is 3.006 on page 8-108
+- DI functional planning
+	- Page 8-73
+	- P2.010 - P2.013 are DI1 - DI4, the 4 digital inputs with physical pin assignments
+	- P2.014 - P2.017 are DI4 - DI8 and don't have physical pins but are addressable in software
 - DI pin assignments on page 3-52, wiring on 3-62
 	- COM+ - pin 5
-	- DI1- - pin 6
-	- DI2- - pin 7
-	- DI3- - pin 8
-	- DI4- - pin 9
+		- Gets +24V from external power supply
+	- Digital Inputs, get - terminal from external power supply
+		- DI1- - pin 6
+		- DI2- - pin 7
+		- DI3- - pin 8
+		- DI4- - pin 9
