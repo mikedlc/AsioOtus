@@ -7,6 +7,8 @@
 - Drivers are powered with single phase 240V via the first and third input power terminals 
 	- (Use all 3 terminals w/ 3 phase power)
 	- Driver power and servo power are separated so servo power can be cut with a contactor if desired
+		- I don't plan on doing this; I want the servos to regeneratively brake to decelerate quicker when eStopped
+
 
 <h3>Parts List</h3>
 
