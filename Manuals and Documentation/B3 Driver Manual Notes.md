@@ -13,6 +13,7 @@
 	- Notes to refer to the note in P1.042
 - Physical/software control option is 3.006 on page 8-108
 - DI pin assignments on page 3-52, wiring on 3-62
+	- COM+ - pin 5
 	- DI1- - pin 6
 	- DI2- - pin 7
 	- DI3- - pin 8
