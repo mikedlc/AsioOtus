@@ -1,4 +1,4 @@
-# AsioOtus - Digital IO Setup Notes from PDF's
+# AsioOtus - Digital IO Setup Notes from PDFs
 
 <h3>From 'B3 Driver Manual.pdf'</h3>
 
@@ -19,8 +19,8 @@
 - DI pin assignments on page 3-52, wiring on 3-62
 	- COM+ - pin 5
 		- Gets +24V from external power supply
-	- Digital Inputs, get - terminal from external power supply
-		- DI1- - pin 6
-		- DI2- - pin 7
-		- DI3- - pin 8
-		- DI4- - pin 9
+	- Digital Inputs, get negative terminal from external power supply, normally closed (NC) switched
+		- DI1- - pin 6 - 0021 (eStop)
+		- DI2- - pin 7 - 0022 (CW Limit)
+		- DI3- - pin 8 - 0023 (CCW Limit)
+		- DI4- - pin 9 - 0000 (disabled)
