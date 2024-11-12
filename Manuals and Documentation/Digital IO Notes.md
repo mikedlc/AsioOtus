@@ -1,0 +1,16 @@
+# AsioOtus - Digital IO Setup Notes from PDF's
+
+<h3>From 'B3 Driver Manual.pdf'</h3>
+
+	- Section pages 8-73 and 8-190 in the software manual
+	- Page 8-13 has the Ditgital Input and Output functional planning parameters (Parameter Numbers P1.XXX, P2.XXX, P3.XXX, etc...)
+	- The eStop and limit assignments are on 8-195
+		- 0x21 is EMGS (estop)
+		- 0x22 is NL (CWL) Negative inhibit limit (normally closed contact)
+		- 0x23 is PL (CCWL) Positive inhibit limit (normally closed contact)
+	- brake output is on 8-199
+		- 0x08 is BRKR Output signal of the magnetic brake control. Set MBT1 P1.042 and MBT2 P1.043 to adjust the delay time before and after the brake control is activated and deactivated..
+		- Notes to refer to the note in P1.042
+	- Physical/software control option is 3.006 on page 8-108
+
+
