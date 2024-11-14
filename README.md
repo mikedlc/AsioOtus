@@ -18,3 +18,6 @@ On what HAL is and examples, from https://github.com/dbraun1981/hal-cia402:
 - this component acts as a glue layer between hardware to Hal modules like Ethercat, CAN-Bus or others.
 - HARDWARE INPUT-->--CiA402_read-->--Motion-->--CiA402_write-->--Hardware Output
 - Code examples in the git repo.
+
+Github desktop linux installer:
+https://github.com/kontr0x/github-desktop-install
