@@ -16,7 +16,6 @@
             </syncManager>
             <syncManager idx="3" dir="in">
                 <pdo idx="1A00">
-
                     <pdoEntry idx="6041" subIdx="00" bitLen="16" halPin="cia-statusword" halType="u32" />
                     <pdoEntry idx="6064" subIdx="00" bitLen="32" halPin="actual-position" halType="s32" />
                     <pdoEntry idx="6077" subIdx="00" bitLen="16" halPin="actual-torque" halType="s32" />
