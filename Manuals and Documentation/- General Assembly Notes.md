@@ -23,4 +23,4 @@
 - ETFE wiring for limit switches
 - eStop button, normally closed
 - 5-port Wago connectors
-- test
+- MeanWell 24V 50W power supply (for switches and z brake)
