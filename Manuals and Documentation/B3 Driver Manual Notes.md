@@ -8,9 +8,12 @@
 	- 0x21 is EMGS (estop)
 	- 0x22 is NL (CWL) Negative inhibit limit (normally closed contact)
 	- 0x23 is PL (CCWL) Positive inhibit limit (normally closed contact)
-- brake output is on 8-199
+- Brake - page 2-28
+	- Wiring diagram on page 2-29
+	- brake output is value 0x08 on page 8-199
 	- 0x08 is BRKR Output signal of the magnetic brake control. Set MBT1 P1.042 and MBT2 P1.043 to adjust the delay time before and after the brake control is activated and deactivated..
 	- Notes to refer to the note in P1.042
+	- 
 - Physical/software control option is 3.006 on page 8-108
 - DI functional planning
 	- Page 8-73
@@ -24,3 +27,7 @@
 		- DI2- - pin 7 - 0022 (CW Limit) (x-, y-, z+)
 		- DI3- - pin 8 - 0023 (CCW Limit) (x+, y+, z-)
 		- DI4- - pin 9 - 0000 (disabled)
+
+- Homing
+	- DI value 0x027 - SHOM ('during homing, when this DI is on, the servo starts to search for the origin. refer to the setting of P5.004)
+	- 
