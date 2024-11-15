@@ -21,6 +21,6 @@
 		- Gets +24V from external power supply
 	- Digital Inputs, get negative terminal from external power supply, normally closed (NC) switched
 		- DI1- - pin 6 - 0021 (eStop)
-		- DI2- - pin 7 - 0022 (CW Limit)
-		- DI3- - pin 8 - 0023 (CCW Limit)
+		- DI2- - pin 7 - 0022 (CW Limit) (x-, y-, z+)
+		- DI3- - pin 8 - 0023 (CCW Limit) (x+, y+, z-)
 		- DI4- - pin 9 - 0000 (disabled)
