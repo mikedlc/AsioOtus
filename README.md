@@ -21,3 +21,6 @@ On what HAL is and examples, from https://github.com/dbraun1981/hal-cia402:
 
 Github desktop linux installer:
 https://github.com/kontr0x/github-desktop-install
+
+LinuxCNC Syntax interpreter
+https://marketplace.visualstudio.com/items?itemName=PeterMue.vscode-linuxcnc
