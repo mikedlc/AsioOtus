@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!--**********
+PDO Documentation Here
+https://www.servotronix.com/html/stepIM_Help/HTML/home.htm#!Documents/home.htm
+***********-->
+
 <masters>
    <master idx="0" appTimePeriod="1000000" refClockSyncCycles="5">
 	    <!-- Joint 0 (X) -->
         <slave idx="0" type="generic" vid="000001dd" pid="00006080" configPdos="true">
             <dcConf assignActivate="300" sync0Cycle="*1" sync0Shift="0"/>
             <syncManager idx="2" dir="out">
+            <!-- Communication Segment - 1600 is Receive PDO Mapping Parameter 1 -->
                 <pdo idx="1600">
                     <pdoEntry idx="6040" subIdx="00" bitLen="16" halPin="cia-controlword" halType="u32" />
                     <pdoEntry idx="607A" subIdx="00" bitLen="32" halPin="target-position" halType="s32" />
@@ -15,6 +22,7 @@
                 </pdo>
             </syncManager>
             <syncManager idx="3" dir="in">
+            <!-- Communication Segment - 1A00 is Transmit PDO Mapping Parameter 1 -->
                 <pdo idx="1A00">
                     <pdoEntry idx="6041" subIdx="00" bitLen="16" halPin="cia-statusword" halType="u32" />
                     <pdoEntry idx="6064" subIdx="00" bitLen="32" halPin="actual-position" halType="s32" />
