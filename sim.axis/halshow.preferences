@@ -1,12 +1,27 @@
 # Halshow settings
 # This file is generated automatically.
-wm geometry . 1242x641+310+209
+wm geometry . 1242x641+265+333
 placeFrames 0.3
 set ::ratio 0.3
 set ::old_w_leftf 369
 set ::watchlist {
+    pin+cia402.0.drv-actual-position
+    pin+cia402.0.controlword
+    pin+cia402.0.drv-actual-velocity
+    pin+cia402.0.drv-fault
+    pin+cia402.0.home
+    pin+joint.0.neg-lim-sw-in
+    pin+lcec.0.0.CCW-limit
+    pin+lcec.0.0.CW-limit
+    pin+lcec.0.0.in-home
+    pin+lcec.0.0.in-4
+    pin+lcec.0.0.in-5
+    pin+lcec.0.0.in-6
+    pin+lcec.0.0.in-1-eStop
+    pin+lcec.0.0.in-2-CW-limit
+    pin+lcec.0.0.in-3-CCW-limit
 }
-set ::workmode showhal
+set ::workmode watchhal
 set ::watchInterval 100
 set ::col1_width 100
 set ::ffmts 
