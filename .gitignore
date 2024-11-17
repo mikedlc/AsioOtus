@@ -1,4 +1,3 @@
-
 sim.axis/position.txt
-sim.var
-sim.var.bak
+sim.axis/sim.var
+sim.axis/sim.var.bak
