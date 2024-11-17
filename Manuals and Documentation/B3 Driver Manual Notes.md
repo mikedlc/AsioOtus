@@ -1,5 +1,9 @@
 # AsioOtus - Digital IO Setup Notes from PDFs
 
+- LinuxCNC Docs
+	- https://linuxcnc.org/docs/stable/html/
+
+
 <h3>From 'B3 Driver Manual.pdf'</h3>
 
 - Section pages 8-73 and 8-190 in the software manual
@@ -28,6 +32,18 @@
 		- DI3- - pin 8 - 0023 (CCW Limit) (x+, y+, z-)
 		- DI4- - pin 9 - 0000 (disabled)
 
-- Homing
+- Homing - Page 7-9
 	- DI value 0x027 - SHOM ('during homing, when this DI is on, the servo starts to search for the origin. refer to the setting of P5.004)
-	- 
+	- "Homing method is specified by P5.004 and the homing definition is determiend by P6.000"
+	- Can home with 3 methods:
+		- Home to limit switch - P5.004: 0000 (forward) or 0001 (reverse)
+			- As it sounds, move until switch is tripped, back off switch, move to z pulse, set that as origin
+			- Need to consider velocity and acceleration to ensure axis can be stopped fast enough upon triggering limit switch
+		- Home to origin switch
+			- Move until origin switch between limits is triggered
+			- If limit is encountered, move in other direction until origin switch is triggered
+			- Probably not useful for my application
+		- Home to torque limit - P5.004: 0109 (forward) or 010A (reverse)
+			- Set motor torque to a low % and run it into a hard stop
+			- When torque rises above specified % for the prescribed duration, back off to z pulse and set origin
+			- Scary, because it's hard-limit homing, but very attractive because no switches, maximizes travel, easy once set up
