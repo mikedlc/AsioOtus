@@ -33,7 +33,7 @@ https://www.servotronix.com/html/stepIM_Help/HTML/home.htm#!Documents/home.htm
                     <pdoEntry idx="603F" subIdx="00" bitLen="16" halPin="error-code" halType="u32" />
                     <!-- Digtial_inputs (cia402 compatible) -->
                     <pdoEntry idx="60FD" subIdx="00" bitLen="32" halPin="digital-inputs" halType="u32" />
-                        <complexEntry bitLen="1" halPin="CW-limit" halType="bit"/>
+                        <!-- <complexEntry bitLen="1" halPin="CW-limit" halType="bit"/>
                         <complexEntry bitLen="1" halPin="CCW-limit" halType="bit"/>
                         <complexEntry bitLen="1" halPin="in-home" halType="bit"/>
                         <complexEntry bitLen="13"/>
@@ -43,7 +43,7 @@ https://www.servotronix.com/html/stepIM_Help/HTML/home.htm#!Documents/home.htm
                         <complexEntry bitLen="1" halPin="in-4" halType="bit"/>
                         <complexEntry bitLen="1" halPin="in-5" halType="bit"/>
                         <complexEntry bitLen="1" halPin="in-6" halType="bit"/>
-                        <complexEntry bitLen="10"/> 
+                        <complexEntry bitLen="10"/>  -->
                     <pdoEntry idx="606C" subIdx="00" bitLen="32" halPin="actual-velocity" halType="s32" />
                 </pdo>
             </syncManager>
