@@ -82,10 +82,10 @@ net x-enable     => cia402.0.enable
 
 
 # --- Callum testing ideas
-net x-limit-CW cia402.0.CW-limit
-net x-limit-CW joint.0.pos-lim-sw-in
-net x-limit-CCW cia402.0.CCW-limit
-net x-limit-CCW joint.0.neg-lim-sw-in
+# net x-limit-CW cia402.0.CW-limit
+# net x-limit-CW joint.0.pos-lim-sw-in
+# net x-limit-CCW cia402.0.CCW-limit
+# net x-limit-CCW joint.0.neg-lim-sw-in
 
 #************
 #Examples
