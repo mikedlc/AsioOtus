@@ -91,6 +91,8 @@ net x-limit-CCW joint.0.home-sw-in
 
 # --- Callum testing alternate homing ideas
 
+# net x-pos-fb <= lcec.0.x.enc-pos-enc
+
 # net x-home-request joint.0.request-custom-homing => cia402.0.home
 # net x-homing joint.0.is-custom-homing <= cia402.0.stat-homing
 # net x-homed joint.0.custom-homing-finished <= cia402.0.stat-homed
