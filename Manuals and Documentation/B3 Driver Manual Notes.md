@@ -47,3 +47,8 @@
 			- Set motor torque to a low % and run it into a hard stop
 			- When torque rises above specified % for the prescribed duration, back off to z pulse and set origin
 			- Scary, because it's hard-limit homing, but very attractive because no switches, maximizes travel, easy once set up
+- Encoder
+	- P2.069 = 0001 to enable absolute encoder (page 8-94)
+	- P0.049 - update encoder absolute position
+	- AL06A - P2.070 or handshake with Linux to establish absolute origin
+		- "set P2.008 to 271, and then set P2.071 to 1. As soon as P2.071 is set to 1, the absolute position system resets."

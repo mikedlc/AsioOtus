@@ -87,7 +87,6 @@ net x-limit-CW lcec.0.0.in-2-CW-limit
 net x-limit-CW joint.0.pos-lim-sw-in
 net x-limit-CCW lcec.0.0.in-3-CCW-limit
 net x-limit-CCW joint.0.neg-lim-sw-in
-# net x-home lcec.0.0.in-3-CCW-limit
 net x-limit-CCW joint.0.home-sw-in
 
 #************
