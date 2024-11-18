@@ -1,0 +1,111 @@
+https://forum.linuxcnc.org/ethercat/45336-ethercat-installation-from-repositories-how-to-step-by-step?start=0
+
+sudo apt update
+sudo apt install  linuxcnc-ethercat
+
+Reports missing .deb files. Go download them.
+
+Per https://forum.linuxcnc.org/ethercat/53785-installing-ethercat-repositories?start=0
+
+cd Downloads/
+Run this command for all downloaded files:
+sudo dpkg -i ethercat-dkms_1.6.1.g419f621-1+8.3_all.deb
+
+First one will complain about dependencies. Install the first dependency, libtool, which will fail. Repair it.
+
+sudo apt-get install libtool
+sudo apt --fix-broken install
+
+Run dpkg for the downloaded .deb files.
+
+obtain your mac address:
+
+ip a
+
+Save the MAC address of the NIC to be used for ethercat
+Update the ethercat config file to use that MAC address
+
+sudo geany /etc/ethercat.conf
+
+set your Master0 device to your MAC address and device modules to generic. Make these edits
+Note at this stage only the generic driver is available under the Bookworm kernel
+
+MASTER0_DEVICE="xx:aa:yy:zz:bb:cc"
+DEVICE_MODULES="generic"
+
+save and close geany
+
+Note, we have found in some circumstances ethercat master wants to use the first NIC listed in ip a if multiple NIC's are installed
+If you experience problems after installation is complere, swap your network cables around and edit the MAC address in ethercat.conf
+
+Enter these commands to start the ethercat service.
+
+sudo systemctl enable ethercat.service
+sudo systemctl start ethercat.service
+sudo systemctl status ethercat.service
+sudo chmod 666 /dev/EtherCAT0
+
+Ethercat should be running. If the above command is not found, you have a problem
+You can list the slaves if you type:
+
+ethercat slaves
+
+To ensure the ethercat port has permissions on startup. Create a udev rule.
+(Without this, on a restart, you always needed to chmod the ethercat port.)
+
+sudo geany /etc/udev/rules.d/99-ethercat.rules
+
+
+Add the following:
+
+KERNEL=="EtherCAT[0-9]", MODE="0777"
+
+
+Save and exit, then type
+
+sudo udevadm control --reload-rules
+
+reboot your computer.
+
+
+latency test:
+su callum -c "latency-histogram --nobase --sbinsize 1000 --nox 2>&1 | tee 1598475314.lat &"
+
+sudo apt-get install git
+
+sudo apt install mercurial build-essential automake tree dkms bison flex
+
+
+
+If you are using cia402 compatible drives:
+
+cd ~/dev
+git clone https://github.com/dbraun1981/hal-cia402
+cd hal-cia402
+sudo halcompile --install cia402.comp
+
+halcmd loadusr -W lcec_conf ethercat-conf.xml
+halcmd show pin lcec
+
+You should see this and hopefully a few other pins displayed
+
+Component Pins:
+Owner   Type  Dir         Value  Name
+     4  u32   OUT    0x00000001  lcec.conf.master-count
+     4  u32   OUT    0x00000004  lcec.conf.slave-count
+
+AL1.013 eStop error on drive fix:
+- Set P2.011-13 to 0000 (I also set P2.015-17 to zero which didn't fix anything)
+
+Pull ethercat-test.ini, hal, and xml from git repo.
+
+open ethercat-test in linuxcnc, run test program and should have motion.
+
+Helpful example config:
+https://github.com/rodw-au/linuxcnc-cia402/blob/main/cia402.hal
+
+If you don't have an xml config file yet (preferred), download an ethercat config file of mine from
+github.com/rodw-au/linuxcnc-cia402/blob/main/ethercat-conf.xml
+in that folder type:
+
+
