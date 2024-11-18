@@ -38,7 +38,7 @@ addf lcec.write-all           servo-thread
 #ORIGINAL 10000, CHANGED TO 16777216
 #X Joint 0
 setp cia402.0.csp-mode 1
-setp cia402.0.pos-scale 16777216
+setp cia402.0.pos-scale 85228257
 
 #Y Joint 1
 setp cia402.1.csp-mode 1
