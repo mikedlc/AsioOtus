@@ -24,3 +24,11 @@
 - eStop button, normally closed
 - 5-port Wago connectors
 - MeanWell 24V 50W power supply (for switches and z brake)
+
+
+
+
+- Musings
+	- I/O board
+		- https://www.aliexpress.us/item/3256805154534518.html?spm=a2g0o.productlist.main.11.66c45Pg25Pg2Ka&algo_pvid=88a4c406-91c2-41de-b4fb-fbb3ffdee25c&algo_exp_id=88a4c406-91c2-41de-b4fb-fbb3ffdee25c-5&pdp_npi=4%40dis%21USD%21112.00%2186.70%21%21%21112.00%2186.70%21%402103209b17319410423355792e5fac%2112000032670056316%21sea%21US%210%21ABX&curPageLogUid=b54gui9J0vKQ&utparam-url=scene%3Asearch%7Cquery_from%3A
+		- 

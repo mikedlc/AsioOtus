@@ -2,6 +2,7 @@ loadrt [KINS]KINEMATICS
 loadrt [EMCMOT]EMCMOT base_period_nsec=[EMCMOT]BASE_PERIOD servo_period_nsec=[EMCMOT]SERVO_PERIOD num_joints=[KINS]JOINTS
 loadusr -W lcec_conf ethercat-test.xml
 loadrt lcec
+loadrt not
 
 
 #*******************
@@ -55,7 +56,7 @@ setp cia402.1.pos-scale 85228257
 # setp iocontrol.0.emc-enable-in 1
 
 # --- ESTOP-EXT --- takes input from switch
-net estop-ext     <=  lcec.0.0.in-1-eStop
+net estop-ext     <=  not.lcec.0.0.in-1-eStop
 
 # --- estop signals ---
 net estop-out     <=  iocontrol.0.user-enable-out
