@@ -33,7 +33,7 @@ addf lcec.write-all           servo-thread
 
 
 #*******************
-# setp sets the value of a pin or parameter. Cannot use setp on a pin that is connected to a signa.
+# setp sets the value of a pin or parameter. Cannot use setp on a pin that is connected to a signal.
 #*******************
 # originally 10000, changed to 16777216*25.4/5 = 85228257 encoder counts per inch of travel
 # X Joint 0
@@ -51,8 +51,16 @@ setp cia402.1.pos-scale 85228257
 #*********************
 #   E-STOP
 #*********************
-setp iocontrol.0.emc-enable-in 1
+# I think the below sets the system as enable upon startup
+# setp iocontrol.0.emc-enable-in 1
 
+# --- ESTOP-EXT --- takes input from switch
+net estop-ext     <=  lcec.0.0.in-1-eStop
+
+# --- estop signals ---
+net estop-out     <=  iocontrol.0.user-enable-out
+# net estop-out => hm2_7i92.0.7i84.0.0.output-00 FIND CORRECT OUTPUT PINS
+net estop-ext     =>  iocontrol.0.emc-enable-in
 
 #*******************
 # net creates a connection between a signal and one or more pins.

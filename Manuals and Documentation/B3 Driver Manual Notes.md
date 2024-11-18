@@ -58,3 +58,10 @@
 	- P0.049 - update encoder absolute position
 	- AL06A - P2.071 or handshake with LinuxCNC to establish absolute origin
 		- Set P2.008 to 271, then set P2.071 to 1. As soon as P2.071 is set to 1, the current position is set as the origin
+
+- EMC IO
+	- http://www.linuxcnc.org/docs/html/man/man1/io.1.html
+	- 
+
+- To Do
+	- 
