@@ -5,48 +5,48 @@ loadrt lcec
 
 
 #*******************
-#The command loadrt loads a real time HAL component. Real time component functions need to be added to a thread to be updated at the rate of the thread. You cannot load a user space component into the real time space.
-#The syntax and an example:
+# The command loadrt loads a real time HAL component. Real time component functions need to be added to a thread to be updated at the rate of the thread. You cannot load a user space component into the real time space.
+# The syntax and an example:
 #   loadrt <component> <options>
 #   loadrt mux4 count=1
 #*******************
-#set to number of joints
+# set to number of joints
 loadrt cia402 count=2
 
 # loadrt pid names=s-pid,0-pid,1-pid,2-pid
 
 #*******************
-#addf adds a realtime component function to a thread. must add a function from a HAL real time component to a thread to get the function to update at the rate of the thread.
-#servo-thread (slow-speed thread) handles itetms that can tolerate a slower response, like the motion controller, ClassicLadder, and motion command handler.
-#base-thread (high-speed thread) items need fast response, like step pulses and read/write parallell ports.
+# addf adds a realtime component function to a thread. must add a function from a HAL real time component to a thread to get the function to update at the rate of the thread.
+# servo-thread (slow-speed thread) handles itetms that can tolerate a slower response, like the motion controller, ClassicLadder, and motion command handler.
+# base-thread (high-speed thread) items need fast response, like step pulses and read/write parallell ports.
 #*******************
 addf lcec.read-all            servo-thread
 addf cia402.0.read-all        servo-thread
 addf cia402.1.read-all        servo-thread
-#addf cia402.2.read-all        servo-thread
+# addf cia402.2.read-all        servo-thread
 addf motion-command-handler   servo-thread
 addf motion-controller        servo-thread
 addf cia402.0.write-all       servo-thread
 addf cia402.1.write-all       servo-thread
-#addf cia402.2.write-all       servo-thread
+# addf cia402.2.write-all       servo-thread
 addf lcec.write-all           servo-thread
 
 
 #*******************
-#setp sets the value of a pin or parameter. Cannot use setp on a pin that is connected to a signa.
+# setp sets the value of a pin or parameter. Cannot use setp on a pin that is connected to a signa.
 #*******************
-#ORIGINAL 10000, CHANGED TO 16777216
-#X Joint 0
+# originally 10000, changed to 16777216*25.4/5 = 85228257 encoder counts per inch of travel
+# X Joint 0
 setp cia402.0.csp-mode 1
 setp cia402.0.pos-scale 85228257
 
-#Y Joint 1
+# Y Joint 1
 setp cia402.1.csp-mode 1
-setp cia402.1.pos-scale 16777216
+setp cia402.1.pos-scale 85228257
 
-#Z Joint 2
-#setp cia402.2.csp-mode 1
-#setp cia402.2.pos-scale 16777216
+# Z Joint 2
+# setp cia402.2.csp-mode 1
+# setp cia402.2.pos-scale 85228257
 
 #*********************
 #   E-STOP
@@ -55,11 +55,11 @@ setp iocontrol.0.emc-enable-in 1
 
 
 #*******************
-#net creates a connection between a signal and one or more pins.
-#replaces the need for command newsig.
-#optional direction arrows <=, => and <=> make it easier to follow the logic when reading a net command line and are not used by the net command. 
-#The direction arrows must be separated by a space from the pin names.
-#https://www.linuxcnc.org/docs/2.5/html/hal/basic_hal.html#_net_a_id_sub_net_a
+# net creates a connection between a signal and one or more pins.
+# replaces the need for command newsig.
+# optional direction arrows <=, => and <=> make it easier to follow the logic when reading a net command line and are not used by the net command. 
+# The direction arrows must be separated by a space from the pin names.
+# https://www.linuxcnc.org/docs/2.5/html/hal/basic_hal.html#_net_a_id_sub_net_a
 # net signal-name pin-name <optional arrow> <optional second pin-name>
 #*******************
 
@@ -98,8 +98,8 @@ net x-limit-CCW joint.0.home-sw-in
 # net x-homed joint.0.custom-homing-finished <= cia402.0.stat-homed
 
 #************
-#Examples
-#from motion to cia
+# Examples
+# from motion to cia
 
 # net 0-home-index <= joint.0.index-enable  => cia402.0.home
 # net 0-enable     <= joint.0.amp-enable-out => cia402.0.enable
@@ -158,7 +158,7 @@ net y-drv-target-velo     cia402.1.drv-target-velocity => lcec.0.1.target-veloci
 #  AXIS Z Joint 2
 #*******************
 
-#Copy another joint, modify variable names and uncomment variable definitions at beginning of file
+# Copy another joint, modify variable names and uncomment variable definitions at beginning of file
 # Remember to increment "loadrt cia402 count=2" to 3!
 
 
