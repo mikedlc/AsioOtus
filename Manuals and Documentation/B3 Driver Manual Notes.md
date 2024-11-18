@@ -32,7 +32,7 @@
 		- DI3- - pin 8 - 0023 (CCW Limit) (x+, y+, z-)
 		- DI4- - pin 9 - 0000 (disabled)
 
-- Homing - Page 7-9
+- Homing within driver - Page 7-9
 	- DI value 0x027 - SHOM ('during homing, when this DI is on, the servo starts to search for the origin. refer to the setting of P5.004)
 	- "Homing method is specified by P5.004 and the homing definition is determiend by P6.000"
 	- Can home with 3 methods:
@@ -47,8 +47,14 @@
 			- Set motor torque to a low % and run it into a hard stop
 			- When torque rises above specified % for the prescribed duration, back off to z pulse and set origin
 			- Scary, because it's hard-limit homing, but very attractive because no switches, maximizes travel, easy once set up
+
+- Integrating driver homing into LinuxCNC
+	- https://github.com/rodw-au/cia402_homecomp/tree/main
+	- Haven't tried any of it, but doesn't seem imposisble
+	- The goal would be to relinquish motion control to the driver, let it home to establish the origin, then use the absolute encoder to always know where the servo is.
+
 - Encoder
-	- P2.069 = 0001 to enable absolute encoder (page 8-94)
+	- P2.069 = 0001 to enable absolute encoder then power cycle (page 8-94)
 	- P0.049 - update encoder absolute position
-	- AL06A - P2.070 or handshake with Linux to establish absolute origin
-		- "set P2.008 to 271, and then set P2.071 to 1. As soon as P2.071 is set to 1, the absolute position system resets."
+	- AL06A - P2.071 or handshake with LinuxCNC to establish absolute origin
+		- Set P2.008 to 271, then set P2.071 to 1. As soon as P2.071 is set to 1, the current position is set as the origin
