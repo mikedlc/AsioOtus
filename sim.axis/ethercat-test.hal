@@ -56,15 +56,15 @@ setp cia402.1.pos-scale 85228257
 # setp iocontrol.0.emc-enable-in 1
 
 # --- ESTOP-EXT --- takes input from switch
-net estop-ext1     <=  not.lcec.0.0.in-1-eStop
 
-net not.0.in estop-ext1
-net not.0.out estop-ext2
+addf not.0 servo-thread
+net estop-ext     <=  lcec.0.0.in-1-eStop
+net estop-ext not.0.in
+net not-estop-ext not.0.out => iocontrol.0.emc-enable-in
 
-# --- estop signals ---
 net estop-out     <=  iocontrol.0.user-enable-out
 # net estop-out => hm2_7i92.0.7i84.0.0.output-00 FIND CORRECT OUTPUT PINS
-net estop-ext2     =>  iocontrol.0.emc-enable-in
+
 
 #*******************
 # net creates a connection between a signal and one or more pins.
