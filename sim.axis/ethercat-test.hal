@@ -56,10 +56,8 @@ setp cia402.1.pos-scale 85228257
 # setp iocontrol.0.emc-enable-in 1
 
 # --- ESTOP-EXT --- takes input from switch
-
 addf not.0 servo-thread
-net estop-ext     not.0.in <= lcec.0.0.in-1-eStop
-# net estop-ext     =>  not.0.in
+net estop-ext     not.0.in  <= lcec.0.0.in-1-eStop
 net not-estop-ext not.0.out => iocontrol.0.emc-enable-in
 
 net estop-out     <=  iocontrol.0.user-enable-out
