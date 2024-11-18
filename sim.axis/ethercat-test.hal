@@ -55,7 +55,7 @@ setp cia402.1.pos-scale 85228257
 # setp iocontrol.0.emc-enable-in 1
 
 # --- ESTOP-EXT --- takes input from switch
-net estop-ext     <=  lcec.0.0.in-1-eStop_not
+net estop-ext     <=  lcec.0.0.in-1-eStop-not
 
 # --- estop signals ---
 net estop-out     <=  iocontrol.0.user-enable-out
