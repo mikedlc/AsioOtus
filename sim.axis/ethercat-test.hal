@@ -12,7 +12,7 @@ loadrt not
 #   loadrt mux4 count=1
 #*******************
 # set to number of joints
-loadrt cia402 count=2
+loadrt cia402 count=3
 
 # loadrt pid names=s-pid,0-pid,1-pid,2-pid
 
@@ -24,12 +24,12 @@ loadrt cia402 count=2
 addf lcec.read-all            servo-thread
 addf cia402.0.read-all        servo-thread
 addf cia402.1.read-all        servo-thread
-# addf cia402.2.read-all        servo-thread
+addf cia402.2.read-all        servo-thread
 addf motion-command-handler   servo-thread
 addf motion-controller        servo-thread
 addf cia402.0.write-all       servo-thread
 addf cia402.1.write-all       servo-thread
-# addf cia402.2.write-all       servo-thread
+addf cia402.2.write-all       servo-thread
 addf lcec.write-all           servo-thread
 
 
@@ -46,8 +46,8 @@ setp cia402.1.csp-mode 1
 setp cia402.1.pos-scale 85228257
 
 # Z Joint 2
-# setp cia402.2.csp-mode 1
-# setp cia402.2.pos-scale 85228257
+setp cia402.2.csp-mode 1
+setp cia402.2.pos-scale 85228257
 
 #*********************
 #   E-STOP
@@ -171,4 +171,28 @@ net y-drv-target-velo     cia402.1.drv-target-velocity => lcec.0.1.target-veloci
 # Copy another joint, modify variable names and uncomment variable definitions at beginning of file
 # Remember to increment "loadrt cia402 count=2" to 3!
 
+# --- joint signals for motion
 
+net z-pos-cmd    <= joint.2.motor-pos-cmd
+net z-pos-fb     <= joint.2.motor-pos-fb
+net z-enable     <= joint.2.amp-enable-out
+
+# --- connect stepper driver to joint
+
+net z-pos-cmd    => cia402.2.pos-cmd
+net z-pos-fb     => cia402.2.pos-fb
+net z-enable     => cia402.2.enable
+
+# --- from stepper(ethercat) to cia402
+
+net z-statusword      lcec.0.2.cia-statusword  => cia402.2.statusword
+net z-opmode-display  lcec.0.2.opmode-display  => cia402.2.opmode-display
+net z-drv-act-pos     lcec.0.2.actual-position => cia402.2.drv-actual-position
+net z-drv-act-velo    lcec.0.2.actual-velocity => cia402.2.drv-actual-velocity
+
+# --- from cia402 to stepper(ethercat) 
+
+net z-controlword         cia402.2.controlword         => lcec.0.2.cia-controlword
+net z-modes-of-operation  cia402.2.opmode              => lcec.0.2.opmode
+net z-drv-target-pos      cia402.2.drv-target-position => lcec.0.2.target-position
+net z-drv-target-velo     cia402.2.drv-target-velocity => lcec.0.2.target-velocity

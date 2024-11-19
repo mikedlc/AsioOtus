@@ -17,7 +17,7 @@
 	- brake output is value 0x08 on page 8-199
 	- 0x08 is BRKR Output signal of the magnetic brake control. Set MBT1 P1.042 and MBT2 P1.043 to adjust the delay time before and after the brake control is activated and deactivated.
 	- Notes to refer to the note in P1.042
-	- Need a reverse polarity shottky doide across the brake to protect the driver from reverse voltage
+	- Need a reverse polarity shottky doide across the relay solenoid to protect the driver from reverse voltage
 - DI functional planning
 	- Page 8-73
 	- P2.010 - P2.013 are DI1 - DI4, the 4 digital inputs with physical pin assignments
@@ -28,10 +28,24 @@
 	- COM+ - pin 5
 		- Gets +24V from external power supply
 	- Digital Inputs, get negative terminal from external power supply, normally closed (NC) switched
-		- DI1- - pin 6 - 0021 (eStop)
-		- DI2- - pin 7 - 0022 (CW Limit) (x-, y-, z+)
-		- DI3- - pin 8 - 0023 (CCW Limit) (x+, y+, z-)
-		- DI4- - pin 9 - 0000 (disabled)
+		- DI1- - pin 6 -
+		- DI2- - pin 7 -
+		- DI3- - pin 8 
+		- DI4- - pin 9 
+	- DI values: (P2.010 - 2.017 for DI 1-8)
+		- 0021 - eStop
+		- 0022 - CW Limit
+		- 0023 - CCW Limit
+	- Digital Outputs
+		- DO1+ - pin 15
+		- DO1- - pin 16 
+		- DO2+ - pin 17
+		- DO2- - pin 18
+	- DO values: (P2.018 - 2.022 for DI 1-5)
+		- 0x08 - brake output
+			- 0108 for NO (correct?)
+			- 0008 for NC
+
 	- Currently all inputs are unassigned (0000) so that the drive doesn't use them but LinuxCNC does
 
 - Homing within driver - Page 7-9
