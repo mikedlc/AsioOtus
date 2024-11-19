@@ -28,14 +28,15 @@
 	- COM+ - pin 5
 		- Gets +24V from external power supply
 	- Digital Inputs, get negative terminal from external power supply, normally closed (NC) switched
-		- DI1- - pin 6 -
-		- DI2- - pin 7 -
+		- DI1- - pin 6 
+		- DI2- - pin 7 
 		- DI3- - pin 8 
 		- DI4- - pin 9 
-	- DI values: (P2.010 - 2.017 for DI 1-8)
-		- 0021 - eStop
-		- 0022 - CW Limit
-		- 0023 - CCW Limit
+	- DI values: (P2.010 - 2.017 for DI 1-8), page 8-195
+		- 0021 - eStop, NC
+		- 0022 - CW Limit, NC
+		- 0023 - CCW Limit, NC
+		- 0047 - PFQS: Use this DI to set the emergency stop for P5.003 (deceleration time for auto-protection). When this DI is on, AL35F occurs and the motor starts decelerating. When the speed reaches 0, AL3CF occurs and servo is switched to Servo Off.
 	- Digital Outputs
 		- DO1+ - pin 15
 		- DO1- - pin 16 
@@ -76,6 +77,7 @@
 	- P2.071 or handshake with LinuxCNC to establish absolute origin
 		- To set current location as origin:
 			- Set P2.008 to 271, then set P2.071 to 1. When P2.071 is set to 1, the current position is set as the origin
+		- DI.ABSE then DI.ABSC, described on page 10-19
 
 - EMC IO
 	- http://www.linuxcnc.org/docs/html/man/man1/io.1.html
