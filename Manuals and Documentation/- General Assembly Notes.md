@@ -28,6 +28,7 @@
 - Spindle issue: how to control servo driver that isn't ethercat compatible
 	- Best option looks like modbus over RS485
 		- Would use USB to RS485 adapter
+			- Ordered
 		- Would require figuring out both how to program drive to talk over RS485/Modbus as well as how to get LinuxCNC to talk over the same interface
 	- Another option would be http://store.mesanet.com/index.php?route=product/product&product_id=408&search=7I76U which would require a way to connect to it, probably necessitating a larger computer with a PCIe slot
 
