@@ -17,6 +17,7 @@
 		- Need a reverse polarity shottky doide across the relay solenoid to protect the driver from reverse voltage
 	- brake digital output is value 0x08 on page 8-199
 	- 0x08 is BRKR Output signal of the magnetic brake control. Set MBT1 P1.042 and MBT2 P1.043 to adjust the delay time before and after the brake control is activated and deactivated.
+		- Need to look into this. With servo on a bench, if I apply torque to the shaft when hitting eStop, I'm able to get an appreciable fraction of a turn before the brake engages. If I were to eStop with the cutter down, it would likely be able to plunge before the brake could catch it.
 	- Notes to refer to the note in P1.042
 - DI functional planning
 	- Page 8-73
