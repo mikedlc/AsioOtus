@@ -9,3 +9,6 @@
         - Looks like the incremental encoder card uses the expansion slot that the HW-EtherCAT card would go into
 
 
+- mb2Hal
+    - https://linuxcnc.org/docs/html/drivers/mb2hal.html
+    - 
