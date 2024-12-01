@@ -11,4 +11,5 @@
 
 - mb2Hal
     - https://linuxcnc.org/docs/html/drivers/mb2hal.html
-    - 
+    - https://forum.linuxcnc.org/25-classicladder/49895-yl620-a-vfd-rs485-modbus-spindle-control
+        - I think this uses classicladder, but not entirely sure

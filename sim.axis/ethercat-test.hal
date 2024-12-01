@@ -1,6 +1,7 @@
 loadrt [KINS]KINEMATICS
 loadrt [EMCMOT]EMCMOT base_period_nsec=[EMCMOT]BASE_PERIOD servo_period_nsec=[EMCMOT]SERVO_PERIOD num_joints=[KINS]JOINTS
 loadusr -W lcec_conf ethercat-test.xml
+loadusr -W mb2hal config=spindle_mb2hal.ini
 loadrt lcec
 loadrt not
 
