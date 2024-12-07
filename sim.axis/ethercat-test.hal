@@ -36,9 +36,11 @@ net S-on-rev mux4.0.sel1 <= and2.1.out
 
 setp mux4.0.in0 0     
 # 100stop    0000 0000 0000 0000
-setp mux4.0.in1 32768   
+setp mux4.0.in1 1
+#32768   
 # 101forward 1000 0000 0000 0000
-setp mux4.0.in2 49152   
+setp mux4.0.in2 3
+# 49152   
 # 111reverse 1100 0000 0000 0000
 setp mux4.0.in3 0     
 # 100reset   0000 0000 0000 0000
