@@ -46,7 +46,7 @@ setp mux4.0.in3 256
 net control mb2hal.control.00 <= mux4.0.out
 
 net rpm-abs  spindle.0.speed-out-abs    =>   near.0.in1    #spindle rpm command
-net rpm.vfd                                  =>   near.0.in2    #spindle rpm from vfd
+net rpm.vfd  mb2hal.speed.00            =>   near.0.in2    #spindle rpm from vfd
 net spindle-at-speed spindle.0.at-speed <=   near.0.out
 
 setp near.0.scale 1.02
