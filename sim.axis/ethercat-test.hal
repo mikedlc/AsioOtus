@@ -21,7 +21,7 @@ addf and2.1  servo-thread
 addf near.0  servo-thread
 
 setp mult2.0.in0 24                      
-# 400 x 25 = 10 000
+# 10k rpm = 400 Hz, so output rotations persection times 24 should scale correctly
 net spindle-cmd-rps-abs       => mult2.0.in1
 net speed.vfd mb2hal.speed.00 <= mult2.0.out
 net spindle-cmd-rps-abs       <= spindle.0.speed-out-rps-abs
@@ -34,14 +34,14 @@ net S-rev and2.1.in1 <= spindle.0.reverse
 net S-on-fwd mux4.0.sel0 <= and2.0.out
 net S-on-rev mux4.0.sel1 <= and2.1.out
 
-setp mux4.0.in0 128     
-# 100stop    0000 0000 1000 0000
-setp mux4.0.in1 32896   
-# 101forward 1000 0000 1000 0000
-setp mux4.0.in2 49280   
-# 111reverse 1100 0000 1000 0000
-setp mux4.0.in3 128     
-# 100reset   0000 0000 1000 0000
+setp mux4.0.in0 0     
+# 100stop    0000 0000 0000 0000
+setp mux4.0.in1 32768   
+# 101forward 1000 0000 0000 0000
+setp mux4.0.in2 49152   
+# 111reverse 1100 0000 0000 0000
+setp mux4.0.in3 0     
+# 100reset   0000 0000 0000 0000
 
 net control mb2hal.control.00 <= mux4.0.out
 
