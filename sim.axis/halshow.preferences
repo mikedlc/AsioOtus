@@ -7,13 +7,7 @@ set ::old_w_leftf 369
 set ::watchlist {
     pin+cia402.0.drv-actual-position
     pin+cia402.0.controlword
-    pin+cia402.0.drv-actual-velocity
-    pin+cia402.0.drv-fault
     pin+cia402.0.home
-    pin+joint.0.neg-lim-sw-in
-    pin+lcec.0.0.CCW-limit
-    pin+lcec.0.0.CW-limit
-    pin+lcec.0.0.in-home
     pin+lcec.0.0.in-4
     pin+lcec.0.0.in-5
     pin+lcec.0.0.in-6
@@ -33,6 +27,9 @@ set ::watchlist {
     pin+halui.spindle.0.start
     pin+halui.spindle.0.stop
     pin+mb2hal.control.00
+    pin+mb2hal.rpm.00.float
+    pin+mb2hal.rpm.00.int
+    pin+mb2hal.speed.00
 }
 set ::workmode watchhal
 set ::watchInterval 100
