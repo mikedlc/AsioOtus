@@ -1,6 +1,6 @@
 # Halshow settings
 # This file is generated automatically.
-wm geometry . 1242x641+265+333
+wm geometry . 1242x641+650+199
 placeFrames 0.3
 set ::ratio 0.3
 set ::old_w_leftf 369
@@ -20,6 +20,15 @@ set ::watchlist {
     pin+lcec.0.0.in-1-eStop
     pin+lcec.0.0.in-2-CW-limit
     pin+lcec.0.0.in-3-CCW-limit
+    pin+spindle.0.amp-fault-in
+    pin+spindle.0.speed-in
+    pin+spindle.0.speed-out
+    pin+spindle.0.speed-cmd-rps
+    pin+spindle.0.revs
+    pin+spindle.0.reverse
+    pin+spindle.0.on
+    pin+spindle.0.forward
+    pin+spindle.0.index-enable
 }
 set ::workmode watchhal
 set ::watchInterval 100

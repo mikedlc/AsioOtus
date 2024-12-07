@@ -1,5 +1,9 @@
 # AsioOtus - Callum's Assembly Notes
 
+- Computer:
+	- user: callum (case sensitive)
+	- password: address, capital E
+
 <h3>Servo Wiring</h3>
 
 - B3 servo drivers connected in series, upper port to upstream servo/computer, lower port daisy-chained downstream
