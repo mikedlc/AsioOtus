@@ -6,7 +6,7 @@ loadrt lcec
 loadrt not
 
 
-#  %%%%%%%%%%%% MB2HAL TEST %%%%%%%%%%%%%%%
+#  %%%%%%%%%%%% MB2HAL FOR SPINDLE OVER RS485 %%%%%%%%%%%%%%%
 loadusr -W mb2hal config=mb2hal.ini
 
 loadrt mult2
@@ -21,7 +21,7 @@ addf and2.1  servo-thread
 addf near.0  servo-thread
 
 setp mult2.0.in0 24                      
-# 10k rpm = 400 Hz, so output rotations persection times 24 should scale correctly
+# 10k rpm = 400 Hz, so output rotations per second times 24 should scale correctly
 net spindle-cmd-rps-abs       => mult2.0.in1
 net speed.vfd mb2hal.speed.00 <= mult2.0.out
 net spindle-cmd-rps-abs       <= spindle.0.speed-out-rps-abs
@@ -35,15 +35,13 @@ net S-on-fwd mux4.0.sel0 <= and2.0.out
 net S-on-rev mux4.0.sel1 <= and2.1.out
 
 setp mux4.0.in0 0     
-# 100stop    0000 0000 0000 0000
+# stop          0 0000 0000 = 0 (dec)
 setp mux4.0.in1 1
-#32768   
-# 101forward 1000 0000 0000 0000
+# run forward   0 0000 0011 = 1 (dec)
 setp mux4.0.in2 3
-# 49152   
-# 111reverse 1100 0000 0000 0000
-setp mux4.0.in3 0     
-# 100reset   0000 0000 0000 0000
+# run reverse   0 0000 0011 = 3 (dec)
+setp mux4.0.in3 256     
+# reset         1 0000 0000 = 256 (dec)
 
 net control mb2hal.control.00 <= mux4.0.out
 
@@ -52,7 +50,7 @@ net rpm.vfd                                  =>   near.0.in2    #spindle rpm fro
 net spindle-at-speed spindle.0.at-speed <=   near.0.out
 
 setp near.0.scale 1.02
-#  %%%%%%%%%%%% MB2HAL TEST %%%%%%%%%%%%%%%
+#  %%%%%%%%%%%% MB2HAL FOR SPINDLE OVER RS485 %%%%%%%%%%%%%%%
 
 
 

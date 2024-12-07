@@ -36,6 +36,7 @@
         - U00.06 - 0x8107 - Preset rotary speed
         - U00.00 - 0x8100 - Running frequency
         - Control word - 0x8000
+            - Bits work from right to left, so bit0 is rightmost and bit15 is leftmost. Run forward is 0...001 = 1, run reverse is 0...011 = 3, etc.
             - bit0
                 - 0: No operation
                 - 1: Run command valid
