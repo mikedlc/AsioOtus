@@ -20,7 +20,7 @@ addf and2.0  servo-thread
 addf and2.1  servo-thread
 addf near.0  servo-thread
 
-setp mult2.0.in0 25                      
+setp mult2.0.in0 1                      
 # 400 x 25 = 10 000
 net spindle-cmd-rps-abs       => mult2.0.in1
 net speed.vfd mb2hal.speed.00 <= mult2.0.out
