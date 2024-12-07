@@ -1,9 +1,53 @@
 loadrt [KINS]KINEMATICS
 loadrt [EMCMOT]EMCMOT base_period_nsec=[EMCMOT]BASE_PERIOD servo_period_nsec=[EMCMOT]SERVO_PERIOD num_joints=[KINS]JOINTS
 loadusr -W lcec_conf ethercat-test.xml
-loadusr -W mb2hal config=spindle_mb2hal.ini
+# loadusr -W mb2hal config=spindle_mb2hal.ini
 loadrt lcec
 loadrt not
+
+
+#  %%%%%%%%%%%% MB2HAL TEST %%%%%%%%%%%%%%%
+loadusr -W mb2hal config=mb2hal.ini
+
+loadrt mult2
+loadrt mux4
+loadrt and2 count=2
+loadrt near
+
+addf mult2.0 servo-thread
+addf mux4.0  servo-thread
+addf and2.0  servo-thread
+addf and2.1  servo-thread
+addf near.0  servo-thread
+
+setp mult2.0.in0 31.25                         #320 x 31.25 = 10 000
+net spindle-cmd-rps-abs       => mult2.0.in1
+net speed.vfd mb2hal.speed.00 <= mult2.0.out
+net spindle-cmd-rps-abs       <= motion.spindle-speed-out-rps-abs
+
+net S-on  and2.0.in0 <= motion.spindle-on 
+net S-fwd and2.0.in1 <= motion.spindle-forward
+net S-on  and2.1.in0 
+net S-rev and2.1.in1 <= motion.spindle-reverse
+
+net S-on-fwd mux4.0.sel0 <= and2.0.out
+net S-on-rev mux4.0.sel1 <= and2.1.out
+
+setp mux4.0.in0 4   #100stop
+setp mux4.0.in1 5   #101forward
+setp mux4.0.in2 7   #111reverse
+setp mux4.0.in3 4   #100reset
+
+net control mb2hal.control.00 <= mux4.0.out
+
+net rpm-abs  motion.spindle-speed-out-abs    =>   near.0.in1    #spindle rpm command
+net rpm.vfd                                  =>   near.0.in2    #spindle rpm from vfd
+net spindle-at-speed motion.spindle-at-speed <=   near.0.out
+
+setp near.0.scale 1.02
+#  %%%%%%%%%%%% MB2HAL TEST %%%%%%%%%%%%%%%
+
+
 
 
 #*******************
