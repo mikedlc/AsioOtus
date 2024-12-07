@@ -32,4 +32,35 @@
             - 1: reverse
         - P00.00 Main frequency reference digital setting, register 0x0000
         - P00.01 Main frequency reference source selection
-        - 
+        - U00.07 - 0x8107 - Output rotary speed
+        - U00.06 - 0x8107 - Preset rotary speed
+        - U00.00 - 0x8100 - Running frequency
+        - Control word - 0x8000
+            - bit0
+                - 0: No operation
+                - 1: Run command valid
+            - bit1
+                - 0: Forward Run
+                - 1: Reversed Run
+            - bit2
+                - 0: Stop by deceleration disabled
+                - 1: Stop by deceleration enabled
+            - bit3
+                - 0: emergency stop disabled
+                - 1: emergency stop enabled
+            - bit4
+                - 0: Freewheeled stop disabled
+                - 1: Freewheeled stop enabled
+            - bit5
+                - 0: Stop at fault disabled
+                - 1: Stop at fault enabled
+            - bit6
+                - 0: Jog forward disabled
+                - 1: Jog forward enabled
+            - bit7
+                - 0: Jog reverse disabled
+                - 1: Jog reverse enabled
+            - bit8
+                - 0: Fault reset command invalid
+                - 1: Fault reset command valid
+            - bit9～bit15 Reserved
