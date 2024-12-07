@@ -29,6 +29,10 @@ set ::watchlist {
     pin+spindle.0.on
     pin+spindle.0.forward
     pin+spindle.0.index-enable
+    pin+halui.spindle.0.is-on
+    pin+halui.spindle.0.start
+    pin+halui.spindle.0.stop
+    pin+mb2hal.control.00
 }
 set ::workmode watchhal
 set ::watchInterval 100

@@ -1,0 +1,206 @@
+LINUXCNC - 2.9.3
+Machine configuration directory is '/home/callum/linuxcnc/configs/sim.axis'
+Machine configuration file is 'ethercat-test.ini'
+Starting LinuxCNC...
+libnml/buffer/shmem.cc 320: Shared memory buffers toolCmd and toolCmd may conflict. (key=1004(0x3EC))
+libnml/buffer/shmem.cc 320: Shared memory buffers toolSts and toolSts may conflict. (key=1005(0x3ED))
+libnml/buffer/shmem.cc 320: Shared memory buffers emcError and emcError may conflict. (key=1003(0x3EB))
+emc/iotask/ioControl.cc 786: can't load tool table.
+libnml/buffer/shmem.cc 320: Shared memory buffers emcCommand and emcCommand may conflict. (key=1001(0x3E9))
+libnml/buffer/shmem.cc 320: Shared memory buffers emcStatus and emcStatus may conflict. (key=1002(0x3EA))
+libnml/buffer/shmem.cc 320: Shared memory buffers emcError and emcError may conflict. (key=1003(0x3EB))
+linuxcnc TPMOD=tpmod HOMEMOD=homemod EMCMOT=motmod
+Found file(REL): ./ethercat-test.hal
+mb2hal parse_common_section DEBUG: [MB2HAL_INIT] [INIT_DEBUG] [4]
+mb2hal parse_common_section DEBUG: [MB2HAL_INIT] [VERSION] [1000]
+mb2hal parse_common_section DEBUG: [MB2HAL_INIT] [HAL_MODULE_NAME] [mb2hal]
+mb2hal parse_common_section DEBUG: [MB2HAL_INIT] [SLOWDOWN] [0.000]
+mb2hal parse_common_section DEBUG: [MB2HAL_INIT] [TOTAL_TRANSACTIONS] [3]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_00] [LINK_TYPE] [serial] [0]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_00] [SERIAL_PORT] [/dev/ttyUSB0]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_00] [SERIAL_BAUD] [9600]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_00] [SERIAL_BITS] [8]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_00] [SERIAL_PARITY] [none]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_00] [SERIAL_STOP] [1]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_00] [SERIAL_DELAY_MS] [150]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_00] [MB_SLAVE_ID] [1]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_00] [FIRST_ELEMENT] [2104]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_00] [NELEMENTS] [1]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_00] [MAX_UPDATE_RATE] [0.000]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_00] [MB_RESPONSE_TIMEOUT_MS] [500]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_00] [MB_BYTE_TIMEOUT_MS] [500]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_00] [DEBUG] [1]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_00] [MB_TX_CODE] [fnct_03_read_holding_registers] [2]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_00] [HAL_TX_NAME] [rpm]
+mb2hal parse_ini_file OK: parse_transaction_section 0 OK
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_01] [LINK_TYPE] [serial] [0]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_01] [SERIAL_PORT] [/dev/ttyUSB0]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_01] [SERIAL_BAUD] [9600]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_01] [SERIAL_BITS] [8]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_01] [SERIAL_PARITY] [none]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_01] [SERIAL_STOP] [1]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_01] [SERIAL_DELAY_MS] [150]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_01] [MB_SLAVE_ID] [1]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_01] [FIRST_ELEMENT] [2000]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_01] [NELEMENTS] [1]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_01] [MAX_UPDATE_RATE] [0.000]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_01] [MB_RESPONSE_TIMEOUT_MS] [500]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_01] [MB_BYTE_TIMEOUT_MS] [500]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_01] [DEBUG] [1]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_01] [MB_TX_CODE] [fnct_16_write_multiple_registers] [6]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_01] [HAL_TX_NAME] [control]
+mb2hal parse_ini_file OK: parse_transaction_section 1 OK
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_02] [LINK_TYPE] [serial] [0]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_02] [SERIAL_PORT] [/dev/ttyUSB0]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_02] [SERIAL_BAUD] [9600]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_02] [SERIAL_BITS] [8]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_02] [SERIAL_PARITY] [none]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_02] [SERIAL_STOP] [1]
+mb2hal parse_serial_subsection DEBUG: [TRANSACTION_02] [SERIAL_DELAY_MS] [150]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_02] [MB_SLAVE_ID] [1]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_02] [FIRST_ELEMENT] [2002]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_02] [NELEMENTS] [1]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_02] [MAX_UPDATE_RATE] [0.000]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_02] [MB_RESPONSE_TIMEOUT_MS] [500]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_02] [MB_BYTE_TIMEOUT_MS] [500]
+mb2hal parse_transaction_section DEBtask: machine: 'LinuxCNC-ASDA-B3-E'  version 'unknown'
+emcTaskOnce: Python plugin configured
+emcTaskOnce: extract(task_instance): KeyError: 'task'
+
+emcTaskOnce: no Python Task() instance available, using default iocontrol-based task methods
+libnml/buffer/shmem.cc 320: Shared memory buffers emcCommand and emcCommand may conflict. (key=1001(0x3E9))
+libnml/buffer/shmem.cc 320: Shared memory buffers emcStatus and emcStatus may conflict. (key=1002(0x3EA))
+libnml/buffer/shmem.cc 320: Shared memory buffers emcError and emcError may conflict. (key=1003(0x3EB))
+emcTrajSetJoints(3) returned 0
+emcTrajSetSpindles(1) returned 0
+emcTrajSetAxes(3, 7)
+emcTrajSetUnits(0.0394, 1.0000)
+emcTrajSetVelocity(0.0000, 2.0000) returned 0
+emcTrajSetMaxVelocity(5.0000) returned 0
+emcTrajSetAcceleration(100) returned 0
+emcTrajSetMaxAcceleration(100)
+emcTrajSetHome(0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000) returned 0
+emcJointSetType(0, 1)
+emcJointSetUnits(0, 0.0394)
+emcJointSetBacklash(0, 0.0000) returned 0
+emcJointSetMinPositionLimit(0, -0.25) returned 0
+emcJointSetMaxPositionLimit(0, 13.75) returned 0
+emcJointSetFerror(0, 2.0000) returned 0
+emcJointSetMinFerror(0, 1.0000) returned 0
+emcJointSetHomingParams(0, 0.0000, 0.0000, -1.0000, 1.0000, -1.0000, 0, 1, 0, 1, 0) returned 0
+emcJointSetMaxVelocity(0, 5.0000) returned 0
+emcJointSetMaxAcceleration(0, 100) returned 0
+emcJointActivate(0) returned 0
+emcJointSetType(1, 1)
+emcJointSetUnits(1, 0.0394)
+emcJointSetBacklash(1, 0.0000) returned 0
+emcJointSetMinPositionLimit(1, -0.25) returned 0
+emcJointSetMaxPositionLimit(1, 7.75) returned 0
+emcJointSetFerror(1, 2.0000) returned 0
+emcJointSetMinFerror(1, 1.0000) returned 0
+emcJointSetHomingParams(1, 0.0000, 0.0000, -1.0000, 1.0000, -1.0000, 0, 1, 0, 1, 0) returned 0
+emcJointSetMaxVelocity(1, 5.0000) returned 0
+emcJointSetMaxAcceleration(1, 100) returned 0
+emcJointActivate(1) returned 0
+emcJointSetType(2, 1)
+emcJointSetUnits(2, 0.0394)
+emcJointSetBacklash(2, 0.0000) returned 0
+emcJointSetMinPositionLimit(2, -13.75) returned 0
+emcJointSetMaxPositionLimit(2, 0.25) returned 0
+emcJointSetFerror(2, 2.0000) returned 0
+emcJointSetMinFerror(2, 1.0000) returned 0
+emcJointSetHomingParams(2, 0.0000, 0.0000, -1.0000, 1.0000, -1.0000, 0, 1, 0, 0, 0) returned 0
+emcJointSetMaxVelocity(2, 2.5000) returned 0
+emcJointSetMaxAcceleration(2, 50) returned 0
+emcJointActivate(2) returned 0
+emcAxisSetMinPositionLimit(0, -0.2500) returned 0
+emcAxisSetMaxPositionLimit(0, 13.7500) returned 0
+emcAxisSetMaxVelocity(0, 5.0000) returned 0
+emcAxisSetMaxAcceleration(0, 100.0000) returned 0
+emcAxisSetLockingJoint(0, -1) returned 0
+emcAxisSetMinPositionLimit(1, -0.2500) returned 0
+emcAxisSetMaxPositionLimit(1, 7.7500) returned 0
+emcAxisSetMaxVelocity(1, 5.0000) returned 0
+emcAxisSetMaxAcceleration(1, 100.0000) returned 0
+emcAxisSetLockingJoint(1, -1) returned 0
+emcAxisSetMinPositionLimit(2, -13.7500) returned 0
+emcAxisSetMaxPositionLimit(2, 0.2500) returned 0
+emcAxisSetMaxVelocity(2, 2.5000) returned 0
+emcAxisSetMaxAcceleration(2, 50.0000) returned 0
+emcAxisSetLockingJoint(2, -1) returned 0
+emcSpindleSetParams(0, 1.000000e+04, 1.000000e+01, -1.000000e+01, -1.000000e+04, 0.000000, 0.000000, 0, 10.000000) returned 0
+NML_INTERP_LIST(0x561ebda5ba60)::append(nml_msg_ptr{size=112,type=EMC_TRAJ_SET_TERM_COND}) : list_size=1, line_number=0
+NML_INTERP_LIST(0x561ebda5ba60)::append(nml_msg_ptr{size=176,type=EMC_TRAJ_SET_G5X}) : list_size=2, line_number=0
+NML_INTERP_LIST(0x561ebda5ba60)::append(nml_msg_ptr{size=168,type=EMC_TRAJ_SET_G92}) : list_size=3, line_number=0
+NML_INTERP_LIST(0x561ebda5ba60)::append(nml_msg_ptr{size=104,type=EMC_TRAJ_SET_ROTATION}) : list_size=4, line_number=0
+emcTaskPlanInit() returned 0
+NML_INTERP_LIST(0x561ebda5ba60)::get(): {size=112, type=EMC_TRAJ_SET_TERM_COND}, list_size=3
+emcTaskPlanLevel() returned 0
+Issuing EMC_TRAJ_SET_TERM_COND -- 	 (  +222,+112,    +0,    +2,0.001000,)
+NML_INTERP_LIST(0x561ebda5ba60)::get(): {size=176, type=EMC_TRAJ_SET_G5X}, list_size=2
+emcTaskPlanLevel() returned 0
+Issuing EMC_TRAJ_SET_G5X -- 	 (  +224,+176,    +0,    +1,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,)
+NML_INTERP_LIST(0x561ebda5ba60)::get(): {size=168, type=EMC_TRAJ_SET_G92}, list_size=1
+emcTaskPlanLevel() returned 0
+Issuing EMC_TRAJ_SET_G92 -- 	 (  +227,+168,    +0,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,)
+NML_INTERP_LIST(0x561ebda5ba60)::get(): {size=104, type=EMC_TRAJ_SET_ROTATION}, list_size=0
+emcTaskPlanLevel() returned 0
+Issuing EMC_TRAJ_SET_ROTATION -- 	 (  +226,+104,    +0,0.000000,)
+Issuing EMC_TASK_PLAN_SET_BLOCK_DELETE -- 	 (  +518,+24,    +1,\001,)
+Issuing EMC_TASK_PLAN_SET_OPTIONAL_STOP -- 	 (  +517,+24,    +2,\001,)
+Issuing EMC_TASK_PLAN_SYNCH -- 	 (  +516,+24,    +3,)
+emcTaskPlanSynch() returned 0
+Issuing EMC_TASK_PLAN_CLOSE -- 	 (  +514,+24,    +4,)
+Issuing EMC_TASK_PLAN_OPEN -- 	 (  +506,+280,    +5,/usr/share/axis/images/axis.ngc,)
+emcTaskPlanOpen(/usr/share/axis/images/axis.ngc) returned 0
+Issuing EMC_TRAJ_SET_SCALE -- 	 (  +209,+104,    +6,1.000000,)
+Issuing EMC_TRAJ_SET_RAPID_SCALE -- 	 (  +238,+104,    +7,1.000000,)
+Issuing EMC_TRAJ_SET_SPINDLE_SCALE -- 	 (  +233,+112,    +8,1.000000,)
+Issuing EMC_TRAJ_SET_TELEOP_ENABLE -- 	 (  +230,+104,    +9,    +0,)
+Issuing EMC_TRAJ_SET_MAX_VELOCITY -- 	 (  +207,+104,   +10,5.000000,)
+emcTrajSetMaxVelocity(5.0000) returned 0
+Issuing EMC_TRAJ_SET_SPINDLE_SCALE -- 	 (  +233,+112,   +11,1.000000,)
+Issuing EMC_TRAJ_SET_RAPID_SCALE -- 	 (  +238,+104,   +12,1.000000,)
+Issuing EMC_TRAJ_SET_SCALE -- 	 (  +209,+104,   +13,1.000000,)
+Issuing EMC_TASK_SET_STATE -- 	 (  +505,+24,   +14,    +4,)
+Issuing EMC_TASK_SET_STATE -- 	 (  +505,+24,   +15,    +3,)
+NML_INTERP_LIST(0x561ebda5ba60)::clear(): discarding 0 items
+NML_INTERP_LIST(0x561ebda5ba60)::append(nml_msg_ptr{size=24,type=EMC_TASK_PLAN_SYNCH}) : list_size=1, line_number=0
+emcTaskPlanClose() called at emc/task/emctask.cc:257
+emcTaskPlanSynch() returned 0
+NML_INTERP_LIST(0x561ebda5ba60)::get(): {size=24, type=EMC_TASK_PLAN_SYNCH}, list_size=0
+emcTaskPlanLevel() returned 0
+NML_INTERP_LIST(0x561ebda5ba60)::clear(): discarding 0 items
+NML_INTERP_LIST(0x561ebda5ba60)::append(nml_msg_ptr{size=24,type=EMC_TASK_PLAN_SYNCH}) : list_size=1, line_number=0
+task: main loop took 0.152228 seconds
+NML_INTERP_LIST(0x561ebda5ba60)::get(): {size=24, type=EMC_TASK_PLAN_SYNCH}, list_size=0
+emcTaskPlanLevel() returned 0
+Issuing EMC_TASK_PLAN_SYNCH -- 	 (  +516,+24,    +0,)
+emcTaskPlanSynch() returned 0
+Shutting down and cleaning up LinuxCNC...
+task: 14215 cycles, min=0.000008, max=0.152228, avg=0.001068, 1 latency excursions (> 10x expected cycle time of 0.001000s)
+UG: [TRANSACTION_02] [DEBUG] [1]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_02] [MB_TX_CODE] [fnct_16_write_multiple_registers] [6]
+mb2hal parse_transaction_section DEBUG: [TRANSACTION_02] [HAL_TX_NAME] [speed]
+mb2hal parse_ini_file OK: parse_transaction_section 2 OK
+mb2hal main OK: parse_ini_file done OK
+mb2hal init_mb_links DEBUG: LINK 0 (RTU) link_type[0] device[/dev/ttyUSB0] baud[9600] data[8] parity[N] stop[1] fd[-1]
+mb2hal main OK: init_gbl.mb_link done OK
+mb2hal init_mb_tx DEBUG: MB_TX 0 lk_n[0] tx_n[0] cfg_dbg[1] lk_dbg[0] t_inc[0.000] nxt_t[0.000]
+mb2hal init_mb_tx DEBUG: MB_TX 1 lk_n[0] tx_n[1] cfg_dbg[1] lk_dbg[0] t_inc[0.000] nxt_t[0.000]
+mb2hal init_mb_tx DEBUG: MB_TX 2 lk_n[0] tx_n[2] cfg_dbg[1] lk_dbg[0] t_inc[0.000] nxt_t[0.000]
+mb2hal main OK: init_gbl.mb_tx done OK
+mb2hal create_each_mb_tx_hal_pins DEBUG: mb_tx_num [0] pin_name [mb2hal.rpm.num_errors]
+mb2hal create_each_mb_tx_hal_pins DEBUG: mb_tx_num [0] pin_name [mb2hal.rpm.00]
+mb2hal create_each_mb_tx_hal_pins DEBUG: mb_tx_num [1] pin_name [mb2hal.control.num_errors]
+mb2hal create_each_mb_tx_hal_pins DEBUG: mb_tx_num [1] pin_name [mb2hal.control.00]
+mb2hal create_each_mb_tx_hal_pins DEBUG: mb_tx_num [2] pin_name [mb2hal.speed.num_errors]
+mb2hal create_each_mb_tx_hal_pins DEBUG: mb_tx_num [2] pin_name [mb2hal.speed.00]
+mb2hal main OK: HAL components created OK
+mb2hal main OK: Link thread loop and logic 0 created OK
+mb2hal main OK: mb2hal is running
+mb2hal quit_signal DEBUG: signal [15] received
+mb2hal quit_cleanup DEBUG: started
+mb2hal quit_cleanup DEBUG: unloading HAL module [44] ret[0]
+mb2hal quit_cleanup DEBUG: done OK
+mb2hal main OK: going to exit!

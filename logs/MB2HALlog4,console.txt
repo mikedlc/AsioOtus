@@ -1,0 +1,283 @@
+callum@AsioOtus:~$ linuxcnc > ~/linuxcnc/configs/logs/MB2HALlog4.txt
+(time=1733605401.945993,pid=24295): Registering server on TCP port 5005.
+(time=1733605401.946135,pid=24295): running server for TCP port 5005 (connection_socket = 3).
+Note: Using POSIX realtime
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[1]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[1]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[1]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[2]
+note: MAXV     max: 5.000 units/sec 300.000 units/min
+note: LJOG     max: 5.000 units/sec 300.000 units/min
+note: LJOG default: 0.500 units/sec 30.000 units/min
+note: jog_order='XYZ'
+note: jog_invert=set()
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[2]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[2]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[3]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[3]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[3]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[4]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[4]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[4]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[5]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[5]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[5]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[6]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[6]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[6]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[7]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[7]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[7]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[8]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[8]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[8]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[9]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[9]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[9]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[10]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[10]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[10]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[11]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[11]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[11]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[12]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[12]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[12]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[13]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[13]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[13]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[14]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[14]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[14]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[15]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[15]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[15]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[16]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[16]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[16]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[17]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[17]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[17]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[18]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[18]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[18]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[19]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[19]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[19]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[20]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[20]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[20]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[21]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[21]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[21]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[22]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[22]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[22]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[23]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[23]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[23]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[24]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[24]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[24]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[25]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[25]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[25]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[26]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[26]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[26]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[27]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[27]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[27]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[28]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[28]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[28]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[29]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[29]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[29]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[30]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[30]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[30]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[31]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[31]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[31]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[32]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[32]
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[2] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[2] mb_links[0] thread[0] fd[4] transaction failure, num_errors[32]
+mb2hal fnct_03_read_holding_registers ERR: mb_tx[0] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[0] mb_links[0] thread[0] fd[4] transaction failure, num_errors[33]
+(time=1733605419.111831,pid=24295): Deleting 5 channels from the NML_Main_Channel_List.
+(time=1733605419.111853,pid=24295): Deleting emcCommand NML channel from NML_Main_Channel_List.
+(time=1733605419.111867,pid=24295): deleting NML (1)
+(time=1733605419.111874,pid=24295):  delete (CMS *) 0x563dedf1c300;
+(time=1733605419.111883,pid=24295): rcs_shm_close(shm->key=1001(0x3E9),shm->size=8192(0x2000),shm->addr=0x7f3818921000)
+(time=1733605419.111903,pid=24295): deleting CMS (emcCommand)
+(time=1733605419.111911,pid=24295): free( data = 0x563dedf1d030);
+(time=1733605419.111920,pid=24295): Leaving ~CMS()
+(time=1733605419.111927,pid=24295):  CMS::delete(0x563dedf1c300)
+(time=1733605419.111932,pid=24295):  CMS::delete successful.
+(time=1733605419.111940,pid=24295): Leaving ~NML()
+(time=1733605419.111945,pid=24295): NML channel deleted from NML_Main_Channel_List
+(time=1733605419.111952,pid=24295): Deleting emcStatus NML channel from NML_Main_Channel_List.
+(time=1733605419.111960,pid=24295): deleting NML (2)
+(time=1733605419.111967,pid=24295):  delete (CMS *) 0x563dedf22510;
+(time=1733605419.111975,pid=24295): rcs_shm_close(shm->key=1002(0x3EA),shm->size=20480(0x5000),shm->addr=0x7f381891c000)
+(time=1733605419.111990,pid=24295): deleting CMS (emcStatus)
+(time=1733605419.111997,pid=24295): free( data = 0x563dedf23220);
+(time=1733605419.112003,pid=24295): Leaving ~CMS()
+(time=1733605419.112027,pid=24295):  CMS::delete(0x563dedf22510)
+(time=1733605419.112039,pid=24295):  CMS::delete successful.
+(time=1733605419.112047,pid=24295): Leaving ~NML()
+(time=1733605419.112059,pid=24295): NML channel deleted from NML_Main_Channel_List
+(time=1733605419.112065,pid=24295): Deleting emcError NML channel from NML_Main_Channel_List.
+(time=1733605419.112071,pid=24295): deleting NML (3)
+(time=1733605419.112079,pid=24295):  delete (CMS *) 0x563dedf28900;
+(time=1733605419.112087,pid=24295): rcs_shm_close(shm->key=1003(0x3EB),shm->size=8192(0x2000),shm->addr=0x7f381891a000)
+(time=1733605419.112102,pid=24295): deleting CMS (emcError)
+(time=1733605419.112110,pid=24295): free( data = 0x563dedf29620);
+(time=1733605419.112116,pid=24295): Leaving ~CMS()
+(time=1733605419.112127,pid=24295):  CMS::delete(0x563dedf28900)
+(time=1733605419.112133,pid=24295):  CMS::delete successful.
+(time=1733605419.112139,pid=24295): Leaving ~NML()
+(time=1733605419.112152,pid=24295): NML channel deleted from NML_Main_Channel_List
+(time=1733605419.112158,pid=24295): Deleting toolCmd NML channel from NML_Main_Channel_List.
+(time=1733605419.112165,pid=24295): deleting NML (4)
+(time=1733605419.112175,pid=24295):  delete (CMS *) 0x563dedf2bcf0;
+(time=1733605419.112182,pid=24295): rcs_shm_close(shm->key=1004(0x3EC),shm->size=1024(0x400),shm->addr=0x7f3818919000)
+(time=1733605419.112196,pid=24295): deleting CMS (toolCmd)
+(time=1733605419.112203,pid=24295): free( data = 0x563dedf2c990);
+(time=1733605419.112213,pid=24295): Leaving ~CMS()
+(time=1733605419.112220,pid=24295):  CMS::delete(0x563dedf2bcf0)
+(time=1733605419.112226,pid=24295):  CMS::delete successful.
+(time=1733605419.112232,pid=24295): Leaving ~NML()
+(time=1733605419.112237,pid=24295): NML channel deleted from NML_Main_Channel_List
+(time=1733605419.112243,pid=24295): Deleting toolSts NML channel from NML_Main_Channel_List.
+(time=1733605419.112249,pid=24295): deleting NML (5)
+(time=1733605419.112255,pid=24295):  delete (CMS *) 0x563dedf2d410;
+(time=1733605419.112263,pid=24295): rcs_shm_close(shm->key=1005(0x3ED),shm->size=1024(0x400),shm->addr=0x7f3818918000)
+(time=1733605419.112277,pid=24295): deleting CMS (toolSts)
+(time=1733605419.112284,pid=24295): free( data = 0x563dedf2e0b0);
+(time=1733605419.112291,pid=24295): Leaving ~CMS()
+(time=1733605419.112298,pid=24295):  CMS::delete(0x563dedf2d410)
+(time=1733605419.112303,pid=24295):  CMS::delete successful.
+(time=1733605419.112311,pid=24295): Leaving ~NML()
+(time=1733605419.112317,pid=24295): NML channel deleted from NML_Main_Channel_List
+(time=1733605419.112324,pid=24295): deleting NML (1)
+(time=1733605419.112330,pid=24295): Leaving ~NML()
+(time=1733605419.112336,pid=24295): NML::operator delete(0x563dedf1c090)
+(time=1733605419.112342,pid=24295): NML channel deleted from Dynamically_Allocated_NML_Objects
+(time=1733605419.112348,pid=24295): deleting NML (2)
+(time=1733605419.112354,pid=24295): Leaving ~NML()
+(time=1733605419.112361,pid=24295): NML::operator delete(0x563dedf22340)
+(time=1733605419.112367,pid=24295): NML channel deleted from Dynamically_Allocated_NML_Objects
+(time=1733605419.112374,pid=24295): deleting NML (3)
+(time=1733605419.112380,pid=24295): Leaving ~NML()
+(time=1733605419.112387,pid=24295): NML::operator delete(0x563dedf286d0)
+(time=1733605419.112394,pid=24295): NML channel deleted from Dynamically_Allocated_NML_Objects
+(time=1733605419.112400,pid=24295): deleting NML (4)
+(time=1733605419.112406,pid=24295): Leaving ~NML()
+(time=1733605419.112412,pid=24295): NML::operator delete(0x563dedf2bb20)
+(time=1733605419.112419,pid=24295): NML channel deleted from Dynamically_Allocated_NML_Objects
+(time=1733605419.112425,pid=24295): deleting NML (5)
+(time=1733605419.112430,pid=24295): Leaving ~NML()
+(time=1733605419.112436,pid=24295): NML::operator delete(0x563dedf2d240)
+(time=1733605419.112442,pid=24295): NML channel deleted from Dynamically_Allocated_NML_Objects
+mb2hal fnct_16_write_multiple_registers ERR: mb_tx[1] mb_links[0] slave[1] = ret[-1] fd[4]
+mb2hal link_loop_and_logic ERR: mb_tx_num[1] mb_links[0] thread[0] fd[4] transaction failure, num_errors[33]
+Note: Using POSIX realtime
+callum@AsioOtus:~$ 
