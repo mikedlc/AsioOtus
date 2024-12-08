@@ -32,9 +32,12 @@
             - 1: reverse
         - P00.00 Main frequency reference digital setting, register 0x0000
         - P00.01 Main frequency reference source selection
-        - U00.07 - 0x8107 - Output rotary speed
-        - U00.06 - 0x8107 - Preset rotary speed
-        - U00.00 - 0x8100 - Running frequency
+        - U00.07 - 0x8107 (33031) - Output rotary speed
+        - U00.06 - 0x8106 (33030) - Preset rotary speed
+        - U00.00 - 0x8100 (33024) - Running frequency
+        - U00.09 - 0x8109 (33033) - Output voltage
+        - U00.10 - 0x810A (33034) - Output current
+        - U00.11 - 0x810B (33035) - Output power
         - Control word - 0x8000
             - Bits work from right to left, so bit0 is rightmost and bit15 is leftmost. Run forward is 0...001 = 1, run reverse is 0...011 = 3, etc.
             - bit0

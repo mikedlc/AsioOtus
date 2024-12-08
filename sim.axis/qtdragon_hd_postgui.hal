@@ -10,10 +10,7 @@ net eoffset          qtdragon.eoffset-value <= axis.z.eoffset
 # uncomment for dragon_hd
 net limited          qtdragon.led-limits-tripped <= motion.eoffset-limited
 
-# trying to link spindle speed to qtdragon
-# net spindle-rpm qtdragon.gauge_spindle_value <= spindle.0.speed-out-abs
-# net signalpin spindle.0.at-speed     qtdragon.spindle-is-at-speed
-# net spindle-at-speed2 qtdragon.spindle-is-at-speed <=   near.0.out
+
 
 
 setp axis.z.eoffset-enable 1
