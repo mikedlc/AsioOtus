@@ -96,14 +96,14 @@ addf lcec.write-all           servo-thread
 #*******************
 # setp sets the value of a pin or parameter. Cannot use setp on a pin that is connected to a signal.
 #*******************
-# originally 10000, changed to 16777216*25.4/5 = 85228257 encoder counts per inch of travel
+# originally 10000, changed to 16777216*(25.4/5) (in/mm) = 85228257 encoder counts per inch of travel
 # X Joint 0
 setp cia402.0.csp-mode 1
-setp cia402.0.pos-scale 85228257
+setp cia402.0.pos-scale -85228257
 
 # Y Joint 1
 setp cia402.1.csp-mode 1
-setp cia402.1.pos-scale 85228257
+setp cia402.1.pos-scale -85228257
 
 # Z Joint 2
 setp cia402.2.csp-mode 1
