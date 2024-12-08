@@ -1,2 +1,3 @@
-2024-12-08 13:41:51,912 - QTvcp.QTVCP.QT_ISTAT - WARNING - INI Parsing Error, No USE_PROBE Entry in PROBE, Using: none
-2024-12-08 13:41:52,061 - QTvcp.QTVCP.WIDGETS.STATUS_LABEL - WARNING - Problem with tool file info
+2024-12-08 13:49:31,699 - QTvcp.QTVCP.QT_ISTAT - WARNING - INI Parsing Error, No USE_PROBE Entry in PROBE, Using: none
+2024-12-08 13:49:31,860 - QTvcp.QTVCP.WIDGETS.STATUS_LABEL - WARNING - Problem with tool file info
+2024-12-08 13:50:39,740 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: ''
