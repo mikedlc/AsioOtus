@@ -1,0 +1,4 @@
+2024-12-08 11:25:54,485 - QTvcp.QTVCP.QT_ISTAT - WARNING - Path not valid in INI File [DISPLAY] PROGRAM_PREFIX section
+2024-12-08 11:25:58,067 - QTvcp.QTVCP.QT_ISTAT - WARNING - INI Parsing Error, No USE_PROBE Entry in PROBE, Using: none
+2024-12-08 11:25:58,223 - QTvcp.QTVCP.WIDGETS.STATUS_LABEL - WARNING - Problem with tool file info
+2024-12-08 11:39:02,864 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - ERROR - load_text(): [Errno 2] No such file or directory: 'mdi_history.dat'
