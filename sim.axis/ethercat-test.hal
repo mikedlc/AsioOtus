@@ -9,12 +9,14 @@ loadrt not
 #  %%%%%%%%%%%% MB2HAL FOR SPINDLE OVER RS485 %%%%%%%%%%%%%%%
 loadusr -W mb2hal config=mb2hal.ini
 
-loadrt mult2
+loadrt mult2 count=3
 loadrt mux4
 loadrt and2 count=2
 loadrt near
 
 addf mult2.0 servo-thread
+addf mult2.1 servo-thread
+addf mult2.2 servo-thread
 addf mux4.0  servo-thread
 addf and2.0  servo-thread
 addf and2.1  servo-thread
@@ -45,13 +47,19 @@ setp mux4.0.in3 256
 
 net control mb2hal.control.00 <= mux4.0.out
 
-
+setp mult2.1.in0 0.833333333
+net rpmIn mb2hal.rpm.00.float => mult2.1.in1
+# net rpmOut mult2.1.out => spindleRPM
 
 net rpm-abs  spindle.0.speed-out-abs    =>   near.0.in1    #spindle rpm command
-net rpm.vfd  mb2hal.rpm.00.float            =>   near.0.in2    #spindle rpm from vfd
+net rpm.vfd      mult2.1.out        =>   near.0.in2    #spindle rpm from vfd
 net spindle-at-speed spindle.0.at-speed <=   near.0.out
-
 setp near.0.scale 1.02
+
+setp mult2.2.in0 0.0166666666
+net rpm.vfd => mult2.2.in1
+net spindleSpeed mult2.2.out => spindle.0.speed-in
+
 #  %%%%%%%%%%%% MB2HAL FOR SPINDLE OVER RS485 %%%%%%%%%%%%%%%
 
 

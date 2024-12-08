@@ -5,36 +5,21 @@ placeFrames 0.3
 set ::ratio 0.3
 set ::old_w_leftf 369
 set ::watchlist {
-    pin+cia402.0.drv-actual-position
-    pin+cia402.0.controlword
-    pin+cia402.0.home
-    pin+lcec.0.0.in-4
-    pin+lcec.0.0.in-5
-    pin+lcec.0.0.in-6
-    pin+lcec.0.0.in-1-eStop
-    pin+lcec.0.0.in-2-CW-limit
-    pin+lcec.0.0.in-3-CCW-limit
-    pin+spindle.0.amp-fault-in
+    pin+spindle.0.at-speed
+    pin+spindle.0.on
+    pin+spindle.0.revs
+    pin+spindle.0.speed-cmd-rps
     pin+spindle.0.speed-in
     pin+spindle.0.speed-out
-    pin+spindle.0.speed-cmd-rps
-    pin+spindle.0.revs
-    pin+spindle.0.reverse
-    pin+spindle.0.on
-    pin+spindle.0.forward
-    pin+spindle.0.index-enable
-    pin+halui.spindle.0.is-on
-    pin+halui.spindle.0.start
-    pin+halui.spindle.0.stop
+    pin+spindle.0.speed-out-abs
+    pin+spindle.0.speed-out-rps
+    pin+spindle.0.speed-out-rps-abs
+    pin+mb2hal.speed.00
     pin+mb2hal.control.00
     pin+mb2hal.rpm.00.float
-    pin+mb2hal.rpm.00.int
-    pin+mb2hal.speed.00
-    pin+spindle.0.speed-out-rps-abs
-    pin+spindle.0.speed-out-abs
-    pin+near.0.in1
-    pin+near.0.in2
-    pin+near.0.out
+    pin+mult2.1.in0
+    pin+mult2.1.in1
+    pin+mult2.1.out
 }
 set ::workmode watchhal
 set ::watchInterval 100
