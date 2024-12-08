@@ -20,7 +20,7 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/nc_files/examples
+last_loaded_directory = 
 last_loaded_file = None
 style_QSS_Path = DEFAULT
 
