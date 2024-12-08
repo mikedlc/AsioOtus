@@ -20,6 +20,9 @@ set ::watchlist {
     pin+mult2.1.in0
     pin+mult2.1.in1
     pin+mult2.1.out
+    pin+mb2hal.power.00.float
+    pin+mb2hal.power.num_errors
+    pin+mb2hal.power.00.int
 }
 set ::workmode watchhal
 set ::watchInterval 100
