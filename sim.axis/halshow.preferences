@@ -30,6 +30,8 @@ set ::watchlist {
     pin+mb2hal.rpm.00.float
     pin+mb2hal.rpm.00.int
     pin+mb2hal.speed.00
+    pin+spindle.0.speed-out-rps-abs
+    pin+spindle.0.speed-out-abs
 }
 set ::workmode watchhal
 set ::watchInterval 100
