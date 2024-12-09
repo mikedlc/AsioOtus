@@ -22,7 +22,7 @@ addf and2.0  servo-thread
 addf and2.1  servo-thread
 addf near.0  servo-thread
 
-setp mult2.0.in0 24                      
+setp mult2.0.in0 20                      
 # 10k rpm = 400 Hz, so output rotations per second times 24 should scale correctly
 net spindle-cmd-rps-abs       => mult2.0.in1
 net speed.vfd mb2hal.speed.00 <= mult2.0.out
@@ -47,7 +47,7 @@ setp mux4.0.in3 256
 
 net control mb2hal.control.00 <= mux4.0.out
 
-setp mult2.1.in0 0.833333333
+setp mult2.1.in0 1
 net rpmIn mb2hal.rpm.00.float => mult2.1.in1
 # net rpmOut mult2.1.out => spindleRPM
 
