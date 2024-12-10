@@ -1,2 +1,2 @@
-2024-12-09 13:41:53,587 - QTvcp.QTVCP.QT_ISTAT - WARNING - INI Parsing Error, No USE_PROBE Entry in PROBE, Using: none
-2024-12-09 13:41:53,736 - QTvcp.QTVCP.WIDGETS.STATUS_LABEL - WARNING - Problem with tool file info
+2024-12-10 14:53:23,424 - QTvcp.QTVCP.QT_ISTAT - WARNING - INI Parsing Error, No USE_PROBE Entry in PROBE, Using: none
+2024-12-10 14:53:23,605 - QTvcp.QTVCP.WIDGETS.STATUS_LABEL - WARNING - Problem with tool file info
