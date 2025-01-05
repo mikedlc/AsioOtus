@@ -18,3 +18,8 @@ setp qtdragon.spindle-volts 100
 
 setp axis.z.eoffset-enable 1
 setp axis.z.eoffset-scale 1.0
+
+# tool change gui
+# loadusr -Wn tool_dialog qtvcp tool_dialog
+# mill visualizer
+# loadusr qtvcp vismach_mill_xyz
