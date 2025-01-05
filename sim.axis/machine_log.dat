@@ -1,6 +1,9 @@
---- QtVCP Screen Started on: Tue, Dec 10 2024 02:53:23 PM ---
+--- QtVCP Screen Started on: Sun, Jan 05 2025 05:19:38 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Tue10 14:53: Machine OFF
-Tue10 14:53: Hard limits tripped
-Tue10 14:53: Machine ON
-Tue10 14:55: Machine OFF
+Sun05 17:19: Machine OFF
+Sun05 17:19: Hard limits tripped
+Sun05 17:22: Machine ON
+Sun05 17:43: Machine OFF
+Sun05 17:43: Machine must be ON and in Manual mode to jog
+Sun05 17:43: Machine ON
+Sun05 18:12: Machine OFF
