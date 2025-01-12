@@ -1,9 +1,16 @@
---- QtVCP Screen Started on: Sun, Jan 05 2025 05:19:38 PM ---
+--- QtVCP Screen Started on: Sun, Jan 12 2025 01:07:38 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sun05 17:19: Machine OFF
-Sun05 17:19: Hard limits tripped
-Sun05 17:22: Machine ON
-Sun05 17:43: Machine OFF
-Sun05 17:43: Machine must be ON and in Manual mode to jog
-Sun05 17:43: Machine ON
-Sun05 18:12: Machine OFF
+Sun12 13:07: Machine OFF
+Sun12 13:07: Hard limits tripped
+Sun12 13:08: Machine ON
+Sun12 13:08: Homing is REQUIRED to jog requested coordinate
+because joint (2) home_sequence is synchronized (-1)
+Sun12 13:08: Homing is REQUIRED to jog requested coordinate
+because joint (2) home_sequence is synchronized (-1)
+Sun12 13:08: Homing is REQUIRED to jog requested coordinate
+because joint (0) home_sequence is synchronized (-1)
+Sun12 13:08: Homing is REQUIRED to jog requested coordinate
+because joint (1) home_sequence is synchronized (-1)
+Sun12 13:09: Machine OFF
+Sun12 13:14: Machine ON
+Sun12 13:44: Machine OFF
