@@ -22,8 +22,8 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = 
-last_loaded_file = None
+last_loaded_directory = /usr/share/linuxcnc/ncfiles/remap-subroutines
+last_loaded_file = /usr/share/linuxcnc/ncfiles/remap-subroutines/qt_auto_probe_tool.ngc
 style_QSS_Path = DEFAULT
 
 [ORIGINOFFSET_SYSTEM_NAMES]
@@ -127,12 +127,12 @@ ps_probevel = 10.0
 ps_z_clearance = 3.0
 ps_probe_max = 1.0
 ps_probe_max_z_travel = 1.0
-ps_probe_latch = 0.5
+ps_probe_latch = 4.0
 ps_probe_diam = 0.3
 ps_xy_clearance = 5.0
 ps_side_edge_length = 5.0
-ps_probe_height = 20.0
-ps_block_height = 20.0
+ps_probe_height = 2.0
+ps_block_height = 4.0
 use_tool_measurement = True
 ps_offs_x = 0.0
 ps_offs_y = 0.0
