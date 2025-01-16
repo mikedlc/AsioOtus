@@ -1,10 +1,10 @@
---- QtVCP Screen Started on: Wed, Jan 15 2025 08:55:09 PM ---
+--- QtVCP Screen Started on: Wed, Jan 15 2025 09:07:29 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Wed15 20:55: Machine OFF
-Wed15 20:55: Hard limits tripped
-Wed15 20:55: Tool 0: No Tool
-Wed15 20:55: Machine ON
-Wed15 20:55: Loaded tool 1
-Wed15 20:55: Tool 1: 1/8 end mill 
-Wed15 20:57: Cannot switch pages while in AUTO mode
-Wed15 20:58: Machine OFF
+Wed15 21:07: Machine OFF
+Wed15 21:07: Hard limits tripped
+Wed15 21:07: Tool 0: No Tool
+Wed15 21:07: Machine ON
+Wed15 21:07: Cannot switch pages while in AUTO mode
+Wed15 21:08: pycall(remap.change_prolog) failed
+Wed15 21:08:  error parameter is [10.000000]
+Wed15 21:08: Machine OFF
