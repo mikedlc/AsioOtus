@@ -59,8 +59,7 @@ setp near.0.scale 1.02
 setp mult2.2.in0 0.0166666666
 net rpm.vfd => mult2.2.in1
 net spindleSpeed mult2.2.out => spindle.0.speed-in
-
-#  %%%%%%%%%%%% MB2HAL FOR SPINDLE OVER RS485 %%%%%%%%%%%%%%%
+#  %%%%%%%%%%%% /MB2HAL FOR SPINDLE OVER RS485 %%%%%%%%%%%%%%%
 
 
 
@@ -123,6 +122,7 @@ net not-estop-ext not.0.out => iocontrol.0.emc-enable-in
 net estop-out     <=  iocontrol.0.user-enable-out
 # net estop-out => hm2_7i92.0.7i84.0.0.output-00 FIND CORRECT OUTPUT PINS
 
+net probe  motion.probe-input <= lcec.0.0.in-4-Toolsetter-Trigger
 
 #*******************
 # net creates a connection between a signal and one or more pins.
