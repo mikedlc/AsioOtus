@@ -1,9 +1,14 @@
---- QtVCP Screen Started on: Wed, Jan 15 2025 08:28:29 PM ---
+--- QtVCP Screen Started on: Wed, Jan 15 2025 08:45:10 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Wed15 20:28: Machine OFF
-Wed15 20:28: Hard limits tripped
-Wed15 20:28: Machine ON
-Wed15 20:28: Cannot switch pages while in AUTO mode
-Wed15 20:31: Machine OFF
-Wed15 20:31: File not open
-Wed15 20:31: File not open
+Wed15 20:45: Machine OFF
+Wed15 20:45: Hard limits tripped
+Wed15 20:45: Machine ON
+Wed15 20:45: Cannot switch pages while in AUTO mode
+Wed15 20:45: Cannot switch pages while in AUTO mode
+Wed15 20:45: Cannot switch pages while in AUTO mode
+Wed15 20:47: No tool selected
+Wed15 20:47: Loaded tool 1
+Wed15 20:47: Requested tool 1 not found in the tool table
+Wed15 20:47:  error parameter is [10.000000]
+Wed15 20:48: Cannot switch pages while in AUTO mode
+Wed15 20:48: Machine OFF
