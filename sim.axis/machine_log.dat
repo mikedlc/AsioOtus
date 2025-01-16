@@ -1,13 +1,12 @@
---- QtVCP Screen Started on: Wed, Jan 15 2025 09:38:02 PM ---
+--- QtVCP Screen Started on: Wed, Jan 15 2025 09:52:47 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Wed15 21:38: Machine OFF
-Wed15 21:38: Hard limits tripped
-Wed15 21:38: Tool 0: No Tool
-Wed15 21:38: Machine ON
-Wed15 21:38: Cannot switch pages while in AUTO mode
-Wed15 21:38: Linear move on line -1 would exceed Z's positive limit
-Wed15 21:38: Loaded file /usr/share/linuxcnc/ncfiles/remap-subroutines/qt_auto_probe_tool.ngc
-Wed15 21:38: Linear move on line -1 would exceed joint 2's positive limit
-Wed15 21:38: invalid params in linear command
-Wed15 21:38:  error parameter is [3.000000]
-Wed15 21:39: Machine OFF
+Wed15 21:52: Machine OFF
+Wed15 21:52: Hard limits tripped
+Wed15 21:52: Tool 0: No Tool
+Wed15 21:52: Machine ON
+Wed15 21:53: Loaded file /usr/share/linuxcnc/ncfiles/remap-subroutines/qt_auto_probe_tool.ngc
+Wed15 21:53: Linear move on line -1 would exceed Z's positive limit
+Wed15 21:53: Linear move on line -1 would exceed joint 2's positive limit
+Wed15 21:53: invalid params in linear command
+Wed15 21:53:  error parameter is [3.000000]
+Wed15 21:54: Machine OFF
