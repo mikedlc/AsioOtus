@@ -3,6 +3,8 @@ AboutDialog-geometry = half
 LncMessage-geometry = 910 539 280 118
 ToolChangeDialog-geometry = default
 CalculatorDialog-geometry = 910 539 472 376
+VersaHelpDialog-geometry = 660 240 600 600
+_CALCULATOR = 910 525 472 376
 
 [DIALOG_OPTIONS]
 EntryDialog_play_sound = True
@@ -118,4 +120,23 @@ Inhibit display mouse selection = True
 Camview xscale = 100
 Camview yscale = 100
 Camview cam number = 0
+
+[VERSA_PROBE_OPTIONS]
+ps_searchvel = 300.0
+ps_probevel = 10.0
+ps_z_clearance = 3.0
+ps_probe_max = 1.0
+ps_probe_max_z_travel = 1.0
+ps_probe_latch = 0.5
+ps_probe_diam = 0.3
+ps_xy_clearance = 5.0
+ps_side_edge_length = 5.0
+ps_probe_height = 20.0
+ps_block_height = 20.0
+use_tool_measurement = True
+ps_offs_x = 0.0
+ps_offs_y = 0.0
+ps_offs_z = 0.0
+ps_offs_angle = 0.0
+ps_probe_rapid_vel = 60.0
 

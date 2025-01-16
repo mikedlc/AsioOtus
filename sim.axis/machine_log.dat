@@ -1,8 +1,9 @@
---- QtVCP Screen Started on: Wed, Jan 15 2025 08:24:24 PM ---
+--- QtVCP Screen Started on: Wed, Jan 15 2025 08:28:29 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Wed15 20:24: Machine OFF
-Wed15 20:24: Hard limits tripped
-Wed15 20:25: Machine ON
-Wed15 20:26: Machine OFF
-Wed15 20:26: File not open
-Wed15 20:26: File not open
+Wed15 20:28: Machine OFF
+Wed15 20:28: Hard limits tripped
+Wed15 20:28: Machine ON
+Wed15 20:28: Cannot switch pages while in AUTO mode
+Wed15 20:31: Machine OFF
+Wed15 20:31: File not open
+Wed15 20:31: File not open
