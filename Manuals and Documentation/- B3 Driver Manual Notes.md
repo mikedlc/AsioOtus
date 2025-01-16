@@ -31,10 +31,10 @@
 	- COM+ - pin 5
 		- Gets +24V from external power supply
 	- Digital Inputs, get negative terminal from external power supply, normally closed (NC) switched
-		- DI1- - pin 6 
-		- DI2- - pin 7 
-		- DI3- - pin 8 
-		- DI4- - pin 9 
+		- DI1- - pin 6 - eStop
+		- DI2- - pin 7 -
+		- DI3- - pin 8 - Toolsetter, blue+green NC overtravel 
+		- DI4- - pin 9 - Toolsetter, brown+orange NC trigger
 	- DI values: (P2.010 - 2.017 for DI 1-8), page 8-195
 		- 0021 - eStop, NC
 		- 0022 - CW Limit, NC

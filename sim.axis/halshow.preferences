@@ -23,6 +23,9 @@ set ::watchlist {
     pin+mb2hal.power.00.float
     pin+mb2hal.power.num_errors
     pin+mb2hal.power.00.int
+    pin+lcec.0.0.in-1-eStop
+    pin+lcec.0.0.in-3-Toolsetter-Overtravel
+    pin+lcec.0.0.in-4-Toolsetter-Trigger
 }
 set ::workmode watchhal
 set ::watchInterval 100

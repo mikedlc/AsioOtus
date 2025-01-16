@@ -38,9 +38,9 @@ https://www.servotronix.com/html/stepIM_Help/HTML/home.htm#!Documents/home.htm
                         <complexEntry bitLen="1" halPin="in-home" halType="bit"/>
                         <complexEntry bitLen="13"/>
                         <complexEntry bitLen="1" halPin="in-1-eStop" halType="bit"/>
-                        <complexEntry bitLen="1" halPin="in-2-CW-limit" halType="bit"/>
-                        <complexEntry bitLen="1" halPin="in-3-CCW-limit" halType="bit"/>
-                        <complexEntry bitLen="1" halPin="in-4" halType="bit"/>
+                        <complexEntry bitLen="1" halPin="in-2" halType="bit"/>
+                        <complexEntry bitLen="1" halPin="in-3-Toolsetter-Overtravel" halType="bit"/>
+                        <complexEntry bitLen="1" halPin="in-4-Toolsetter-Trigger" halType="bit"/>
                         <complexEntry bitLen="1" halPin="in-5" halType="bit"/>
                         <complexEntry bitLen="1" halPin="in-6" halType="bit"/>
                         <complexEntry bitLen="10"/>
