@@ -1,7 +1,20 @@
---- QtVCP Screen Started on: Sun, Jan 19 2025 02:14:14 PM ---
+--- QtVCP Screen Started on: Sun, Jan 19 2025 03:30:49 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sun19 14:14: Machine OFF
-Sun19 14:14: Hard limits tripped
-Sun19 14:14: Tool 0: No Tool
-Sun19 14:14: Machine ON
-Sun19 14:14: Machine OFF
+Sun19 15:30: Machine OFF
+Sun19 15:30: Hard limits tripped
+Sun19 15:30: Tool 0: No Tool
+Sun19 15:30: Machine ON
+Sun19 15:31: Homing is REQUIRED to jog requested coordinate
+because joint (2) home_sequence is synchronized (-1)
+Sun19 15:31: Cannot switch pages while in AUTO mode
+Sun19 15:32: Tool 1: 1/8 end mill 
+Sun19 15:33:  Probe Height: -16.1560
+Sun19 15:33: Tool 1: 1/8 end mill 
+Sun19 15:33:  Block Height: 0.0000
+Sun19 15:33:  Probe Result: -13.0789
+Sun19 15:33: Cannot switch pages while in AUTO mode
+Sun19 15:34:  Probe Height: -16.1560
+Sun19 15:34: Tool 1: 1/8 end mill 
+Sun19 15:34:  Block Height: 0.0000
+Sun19 15:34:  Probe Result: -13.0790
+Sun19 15:34: Machine OFF
