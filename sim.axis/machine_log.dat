@@ -1,23 +1,7 @@
---- QtVCP Screen Started on: Sun, Jan 19 2025 01:53:56 PM ---
+--- QtVCP Screen Started on: Sun, Jan 19 2025 02:14:14 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sun19 13:53: Machine OFF
-Sun19 13:53: Hard limits tripped
-Sun19 13:53: Tool 0: No Tool
-Sun19 13:54: Machine ON
-Sun19 13:54: Machine OFF
-Sun19 13:54: Machine ON
-Sun19 13:55: Machine OFF
-Sun19 13:55: Machine ON
-Sun19 14:01: Cannot switch pages while in AUTO mode
-Sun19 14:02: Probe move on line 18 would exceed joint 2's negative limit
-Sun19 14:02:  abort pressed
-Sun19 14:02: ERROR INFO Probe routine: failed: Probe move on line 18 would exceed Z's negative limit cmd: G38.2 Z-11.0 F300.0
-Sun19 14:03: Probe move on line 18 would exceed joint 2's negative limit
-Sun19 14:03: ERROR INFO Probe routine: failed: Probe move on line 18 would exceed Z's negative limit cmd: G38.2 Z-11.0 F300.0
-Sun19 14:03:  abort pressed
-Sun19 14:03: Probe move on line 18 would exceed joint 2's negative limit
-Sun19 14:03:  error parameter is [3.000000]
-Sun19 14:03: ERROR INFO Probe routine: failed: Probe move on line 18 would exceed Z's negative limit cmd: G38.2 Z-11.0 F300.0
-Sun19 14:03:  abort pressed
-Sun19 14:03: HISTORY Tool Setter height Z[-13.1566]
-Sun19 14:04: Machine OFF
+Sun19 14:14: Machine OFF
+Sun19 14:14: Hard limits tripped
+Sun19 14:14: Tool 0: No Tool
+Sun19 14:14: Machine ON
+Sun19 14:14: Machine OFF

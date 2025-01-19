@@ -122,18 +122,18 @@ Camview yscale = 100
 Camview cam number = 0
 
 [VERSA_PROBE_OPTIONS]
-ps_searchvel = 300.0
+ps_searchvel = 60.0
 ps_probevel = 10.0
 ps_z_clearance = 3.0
 ps_probe_max = 1.0
 ps_probe_max_z_travel = 1.0
-ps_probe_latch = 4.0
+ps_probe_latch = 0.5
 ps_probe_diam = 0.3
 ps_xy_clearance = 5.0
 ps_side_edge_length = 5.0
 ps_probe_height = -16.156
-ps_block_height = 4.0
-use_tool_measurement = False
+ps_block_height = 0.0
+use_tool_measurement = True
 ps_offs_x = 0.0
 ps_offs_y = 0.0
 ps_offs_z = 0.0
