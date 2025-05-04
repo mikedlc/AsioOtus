@@ -74,6 +74,7 @@
 	- The goal would be to relinquish motion control to the driver, let it home to establish the origin, then use the absolute encoder to always know where the servo is.
 
 - Absolute Encoder
+	- Al011 is lost CN2 (encoder) communication 
 	- P2.069 = 0001 to enable absolute encoder then power cycle (page 8-94)
 	- If AL06A, then origin is not established
 	- P0.049 - update encoder absolute position
