@@ -80,6 +80,7 @@
 	- P0.049 - update encoder absolute position
 	- P2.071 or handshake with LinuxCNC to establish absolute origin
 		- To set current location as origin:
+			- WITH LINUXCNC CLOSED
 			- Set P2.008 to 271, then set P2.071 to 1. When P2.071 is set to 1, the current position is set as the origin
 		- DI.ABSE then DI.ABSC, described on page 10-19
 

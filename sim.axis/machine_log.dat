@@ -1,17 +1,49 @@
---- QtVCP Screen Started on: Sat, Mar 29 2025 02:37:17 PM ---
+--- QtVCP Screen Started on: Sun, May 04 2025 12:25:27 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sat29 14:37: Machine OFF
-Sat29 14:37: Hard limits tripped
-Sat29 14:37: Tool 0: No Tool
-Sat29 14:37: Machine ON
-Sat29 14:37: Machine OFF
-Sat29 14:38: Machine ON
-Sat29 14:38: Machine OFF
-Sat29 14:49: Machine ON
-Sat29 14:49: Machine OFF
-Sat29 14:49: Machine ON
-Sat29 14:49: Machine OFF
-Sat29 14:49: Machine ON
-Sat29 14:49: Machine OFF
-Sat29 14:50: Machine ON
-Sat29 14:50: Machine OFF
+Sun04 12:25: Machine OFF
+Sun04 12:25: Hard limits tripped
+Sun04 12:25: Tool 0: No Tool
+Sun04 12:25: Machine ON
+Sun04 12:26: Tool 1: 1/8 end mill 
+Sun04 12:26:  Probe Height: -16.1320
+Sun04 12:26:  Block Height: 0.0000
+Sun04 12:26: Tool 1: 1/8 end mill 
+Sun04 12:26:  Probe Result: -13.0518
+Sun04 12:26:  abort pressed
+Sun04 12:26:  abort pressed
+Sun04 12:26:  abort pressed
+Sun04 12:29: Tool 0: No Tool
+Sun04 12:29: Loaded file /usr/share/linuxcnc/ncfiles/remap-subroutines/qt_auto_probe_tool.ngc
+Sun04 12:29:  abort pressed
+Sun04 12:29:  abort pressed
+Sun04 12:29:  abort pressed
+Sun04 12:41: Tool 0: No Tool
+Sun04 12:42: Loaded tool 99
+Sun04 12:42: Tool 99: Haimer Probe 
+Sun04 12:46: Loaded tool 1
+Sun04 12:46: Tool 1: 1/8 end mill 
+Sun04 13:50: Loaded program file : /home/callum/linuxcnc/configs/nc_files/1 circle square v1.ngc
+Sun04 13:50: Loaded file /home/callum/linuxcnc/configs/nc_files/1 circle square v1.ngc
+Sun04 13:50: G-Code error in 1 circle square v1.ngc
+Near line 0 of
+/home/callum/linuxcnc/configs/nc_files/1 circle square v1.ngc
+Requested tool 21 not found in the tool table
+Sun04 13:50: G-Code error in 1 circle square v1.ngc
+Near line 0 of
+/home/callum/linuxcnc/configs/nc_files/1 circle square v1.ngc
+Requested tool 21 not found in the tool table
+Sun04 13:52:  abort pressed
+Sun04 13:54: Loaded file /home/callum/linuxcnc/configs/nc_files/1 circle square v1.ngc
+Sun04 13:54: Loaded program file : /home/callum/linuxcnc/configs/nc_files/1 circle square v1.ngc
+Sun04 13:56: Loaded file /home/callum/linuxcnc/configs/nc_files/1 circle square v1.ngc
+Sun04 13:56: Loaded program file : /home/callum/linuxcnc/configs/nc_files/1 circle square v1.ngc
+Sun04 14:14: Loaded program file : /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3.ngc
+Sun04 14:14: Loaded file /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3.ngc
+Sun04 14:16: Loaded program file : /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
+Sun04 14:16: Loaded file /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
+Sun04 14:35: Loaded tool 1
+Sun04 14:48: Loaded file /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
+Sun04 14:48: Loaded program file : /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
+Sun04 14:53: Loaded program file /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
+Sun04 14:53: Loaded file /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
+Sun04 14:58: Machine OFF
