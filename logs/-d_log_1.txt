@@ -79,3 +79,24 @@ Found file(REL): ./ethercat-test.hal
 [QTvcp][INFO]  Postgui commands: None (qtvcp:439)
 [QTvcp][INFO]  Preference path: /home/callum/linuxcnc/configs/sim.axis/qtdragon.pref (qtvcp:416)
 
+
+
+
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/qtvcp/widgets/origin_offsetview.py", line 370, in dataChanged
+    self.reload_offsets()
+  File "/usr/lib/python3/dist-packages/qtvcp/widgets/origin_offsetview.py", line 232, in reload_offsets
+    temp[STATUS.stat.g5x_index-1] = STATUS.stat.g5x_offset
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'tuple' object does not support item assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/qtvcp/widgets/origin_offsetview.py", line 373, in dataChanged
+    self.reload_offsets()
+  File "/usr/lib/python3/dist-packages/qtvcp/widgets/origin_offsetview.py", line 232, in reload_offsets
+    temp[STATUS.stat.g5x_index-1] = STATUS.stat.g5x_offset
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'tuple' object does not support item assignment
