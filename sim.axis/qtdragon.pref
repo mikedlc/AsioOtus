@@ -25,6 +25,7 @@ RunFromLineDialog_sound_type = READY
 last_loaded_directory = /home/callum/linuxcnc/configs/nc_files
 last_loaded_file = /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
 style_QSS_Path = DEFAULT
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
@@ -90,7 +91,7 @@ gcodegraphics-user-lat = 0.0
 gcodegraphics-user-lon = 0.0
 
 [CUSTOM_FORM_ENTRIES]
-Tool to load = 0
+Tool to load = 21
 Laser X = 100.0
 Laser Y = -20.0
 Sensor X = 10.0

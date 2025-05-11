@@ -1,6 +1,16 @@
---- QtVCP Screen Started on: Sat, May 10 2025 09:22:11 AM ---
+--- QtVCP Screen Started on: Sun, May 11 2025 03:30:41 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sat10 09:22: Machine OFF
-Sat10 09:22: Hard limits tripped
-Sat10 09:22: Tool 0: No Tool
-Sat10 09:22: Machine ON
+Sun11 15:30: Machine OFF
+Sun11 15:30: Hard limits tripped
+Sun11 15:30: Tool 0: No Tool
+Sun11 15:30: Machine ON
+Sun11 15:31: Loaded program file : /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
+Sun11 15:31: Loaded file /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
+Sun11 15:38: Started program from line 1
+Sun11 15:38: Tool 21: New Tool 
+Sun11 15:39:  Probe Height: -16.1320
+Sun11 15:39: Tool 21: New Tool 
+Sun11 15:39:  Block Height: 0.0000
+Sun11 15:39:  Probe Result: -13.0518
+Sun11 15:41: Run timer stopped at 00:02:53
+Sun11 15:42: Machine OFF
