@@ -23,7 +23,7 @@ RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
 last_loaded_directory = /home/callum/linuxcnc/configs/nc_files
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
 style_QSS_Path = DEFAULT
 RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
 
@@ -91,7 +91,7 @@ gcodegraphics-user-lat = 0.0
 gcodegraphics-user-lon = 0.0
 
 [CUSTOM_FORM_ENTRIES]
-Tool to load = 0
+Tool to load = 11
 Laser X = 100.0
 Laser Y = -20.0
 Sensor X = 10.0
@@ -123,7 +123,7 @@ Camview yscale = 100
 Camview cam number = 0
 
 [VERSA_PROBE_OPTIONS]
-ps_searchvel = 100.0
+ps_searchvel = 50.0
 ps_probevel = 10.0
 ps_z_clearance = 3.0
 ps_probe_max = 1.0
@@ -132,7 +132,7 @@ ps_probe_latch = 0.2
 ps_probe_diam = 0.3
 ps_xy_clearance = 5.0
 ps_side_edge_length = 5.0
-ps_probe_height = -16.132
+ps_probe_height = -16.147
 ps_block_height = 0.0
 use_tool_measurement = True
 ps_offs_x = 0.0

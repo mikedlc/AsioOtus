@@ -73,3 +73,17 @@ Sat17 17:57:  Probe Result: -12.9971
 Sat17 17:59: Run timer stopped at 00:07:39
 Sat17 17:59:  abort pressed
 Sat17 18:02:  abort pressed
+Sat17 18:03: Loaded file /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+Sat17 18:03: Loaded program file : /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+Sat17 18:03: Loaded tool 35
+Sat17 18:03: Tool 35: 3/8" 3F end mill 
+Sat17 18:03: Started program from line 1
+Sat17 18:04: Tool 11: 1/8" 2F chamfer mill 
+Sat17 18:04:  Probe Height: -16.1470
+Sat17 18:04: Tool 11: 1/8" 2F chamfer mill 
+Sat17 18:04:  Block Height: 0.0000
+Sat17 18:04:  Probe Result: -13.0086
+Sat17 18:11: Run timer stopped at 00:07:24
+Sat17 18:11:  abort pressed
+Sat17 18:11:  abort pressed
+Sat17 18:28: Machine OFF
