@@ -1,7 +1,18 @@
---- QtVCP Screen Started on: Wed, May 14 2025 08:33:29 PM ---
+--- QtVCP Screen Started on: Sat, May 17 2025 03:52:43 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Wed14 20:33: Machine OFF
-Wed14 20:33: Hard limits tripped
-Wed14 20:33: Tool 0: No Tool
-Wed14 20:33: Machine ON
-Wed14 20:35: Machine OFF
+Sat17 15:52: Machine OFF
+Sat17 15:52: Hard limits tripped
+Sat17 15:52: Tool 0: No Tool
+Sat17 15:52: Machine ON
+Sat17 15:58: Loaded tool 99
+Sat17 15:58: Tool 99: Haimer Probe 
+Sat17 16:03: Cannot switch pages while in AUTO mode
+Sat17 16:04:  error parameter is [3.000000]
+Sat17 16:04:  abort pressed
+Sat17 16:04: ERROR INFO Probe routine: failed: G38.2 move finished without making contact. cmd: G1 Z0.2 F100.0
+Sat17 16:05: HISTORY Tool Setter height Z[-13.1479]
+Sat17 16:20:  abort pressed
+Sat17 16:20:  abort pressed
+Sat17 16:20:  abort pressed
+Sat17 16:20:  abort pressed
+Sat17 17:19:  abort pressed
