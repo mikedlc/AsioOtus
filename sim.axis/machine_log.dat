@@ -16,3 +16,60 @@ Sat17 16:20:  abort pressed
 Sat17 16:20:  abort pressed
 Sat17 16:20:  abort pressed
 Sat17 17:19:  abort pressed
+Sat17 17:23: Loaded program file : /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+Sat17 17:23: Loaded file /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+Sat17 17:24: Cannot switch pages while in AUTO mode
+Sat17 17:24: Cannot switch pages while in AUTO mode
+Sat17 17:24: Cannot switch pages while in AUTO mode
+Sat17 17:25: Cannot switch pages while in AUTO mode
+Sat17 17:25: Loaded tool 12
+Sat17 17:25: Tool 12: 6mm 2F chamfer mill 
+Sat17 17:25: Loaded tool 11
+Sat17 17:25: Tool 11: 1/8" 2F chamfer mill 
+Sat17 17:26: Loaded file /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+Sat17 17:26: Loaded program file : /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+Sat17 17:27: Loaded tool 12
+Sat17 17:27: Tool 12: 6mm 2F chamfer mill 
+Sat17 17:27: Loaded file /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+Sat17 17:27: Loaded program file : /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+Sat17 17:27: Started program from line 1
+Sat17 17:27: Tool 32: 3/16" 3F end mill 
+Sat17 17:28:  Probe Height: -16.1470
+Sat17 17:28:  Block Height: 0.0000
+Sat17 17:28: Tool 32: 3/16" 3F end mill 
+Sat17 17:28:  Probe Result: -12.6734
+Sat17 17:32: Cannot switch pages while in AUTO mode
+Sat17 17:32: Tool 11: 1/8" 2F chamfer mill 
+Sat17 17:32:  Probe Height: -16.1470
+Sat17 17:32:  Block Height: 0.0000
+Sat17 17:32: Tool 11: 1/8" 2F chamfer mill 
+Sat17 17:32:  Probe Result: -12.6732
+Sat17 17:37: Run timer stopped at 00:09:49
+Sat17 17:43: Loaded tool 99
+Sat17 17:43: Tool 99: Haimer Probe 
+Sat17 17:44: Cannot switch pages while in AUTO mode
+Sat17 17:45: Started program from line 1
+Sat17 17:45: Tool 32: 3/16" 3F end mill 
+Sat17 17:45:  Probe Height: -16.1470
+Sat17 17:45: Tool 32: 3/16" 3F end mill 
+Sat17 17:45:  Block Height: 0.0000
+Sat17 17:45:  Probe Result: -12.6733
+Sat17 17:48: Run timer stopped at 00:03:29
+Sat17 17:48: Probe tripped during non-probe move.
+Sat17 17:48:  error parameter is [3.000000]
+Sat17 17:51: Started program from line 1
+Sat17 17:51: Run timer stopped at 00:00:14
+Sat17 17:51:  abort pressed
+Sat17 17:51: Started program from line 1
+Sat17 17:52:  Probe Height: -16.1470
+Sat17 17:52: Tool 32: 3/16" 3F end mill 
+Sat17 17:52:  Block Height: 0.0000
+Sat17 17:52:  Probe Result: -12.6732
+Sat17 17:56: Tool 11: 1/8" 2F chamfer mill 
+Sat17 17:57:  Probe Height: -16.1470
+Sat17 17:57: Tool 11: 1/8" 2F chamfer mill 
+Sat17 17:57:  Block Height: 0.0000
+Sat17 17:57:  Probe Result: -12.9971
+Sat17 17:59: Run timer stopped at 00:07:39
+Sat17 17:59:  abort pressed
+Sat17 18:02:  abort pressed

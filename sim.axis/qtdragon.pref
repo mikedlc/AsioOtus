@@ -25,7 +25,7 @@ RunFromLineDialog_sound_type = READY
 last_loaded_directory = /home/callum/linuxcnc/configs/nc_files
 last_loaded_file = /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3 (copy 1).ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
