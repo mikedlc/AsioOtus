@@ -1,89 +1,30 @@
---- QtVCP Screen Started on: Sat, May 17 2025 03:52:43 PM ---
+--- QtVCP Screen Started on: Sat, May 17 2025 06:28:21 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sat17 15:52: Machine OFF
-Sat17 15:52: Hard limits tripped
-Sat17 15:52: Tool 0: No Tool
-Sat17 15:52: Machine ON
-Sat17 15:58: Loaded tool 99
-Sat17 15:58: Tool 99: Haimer Probe 
-Sat17 16:03: Cannot switch pages while in AUTO mode
-Sat17 16:04:  error parameter is [3.000000]
-Sat17 16:04:  abort pressed
-Sat17 16:04: ERROR INFO Probe routine: failed: G38.2 move finished without making contact. cmd: G1 Z0.2 F100.0
-Sat17 16:05: HISTORY Tool Setter height Z[-13.1479]
-Sat17 16:20:  abort pressed
-Sat17 16:20:  abort pressed
-Sat17 16:20:  abort pressed
-Sat17 16:20:  abort pressed
-Sat17 17:19:  abort pressed
-Sat17 17:23: Loaded program file : /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
-Sat17 17:23: Loaded file /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
-Sat17 17:24: Cannot switch pages while in AUTO mode
-Sat17 17:24: Cannot switch pages while in AUTO mode
-Sat17 17:24: Cannot switch pages while in AUTO mode
-Sat17 17:25: Cannot switch pages while in AUTO mode
-Sat17 17:25: Loaded tool 12
-Sat17 17:25: Tool 12: 6mm 2F chamfer mill 
-Sat17 17:25: Loaded tool 11
-Sat17 17:25: Tool 11: 1/8" 2F chamfer mill 
-Sat17 17:26: Loaded file /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
-Sat17 17:26: Loaded program file : /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
-Sat17 17:27: Loaded tool 12
-Sat17 17:27: Tool 12: 6mm 2F chamfer mill 
-Sat17 17:27: Loaded file /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
-Sat17 17:27: Loaded program file : /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
-Sat17 17:27: Started program from line 1
-Sat17 17:27: Tool 32: 3/16" 3F end mill 
-Sat17 17:28:  Probe Height: -16.1470
-Sat17 17:28:  Block Height: 0.0000
-Sat17 17:28: Tool 32: 3/16" 3F end mill 
-Sat17 17:28:  Probe Result: -12.6734
-Sat17 17:32: Cannot switch pages while in AUTO mode
-Sat17 17:32: Tool 11: 1/8" 2F chamfer mill 
-Sat17 17:32:  Probe Height: -16.1470
-Sat17 17:32:  Block Height: 0.0000
-Sat17 17:32: Tool 11: 1/8" 2F chamfer mill 
-Sat17 17:32:  Probe Result: -12.6732
-Sat17 17:37: Run timer stopped at 00:09:49
-Sat17 17:43: Loaded tool 99
-Sat17 17:43: Tool 99: Haimer Probe 
-Sat17 17:44: Cannot switch pages while in AUTO mode
-Sat17 17:45: Started program from line 1
-Sat17 17:45: Tool 32: 3/16" 3F end mill 
-Sat17 17:45:  Probe Height: -16.1470
-Sat17 17:45: Tool 32: 3/16" 3F end mill 
-Sat17 17:45:  Block Height: 0.0000
-Sat17 17:45:  Probe Result: -12.6733
-Sat17 17:48: Run timer stopped at 00:03:29
-Sat17 17:48: Probe tripped during non-probe move.
-Sat17 17:48:  error parameter is [3.000000]
-Sat17 17:51: Started program from line 1
-Sat17 17:51: Run timer stopped at 00:00:14
-Sat17 17:51:  abort pressed
-Sat17 17:51: Started program from line 1
-Sat17 17:52:  Probe Height: -16.1470
-Sat17 17:52: Tool 32: 3/16" 3F end mill 
-Sat17 17:52:  Block Height: 0.0000
-Sat17 17:52:  Probe Result: -12.6732
-Sat17 17:56: Tool 11: 1/8" 2F chamfer mill 
-Sat17 17:57:  Probe Height: -16.1470
-Sat17 17:57: Tool 11: 1/8" 2F chamfer mill 
-Sat17 17:57:  Block Height: 0.0000
-Sat17 17:57:  Probe Result: -12.9971
-Sat17 17:59: Run timer stopped at 00:07:39
-Sat17 17:59:  abort pressed
-Sat17 18:02:  abort pressed
-Sat17 18:03: Loaded file /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
-Sat17 18:03: Loaded program file : /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
-Sat17 18:03: Loaded tool 35
-Sat17 18:03: Tool 35: 3/8" 3F end mill 
-Sat17 18:03: Started program from line 1
-Sat17 18:04: Tool 11: 1/8" 2F chamfer mill 
-Sat17 18:04:  Probe Height: -16.1470
-Sat17 18:04: Tool 11: 1/8" 2F chamfer mill 
-Sat17 18:04:  Block Height: 0.0000
-Sat17 18:04:  Probe Result: -13.0086
-Sat17 18:11: Run timer stopped at 00:07:24
-Sat17 18:11:  abort pressed
-Sat17 18:11:  abort pressed
 Sat17 18:28: Machine OFF
+Sat17 18:28: Hard limits tripped
+Sat17 18:28: Tool 0: No Tool
+Sat17 18:28: Cannot switch pages while in AUTO mode
+Sat17 18:28: Machine ON
+Sat17 18:29: Loaded program file : /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+Sat17 18:29: Loaded file /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+Sat17 18:29: Cannot switch pages while in AUTO mode
+Sat17 18:29: Cannot switch pages while in AUTO mode
+Sat17 18:30: Started program from line 1
+Sat17 18:30: Tool 11: 1/8" 2F chamfer mill 
+Sat17 18:30:  Auto Tool probe disabled 
+Sat17 18:30: Run timer stopped at 00:00:25
+Sat17 18:30:  abort pressed
+Sat17 18:30:  abort pressed
+Sat17 18:31:  abort pressed
+Sat17 18:31:  abort pressed
+Sat17 18:31:  abort pressed
+Sat17 18:31:  abort pressed
+Sat17 18:31:  abort pressed
+Sat17 18:31:  abort pressed
+Sat17 18:33: Started program from line 1
+Sat17 18:33:  Auto Tool probe disabled 
+Sat17 18:33: Run timer stopped at 00:00:04
+Sat17 18:33:  abort pressed
+Sat17 18:33:  abort pressed
+Sat17 18:34: Cannot switch pages while in AUTO mode
+Sat17 18:34: Machine OFF
