@@ -5,6 +5,7 @@ ToolChangeDialog-geometry = 910 525 340 237
 CalculatorDialog-geometry = 910 539 472 376
 VersaHelpDialog-geometry = 660 240 600 600
 _CALCULATOR = 910 525 472 376
+axisToolButtonDialog_ENTRY = 910 525 300 150
 
 [DIALOG_OPTIONS]
 EntryDialog_play_sound = True
@@ -22,10 +23,10 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/configs/nc_files
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/75 x 75 x 5 logo plate r1 op1.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
@@ -91,7 +92,7 @@ gcodegraphics-user-lat = 0.0
 gcodegraphics-user-lon = 0.0
 
 [CUSTOM_FORM_ENTRIES]
-Tool to load = 0
+Tool to load = 12
 Laser X = 100.0
 Laser Y = -20.0
 Sensor X = 10.0
@@ -134,7 +135,7 @@ ps_xy_clearance = 5.0
 ps_side_edge_length = 5.0
 ps_probe_height = -16.147
 ps_block_height = 0.0
-use_tool_measurement = True
+use_tool_measurement = False
 ps_offs_x = 0.0
 ps_offs_y = 0.0
 ps_offs_z = 0.0

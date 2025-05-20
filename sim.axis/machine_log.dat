@@ -1,5 +1,46 @@
---- QtVCP Screen Started on: Sat, May 17 2025 06:49:58 PM ---
+--- QtVCP Screen Started on: Sun, May 18 2025 06:34:47 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sat17 18:49: Machine OFF
-Sat17 18:49: Hard limits tripped
-Sat17 18:49: Tool 0: No Tool
+Sun18 18:34: Machine OFF
+Sun18 18:34: Hard limits tripped
+Sun18 18:34: Tool 0: No Tool
+Sun18 18:34: Machine ON
+Sun18 18:35: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
+Sun18 18:35: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
+Sun18 18:35: G-Code error in op1 - 2,5x0,5x0,76.ngc
+Near line 0 of
+/home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
+Requested tool 51 not found in the tool table
+Sun18 18:37:  abort pressed
+Sun18 18:37: Loaded tool 32
+Sun18 18:37: Tool 32: 3/16" 3F end mill 
+Sun18 18:39: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
+Sun18 18:39: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
+Sun18 18:41: Started program from line 1
+Sun18 18:41: Tool 51: .201" twist drill, aluminum 
+Sun18 18:42:  Probe Height: -16.1470
+Sun18 18:42:  Block Height: 0.0000
+Sun18 18:42: Tool 51: .201" twist drill, aluminum 
+Sun18 18:42:  Probe Result: -12.2390
+Sun18 18:43: Tool 32: 3/16" 3F end mill 
+Sun18 18:43:  Probe Height: -16.1470
+Sun18 18:43:  Block Height: 0.0000
+Sun18 18:43: Tool 32: 3/16" 3F end mill 
+Sun18 18:43:  Probe Result: -12.6735
+Sun18 18:48: Tool 12: 6mm 2F chamfer mill 
+Sun18 18:48:  Probe Height: -16.1470
+Sun18 18:48:  Block Height: 0.0000
+Sun18 18:48: Tool 12: 6mm 2F chamfer mill 
+Sun18 18:48:  Probe Result: -12.9327
+Sun18 18:49: Run timer stopped at 00:07:54
+Sun18 18:52: Convert Entry from: .3812-1.71 to .3812-1.71
+Sun18 18:52: Set Origin of Axis X to -1.328800
+Sun18 18:53: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side.ngc
+Sun18 18:53: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side.ngc
+Sun18 18:54: Cannot switch pages while in AUTO mode
+Sun18 18:54: Started program from line 1
+Sun18 18:55: Tool 32: 3/16" 3F end mill 
+Sun18 18:55:  Auto Tool probe disabled 
+Sun18 18:59: Tool 12: 6mm 2F chamfer mill 
+Sun18 18:59:  Auto Tool probe disabled 
+Sun18 19:00: Run timer stopped at 00:05:19
+Sun18 19:03: Machine OFF
