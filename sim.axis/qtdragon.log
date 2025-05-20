@@ -1,343 +1,371 @@
-2025-05-18 18:34:44,342 - QTvcp - DEBUG - DEBUGGING logging on
-2025-05-18 18:34:44,406 - QTvcp.QTVCP.QT_ISTAT - DEBUG - Machine is IMPERIAL based. unit Conversion constant=25.4
-2025-05-18 18:34:44,406 - QTvcp.QTVCP.QT_ISTAT - DEBUG - TRAJ COORDINATES: XYZ
-2025-05-18 18:34:44,407 - QTvcp.QTVCP.QT_ISTAT - DEBUG - DEFAULT_LINEAR_VELOCITY = 120.0
-2025-05-18 18:34:44,407 - QTvcp.QTVCP.QT_ISTAT - DEBUG - MIN_LINEAR_VELOCITY = 0.0
-2025-05-18 18:34:44,407 - QTvcp.QTVCP.QT_ISTAT - DEBUG - MAX_LINEAR_VELOCITY = 300.0
-2025-05-18 18:34:44,967 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Passed name=qtdragon_hd, BASENAME=qtdragon_hd BASEPATH=qtdragon_hd
-2025-05-18 18:34:44,967 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd_handler.py
-2025-05-18 18:34:44,967 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_handler.py
-2025-05-18 18:34:44,967 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd_handler.py
-2025-05-18 18:34:44,967 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for default handler file in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_handler.py
-2025-05-18 18:34:44,969 - QTvcp.QTVCP.QT_PSTAT - INFO - Using DEFAULT handler file path: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_handler.py
-2025-05-18 18:34:44,969 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.ui
-2025-05-18 18:34:44,969 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
-2025-05-18 18:34:44,969 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.ui
-2025-05-18 18:34:44,969 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
-2025-05-18 18:34:44,969 - QTvcp.QTVCP.QT_PSTAT - INFO - Using DEFAULT ui file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
-2025-05-18 18:34:44,969 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.qss
-2025-05-18 18:34:44,969 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
-2025-05-18 18:34:44,970 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.qss
-2025-05-18 18:34:44,970 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
-2025-05-18 18:34:44,970 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT qss file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
-2025-05-18 18:34:44,970 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.qrc
-2025-05-18 18:34:44,970 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2025-05-18 18:34:44,970 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.qrc
-2025-05-18 18:34:44,970 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2025-05-18 18:34:44,970 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT qrc file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2025-05-18 18:34:44,970 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for resources.py in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
-2025-05-18 18:34:44,970 - QTvcp.QTVCP.QT_PSTAT - INFO - Using LOCAL resources.py file from: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
-2025-05-18 18:34:44,973 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2025-05-18 18:34:44,973 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/languages/qtdragon_hd_en.qm
-2025-05-18 18:34:44,973 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /usr/share/qtvcp/screens/qtdragon_hd/languages/qtdragon_hd_en.qm
-2025-05-18 18:34:44,973 - QTvcp.QTVCP.QT_PSTAT - INFO - Using no translations, default system locale is: en
-2025-05-18 18:34:44,973 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for LOCAL about file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd_ABOUT
-2025-05-18 18:34:44,974 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for LOCAL about file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
-2025-05-18 18:34:44,974 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for DEFAULT about file in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
-2025-05-18 18:34:44,974 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT about file path: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
-2025-05-18 18:34:44,974 - QTvcp - INFO - Building A LinuxCNC Main Screen with: Python 3
-2025-05-18 18:34:44,974 - QTvcp - INFO - No handler file specified on command line.
-2025-05-18 18:34:44,974 - QTvcp - INFO - No HAL component base name specified on command line using: qtdragon_hd
-2025-05-18 18:34:44,980 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Qsettings file path: /home/callum/.config/QtVcp/qtdragon_hd.conf
-2025-05-18 18:34:44,980 - QTvcp - DEBUG - Loading the handler file.
-2025-05-18 18:34:44,980 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Adding import dir: /usr/share/qtvcp/screens/qtdragon_hd
-2025-05-18 18:34:45,159 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Module 'qtdragon_hd_handler' imported OK
-2025-05-18 18:34:45,159 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Module 'qtdragon_hd_handler' : 'get_handlers' function found.
-2025-05-18 18:34:45,168 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Registering handlers in module qtdragon_hd_handler object <qtdragon_hd_handler.HandlerClass object at 0x7f23752214d0>
-2025-05-18 18:34:45,168 - QTvcp - DEBUG - Adding the key events filter.
-2025-05-18 18:34:45,172 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Imported resources.py filed: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
-2025-05-18 18:34:47,176 - QTvcp.QTVCP.QT_MAKEPINS - INFO - Changed HAL Component basename to qtdragon, as specified in screenOptions: 
-2025-05-18 18:34:47,176 - QTvcp.QTVCP.WIDGETS.SCREEN_OPTIONS - DEBUG - Preference File Path: /home/callum/linuxcnc/configs/sim.axis/qtdragon.pref
-2025-05-18 18:34:47,177 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - QTVCP: Parsing for HAL widgets.
-2025-05-18 18:34:47,456 - QTvcp.QTVCP.WIDGETS.FILE_MANAGER - DEBUG - lAST FILE PATH: /home/callum/linuxcnc/configs/nc_files
-2025-05-18 18:34:47,456 - QTvcp.QTVCP.WIDGETS.FILE_MANAGER - DEBUG - lAST FILE PATH: /home/callum/linuxcnc/configs/nc_files
-2025-05-18 18:34:47,463 - QTvcp.QTVCP.WIDGETS.DRO_WIDGET - DEBUG - axis number 3 not found in available-axis to joint conversion dict {0: 0, 1: 1, 2: 2} of widget: dro_axis_4
-2025-05-18 18:34:47,463 - QTvcp.QTVCP.WIDGETS.DRO_WIDGET - DEBUG - axis number 4 not found in available-axis to joint conversion dict {0: 0, 1: 1, 2: 2} of widget: dro_axis_5
-2025-05-18 18:34:47,494 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
-2025-05-18 18:34:47,495 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Angular Current index: 0 Increment: 0 , selection changed Continuous
-2025-05-18 18:34:47,496 - QTvcp - DEBUG - Calling the handler file's initialized__ function
-2025-05-18 18:34:47,776 - QTvcp.QTDRAGON_HD_HANDLER - INFO - Using Versa Probe
-2025-05-18 18:34:47,987 - QTvcp.QTDRAGON_HD_HANDLER - INFO - Using NGCGUI utility
-2025-05-18 18:34:47,988 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui
-2025-05-18 18:34:48,003 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui Didn't find a path NGCGUI files
-2025-05-18 18:34:48,036 - QTvcp.QTVCP.QT_MAKEGUI - INFO - No Handler Override file at: /home/callum/linuxcnc/configs/sim.axis/.qtdragon_hdrc
-2025-05-18 18:34:48,061 - QTvcp - DEBUG - Set HAL ready.
-2025-05-18 18:34:48,257 - QTvcp - DEBUG - Show window.
-2025-05-18 18:34:48,257 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - Calculating geometry of main window using natural placement: 0 0 1920 1080
-2025-05-18 18:34:48,517 - QTvcp - INFO - Postgui filename: ['qtdragon_hd_postgui.hal']
-2025-05-18 18:34:48,534 - QTvcp - INFO - Postgui commands: None
-2025-05-18 18:34:48,535 - QTvcp - INFO - Preference path: /home/callum/linuxcnc/configs/sim.axis/qtdragon.pref
-2025-05-18 18:34:59,961 - QTvcp.QTVCP.QT_ACTION - INFO - Homing Joint: -1
-2025-05-18 18:35:21,281 - QTvcp.QTVCP.QT_ACTION - DEBUG - Load program /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
-2025-05-18 18:35:21,339 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - load the display: /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
-2025-05-18 18:35:32,010 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - add tool request
-2025-05-18 18:35:32,011 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T-99 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;New Tool 
-2025-05-18 18:35:32,011 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T25 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 4F end mill 
-2025-05-18 18:35:32,011 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T31 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 3F end mill 
-2025-05-18 18:35:32,012 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T32 P0 X0 Y0 Z3.47375 A0 B0 C0 U0 V0 W0 D0.18750 I0 J0 Q0 ;3/16" 3F end mill 
-2025-05-18 18:35:32,012 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T33 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.25000 I0 J0 Q0 ;1/4" 3F end mill 
-2025-05-18 18:35:32,012 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T35 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 3F end mill 
-2025-05-18 18:35:32,012 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T11 P0 X0 Y0 Z3.13836 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 2F chamfer mill 
-2025-05-18 18:35:32,012 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T12 P0 X0 Y0 Z3.08024 A0 B0 C0 U0 V0 W0 D0.23600 I0 J0 Q0 ;6mm 2F chamfer mill 
-2025-05-18 18:35:32,012 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T99 P0 X0 Y0 Z6.43620 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;Haimer Probe 
-2025-05-18 18:35:34,798 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: -99, Row: 0, Column: 1
-2025-05-18 18:35:34,798 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>}
-2025-05-18 18:35:38,630 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
-2025-05-18 18:35:38,721 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Displayed value when accepted: 51.0
-2025-05-18 18:35:38,722 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': 51.0}
-2025-05-18 18:35:38,722 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': 51.0}
-2025-05-18 18:35:38,722 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - original value:-99
-2025-05-18 18:35:38,722 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() role = None
-2025-05-18 18:35:38,722 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() column() = 1
-2025-05-18 18:35:38,722 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() value = 51.0 
-2025-05-18 18:35:38,722 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [51, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 'New Tool ']
-2025-05-18 18:35:38,722 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [25, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 4F end mill ']
-2025-05-18 18:35:38,722 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [31, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 3F end mill ']
-2025-05-18 18:35:38,723 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [32, 0, 0.0, 0.0, 3.47375, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1875, 0.0, 0.0, 0, '3/16" 3F end mill ']
-2025-05-18 18:35:38,723 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [33, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0, '1/4" 3F end mill ']
-2025-05-18 18:35:38,723 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [35, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 3F end mill ']
-2025-05-18 18:35:38,723 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [11, 0, 0.0, 0.0, 3.13836, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 2F chamfer mill ']
-2025-05-18 18:35:38,723 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [12, 0, 0.0, 0.0, 3.08024, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.236, 0.0, 0.0, 0, '6mm 2F chamfer mill ']
-2025-05-18 18:35:38,723 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [99, 0, 0.0, 0.0, 6.4362, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 'Haimer Probe ']
-2025-05-18 18:35:38,723 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T51 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;New Tool 
-2025-05-18 18:35:38,723 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T25 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 4F end mill 
-2025-05-18 18:35:38,723 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T31 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 3F end mill 
-2025-05-18 18:35:38,723 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T32 P0 X0 Y0 Z3.47375 A0 B0 C0 U0 V0 W0 D0.18750 I0 J0 Q0 ;3/16" 3F end mill 
-2025-05-18 18:35:38,724 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T33 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.25000 I0 J0 Q0 ;1/4" 3F end mill 
-2025-05-18 18:35:38,724 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T35 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 3F end mill 
-2025-05-18 18:35:38,724 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T11 P0 X0 Y0 Z3.13836 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 2F chamfer mill 
-2025-05-18 18:35:38,724 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T12 P0 X0 Y0 Z3.08024 A0 B0 C0 U0 V0 W0 D0.23600 I0 J0 Q0 ;6mm 2F chamfer mill 
-2025-05-18 18:35:38,724 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T99 P0 X0 Y0 Z6.43620 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;Haimer Probe 
-2025-05-18 18:35:38,745 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: g43
-2025-05-18 18:35:38,849 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
-2025-05-18 18:35:39,034 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': 51.0}
-2025-05-18 18:35:39,035 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:35:39,035 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:35:39,035 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:35:41,266 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text:        0.0, Row: 0, Column: 15
-2025-05-18 18:35:41,266 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 0.0, 'TITLE': 'Tool 51 Offset of Diameter,       0.0', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae49e0>}
-2025-05-18 18:35:47,362 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
-2025-05-18 18:35:47,458 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Displayed value when accepted: 0.201
-2025-05-18 18:35:47,458 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 0.0, 'TITLE': 'Tool 51 Offset of Diameter,       0.0', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae49e0>, 'RETURN': 0.201}
-2025-05-18 18:35:47,458 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 0.0, 'TITLE': 'Tool 51 Offset of Diameter,       0.0', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae49e0>, 'RETURN': 0.201}
-2025-05-18 18:35:47,458 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - original value:0.0
-2025-05-18 18:35:47,459 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() role = None
-2025-05-18 18:35:47,459 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() column() = 15
-2025-05-18 18:35:47,459 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() value = 0.201 
-2025-05-18 18:35:47,459 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [51, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.201, 0.0, 0.0, 0, 'New Tool ']
-2025-05-18 18:35:47,459 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [25, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 4F end mill ']
-2025-05-18 18:35:47,459 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [31, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 3F end mill ']
-2025-05-18 18:35:47,459 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [32, 0, 0.0, 0.0, 3.47375, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1875, 0.0, 0.0, 0, '3/16" 3F end mill ']
-2025-05-18 18:35:47,459 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [33, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0, '1/4" 3F end mill ']
-2025-05-18 18:35:47,459 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [35, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 3F end mill ']
-2025-05-18 18:35:47,459 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [11, 0, 0.0, 0.0, 3.13836, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 2F chamfer mill ']
-2025-05-18 18:35:47,460 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [12, 0, 0.0, 0.0, 3.08024, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.236, 0.0, 0.0, 0, '6mm 2F chamfer mill ']
-2025-05-18 18:35:47,460 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [99, 0, 0.0, 0.0, 6.4362, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 'Haimer Probe ']
-2025-05-18 18:35:47,460 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T51 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.20100 I0 J0 Q0 ;New Tool 
-2025-05-18 18:35:47,460 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T25 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 4F end mill 
-2025-05-18 18:35:47,460 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T31 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 3F end mill 
-2025-05-18 18:35:47,460 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T32 P0 X0 Y0 Z3.47375 A0 B0 C0 U0 V0 W0 D0.18750 I0 J0 Q0 ;3/16" 3F end mill 
-2025-05-18 18:35:47,460 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T33 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.25000 I0 J0 Q0 ;1/4" 3F end mill 
-2025-05-18 18:35:47,460 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T35 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 3F end mill 
-2025-05-18 18:35:47,461 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T11 P0 X0 Y0 Z3.13836 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 2F chamfer mill 
-2025-05-18 18:35:47,461 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T12 P0 X0 Y0 Z3.08024 A0 B0 C0 U0 V0 W0 D0.23600 I0 J0 Q0 ;6mm 2F chamfer mill 
-2025-05-18 18:35:47,461 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T99 P0 X0 Y0 Z6.43620 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;Haimer Probe 
-2025-05-18 18:35:47,482 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: g43
-2025-05-18 18:35:47,626 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
-2025-05-18 18:35:47,804 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 0.0, 'TITLE': 'Tool 51 Offset of Diameter,       0.0', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae49e0>, 'RETURN': 0.201}
-2025-05-18 18:35:47,805 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 0.0, 'TITLE': 'Tool 51 Offset of Diameter,       0.0', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae49e0>, 'RETURN': None}
-2025-05-18 18:35:47,805 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 0.0, 'TITLE': 'Tool 51 Offset of Diameter,       0.0', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae49e0>, 'RETURN': None}
-2025-05-18 18:35:47,805 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 0.0, 'TITLE': 'Tool 51 Offset of Diameter,       0.0', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae49e0>, 'RETURN': None}
-2025-05-18 18:35:48,244 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: New Tool , Row: 0, Column: 19
-2025-05-18 18:35:48,244 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message sent:{'NAME': 'KEYBOARD', 'ID': 'tooloffsetview__', 'PRELOAD': 'New Tool ', 'TITLE': 'Tool 51 Description Entry', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae4820>}
-2025-05-18 18:35:48,900 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: New Tool , Row: 0, Column: 19
-2025-05-18 18:35:48,900 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message sent:{'NAME': 'KEYBOARD', 'ID': 'tooloffsetview__', 'PRELOAD': 'New Tool ', 'TITLE': 'Tool 51 Description Entry', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae49e0>}
-2025-05-18 18:35:49,596 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: New Tool , Row: 0, Column: 19
-2025-05-18 18:35:49,596 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message sent:{'NAME': 'KEYBOARD', 'ID': 'tooloffsetview__', 'PRELOAD': 'New Tool ', 'TITLE': 'Tool 51 Description Entry', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>}
-2025-05-18 18:36:02,079 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - original value:New Tool 
-2025-05-18 18:36:02,079 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() role = 2
-2025-05-18 18:36:02,079 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() column() = 19
-2025-05-18 18:36:02,079 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() value = .201" twist drill, aluminum 
-2025-05-18 18:36:02,079 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [51, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.201, 0.0, 0.0, 0, '.201" twist drill, aluminum']
-2025-05-18 18:36:02,080 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [25, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 4F end mill ']
-2025-05-18 18:36:02,080 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [31, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 3F end mill ']
-2025-05-18 18:36:02,080 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [32, 0, 0.0, 0.0, 3.47375, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1875, 0.0, 0.0, 0, '3/16" 3F end mill ']
-2025-05-18 18:36:02,080 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [33, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0, '1/4" 3F end mill ']
-2025-05-18 18:36:02,080 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [35, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 3F end mill ']
-2025-05-18 18:36:02,080 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [11, 0, 0.0, 0.0, 3.13836, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 2F chamfer mill ']
-2025-05-18 18:36:02,080 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [12, 0, 0.0, 0.0, 3.08024, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.236, 0.0, 0.0, 0, '6mm 2F chamfer mill ']
-2025-05-18 18:36:02,080 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [99, 0, 0.0, 0.0, 6.4362, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 'Haimer Probe ']
-2025-05-18 18:36:02,080 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T51 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.20100 I0 J0 Q0 ;.201" twist drill, aluminum 
-2025-05-18 18:36:02,080 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T25 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 4F end mill 
-2025-05-18 18:36:02,081 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T31 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 3F end mill 
-2025-05-18 18:36:02,081 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T32 P0 X0 Y0 Z3.47375 A0 B0 C0 U0 V0 W0 D0.18750 I0 J0 Q0 ;3/16" 3F end mill 
-2025-05-18 18:36:02,081 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T33 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.25000 I0 J0 Q0 ;1/4" 3F end mill 
-2025-05-18 18:36:02,081 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T35 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 3F end mill 
-2025-05-18 18:36:02,081 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T11 P0 X0 Y0 Z3.13836 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 2F chamfer mill 
-2025-05-18 18:36:02,081 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T12 P0 X0 Y0 Z3.08024 A0 B0 C0 U0 V0 W0 D0.23600 I0 J0 Q0 ;6mm 2F chamfer mill 
-2025-05-18 18:36:02,081 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T99 P0 X0 Y0 Z6.43620 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;Haimer Probe 
-2025-05-18 18:36:02,103 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: g43
-2025-05-18 18:36:02,236 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
-2025-05-18 18:36:19,822 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:  -16.4008, Row: 11, Column: 2
-2025-05-18 18:36:24,638 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
-2025-05-18 18:36:24,728 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G59.2 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:36:24,728 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G59.2 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:36:24,728 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G59.2 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:36:24,729 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G59.2 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:36:25,779 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:   -6.6917, Row: 5, Column: 2
-2025-05-18 18:36:43,102 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
-2025-05-18 18:36:43,194 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -6.6917, 'TITLE': 'G55 Offset of Z,  -6.6917', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae4820>, 'RETURN': None}
-2025-05-18 18:36:43,194 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -6.6917, 'TITLE': 'G55 Offset of Z,  -6.6917', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae4820>, 'RETURN': None}
-2025-05-18 18:36:43,194 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -6.6917, 'TITLE': 'G55 Offset of Z,  -6.6917', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae4820>, 'RETURN': None}
-2025-05-18 18:36:43,194 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -6.6917, 'TITLE': 'G55 Offset of Z,  -6.6917', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2374ae4820>, 'RETURN': None}
-2025-05-18 18:36:45,297 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:   -6.6917, Row: 5, Column: 2
-2025-05-18 18:36:48,418 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
-2025-05-18 18:36:48,513 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Displayed value when accepted: -16.4008
-2025-05-18 18:36:48,513 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -6.6917, 'TITLE': 'G55 Offset of Z,  -6.6917', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': -16.4008}
-2025-05-18 18:36:48,514 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -6.6917, 'TITLE': 'G55 Offset of Z,  -6.6917', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': -16.4008}
-2025-05-18 18:36:48,514 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -6.6917, 'TITLE': 'G55 Offset of Z,  -6.6917', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': -16.4008}
-2025-05-18 18:36:48,514 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG -   -6.6917
-2025-05-18 18:36:48,514 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() role = None
-2025-05-18 18:36:48,514 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column() = 2
-2025-05-18 18:36:48,514 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() value = -16.4008
-2025-05-18 18:36:48,514 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() qualified value = -16.4008
-2025-05-18 18:36:48,514 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.row = 5
-2025-05-18 18:36:48,514 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column = 2
-2025-05-18 18:36:48,514 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G10 L2 P2 z   -16.4008
-2025-05-18 18:36:48,698 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
-2025-05-18 18:36:48,877 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -6.6917, 'TITLE': 'G55 Offset of Z,  -6.6917', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:36:48,877 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -6.6917, 'TITLE': 'G55 Offset of Z,  -6.6917', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:36:48,877 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -6.6917, 'TITLE': 'G55 Offset of Z,  -6.6917', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:36:48,877 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -6.6917, 'TITLE': 'G55 Offset of Z,  -6.6917', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:36:49,539 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:  -16.4008, Row: 5, Column: 2
-2025-05-18 18:37:00,766 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
-2025-05-18 18:37:00,857 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:00,857 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:00,858 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:00,858 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:02,257 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:  -16.4005, Row: 4, Column: 2
-2025-05-18 18:37:05,927 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
-2025-05-18 18:37:06,018 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4005, 'TITLE': 'G54 Offset of Z, -16.4005', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2331129000>, 'RETURN': None}
-2025-05-18 18:37:06,019 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4005, 'TITLE': 'G54 Offset of Z, -16.4005', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2331129000>, 'RETURN': None}
-2025-05-18 18:37:06,019 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4005, 'TITLE': 'G54 Offset of Z, -16.4005', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2331129000>, 'RETURN': None}
-2025-05-18 18:37:06,019 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4005, 'TITLE': 'G54 Offset of Z, -16.4005', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2331129000>, 'RETURN': None}
-2025-05-18 18:37:06,607 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:  -16.4008, Row: 5, Column: 2
-2025-05-18 18:37:12,889 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
-2025-05-18 18:37:12,981 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:12,981 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:12,981 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:12,981 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:13,831 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:  -16.4008, Row: 5, Column: 2
-2025-05-18 18:37:20,593 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
-2025-05-18 18:37:20,684 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:37:20,685 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:37:20,685 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:37:20,685 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23197b1070>, 'RETURN': None}
-2025-05-18 18:37:21,692 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:  -16.4008, Row: 5, Column: 2
-2025-05-18 18:37:33,181 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
-2025-05-18 18:37:33,280 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Displayed value when accepted: -15.1508
-2025-05-18 18:37:33,281 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': -15.1508}
-2025-05-18 18:37:33,281 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': -15.1508}
-2025-05-18 18:37:33,281 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': -15.1508}
-2025-05-18 18:37:33,281 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG -  -16.4008
-2025-05-18 18:37:33,281 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() role = None
-2025-05-18 18:37:33,281 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column() = 2
-2025-05-18 18:37:33,281 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() value = -15.1508
-2025-05-18 18:37:33,281 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() qualified value = -15.1508
-2025-05-18 18:37:33,282 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.row = 5
-2025-05-18 18:37:33,282 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column = 2
-2025-05-18 18:37:33,282 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G10 L2 P2 z   -15.1508
-2025-05-18 18:37:33,476 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
-2025-05-18 18:37:33,698 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:33,698 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:33,698 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:33,698 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G55 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f2333d42500>, 'RETURN': None}
-2025-05-18 18:37:43,885 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: 0, Row: 3, Column: 2
-2025-05-18 18:37:43,886 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 0.0, 'TITLE': 'Tool 32 Offset of pocket,0', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23311290e0>}
-2025-05-18 18:37:45,337 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
-2025-05-18 18:37:45,428 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 0.0, 'TITLE': 'Tool 32 Offset of pocket,0', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23311290e0>, 'RETURN': None}
-2025-05-18 18:37:45,428 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 0.0, 'TITLE': 'Tool 32 Offset of pocket,0', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23311290e0>, 'RETURN': None}
-2025-05-18 18:37:45,428 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 0.0, 'TITLE': 'Tool 32 Offset of pocket,0', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7f23311290e0>, 'RETURN': None}
-2025-05-18 18:37:46,659 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - original value:<PyQt5.QtWidgets.QCheckBox object at 0x7f235f5563b0>
-2025-05-18 18:37:46,659 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() role = 10
-2025-05-18 18:37:46,659 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() column() = 0
-2025-05-18 18:37:46,659 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: <PyQt5.QtWidgets.QCheckBox object at 0x7f235f5563b0>, Row: 3, Column: 0
-2025-05-18 18:37:47,888 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: M61 Q32 G43
-2025-05-18 18:37:47,976 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: , mdi_history.dat
-2025-05-18 18:39:08,855 - QTvcp.QTVCP.QT_ACTION - DEBUG - Load program /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
-2025-05-18 18:39:08,900 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - load the display: /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
-2025-05-18 18:41:48,128 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:41:48,128 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:41:48,128 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:41:48,129 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:42:54,551 - QTvcp.QTVCP.QT_ACTION - DEBUG - resume
-2025-05-18 18:43:23,855 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:43:23,855 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:43:23,855 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:43:23,855 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:43:23,856 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:43:23,856 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:47:58,079 - QTvcp.QTVCP.QT_ACTION - DEBUG - resume
-2025-05-18 18:48:30,215 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:48:30,215 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:48:30,216 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:48:30,216 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:48:30,216 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:48:30,216 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:48:30,217 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:48:30,217 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:52:33,679 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2025-05-18 18:52:33,679 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2025-05-18 18:52:54,618 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving axisToolButtonDialog_ENTRY data from widget  to file.
-2025-05-18 18:52:54,618 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 1
-2025-05-18 18:52:54,619 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.3812000085550018, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -1.3288}
-2025-05-18 18:52:54,619 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.3812000085550018, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -1.3288}
-2025-05-18 18:52:54,619 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.3812000085550018, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -1.3288}
-2025-05-18 18:52:54,619 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message return:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.3812000085550018, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -1.3288}
-2025-05-18 18:52:54,733 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76.ngc
-2025-05-18 18:52:54,932 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message sent:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.3812000085550018, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -1.3288}
-2025-05-18 18:53:21,251 - QTvcp.QTVCP.QT_ACTION - DEBUG - Load program /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side.ngc
-2025-05-18 18:53:21,307 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - load the display: /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side.ngc
-2025-05-18 18:55:32,312 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:55:32,313 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:55:32,313 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:55:32,313 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:55:32,313 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:55:32,314 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:55:32,314 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:55:32,314 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:55:32,314 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:55:32,314 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:55:54,728 - QTvcp.QTVCP.QT_ACTION - DEBUG - resume
-2025-05-18 18:59:03,521 - QTvcp.QTVCP.QT_ACTION - DEBUG - resume
-2025-05-18 18:59:30,657 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:59:30,657 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:59:30,657 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:59:30,658 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:59:30,658 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:59:30,658 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:59:30,658 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:59:30,658 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:59:30,659 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:59:30,659 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 18:59:30,659 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2025-05-18 18:59:30,659 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2025-05-18 19:00:11,894 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2025-05-18 19:00:11,894 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2025-05-18 19:03:05,167 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: System
-Shutdown
-2025-05-18 19:03:05,168 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving LncMessage-geometry data from widget  to file.
-2025-05-18 19:03:05,262 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 0
-2025-05-18 19:03:05,263 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Calling handler file Closing_cleanup__ function of <qtvcp.qt_makegui.VCPWindow object at 0x7f23841823b0>.
-2025-05-18 19:03:05,337 - QTvcp - DEBUG - Status shutdown
-2025-05-18 19:03:05,338 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Qsettings sync called:
-2025-05-18 19:03:05,338 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Calling handler file Closing_cleanup__ function of <qtvcp.qt_makegui.VCPWindow object at 0x7f23841823b0>.
-2025-05-18 19:03:05,365 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - Saving Main Window geometry to preference file.
-2025-05-18 19:03:05,365 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - Calling widget's _hal_cleanup functions.
-2025-05-18 19:03:05,366 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving __dialogOffsetViewWidget data to file.
-2025-05-18 19:03:05,370 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving __dialogOffsetViewWidget data to file.
-2025-05-18 19:03:05,374 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving __dialogOffsetViewWidget data to file.
-2025-05-18 19:03:05,383 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving offset_table data to file.
-2025-05-18 19:03:05,396 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - Saving gcodegraphics data to file.
-2025-05-18 19:03:05,421 - QTvcp.QTVCP.WIDGETS.VERSA_PROBE - DEBUG - Saving Versa probe data to preference file.
-2025-05-18 19:03:05,429 - QTvcp - DEBUG - Exiting HAL
+2025-05-20 17:33:25,948 - DEFAULT - INFO - Logging to: /home/callum/linuxcnc/configs/sim.axis/qtdragon.log
+2025-05-20 17:33:25,948 - DEFAULT.QTVCP.QT_ISTAT - DEBUG - Machine is IMPERIAL based. unit Conversion constant=25.4
+2025-05-20 17:33:25,948 - DEFAULT.QTVCP.QT_ISTAT - DEBUG - TRAJ COORDINATES: XYZ
+2025-05-20 17:33:25,949 - DEFAULT.QTVCP.QT_ISTAT - DEBUG - DEFAULT_LINEAR_VELOCITY = 120.0
+2025-05-20 17:33:25,949 - DEFAULT.QTVCP.QT_ISTAT - DEBUG - MIN_LINEAR_VELOCITY = 0.0
+2025-05-20 17:33:25,949 - DEFAULT.QTVCP.QT_ISTAT - DEBUG - MAX_LINEAR_VELOCITY = 300.0
+2025-05-20 17:33:26,014 - DEFAULT.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: M5
+2025-05-20 17:33:26,075 - DEFAULT.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: M70
+2025-05-20 17:33:26,096 - DEFAULT.QTVCP.WIDGETS.PROBE_ROUTINES - DEBUG - MDI_WAIT_COMMAND= G49, maxt = 30
+2025-05-20 17:33:26,096 - DEFAULT.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G49
+2025-05-20 17:33:26,136 - DEFAULT.QTVCP.WIDGETS.PROBE_ROUTINES - DEBUG - MDI_WAIT_COMMAND= G91, maxt = 30
+2025-05-20 17:33:26,136 - DEFAULT.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G91
+2025-05-20 17:33:26,177 - DEFAULT.QTVCP.WIDGETS.PROBE_ROUTINES - DEBUG - MDI_WAIT_COMMAND= G38.2 Z-8.5 F50.0, maxt = 30
+2025-05-20 17:33:26,177 - DEFAULT.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G38.2 Z-8.5 F50.0
+2025-05-20 17:33:26,265 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 18
+2025-05-20 17:33:26,265 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 18
+2025-05-20 17:33:36,420 - DEFAULT.QTVCP.WIDGETS.PROBE_ROUTINES - DEBUG - MDI_WAIT_COMMAND= G1 Z0.2 F100.0, maxt = 30
+2025-05-20 17:33:36,421 - DEFAULT.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G1 Z0.2 F100.0
+2025-05-20 17:33:36,602 - DEFAULT.QTVCP.WIDGETS.PROBE_ROUTINES - DEBUG - MDI_WAIT_COMMAND= F10.0, maxt = 30
+2025-05-20 17:33:36,602 - DEFAULT.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: F10.0
+2025-05-20 17:33:36,642 - DEFAULT.QTVCP.WIDGETS.PROBE_ROUTINES - DEBUG - MDI_WAIT_COMMAND= G38.2 Z-0.24, maxt = 30
+2025-05-20 17:33:36,643 - DEFAULT.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G38.2 Z-0.24
+2025-05-20 17:33:37,780 - DEFAULT.QTVCP.WIDGETS.PROBE_ROUTINES - DEBUG - MDI_WAIT_COMMAND= G1 Z3.0 F100.0, maxt = 30
+2025-05-20 17:33:37,780 - DEFAULT.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G1 Z3.0 F100.0
+2025-05-20 17:33:39,642 - DEFAULT.QTVCP.WIDGETS.PROBE_ROUTINES - DEBUG - MDI_WAIT_COMMAND= G90, maxt = 30
+2025-05-20 17:33:39,642 - DEFAULT.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G90
+2025-05-20 17:33:39,682 - DEFAULT.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: M72
+2025-05-20 17:33:39,703 - QTvcp.QTVCP.WIDGETS.VERSA_PROBE - INFO - Versa Probing routine completed without errors
+2025-05-20 17:33:39,826 - QTvcp.QTVCP.WIDGETS.VERSA_PROBE - INFO - Probe Process finished - exitCode 0 exitStatus 0
+2025-05-20 17:33:51,844 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving _CALCULATOR data from widget  to file.
+2025-05-20 17:33:51,935 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Displayed value when accepted: -16.148
+2025-05-20 17:33:51,935 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'versaprobe__', 'OVERLAY': False, 'OBJECT': <PyQt5.QtWidgets.QLineEdit object at 0x7fea479181f0>, 'TITLE': 'Set Entry for INPUT_TOOL_PROBE_HEIGHT', 'GEONAME': '_CALCULATOR', 'RETURN': -16.148}
+2025-05-20 17:33:51,935 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'versaprobe__', 'OVERLAY': False, 'OBJECT': <PyQt5.QtWidgets.QLineEdit object at 0x7fea479181f0>, 'TITLE': 'Set Entry for INPUT_TOOL_PROBE_HEIGHT', 'GEONAME': '_CALCULATOR', 'RETURN': -16.148}
+2025-05-20 17:33:51,936 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'versaprobe__', 'OVERLAY': False, 'OBJECT': <PyQt5.QtWidgets.QLineEdit object at 0x7fea479181f0>, 'TITLE': 'Set Entry for INPUT_TOOL_PROBE_HEIGHT', 'GEONAME': '_CALCULATOR', 'RETURN': -16.148}
+2025-05-20 17:33:51,936 - QTvcp.QTVCP.WIDGETS.VERSA_PROBE - DEBUG - message return:{'NAME': 'CALCULATOR', 'ID': 'versaprobe__', 'OVERLAY': False, 'OBJECT': <PyQt5.QtWidgets.QLineEdit object at 0x7fea479181f0>, 'TITLE': 'Set Entry for INPUT_TOOL_PROBE_HEIGHT', 'GEONAME': '_CALCULATOR', 'RETURN': -16.148}
+2025-05-20 17:33:51,936 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'versaprobe__', 'OVERLAY': False, 'OBJECT': <PyQt5.QtWidgets.QLineEdit object at 0x7fea479181f0>, 'TITLE': 'Set Entry for INPUT_TOOL_PROBE_HEIGHT', 'GEONAME': '_CALCULATOR', 'RETURN': None}
+2025-05-20 17:33:51,936 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'versaprobe__', 'OVERLAY': False, 'OBJECT': <PyQt5.QtWidgets.QLineEdit object at 0x7fea479181f0>, 'TITLE': 'Set Entry for INPUT_TOOL_PROBE_HEIGHT', 'GEONAME': '_CALCULATOR', 'RETURN': None}
+2025-05-20 17:33:51,936 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'versaprobe__', 'OVERLAY': False, 'OBJECT': <PyQt5.QtWidgets.QLineEdit object at 0x7fea479181f0>, 'TITLE': 'Set Entry for INPUT_TOOL_PROBE_HEIGHT', 'GEONAME': '_CALCULATOR', 'RETURN': None}
+2025-05-20 17:33:51,937 - QTvcp.QTVCP.WIDGETS.VERSA_PROBE - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'versaprobe__', 'OVERLAY': False, 'OBJECT': <PyQt5.QtWidgets.QLineEdit object at 0x7fea479181f0>, 'TITLE': 'Set Entry for INPUT_TOOL_PROBE_HEIGHT', 'GEONAME': '_CALCULATOR', 'RETURN': None}
+2025-05-20 17:34:19,895 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
+2025-05-20 17:34:19,895 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
+2025-05-20 17:35:05,225 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.0001 inch Increment: 0.0001 scaled: 0.0001
+2025-05-20 17:35:05,225 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 8 Increment: 0.0001 , selection changed 0.0001 inch
+2025-05-20 17:35:05,226 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .01 mm Increment: 0.01 scaled: 0.0003937007874015748
+2025-05-20 17:35:05,226 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .1 mm Increment: 0.1 scaled: 0.003937007874015748
+2025-05-20 17:35:05,226 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1 mm Increment: 1.0 scaled: 0.03937007874015748
+2025-05-20 17:35:05,226 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1.0 inch Increment: 1.0 scaled: 1.0
+2025-05-20 17:35:05,226 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.1 inch Increment: 0.1 scaled: 0.1
+2025-05-20 17:35:05,226 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.01 inch Increment: 0.01 scaled: 0.01
+2025-05-20 17:35:05,226 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 17:35:05,226 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.0001 inch Increment: 0.0001 scaled: 0.0001
+2025-05-20 17:36:27,554 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text:    6.4320, Row: 8, Column: 7
+2025-05-20 17:36:27,554 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 6.432, 'TITLE': 'Tool 99 Offset of Z,   6.4320', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64740>}
+2025-05-20 17:36:31,574 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
+2025-05-20 17:36:31,666 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Displayed value when accepted: 6.433
+2025-05-20 17:36:31,666 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 6.432, 'TITLE': 'Tool 99 Offset of Z,   6.4320', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64740>, 'RETURN': 6.433}
+2025-05-20 17:36:31,666 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 6.432, 'TITLE': 'Tool 99 Offset of Z,   6.4320', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64740>, 'RETURN': 6.433}
+2025-05-20 17:36:31,667 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - original value:6.432
+2025-05-20 17:36:31,667 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() role = None
+2025-05-20 17:36:31,667 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() column() = 7
+2025-05-20 17:36:31,667 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() value = 6.433 
+2025-05-20 17:36:31,667 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [51, 0, 0.0, 0.0, 3.90797, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.201, 0.0, 0.0, 0, '.201" twist drill, aluminum ']
+2025-05-20 17:36:31,667 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [25, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 4F end mill ']
+2025-05-20 17:36:31,667 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [31, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 3F end mill ']
+2025-05-20 17:36:31,667 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [32, 0, 0.0, 0.0, 3.47355, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1875, 0.0, 0.0, 0, '3/16" 3F end mill ']
+2025-05-20 17:36:31,667 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [33, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0, '1/4" 3F end mill ']
+2025-05-20 17:36:31,667 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [35, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 3F end mill ']
+2025-05-20 17:36:31,667 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [11, 0, 0.0, 0.0, 3.13836, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 2F chamfer mill ']
+2025-05-20 17:36:31,668 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [12, 0, 0.0, 0.0, 3.2143, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.236, 0.0, 0.0, 0, '6mm 2F chamfer mill ']
+2025-05-20 17:36:31,668 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [99, 0, 0.0, 0.0, 6.433, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 'Haimer Probe ']
+2025-05-20 17:36:31,668 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T51 P0 X0 Y0 Z3.90797 A0 B0 C0 U0 V0 W0 D0.20100 I0 J0 Q0 ;.201" twist drill, aluminum 
+2025-05-20 17:36:31,668 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T25 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 4F end mill 
+2025-05-20 17:36:31,668 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T31 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 3F end mill 
+2025-05-20 17:36:31,668 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T32 P0 X0 Y0 Z3.47355 A0 B0 C0 U0 V0 W0 D0.18750 I0 J0 Q0 ;3/16" 3F end mill 
+2025-05-20 17:36:31,668 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T33 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.25000 I0 J0 Q0 ;1/4" 3F end mill 
+2025-05-20 17:36:31,668 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T35 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 3F end mill 
+2025-05-20 17:36:31,668 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T11 P0 X0 Y0 Z3.13836 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 2F chamfer mill 
+2025-05-20 17:36:31,669 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T12 P0 X0 Y0 Z3.21430 A0 B0 C0 U0 V0 W0 D0.23600 I0 J0 Q0 ;6mm 2F chamfer mill 
+2025-05-20 17:36:31,669 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T99 P0 X0 Y0 Z6.43300 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;Haimer Probe 
+2025-05-20 17:36:31,690 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: g43
+2025-05-20 17:36:31,812 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 17:36:31,812 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 6.432, 'TITLE': 'Tool 99 Offset of Z,   6.4320', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64740>, 'RETURN': 6.433}
+2025-05-20 17:36:31,812 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 6.432, 'TITLE': 'Tool 99 Offset of Z,   6.4320', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64740>, 'RETURN': None}
+2025-05-20 17:36:31,812 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 6.432, 'TITLE': 'Tool 99 Offset of Z,   6.4320', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64740>, 'RETURN': None}
+2025-05-20 17:36:31,813 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': 6.432, 'TITLE': 'Tool 99 Offset of Z,   6.4320', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64740>, 'RETURN': None}
+2025-05-20 17:37:09,390 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
+2025-05-20 17:38:11,058 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 17:38:11,058 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 7 Increment: 0.001 , selection changed 0.001 inch
+2025-05-20 17:38:11,058 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .01 mm Increment: 0.01 scaled: 0.0003937007874015748
+2025-05-20 17:38:11,058 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .1 mm Increment: 0.1 scaled: 0.003937007874015748
+2025-05-20 17:38:11,058 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1 mm Increment: 1.0 scaled: 0.03937007874015748
+2025-05-20 17:38:11,058 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1.0 inch Increment: 1.0 scaled: 1.0
+2025-05-20 17:38:11,058 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.1 inch Increment: 0.1 scaled: 0.1
+2025-05-20 17:38:11,059 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.01 inch Increment: 0.01 scaled: 0.01
+2025-05-20 17:38:11,059 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 17:38:26,417 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.0001 inch Increment: 0.0001 scaled: 0.0001
+2025-05-20 17:38:26,417 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 8 Increment: 0.0001 , selection changed 0.0001 inch
+2025-05-20 17:38:26,418 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .01 mm Increment: 0.01 scaled: 0.0003937007874015748
+2025-05-20 17:38:26,418 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .1 mm Increment: 0.1 scaled: 0.003937007874015748
+2025-05-20 17:38:26,418 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1 mm Increment: 1.0 scaled: 0.03937007874015748
+2025-05-20 17:38:26,418 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1.0 inch Increment: 1.0 scaled: 1.0
+2025-05-20 17:38:26,418 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.1 inch Increment: 0.1 scaled: 0.1
+2025-05-20 17:38:26,418 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.01 inch Increment: 0.01 scaled: 0.01
+2025-05-20 17:38:26,418 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 17:38:26,418 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.0001 inch Increment: 0.0001 scaled: 0.0001
+2025-05-20 17:40:52,489 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 17:40:59,574 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
+2025-05-20 17:41:20,476 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 17:41:20,476 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 7 Increment: 0.001 , selection changed 0.001 inch
+2025-05-20 17:41:20,476 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .01 mm Increment: 0.01 scaled: 0.0003937007874015748
+2025-05-20 17:41:20,476 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .1 mm Increment: 0.1 scaled: 0.003937007874015748
+2025-05-20 17:41:20,476 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1 mm Increment: 1.0 scaled: 0.03937007874015748
+2025-05-20 17:41:20,476 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1.0 inch Increment: 1.0 scaled: 1.0
+2025-05-20 17:41:20,476 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.1 inch Increment: 0.1 scaled: 0.1
+2025-05-20 17:41:20,476 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.01 inch Increment: 0.01 scaled: 0.01
+2025-05-20 17:41:20,477 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 17:41:28,364 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 17:41:42,077 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:  -16.4005, Row: 10, Column: 2
+2025-05-20 17:41:48,551 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
+2025-05-20 17:41:48,645 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Displayed value when accepted: -16.3968
+2025-05-20 17:41:48,645 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4005, 'TITLE': 'G59.1 Offset of Z, -16.4005', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64660>, 'RETURN': -16.3968}
+2025-05-20 17:41:48,646 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4005, 'TITLE': 'G59.1 Offset of Z, -16.4005', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64660>, 'RETURN': -16.3968}
+2025-05-20 17:41:48,646 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4005, 'TITLE': 'G59.1 Offset of Z, -16.4005', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64660>, 'RETURN': -16.3968}
+2025-05-20 17:41:48,646 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG -  -16.4005
+2025-05-20 17:41:48,646 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() role = None
+2025-05-20 17:41:48,646 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column() = 2
+2025-05-20 17:41:48,646 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() value = -16.3968
+2025-05-20 17:41:48,646 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() qualified value = -16.3968
+2025-05-20 17:41:48,646 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.row = 10
+2025-05-20 17:41:48,646 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column = 2
+2025-05-20 17:41:48,647 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G10 L2 P7 z   -16.3968
+2025-05-20 17:41:48,838 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 17:41:48,840 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4005, 'TITLE': 'G59.1 Offset of Z, -16.4005', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64660>, 'RETURN': None}
+2025-05-20 17:41:48,840 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4005, 'TITLE': 'G59.1 Offset of Z, -16.4005', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64660>, 'RETURN': None}
+2025-05-20 17:41:48,841 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4005, 'TITLE': 'G59.1 Offset of Z, -16.4005', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64660>, 'RETURN': None}
+2025-05-20 17:41:48,841 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4005, 'TITLE': 'G59.1 Offset of Z, -16.4005', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64660>, 'RETURN': None}
+2025-05-20 17:41:49,703 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:  -16.4008, Row: 11, Column: 2
+2025-05-20 17:41:55,431 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
+2025-05-20 17:41:55,528 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Displayed value when accepted: -16.3971
+2025-05-20 17:41:55,529 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G59.2 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': -16.3971}
+2025-05-20 17:41:55,529 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G59.2 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': -16.3971}
+2025-05-20 17:41:55,529 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G59.2 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': -16.3971}
+2025-05-20 17:41:55,529 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG -  -16.4008
+2025-05-20 17:41:55,529 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() role = None
+2025-05-20 17:41:55,529 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column() = 2
+2025-05-20 17:41:55,529 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() value = -16.3971
+2025-05-20 17:41:55,530 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() qualified value = -16.3971
+2025-05-20 17:41:55,530 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.row = 11
+2025-05-20 17:41:55,530 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column = 2
+2025-05-20 17:41:55,530 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G10 L2 P8 z   -16.3971
+2025-05-20 17:41:55,712 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 17:41:55,714 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G59.2 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': None}
+2025-05-20 17:41:55,714 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G59.2 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': None}
+2025-05-20 17:41:55,714 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G59.2 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': None}
+2025-05-20 17:41:55,714 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': -16.4008, 'TITLE': 'G59.2 Offset of Z, -16.4008', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': None}
+2025-05-20 17:42:45,573 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
+2025-05-20 17:44:06,728 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 17:44:06,728 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 7 Increment: 0.001 , selection changed 0.001 inch
+2025-05-20 17:44:06,728 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .01 mm Increment: 0.01 scaled: 0.0003937007874015748
+2025-05-20 17:44:06,728 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .1 mm Increment: 0.1 scaled: 0.003937007874015748
+2025-05-20 17:44:06,729 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1 mm Increment: 1.0 scaled: 0.03937007874015748
+2025-05-20 17:44:06,729 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1.0 inch Increment: 1.0 scaled: 1.0
+2025-05-20 17:44:06,729 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.1 inch Increment: 0.1 scaled: 0.1
+2025-05-20 17:44:06,729 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.01 inch Increment: 0.01 scaled: 0.01
+2025-05-20 17:44:06,729 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 17:44:17,211 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 17:44:25,102 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
+2025-05-20 17:45:29,872 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 17:45:35,489 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 17:45:35,489 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 7 Increment: 0.001 , selection changed 0.001 inch
+2025-05-20 17:45:35,490 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .01 mm Increment: 0.01 scaled: 0.0003937007874015748
+2025-05-20 17:45:35,490 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .1 mm Increment: 0.1 scaled: 0.003937007874015748
+2025-05-20 17:45:35,490 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1 mm Increment: 1.0 scaled: 0.03937007874015748
+2025-05-20 17:45:35,490 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1.0 inch Increment: 1.0 scaled: 1.0
+2025-05-20 17:45:35,490 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.1 inch Increment: 0.1 scaled: 0.1
+2025-05-20 17:45:35,490 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.01 inch Increment: 0.01 scaled: 0.01
+2025-05-20 17:45:35,490 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 17:45:51,531 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.0001 inch Increment: 0.0001 scaled: 0.0001
+2025-05-20 17:45:51,531 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 8 Increment: 0.0001 , selection changed 0.0001 inch
+2025-05-20 17:45:51,532 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .01 mm Increment: 0.01 scaled: 0.0003937007874015748
+2025-05-20 17:45:51,532 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .1 mm Increment: 0.1 scaled: 0.003937007874015748
+2025-05-20 17:45:51,532 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1 mm Increment: 1.0 scaled: 0.03937007874015748
+2025-05-20 17:45:51,532 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1.0 inch Increment: 1.0 scaled: 1.0
+2025-05-20 17:45:51,532 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.1 inch Increment: 0.1 scaled: 0.1
+2025-05-20 17:45:51,532 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.01 inch Increment: 0.01 scaled: 0.01
+2025-05-20 17:45:51,532 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 17:45:51,532 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.0001 inch Increment: 0.0001 scaled: 0.0001
+2025-05-20 17:45:59,820 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 17:46:09,688 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:    6.8237, Row: 10, Column: 1
+2025-05-20 17:46:17,874 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
+2025-05-20 17:46:17,972 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Displayed value when accepted: 6.8238
+2025-05-20 17:46:17,972 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8237, 'TITLE': 'G59.1 Offset of Y,   6.8237', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': 6.8238}
+2025-05-20 17:46:17,972 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8237, 'TITLE': 'G59.1 Offset of Y,   6.8237', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': 6.8238}
+2025-05-20 17:46:17,972 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8237, 'TITLE': 'G59.1 Offset of Y,   6.8237', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': 6.8238}
+2025-05-20 17:46:17,972 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG -    6.8237
+2025-05-20 17:46:17,973 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() role = None
+2025-05-20 17:46:17,973 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column() = 1
+2025-05-20 17:46:17,973 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() value = 6.8238
+2025-05-20 17:46:17,973 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() qualified value = 6.8238
+2025-05-20 17:46:17,973 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.row = 10
+2025-05-20 17:46:17,973 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column = 1
+2025-05-20 17:46:17,973 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G10 L2 P7 y     6.8238
+2025-05-20 17:46:18,245 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 17:46:18,248 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8237, 'TITLE': 'G59.1 Offset of Y,   6.8237', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': None}
+2025-05-20 17:46:18,248 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8237, 'TITLE': 'G59.1 Offset of Y,   6.8237', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': None}
+2025-05-20 17:46:18,248 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8237, 'TITLE': 'G59.1 Offset of Y,   6.8237', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': None}
+2025-05-20 17:46:18,248 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8237, 'TITLE': 'G59.1 Offset of Y,   6.8237', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': None}
+2025-05-20 17:46:19,118 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Text:    6.8255, Row: 11, Column: 1
+2025-05-20 17:46:22,060 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
+2025-05-20 17:46:22,153 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Displayed value when accepted: 6.8252
+2025-05-20 17:46:22,153 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8255, 'TITLE': 'G59.2 Offset of Y,   6.8255', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': 6.8252}
+2025-05-20 17:46:22,153 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8255, 'TITLE': 'G59.2 Offset of Y,   6.8255', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': 6.8252}
+2025-05-20 17:46:22,154 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8255, 'TITLE': 'G59.2 Offset of Y,   6.8255', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': 6.8252}
+2025-05-20 17:46:22,154 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG -    6.8255
+2025-05-20 17:46:22,154 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() role = None
+2025-05-20 17:46:22,154 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column() = 1
+2025-05-20 17:46:22,154 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() value = 6.8252
+2025-05-20 17:46:22,154 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() qualified value = 6.8252
+2025-05-20 17:46:22,154 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.row = 11
+2025-05-20 17:46:22,154 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - >>> setData() index.column = 1
+2025-05-20 17:46:22,154 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: G10 L2 P8 y     6.8252
+2025-05-20 17:46:22,447 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 17:46:22,449 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8255, 'TITLE': 'G59.2 Offset of Y,   6.8255', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': None}
+2025-05-20 17:46:22,449 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8255, 'TITLE': 'G59.2 Offset of Y,   6.8255', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': None}
+2025-05-20 17:46:22,449 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8255, 'TITLE': 'G59.2 Offset of Y,   6.8255', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': None}
+2025-05-20 17:46:22,449 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'offset_table__', 'PRELOAD': 6.8255, 'TITLE': 'G59.2 Offset of Y,   6.8255', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>, 'RETURN': None}
+2025-05-20 17:46:59,211 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
+2025-05-20 18:29:06,329 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - add tool request
+2025-05-20 18:29:06,330 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T-99 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;New Tool 
+2025-05-20 18:29:06,331 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T51 P0 X0 Y0 Z3.90797 A0 B0 C0 U0 V0 W0 D0.20100 I0 J0 Q0 ;.201" twist drill, aluminum 
+2025-05-20 18:29:06,331 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T25 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 4F end mill 
+2025-05-20 18:29:06,331 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T31 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 3F end mill 
+2025-05-20 18:29:06,331 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T32 P0 X0 Y0 Z3.47355 A0 B0 C0 U0 V0 W0 D0.18750 I0 J0 Q0 ;3/16" 3F end mill 
+2025-05-20 18:29:06,331 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T33 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.25000 I0 J0 Q0 ;1/4" 3F end mill 
+2025-05-20 18:29:06,331 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T35 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 3F end mill 
+2025-05-20 18:29:06,331 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T11 P0 X0 Y0 Z3.13836 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 2F chamfer mill 
+2025-05-20 18:29:06,331 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T12 P0 X0 Y0 Z3.21430 A0 B0 C0 U0 V0 W0 D0.23600 I0 J0 Q0 ;6mm 2F chamfer mill 
+2025-05-20 18:29:06,331 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T99 P0 X0 Y0 Z6.43300 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;Haimer Probe 
+2025-05-20 18:29:07,982 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: -99, Row: 0, Column: 1
+2025-05-20 18:29:07,982 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message sent:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>}
+2025-05-20 18:29:13,923 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving CalculatorDialog-geometry data from widget  to file.
+2025-05-20 18:29:14,014 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Displayed value when accepted: 101.0
+2025-05-20 18:29:14,015 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': 101.0}
+2025-05-20 18:29:14,015 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': 101.0}
+2025-05-20 18:29:14,015 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - original value:-99
+2025-05-20 18:29:14,015 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() role = None
+2025-05-20 18:29:14,015 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() column() = 1
+2025-05-20 18:29:14,015 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() value = 101.0 
+2025-05-20 18:29:14,015 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [101, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 'New Tool ']
+2025-05-20 18:29:14,015 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [51, 0, 0.0, 0.0, 3.90797, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.201, 0.0, 0.0, 0, '.201" twist drill, aluminum ']
+2025-05-20 18:29:14,015 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [25, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 4F end mill ']
+2025-05-20 18:29:14,016 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [31, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 3F end mill ']
+2025-05-20 18:29:14,016 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [32, 0, 0.0, 0.0, 3.47355, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1875, 0.0, 0.0, 0, '3/16" 3F end mill ']
+2025-05-20 18:29:14,016 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [33, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0, '1/4" 3F end mill ']
+2025-05-20 18:29:14,016 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [35, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 3F end mill ']
+2025-05-20 18:29:14,016 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [11, 0, 0.0, 0.0, 3.13836, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 2F chamfer mill ']
+2025-05-20 18:29:14,016 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [12, 0, 0.0, 0.0, 3.2143, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.236, 0.0, 0.0, 0, '6mm 2F chamfer mill ']
+2025-05-20 18:29:14,016 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [99, 0, 0.0, 0.0, 6.433, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 'Haimer Probe ']
+2025-05-20 18:29:14,016 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T101 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;New Tool 
+2025-05-20 18:29:14,016 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T51 P0 X0 Y0 Z3.90797 A0 B0 C0 U0 V0 W0 D0.20100 I0 J0 Q0 ;.201" twist drill, aluminum 
+2025-05-20 18:29:14,016 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T25 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 4F end mill 
+2025-05-20 18:29:14,017 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T31 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 3F end mill 
+2025-05-20 18:29:14,017 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T32 P0 X0 Y0 Z3.47355 A0 B0 C0 U0 V0 W0 D0.18750 I0 J0 Q0 ;3/16" 3F end mill 
+2025-05-20 18:29:14,017 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T33 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.25000 I0 J0 Q0 ;1/4" 3F end mill 
+2025-05-20 18:29:14,017 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T35 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 3F end mill 
+2025-05-20 18:29:14,017 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T11 P0 X0 Y0 Z3.13836 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 2F chamfer mill 
+2025-05-20 18:29:14,017 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T12 P0 X0 Y0 Z3.21430 A0 B0 C0 U0 V0 W0 D0.23600 I0 J0 Q0 ;6mm 2F chamfer mill 
+2025-05-20 18:29:14,017 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T99 P0 X0 Y0 Z6.43300 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;Haimer Probe 
+2025-05-20 18:29:14,039 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: g43
+2025-05-20 18:29:14,150 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 18:29:14,150 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': 101.0}
+2025-05-20 18:29:14,151 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': None}
+2025-05-20 18:29:14,151 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': None}
+2025-05-20 18:29:14,151 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'CALCULATOR', 'ID': 'tooloffsetview__', 'PRELOAD': -99.0, 'TITLE': 'Tool -99 Offset of tool,-99', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f647b0>, 'RETURN': None}
+2025-05-20 18:29:15,644 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: New Tool , Row: 0, Column: 19
+2025-05-20 18:29:15,644 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message sent:{'NAME': 'KEYBOARD', 'ID': 'tooloffsetview__', 'PRELOAD': 'New Tool ', 'TITLE': 'Tool 101 Description Entry', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>}
+2025-05-20 18:29:16,196 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: New Tool , Row: 0, Column: 19
+2025-05-20 18:29:16,196 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message sent:{'NAME': 'KEYBOARD', 'ID': 'tooloffsetview__', 'PRELOAD': 'New Tool ', 'TITLE': 'Tool 101 Description Entry', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea47f64740>}
+2025-05-20 18:29:16,634 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: New Tool , Row: 0, Column: 19
+2025-05-20 18:29:16,634 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message sent:{'NAME': 'KEYBOARD', 'ID': 'tooloffsetview__', 'PRELOAD': 'New Tool ', 'TITLE': 'Tool 101 Description Entry', 'ITEM': <PyQt5.QtCore.QModelIndex object at 0x7fea479fbc30>}
+2025-05-20 18:29:20,417 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - original value:New Tool 
+2025-05-20 18:29:20,417 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() role = 2
+2025-05-20 18:29:20,417 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() column() = 19
+2025-05-20 18:29:20,417 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() value = TESTING 
+2025-05-20 18:29:20,417 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [101, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 'TESTING']
+2025-05-20 18:29:20,417 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [51, 0, 0.0, 0.0, 3.90797, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.201, 0.0, 0.0, 0, '.201" twist drill, aluminum ']
+2025-05-20 18:29:20,417 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [25, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 4F end mill ']
+2025-05-20 18:29:20,417 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [31, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 3F end mill ']
+2025-05-20 18:29:20,417 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [32, 0, 0.0, 0.0, 3.47355, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1875, 0.0, 0.0, 0, '3/16" 3F end mill ']
+2025-05-20 18:29:20,417 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [33, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.25, 0.0, 0.0, 0, '1/4" 3F end mill ']
+2025-05-20 18:29:20,418 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [35, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.375, 0.0, 0.0, 0, '3/8" 3F end mill ']
+2025-05-20 18:29:20,418 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [11, 0, 0.0, 0.0, 3.13836, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.125, 0.0, 0.0, 0, '1/8" 2F chamfer mill ']
+2025-05-20 18:29:20,418 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [12, 0, 0.0, 0.0, 3.2143, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.236, 0.0, 0.0, 0, '6mm 2F chamfer mill ']
+2025-05-20 18:29:20,418 - QTvcp.QTVCP.QT_TSTAT - DEBUG - converted line: [99, 0, 0.0, 0.0, 6.433, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 'Haimer Probe ']
+2025-05-20 18:29:20,418 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T101 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;TESTING 
+2025-05-20 18:29:20,418 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T51 P0 X0 Y0 Z3.90797 A0 B0 C0 U0 V0 W0 D0.20100 I0 J0 Q0 ;.201" twist drill, aluminum 
+2025-05-20 18:29:20,418 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T25 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 4F end mill 
+2025-05-20 18:29:20,418 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T31 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 3F end mill 
+2025-05-20 18:29:20,418 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T32 P0 X0 Y0 Z3.47355 A0 B0 C0 U0 V0 W0 D0.18750 I0 J0 Q0 ;3/16" 3F end mill 
+2025-05-20 18:29:20,419 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T33 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.25000 I0 J0 Q0 ;1/4" 3F end mill 
+2025-05-20 18:29:20,419 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T35 P0 X0 Y0 Z0 A0 B0 C0 U0 V0 W0 D0.37500 I0 J0 Q0 ;3/8" 3F end mill 
+2025-05-20 18:29:20,419 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T11 P0 X0 Y0 Z3.13836 A0 B0 C0 U0 V0 W0 D0.12500 I0 J0 Q0 ;1/8" 2F chamfer mill 
+2025-05-20 18:29:20,419 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T12 P0 X0 Y0 Z3.21430 A0 B0 C0 U0 V0 W0 D0.23600 I0 J0 Q0 ;6mm 2F chamfer mill 
+2025-05-20 18:29:20,419 - QTvcp.QTVCP.QT_TSTAT - DEBUG - Save line: T99 P0 X0 Y0 Z6.43300 A0 B0 C0 U0 V0 W0 D0 I0 J0 Q0 ;Haimer Probe 
+2025-05-20 18:29:20,440 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: g43
+2025-05-20 18:29:20,552 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 18:29:25,321 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - up
+2025-05-20 18:29:25,321 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - 22
+2025-05-20 18:29:25,322 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: g54, mdi_history.dat
+2025-05-20 18:29:26,849 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - up
+2025-05-20 18:29:26,849 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - 21
+2025-05-20 18:29:26,850 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: M6 T0, mdi_history.dat
+2025-05-20 18:29:35,761 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: M6 T101
+
+2025-05-20 18:29:35,884 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: , mdi_history.dat
+2025-05-20 18:29:35,984 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 35
+2025-05-20 18:29:35,984 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 35
+2025-05-20 18:29:36,486 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 39
+2025-05-20 18:29:36,486 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 39
+2025-05-20 18:29:43,852 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2025-05-20 18:29:43,852 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2025-05-20 18:29:43,853 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2025-05-20 18:29:43,853 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2025-05-20 18:29:43,949 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 56
+2025-05-20 18:29:43,949 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 56
+2025-05-20 18:29:49,280 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 69
+2025-05-20 18:29:49,280 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 69
+2025-05-20 18:29:58,232 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 70
+2025-05-20 18:29:58,232 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 70
+2025-05-20 18:29:58,332 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 79
+2025-05-20 18:29:58,333 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 79
+2025-05-20 18:29:59,439 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 87
+2025-05-20 18:29:59,439 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 87
+2025-05-20 18:30:29,159 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
+2025-05-20 18:30:29,159 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
+2025-05-20 18:31:44,027 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 18:31:44,027 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 7 Increment: 0.001 , selection changed 0.001 inch
+2025-05-20 18:31:44,028 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .01 mm Increment: 0.01 scaled: 0.0003937007874015748
+2025-05-20 18:31:44,028 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .1 mm Increment: 0.1 scaled: 0.003937007874015748
+2025-05-20 18:31:44,028 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1 mm Increment: 1.0 scaled: 0.03937007874015748
+2025-05-20 18:31:44,028 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1.0 inch Increment: 1.0 scaled: 1.0
+2025-05-20 18:31:44,028 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.1 inch Increment: 0.1 scaled: 0.1
+2025-05-20 18:31:44,028 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.01 inch Increment: 0.01 scaled: 0.01
+2025-05-20 18:31:44,028 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 18:32:05,593 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
+2025-05-20 18:35:05,436 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving axisToolButtonDialog_ENTRY data from widget  to file.
+2025-05-20 18:35:05,436 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 1
+2025-05-20 18:35:05,436 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': 5.616931615412632, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 4.3669}
+2025-05-20 18:35:05,436 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': 5.616931615412632, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 4.3669}
+2025-05-20 18:35:05,437 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': 5.616931615412632, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 4.3669}
+2025-05-20 18:35:05,437 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message return:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': 5.616931615412632, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 4.3669}
+2025-05-20 18:35:05,548 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
+2025-05-20 18:35:05,549 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message sent:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': 5.616931615412632, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 4.3669}
+2025-05-20 18:35:32,553 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.01 inch Increment: 0.01 scaled: 0.01
+2025-05-20 18:35:32,553 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 6 Increment: 0.01 , selection changed 0.01 inch
+2025-05-20 18:35:32,553 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .01 mm Increment: 0.01 scaled: 0.0003937007874015748
+2025-05-20 18:35:32,554 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .1 mm Increment: 0.1 scaled: 0.003937007874015748
+2025-05-20 18:35:32,554 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1 mm Increment: 1.0 scaled: 0.03937007874015748
+2025-05-20 18:35:32,554 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1.0 inch Increment: 1.0 scaled: 1.0
+2025-05-20 18:35:32,554 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.1 inch Increment: 0.1 scaled: 0.1
+2025-05-20 18:35:32,554 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.01 inch Increment: 0.01 scaled: 0.01
+2025-05-20 18:35:33,909 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 18:35:33,909 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 7 Increment: 0.001 , selection changed 0.001 inch
+2025-05-20 18:35:33,910 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .01 mm Increment: 0.01 scaled: 0.0003937007874015748
+2025-05-20 18:35:33,910 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: .1 mm Increment: 0.1 scaled: 0.003937007874015748
+2025-05-20 18:35:33,910 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1 mm Increment: 1.0 scaled: 0.03937007874015748
+2025-05-20 18:35:33,910 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 1.0 inch Increment: 1.0 scaled: 1.0
+2025-05-20 18:35:33,910 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.1 inch Increment: 0.1 scaled: 0.1
+2025-05-20 18:35:33,910 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.01 inch Increment: 0.01 scaled: 0.01
+2025-05-20 18:35:33,910 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - parsed: text: 0.001 inch Increment: 0.001 scaled: 0.001
+2025-05-20 18:36:02,399 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
