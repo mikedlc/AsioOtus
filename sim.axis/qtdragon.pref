@@ -82,6 +82,7 @@ notify_start_detail = This option can be changed in the preference file
 notify_start_timeout = 5
 
 [FILEMANAGER_JUMPLIST]
+nc_files = /home/callum/linuxcnc/configs/nc_files
 
 [SCREEN_CONTROL_LAST_SETTING]
 gcodegraphics-user-view = p
@@ -133,7 +134,7 @@ ps_probe_latch = 0.2
 ps_probe_diam = 0.3
 ps_xy_clearance = 5.0
 ps_side_edge_length = 5.0
-ps_probe_height = -16.147
+ps_probe_height = -16.148
 ps_block_height = 0.0
 use_tool_measurement = False
 ps_offs_x = 0.0
