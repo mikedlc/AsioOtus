@@ -23,10 +23,10 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Vise stop for Tegara 449
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side.ngc
+last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Random/Monopod insert
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Random/Monopod insert/op2.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Vise stop for Tegara 449/op3.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Random/Monopod insert/op2.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
@@ -44,9 +44,9 @@ offset_table-G56 = User System 3
 offset_table-G57 = User System 4
 offset_table-G58 = User System 5
 offset_table-G59 = User System 6
-offset_table-G59.1 = User System 7
-offset_table-G59.2 = User System 8
-offset_table-G59.3 = User System 9
+offset_table-G59.1 = G54 reference
+offset_table-G59.2 = G55 reference
+offset_table-G59.3 = G55 z with -1/8" parallel
 
 [SCREEN_OPTIONS]
 catch_errors = True
@@ -93,7 +93,7 @@ gcodegraphics-user-lat = 0.0
 gcodegraphics-user-lon = 0.0
 
 [CUSTOM_FORM_ENTRIES]
-Tool to load = 0
+Tool to load = 12
 Laser X = 100.0
 Laser Y = -20.0
 Sensor X = 10.0
@@ -136,7 +136,7 @@ ps_xy_clearance = 5.0
 ps_side_edge_length = 5.0
 ps_probe_height = -16.148
 ps_block_height = 0.0
-use_tool_measurement = False
+use_tool_measurement = True
 ps_offs_x = 0.0
 ps_offs_y = 0.0
 ps_offs_z = 0.0
