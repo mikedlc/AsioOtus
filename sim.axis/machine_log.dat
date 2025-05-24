@@ -36,3 +36,29 @@ Sat24 12:29:  Block Height: 0.0000
 Sat24 12:29:  Probe Result: -13.0262
 Sat24 12:29: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Vise stop for Tegara 449/op1 - 1x1,1x0,5.ngc
 Sat24 12:29: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Vise stop for Tegara 449/op1 - 1x1,1x0,5.ngc
+Sat24 12:31: Cannot switch pages while in AUTO mode
+Sat24 12:31: Cannot switch pages while in AUTO mode
+Sat24 12:31: Cannot switch pages while in AUTO mode
+Sat24 12:31: Cannot switch pages while in AUTO mode
+Sat24 12:31: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Vise stop for Tegara 449/op1 - 1x1,1x0,5.ngc
+Sat24 12:31: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Vise stop for Tegara 449/op1 - 1x1,1x0,5.ngc
+Sat24 12:32: Started program from line 1
+Sat24 12:32: Run timer stopped at 00:00:02
+Sat24 12:32:  abort pressed
+Sat24 12:32: Cannot switch pages while in AUTO mode
+Sat24 12:32: Cannot switch pages while in AUTO mode
+Sat24 12:32: Cannot switch pages while in AUTO mode
+Sat24 12:32: Cannot switch pages while in AUTO mode
+Sat24 12:32: Started program from line 1
+Sat24 12:32:  Auto Tool probe disabled 
+Sat24 12:33: Run timer stopped at 00:00:49
+Sat24 12:35: Cannot switch pages while in AUTO mode
+Sat24 12:35: Cannot switch pages while in AUTO mode
+Sat24 12:35: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Vise stop for Tegara 449/op2.ngc
+Sat24 12:35: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Vise stop for Tegara 449/op2.ngc
+Sat24 12:36: Started program from line 1
+Sat24 12:36: Tool 32: 3/16" 3F end mill 
+Sat24 12:36:  Auto Tool probe disabled 
+Sat24 12:37: Tool 11: 1/8" 2F chamfer mill 
+Sat24 12:37:  Auto Tool probe disabled 
+Sat24 12:38: Run timer stopped at 00:02:09
