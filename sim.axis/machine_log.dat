@@ -1,37 +1,33 @@
---- QtVCP Screen Started on: Sat, May 24 2025 05:20:07 PM ---
+--- QtVCP Screen Started on: Sat, May 24 2025 09:59:21 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sat24 17:20: Machine OFF
-Sat24 17:20: Hard limits tripped
-Sat24 17:20: Tool 0: No Tool
-Sat24 17:20: Machine ON
-Sat24 17:20: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Testing/4 inch block HSM 1.ngc
-Sat24 17:20: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Testing/4 inch block HSM 1.ngc
-Sat24 17:21: Cannot switch pages while in AUTO mode
-Sat24 17:22: Tool 25: 3/8" 4F end mill 
-Sat24 17:22:  Probe Height: -16.1480
-Sat24 17:22: Tool 25: 3/8" 4F end mill 
-Sat24 17:22:  Block Height: 0.0000
-Sat24 17:22:  Probe Result: -13.0696
-Sat24 17:24: Cannot switch pages while in AUTO mode
-Sat24 17:24: Cannot switch pages while in AUTO mode
-Sat24 17:25: Started program from line 1
-Sat24 17:25:  Auto Tool probe disabled 
-Sat24 17:25: Run timer stopped at 00:00:03
-Sat24 17:25:  abort pressed
-Sat24 17:25: Started program from line 1
-Sat24 17:25:  Auto Tool probe disabled 
-Sat24 17:27: Run timer stopped at 00:01:50
-Sat24 18:08:  abort pressed
-Sat24 18:12:  abort pressed
-Sat24 18:12:  abort pressed
-Sat24 18:32:  abort pressed
-Sat24 18:32:  abort pressed
-Sat24 18:35:  abort pressed
-Sat24 18:35:  abort pressed
-Sat24 18:35:  abort pressed
-Sat24 18:39:  abort pressed
-Sat24 18:39:  abort pressed
-Sat24 18:41:  abort pressed
-Sat24 18:44:  abort pressed
-Sat24 18:45:  abort pressed
-Sat24 18:51: Machine OFF
+Sat24 21:59: Machine OFF
+Sat24 21:59: Hard limits tripped
+Sat24 21:59: Tool 0: No Tool
+Sat24 21:59: Machine ON
+Sat24 21:59: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Testing/4 inch block HSM 1.ngc
+Sat24 21:59: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Testing/4 inch block HSM 1.ngc
+Sat24 21:59: Cannot switch pages while in AUTO mode
+Sat24 22:00: Started program from line 1
+Sat24 22:00: Tool 25: 3/8" 4F end mill 
+Sat24 22:00:  Auto Tool probe disabled 
+Sat24 22:00: Run timer stopped at 00:00:30
+Sat24 22:00:  abort pressed
+Sat24 22:01: Started program from line 1
+Sat24 22:01:  Auto Tool probe disabled 
+Sat24 22:01: Cannot switch pages while in AUTO mode
+Sat24 22:02: Spindle stopped and raised 0
+Sat24 22:02: Z level compensation HAL component not loaded
+Sat24 22:02: Spindle re-started
+Sat24 22:02: Spindle lowered
+Sat24 22:02: Spindle stopped and raised 0
+Sat24 22:02: Z level compensation HAL component not loaded
+Sat24 22:03: Spindle re-started
+Sat24 22:03: Spindle lowered
+Sat24 22:03: Spindle stopped and raised 0
+Sat24 22:03: Z level compensation HAL component not loaded
+Sat24 22:03: Spindle re-started
+Sat24 22:03: Spindle lowered
+Sat24 22:03: Run timer stopped at 00:02:15
+Sat24 22:03:  abort pressed
+Sat24 22:03:  abort pressed
+Sat24 22:04: Machine OFF
