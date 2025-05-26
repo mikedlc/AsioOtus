@@ -86,3 +86,21 @@ Mon26 15:47:  Auto Tool probe disabled
 Mon26 15:48: Run timer stopped at 00:15:49
 Mon26 15:53: Cannot switch pages while in AUTO mode
 Mon26 15:53: Cannot switch pages while in AUTO mode
+Mon26 15:53: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/just square hold.ngc
+Mon26 15:53: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/just square hold.ngc
+Mon26 15:54: Cannot switch pages while in AUTO mode
+Mon26 15:54: Cannot switch pages while in AUTO mode
+Mon26 15:54: Started program from line 1
+Mon26 15:54: Tool 21: 1/8" 4F end drill 
+Mon26 15:54:  Auto Tool probe disabled 
+Mon26 15:54: Run timer stopped at 00:00:33
+Mon26 16:00: Cannot switch pages while in AUTO mode
+Mon26 16:00: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/op2.ngc
+Mon26 16:00: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/op2.ngc
+Mon26 16:00: Started program from line 1
+Mon26 16:01: Tool 22: 3/16" 4F end mill 
+Mon26 16:01:  Auto Tool probe disabled 
+Mon26 16:04: Tool 11: 1/8" 2F chamfer mill 
+Mon26 16:04:  Auto Tool probe disabled 
+Mon26 16:05: Run timer stopped at 00:04:29
+Mon26 16:38: Machine OFF
