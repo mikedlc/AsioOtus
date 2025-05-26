@@ -1,7 +1,7 @@
 [DIALOG_GEOMETRY]
 AboutDialog-geometry = half
 LncMessage-geometry = 910 539 280 118
-ToolChangeDialog-geometry = 910 525 340 237
+ToolChangeDialog-geometry = 910 525 340 122
 CalculatorDialog-geometry = 910 539 472 376
 VersaHelpDialog-geometry = 660 240 600 600
 _CALCULATOR = 910 525 472 376

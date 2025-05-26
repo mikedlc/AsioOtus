@@ -3,8 +3,8 @@ T52  P0   D+0.500000 Z+6.491258 ;1/2" twist drill
 T22  P0   D+0.187500 Z+3.563327 ;3/16" 4F end mill 
 T50  P0   D+0.250000 Z+3.076706 ;1/4" 140 deg spot drill 
 T36  P0   D+0.375000 Z+3.771750 ;3/8" long 3F end mill 
-T103 P0   D+0.300000 Z+7.628026 ;random ~0.300" twist drill 
-T101 P0   D+0.100000 Z+4.969435 ;random ~0.100" twist drill 
+T103 P0   D+0.300000 Z+5.934606 ;random ~0.300" twist drill 
+T101 P0   D+0.100000 Z+4.953232 ;random ~0.100" twist drill 
 T51  P0   D+0.201000 Z+3.909790 ;.201" twist drill, aluminum 
 T25  P0   D+0.375000 Z+3.078360 ;3/8" 4F end mill 
 T31  P0   D+0.125000 ;1/8" 3F end mill 
