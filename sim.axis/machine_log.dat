@@ -64,3 +64,25 @@ Mon26 15:21:  Probe Height: -16.1480
 Mon26 15:21:  Block Height: 0.0000
 Mon26 15:21: Tool 101: random ~0.100" twist drill 
 Mon26 15:21:  Probe Result: -11.1948
+Mon26 15:32: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/op1 - 1,88x1x0,5.ngc
+Mon26 15:32: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/op1 - 1,88x1x0,5.ngc
+Mon26 15:32: Started program from line 1
+Mon26 15:33: Tool 22: 3/16" 4F end mill 
+Mon26 15:33:  Auto Tool probe disabled 
+Mon26 15:35: Tool 50: 1/4" 140 deg spot drill 
+Mon26 15:35:  Auto Tool probe disabled 
+Mon26 15:36: Tool 101: random ~0.100" twist drill 
+Mon26 15:36:  Auto Tool probe disabled 
+Mon26 15:39: Tool 52: 1/2" twist drill 
+Mon26 15:39:  Auto Tool probe disabled 
+Mon26 15:40: Tool 103: random ~0.300" twist drill 
+Mon26 15:40:  Auto Tool probe disabled 
+Mon26 15:41: Tool 22: 3/16" 4F end mill 
+Mon26 15:41:  Auto Tool probe disabled 
+Mon26 15:45: Tool 21: 1/8" 4F end drill 
+Mon26 15:45:  Auto Tool probe disabled 
+Mon26 15:47: Tool 11: 1/8" 2F chamfer mill 
+Mon26 15:47:  Auto Tool probe disabled 
+Mon26 15:48: Run timer stopped at 00:15:49
+Mon26 15:53: Cannot switch pages while in AUTO mode
+Mon26 15:53: Cannot switch pages while in AUTO mode
