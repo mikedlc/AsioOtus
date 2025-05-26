@@ -1,12 +1,16 @@
-T36  P0   D+0.375000 Z+3.771745 ;3/8" long 3F end mill 
-T103 P0   D+0.300000 Z+5.310209 ;random ~0.300" twist drill 
-T101 P0   D+0.100000 Z+5.401945 ;random ~0.100" twist drill 
+T21  P0   D+0.125000 Z+2.337092 ;1/8" 4F end drill 
+T52  P0   D+0.500000 Z+6.491258 ;1/2" twist drill 
+T22  P0   D+0.187500 Z+3.563327 ;3/16" 4F end mill 
+T50  P0   D+0.250000 Z+3.076706 ;1/4" 140 deg spot drill 
+T36  P0   D+0.375000 Z+3.771750 ;3/8" long 3F end mill 
+T103 P0   D+0.300000 Z+7.628026 ;random ~0.300" twist drill 
+T101 P0   D+0.100000 Z+4.969435 ;random ~0.100" twist drill 
 T51  P0   D+0.201000 Z+3.909790 ;.201" twist drill, aluminum 
-T25  P0   D+0.375000 Z+3.078357 ;3/8" 4F end mill 
+T25  P0   D+0.375000 Z+3.078360 ;3/8" 4F end mill 
 T31  P0   D+0.125000 ;1/8" 3F end mill 
 T32  P0   D+0.187500 Z+3.475220 ;3/16" 3F end mill 
 T33  P0   D+0.250000 ;1/4" 3F end mill 
 T35  P0   D+0.375000 ;3/8" 3F end mill 
 T11  P0   D+0.125000 Z+3.121790 ;1/8" 2F chamfer mill 
-T12  P0   D+0.236000 Z+3.215591 ;6mm 2F chamfer mill 
+T12  P0   D+0.236000 Z+3.215590 ;6mm 2F chamfer mill 
 T99  P0   Z+6.433000 ;Haimer Probe 
