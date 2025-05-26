@@ -1,23 +1,40 @@
---- QtVCP Screen Started on: Mon, May 26 2025 02:32:20 PM ---
+--- QtVCP Screen Started on: Mon, May 26 2025 03:02:24 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Mon26 14:32: Machine OFF
-Mon26 14:32: Hard limits tripped
-Mon26 14:32: Tool 0: No Tool
-Mon26 14:32: Machine ON
-Mon26 14:32: Tool 21: 1/8" 4F end drill 
-Mon26 14:32:  Probe Height: -16.1480
-Mon26 14:32:  Block Height: 0.0000
-Mon26 14:32: Tool 21: 1/8" 4F end drill 
-Mon26 14:32:  Probe Result: -13.8109
-Mon26 14:33: Tool 50: 1/4" 140 deg spot drill 
-Mon26 14:33:  Probe Height: -16.1480
-Mon26 14:33:  Block Height: 0.0000
-Mon26 14:33: Tool 50: 1/4" 140 deg spot drill 
-Mon26 14:33:  Probe Result: -13.0713
-Mon26 14:34: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/op1 - 1,88x1x0,5.ngc
-Mon26 14:34: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/op1 - 1,88x1x0,5.ngc
-Mon26 14:34: Tool 52: 1/2" twist drill 
-Mon26 14:35:  Probe Height: -16.1480
-Mon26 14:35:  Block Height: 0.0000
-Mon26 14:35: Tool 52: 1/2" twist drill 
-Mon26 14:35:  Probe Result: -9.6567
+Mon26 15:02: Machine OFF
+Mon26 15:02: Hard limits tripped
+Mon26 15:02: Tool 0: No Tool
+Mon26 15:02: Machine ON
+Mon26 15:02: Cannot switch pages while in AUTO mode
+Mon26 15:02: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/op1 - 1,88x1x0,5.ngc
+Mon26 15:02: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/op1 - 1,88x1x0,5.ngc
+Mon26 15:03: Started program from line 1
+Mon26 15:03: Tool 22: 3/16" 4F end mill 
+Mon26 15:03:  Auto Tool probe disabled 
+Mon26 15:05: Tool 52: 1/2" twist drill 
+Mon26 15:05:  Auto Tool probe disabled 
+Mon26 15:05: Run timer stopped at 00:02:24
+Mon26 15:05:  abort pressed
+Mon26 15:06: Started program from line 1
+Mon26 15:06: Tool 22: 3/16" 4F end mill 
+Mon26 15:06:  Auto Tool probe disabled 
+Mon26 15:08: Tool 52: 1/2" twist drill 
+Mon26 15:08:  Auto Tool probe disabled 
+Mon26 15:08: joint 2 following error
+Mon26 15:08: Machine OFF
+Mon26 15:08: Run timer stopped at 00:02:29
+Mon26 15:08:  abort pressed
+Mon26 15:08:  abort pressed
+Mon26 15:08:  abort pressed
+Mon26 15:08:  abort pressed
+Mon26 15:08:  abort pressed
+Mon26 15:08:  abort pressed
+Mon26 15:08:  abort pressed
+Mon26 15:09: Machine must be ON and in Manual mode to jog
+Mon26 15:09: Machine ON
+Mon26 15:09: Machine OFF
+Mon26 15:09: Machine must be ON and in Manual mode to jog
+Mon26 15:09: Machine must be ON and in Manual mode to jog
+Mon26 15:09: Machine must be ON and in Manual mode to jog
+Mon26 15:09: Machine must be ON and in Manual mode to jog
+Mon26 15:09: Machine must be ON and in Manual mode to jog
+Mon26 15:09: Machine ON
