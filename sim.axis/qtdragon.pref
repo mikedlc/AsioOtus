@@ -23,10 +23,10 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/op2.ngc
+last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque/op2.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/ER11 crow foot socket/op2.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque/op2.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
@@ -43,7 +43,7 @@ offset_table-G55 = User System 2
 offset_table-G56 = User System 3
 offset_table-G57 = User System 4
 offset_table-G58 = User System 5
-offset_table-G59 = User System 6
+offset_table-G59 = ABS copy
 offset_table-G59.1 = G54 reference
 offset_table-G59.2 = G55 reference
 offset_table-G59.3 = G55 z with -1/8" parallel
@@ -93,7 +93,7 @@ gcodegraphics-user-lat = 0.0
 gcodegraphics-user-lon = 0.0
 
 [CUSTOM_FORM_ENTRIES]
-Tool to load = 11
+Tool to load = 12
 Laser X = 100.0
 Laser Y = -20.0
 Sensor X = 10.0
