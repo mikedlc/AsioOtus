@@ -1,7 +1,6 @@
 
 import sys
 import importlib
-from PyQt5.QtCore import Qt
 from qtvcp.core import Path
 PATH = Path()
 
@@ -21,5 +20,4 @@ class UserHandlerClass(HandlerClass):
     def __init__(self, halcomp, widgets, paths):
         super().__init__(halcomp, widgets, paths)
         self.KEYBIND.add_call('Key_Space', 'on_keycall_PAUSE')
-        self.w.setFocusPolicy(Qt.StrongFocus)
-        
+
