@@ -9,6 +9,14 @@ Reports missing .deb files due to legacy version names. Note errored missing fil
 
 Per https://forum.linuxcnc.org/ethercat/53785-installing-ethercat-repositories?start=0
 
+Files located here:
+http://download.opensuse.org/repositories/science:/EtherLab/Debian_12/
+"E: http://download.opensuse.org/repositories/science:/EtherLab/Debian_12/all/ethercat-dkms_1.6.0.g8330bca-1%2b3.1_all.deb の取得に失敗しました  404  Not Found [IP: 195.135.223.226 80]
+E: http://download.opensuse.org/repositories/science:/EtherLab/Debian_12/amd64/ethercat-master_1.6.0.g8330bca-1%2b3.1_amd64.deb の取得に失敗しました  404  Not Found [IP: 195.135.223.226 80]
+E: http://download.opensuse.org/repositories/science:/EtherLab/Debian_12/amd64/libethercat_1.6.0.g8330bca-1%2b3.1_amd64.deb の取得に失敗しました  404  Not Found [IP: 195.135.223.226 80]
+E: http://download.opensuse.org/repositories/science:/EtherLab/Debian_12/amd64/linuxcnc-ethercat_1.39.0.g4299f7a-0_amd64.deb
+"
+
 cd Downloads/ where you downloaded the .deb files.
 Run this command for all downloaded files:
 sudo dpkg -i ethercat-dkms_1.6.1.g419f621-1+8.3_all.deb
@@ -26,6 +34,8 @@ obtain your mac address:
 ip a
 
 Save the MAC address of the NIC to be used for ethercat.
+Mike's wired connection: ec:b1:d7:65:5a:c8
+
 Update the ethercat config file to use that MAC address:
 
 sudo geany /etc/ethercat.conf
