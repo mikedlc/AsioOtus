@@ -8,4 +8,6 @@
 		- ATTR{idProduct}=="eb93", ATTR{idVendor}=="10ce", MODE="0666", OWNER="root", GROUP="plugdev"
 - sudo apt-get install usbutils
 	- lsusb
+- Driver test:
+	- xhc-whb04b-6 -ue
 - Need HAL file for config
