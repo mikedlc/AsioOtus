@@ -89,4 +89,5 @@
 	- 
 
 - To Do
-	- 
+	- Can I get axis servo load output for monitoring power?
+	
