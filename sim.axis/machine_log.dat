@@ -1,38 +1,29 @@
---- QtVCP Screen Started on: Fri, Jun 06 2025 04:52:18 PM ---
+--- QtVCP Screen Started on: Fri, Jun 06 2025 05:30:48 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Fri06 16:52: Machine OFF
-Fri06 16:52: Hard limits tripped
-Fri06 16:52: Tool 0: No Tool
-Fri06 16:52: Machine ON
-Fri06 16:52:  abort pressed
-Fri06 16:55: <2>
-Fri06 16:55: <3>
-Fri06 16:55: <6>
-Fri06 16:55: <7>
-Fri06 16:55: <8>
-Fri06 16:55: <10>
-Fri06 16:55: <10>
-Fri06 16:56:  abort pressed
-Fri06 16:56: Machine OFF
-Fri06 16:56: Machine ON
-Fri06 16:56: Machine OFF
-Fri06 16:56: Machine ON
-Fri06 16:56: <2>
-Fri06 16:56: <3>
-Fri06 16:56: <6>
-Fri06 16:56: <7>
-Fri06 16:56: <8>
-Fri06 16:57:  abort pressed
-Fri06 16:57:  abort pressed
-Fri06 16:57:  abort pressed
-Fri06 16:57:  abort pressed
-Fri06 16:58:  abort pressed
-Fri06 16:58: Machine OFF
-Fri06 16:58: Machine ON
-Fri06 16:58: Machine OFF
-Fri06 16:58: command (EMC_SPINDLE_ON) cannot be executed until the machine is out of E-stop and turned on
-Fri06 16:58: command (EMC_SPINDLE_INCREASE) cannot be executed until the machine is out of E-stop and turned on
-Fri06 16:58: command (EMC_SPINDLE_CONSTANT) cannot be executed until the machine is out of E-stop and turned on
-Fri06 16:58: Machine ON
-Fri06 16:59:  abort pressed
-Fri06 16:59: Machine OFF
+Fri06 17:30: Machine OFF
+Fri06 17:30: Hard limits tripped
+Fri06 17:30: Tool 0: No Tool
+Fri06 17:30: Machine ON
+Fri06 17:31: Machine OFF
+Fri06 17:31: Machine ON
+Fri06 17:31: Machine OFF
+Fri06 17:31: Machine ON
+Fri06 17:35: Machine OFF
+Fri06 17:35: Machine ON
+Fri06 17:35: Machine OFF
+Fri06 17:35: Machine ON
+Fri06 17:35: <1>
+Fri06 17:35: <2>
+Fri06 17:35: <5>
+Fri06 17:35: <6>
+Fri06 17:35: <7>
+Fri06 17:35: <9>
+Fri06 17:36: <9>
+Fri06 17:36: <9>
+Fri06 17:36: <9>
+Fri06 17:36: <9>
+Fri06 17:36: <9>
+Fri06 17:36: <9>
+Fri06 17:36: <7>
+Fri06 17:36: <9>
+Fri06 17:36: Machine OFF
