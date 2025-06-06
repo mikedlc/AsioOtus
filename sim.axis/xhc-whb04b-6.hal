@@ -126,7 +126,7 @@ net pdnt.button.probe-z                   whb.button.probe-z                    
 # spindle related signals
 net pdnt.spindle.is-on                    whb.halui.spindle.is-on
 net pdnt.spindle.start                    whb.halui.spindle.start               halui.spindle.0.start
-net pdnt.spindle.stop                     whb.halui.spindle.stop
+net pdnt.spindle.stop                     whb.halui.spindle.stop                halui.spindle.0.stop 
 net pdnt.spindle.forward                  whb.halui.spindle.forward
 net pdnt.spindle.reverse                  whb.halui.spindle.reverse
 net pdnt.spindle.increase                 whb.halui.spindle.increase            halui.spindle.0.increase         # reserved whb.button.macro-3
