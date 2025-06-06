@@ -30,7 +30,7 @@ net spindle-cmd-rps-abs       <= spindle.0.speed-out-rps-abs
 
 net S-on  and2.0.in0 <= spindle.0.on 
 net S-fwd and2.0.in1 <= spindle.0.forward
-net S-on  and2.1.in0 
+net S-off and2.1.in0 <= spindle.0.off
 net S-rev and2.1.in1 <= spindle.0.reverse
 
 net S-on-fwd mux4.0.sel0 <= and2.0.out
