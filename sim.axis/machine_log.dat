@@ -1,29 +1,33 @@
---- QtVCP Screen Started on: Fri, Jun 06 2025 05:30:48 PM ---
+--- QtVCP Screen Started on: Fri, Jun 06 2025 05:38:23 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Fri06 17:30: Machine OFF
-Fri06 17:30: Hard limits tripped
-Fri06 17:30: Tool 0: No Tool
-Fri06 17:30: Machine ON
-Fri06 17:31: Machine OFF
-Fri06 17:31: Machine ON
-Fri06 17:31: Machine OFF
-Fri06 17:31: Machine ON
-Fri06 17:35: Machine OFF
-Fri06 17:35: Machine ON
-Fri06 17:35: Machine OFF
-Fri06 17:35: Machine ON
-Fri06 17:35: <1>
-Fri06 17:35: <2>
-Fri06 17:35: <5>
-Fri06 17:35: <6>
-Fri06 17:35: <7>
-Fri06 17:35: <9>
-Fri06 17:36: <9>
-Fri06 17:36: <9>
-Fri06 17:36: <9>
-Fri06 17:36: <9>
-Fri06 17:36: <9>
-Fri06 17:36: <9>
-Fri06 17:36: <7>
-Fri06 17:36: <9>
-Fri06 17:36: Machine OFF
+Fri06 17:38: Machine OFF
+Fri06 17:38: Hard limits tripped
+Fri06 17:38: Tool 0: No Tool
+Fri06 17:38: Machine ON
+Fri06 17:41: Machine OFF
+Fri06 17:41: Machine ON
+Fri06 17:41: Machine OFF
+Fri06 17:41: Machine ON
+Fri06 17:41: Machine OFF
+Fri06 17:41: Machine ON
+Fri06 17:41:  abort pressed
+Fri06 17:41: Machine OFF
+Fri06 17:41: Machine ON
+Fri06 17:41: Machine OFF
+Fri06 17:41: Machine ON
+Fri06 17:41: Machine OFF
+Fri06 17:41: Machine ON
+Fri06 17:42: Machine OFF
+Fri06 17:42: Machine ON
+Fri06 17:42: <1>
+Fri06 17:42: <2>
+Fri06 17:42: <5>
+Fri06 17:42: <6>
+Fri06 17:42: <1>
+Fri06 17:42: <2>
+Fri06 17:42: <5>
+Fri06 17:42: <6>
+Fri06 17:42: <7>
+Fri06 17:42: <9>
+Fri06 17:44:  abort pressed
+Fri06 17:47: Machine OFF
