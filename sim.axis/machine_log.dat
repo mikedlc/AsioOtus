@@ -1,35 +1,38 @@
---- QtVCP Screen Started on: Mon, May 26 2025 07:39:51 PM ---
+--- QtVCP Screen Started on: Fri, Jun 06 2025 04:52:18 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Mon26 19:39: Machine OFF
-Mon26 19:39: Hard limits tripped
-Mon26 19:39: Tool 0: No Tool
-Mon26 19:41: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque/op1 - 3,01x1,24x0,25.ngc
-Mon26 19:41: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque/op1 - 3,01x1,24x0,25.ngc
-Mon26 19:42: Machine ON
-Mon26 19:42: Loaded tool 99
-Mon26 19:42: Tool 99: Haimer Probe 
-Mon26 19:54: Cannot switch pages while in AUTO mode
-Mon26 19:54: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque/op1 - 3,01x1,24x0,25.ngc
-Mon26 19:54: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque/op1 - 3,01x1,24x0,25.ngc
-Mon26 19:54: Loaded tool 32
-Mon26 19:54: Tool 32: 3/16" 3F end mill 
-Mon26 19:55: Started program from line 1
-Mon26 19:55:  Auto Tool probe disabled 
-Mon26 19:58: Tool 12: 6mm 2F chamfer mill 
-Mon26 19:58:  Auto Tool probe disabled 
-Mon26 20:04: Run timer stopped at 00:09:17
-Mon26 20:09: Cannot switch pages while in AUTO mode
-Mon26 20:10: Convert Entry from: 12.5812-1.25 to 12.5812-1.25
-Mon26 20:10: Set Origin of Axis Z to 11.331200
-Mon26 20:10: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque/op2.ngc
-Mon26 20:10: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque/op2.ngc
-Mon26 20:11: Started program from line 1
-Mon26 20:11: Tool 32: 3/16" 3F end mill 
-Mon26 20:11:  Auto Tool probe disabled 
-Mon26 20:13: Tool 12: 6mm 2F chamfer mill 
-Mon26 20:13:  Auto Tool probe disabled 
-Mon26 20:14: Run timer stopped at 00:03:17
-Mon26 20:17:  abort pressed
-Mon26 20:18:  abort pressed
-Mon26 20:20:  abort pressed
-Mon26 20:21: Machine OFF
+Fri06 16:52: Machine OFF
+Fri06 16:52: Hard limits tripped
+Fri06 16:52: Tool 0: No Tool
+Fri06 16:52: Machine ON
+Fri06 16:52:  abort pressed
+Fri06 16:55: <2>
+Fri06 16:55: <3>
+Fri06 16:55: <6>
+Fri06 16:55: <7>
+Fri06 16:55: <8>
+Fri06 16:55: <10>
+Fri06 16:55: <10>
+Fri06 16:56:  abort pressed
+Fri06 16:56: Machine OFF
+Fri06 16:56: Machine ON
+Fri06 16:56: Machine OFF
+Fri06 16:56: Machine ON
+Fri06 16:56: <2>
+Fri06 16:56: <3>
+Fri06 16:56: <6>
+Fri06 16:56: <7>
+Fri06 16:56: <8>
+Fri06 16:57:  abort pressed
+Fri06 16:57:  abort pressed
+Fri06 16:57:  abort pressed
+Fri06 16:57:  abort pressed
+Fri06 16:58:  abort pressed
+Fri06 16:58: Machine OFF
+Fri06 16:58: Machine ON
+Fri06 16:58: Machine OFF
+Fri06 16:58: command (EMC_SPINDLE_ON) cannot be executed until the machine is out of E-stop and turned on
+Fri06 16:58: command (EMC_SPINDLE_INCREASE) cannot be executed until the machine is out of E-stop and turned on
+Fri06 16:58: command (EMC_SPINDLE_CONSTANT) cannot be executed until the machine is out of E-stop and turned on
+Fri06 16:58: Machine ON
+Fri06 16:59:  abort pressed
+Fri06 16:59: Machine OFF
