@@ -11,7 +11,7 @@ loadusr -W xhc-whb04b-6 -HsfB
 # ######################################################################
 
 # On/Off signals
-net machine-is-on                                          whb.halui.machine.is-on
+net machine-is-on                         halui.machine.is-on                   whb.halui.machine.is-on
 net pdnt.machine.on                       whb.halui.machine.on                  halui.machine.on
 net pdnt.machine.off                      whb.halui.machine.off                 halui.machine.off
 
