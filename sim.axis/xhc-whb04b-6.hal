@@ -71,16 +71,16 @@ net pdnt.reserved.for.spindle-            whb.button.macro-4                    
 net pdnt.macro-5                          whb.button.macro-5                    halui.mdi-command-05             # use MDI command from main.ini
 net pdnt.macro-6                          whb.button.macro-6                    halui.mdi-command-06             # use MDI command from main.ini
 net pdnt.macro-7                          whb.button.macro-7                    halui.mdi-command-07             # use MDI command from main.ini
-net pdnt.reserved.for.spindle.dir         whb.button.macro-8                                                     # Hardcoded for spindle direction inside pendant
+net pdnt.reserved.for.spindle.dir         whb.button.macro-8                    halui.mdi-command-08             # Hardcoded for spindle direction inside pendant
 net pdnt.macro-9                          whb.button.macro-9                    halui.mdi-command-09             # use MDI command from main.ini
-net pdnt.reserved.for.ABS-REL             whb.button.macro-10                                                    # Hardcoded for swap Dro  Relative/Absolue
+net pdnt.reserved.for.ABS-REL             whb.button.macro-10                   halui.mdi-command-10             # Hardcoded for swap Dro  Relative/Absolue
 # net pdnt.macro-14                         whb.button.macro-14                   halui.mdi-command-14             # use MDI command from main.ini
 net pdnt.reserved.for.flood               whb.button.macro-15                                                    # Hardcoded for halui.flood on/off
 net pdnt.reserved.for.mist                whb.button.macro-16                                                    # Hardcoded for halui.mist on/off
 
-net pdnt.macro.11                         whb.button.macro-11                   halui.mdi-command-11             # use MDI command from main.ini
-net pdnt.macro.12                         whb.button.macro-12                   halui.mdi-command-12             # use MDI command from main.ini
-net pdnt.macro.13                         whb.button.macro-13                   halui.mdi-command-13             # use MDI command from main.ini
+# net pdnt.macro.11                         whb.button.macro-11                   halui.mdi-command-11             # use MDI command from main.ini
+# net pdnt.macro.12                         whb.button.macro-12                   halui.mdi-command-12             # use MDI command from main.ini
+# net pdnt.macro.13                         whb.button.macro-13                   halui.mdi-command-13             # use MDI command from main.ini
 
 
 # flood and mist toggle signals
@@ -99,9 +99,9 @@ net  pdnt.mist.on                         whb.halui.mist.on                     
 
 # default function button signals
 net pdnt.button.m-home                    whb.button.m-home                     halui.home-all                   # Homing use built-in halui home all
-# net pdnt.button.safe-z                    whb.button.safe-z                     halui.mdi-command-03             # Safe-z  use MDI command from main.ini
-# net pdnt.button.w-home                    whb.button.w-home                     halui.mdi-command-04             # Unpark  use MDI command from main.ini
-# net pdnt.button.probe-z                   whb.button.probe-z                    halui.mdi-command-08             # Probe-Z use MDI command from main.ini
+net pdnt.button.safe-z                    whb.button.safe-z                     halui.mdi-command-11             # Safe-z  use MDI command from main.ini
+net pdnt.button.w-home                    whb.button.w-home                     halui.mdi-command-12             # Unpark  use MDI command from main.ini
+net pdnt.button.probe-z                   whb.button.probe-z                    halui.mdi-command-13             # Probe-Z use MDI command from main.ini
 
 
 # unused, just exposes pendant internal status or as basic button
