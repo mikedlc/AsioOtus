@@ -163,4 +163,5 @@ net pdnt.axis.x.pos-relative              halui.axis.x.pos-relative             
 net pdnt.axis.y.pos-relative              halui.axis.y.pos-relative             whb.halui.axis.y.pos-relative
 net pdnt.axis.z.pos-relative              halui.axis.z.pos-relative             whb.halui.axis.z.pos-relative
 
-
+setp axis.x.jog-accel-fraction 0.5
+setp axis.y.jog-accel-fraction 0.2 
