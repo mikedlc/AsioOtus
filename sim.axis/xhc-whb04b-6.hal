@@ -84,11 +84,11 @@ net pdnt.macro.13                         whb.button.macro-13                   
 
 
 # flood and mist toggle signals
-net  pdnt.flood.is-on                     whb.halui.flood.is-on                 halui.flood.is-on                #return signal is on or off
+net  pdnt.flood.is-on                     whb.halui.flood.is-on                 halui.mist.is-on                #return signal is on or off
 net  pdnt.flood.off                       whb.halui.flood.off                   halui.mist.off                  #reserved whb.button.macro-15
 net  pdnt.flood.on                        whb.halui.flood.on                    halui.mist.on                   #reserved whb.button.macro-15
 
-net  pdnt.mist.is-on                      whb.halui.mist.is-on                  halui.mist.is-on                 #return signal is on or off
+net  pdnt.mist.is-on                      whb.halui.mist.is-on                  halui.flood.is-on                 #return signal is on or off
 net  pdnt.mist.off                        whb.halui.mist.off                    halui.flood.off                   #reserved whb.button.macro-16
 net  pdnt.mist.on                         whb.halui.mist.on                     halui.flood.on                    #reserved whb.button.macro-16
 
