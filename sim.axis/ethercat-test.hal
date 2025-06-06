@@ -30,16 +30,18 @@ net spindle-cmd-rps-abs       <= spindle.0.speed-out-rps-abs
 
 net S-on  and2.0.in0 <= spindle.0.on 
 net S-fwd and2.0.in1 <= spindle.0.forward
-net S-off and2.1.in0 <= spindle.0.off
+net S-on and2.1.in0 <= 
 net S-rev and2.1.in1 <= spindle.0.reverse
 
 net S-on-fwd mux4.0.sel0 <= and2.0.out
 net S-on-rev mux4.0.sel1 <= and2.1.out
 
-setp mux4.0.in0 0     
-# stop          0 0000 0000 = 0 (dec)
+# setp mux4.0.in0 0     
+# # stop          0 0000 0000 = 0 (dec)
+setp mux4.0.in0 4     
+# decel stop          0 0000 0100 = 4 (dec)
 setp mux4.0.in1 1
-# run forward   0 0000 0011 = 1 (dec)
+# run forward   0 0000 0001 = 1 (dec)
 setp mux4.0.in2 3
 # run reverse   0 0000 0011 = 3 (dec)
 setp mux4.0.in3 256     
