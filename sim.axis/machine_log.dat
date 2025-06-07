@@ -1,11 +1,11 @@
---- QtVCP Screen Started on: Fri, Jun 06 2025 07:52:03 PM ---
+--- QtVCP Screen Started on: Fri, Jun 06 2025 08:29:42 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Fri06 19:52: Machine OFF
-Fri06 19:52: Hard limits tripped
-Fri06 19:52: Tool 0: No Tool
-Fri06 19:52: Machine ON
-Fri06 19:54: Machine OFF
-Fri06 19:54: Machine ON
-Fri06 19:55: Machine OFF
-Fri06 19:55: Machine ON
-Fri06 19:55: Machine OFF
+Fri06 20:29: Machine OFF
+Fri06 20:29: Hard limits tripped
+Fri06 20:29: Tool 0: No Tool
+Fri06 20:29: Machine ON
+Fri06 20:31: Homing is REQUIRED to jog requested coordinate
+because joint (1) home_sequence is synchronized (-1)
+Fri06 20:31:  abort pressed
+Fri06 20:32:  abort pressed
+Fri06 20:32: Machine OFF
