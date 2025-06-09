@@ -23,10 +23,10 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque/op2.ngc
+last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/BT30 jig
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/BT30 jig/op2 - flipped.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Random/Graham plaque/op2.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/BT30 jig/op2 - flipped.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
@@ -38,8 +38,8 @@ __dialogOffsetViewWidget-G59 = User System 6
 __dialogOffsetViewWidget-G59.1 = User System 7
 __dialogOffsetViewWidget-G59.2 = User System 8
 __dialogOffsetViewWidget-G59.3 = User System 9
-offset_table-G54 = User System 1
-offset_table-G55 = User System 2
+offset_table-G54 = G54
+offset_table-G55 = G55
 offset_table-G56 = User System 3
 offset_table-G57 = User System 4
 offset_table-G58 = User System 5
@@ -93,7 +93,7 @@ gcodegraphics-user-lat = 0.0
 gcodegraphics-user-lon = 0.0
 
 [CUSTOM_FORM_ENTRIES]
-Tool to load = 0
+Tool to load = 32
 Laser X = 100.0
 Laser Y = -20.0
 Sensor X = 10.0

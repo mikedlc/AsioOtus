@@ -1,7 +1,30 @@
---- QtVCP Screen Started on: Sun, Jun 08 2025 04:03:12 PM ---
+--- QtVCP Screen Started on: Mon, Jun 09 2025 01:45:19 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sun08 16:03: Machine OFF
-Sun08 16:03: Hard limits tripped
-Sun08 16:03: Tool 0: No Tool
-Sun08 16:03: Machine ON
-Sun08 19:52: Machine OFF
+Mon09 13:45: Machine OFF
+Mon09 13:45: Hard limits tripped
+Mon09 13:45: Tool 0: No Tool
+Mon09 13:46: Machine ON
+Mon09 13:46: Loaded tool 32
+Mon09 13:46: Tool 32: 3/16" 3F end mill 
+Mon09 13:47:  abort pressed
+Mon09 13:47:  abort pressed
+Mon09 13:49: Loaded tool 32
+Mon09 14:21: Cannot switch pages while in AUTO mode
+Mon09 14:23: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/BT30 jig/op1 - 2,5x2,5x0,75 in vice.ngc
+Mon09 14:23: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/BT30 jig/op1 - 2,5x2,5x0,75 in vice.ngc
+Mon09 14:32: Started program from line 1
+Mon09 14:32:  Auto Tool probe disabled 
+Mon09 14:39: Tool 12: 6mm 2F chamfer mill 
+Mon09 14:39:  Auto Tool probe disabled 
+Mon09 14:40: Run timer stopped at 00:07:55
+Mon09 14:40: Cannot switch pages while in AUTO mode
+Mon09 14:40: Cannot switch pages while in AUTO mode
+Mon09 14:40: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/BT30 jig/op2 - flipped.ngc
+Mon09 14:40: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/BT30 jig/op2 - flipped.ngc
+Mon09 14:42: Tool 32: 3/16" 3F end mill 
+Mon09 14:42:  Auto Tool probe disabled 
+Mon09 14:49: Tool 12: 6mm 2F chamfer mill 
+Mon09 14:49:  Auto Tool probe disabled 
+Mon09 15:20: Loaded tool 32
+Mon09 15:20: Tool 32: 3/16" 3F end mill 
+Mon09 15:20: Machine OFF
