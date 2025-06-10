@@ -10,7 +10,7 @@ T25  P0   D+0.375000 Z+3.078360 ;3/8" 4F end mill
 T31  P0   D+0.125000 ;1/8" 3F end mill 
 T32  P0   D+0.187500 Z+3.475220 ;3/16" 3F end mill 
 T33  P0   D+0.250000 ;1/4" 3F end mill 
-T35  P0   D+0.375000 ;3/8" 3F end mill 
+T35  P0   D+0.375000 Z+3.065057 ;3/8" 3F end mill 
 T11  P0   D+0.125000 Z+3.121790 ;1/8" 2F chamfer mill 
 T12  P0   D+0.236000 Z+3.215590 ;6mm 2F chamfer mill 
 T99  P0   Z+6.433000 ;Haimer Probe 
