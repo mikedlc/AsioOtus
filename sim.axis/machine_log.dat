@@ -1,14 +1,37 @@
---- QtVCP Screen Started on: Mon, Jun 09 2025 03:21:14 PM ---
+--- QtVCP Screen Started on: Tue, Jun 10 2025 02:05:17 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Mon09 15:21: Machine OFF
-Mon09 15:21: Hard limits tripped
-Mon09 15:21: Tool 0: No Tool
-Mon09 15:21: Machine ON
-Mon09 15:21: Loaded tool 32
-Mon09 15:21: Tool 32: 3/16" 3F end mill 
-Mon09 15:21: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/BT30 jig/op3.ngc
-Mon09 15:21: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/BT30 jig/op3.ngc
-Mon09 15:22: Started program from line 1
-Mon09 15:22:  Auto Tool probe disabled 
-Mon09 15:22: Run timer stopped at 00:00:18
-Mon09 15:26: Machine OFF
+Tue10 14:05: Machine OFF
+Tue10 14:05: Hard limits tripped
+Tue10 14:05: Tool 0: No Tool
+Tue10 14:06: Machine ON
+Tue10 14:07: Convert Entry from: 13.5814+1.25 to 13.5814+1.25
+Tue10 14:07: Set Origin of Axis Z to 14.831400
+Tue10 14:07: Convert Entry from: 13.5814-1.25 to 13.5814-1.25
+Tue10 14:07: Set Origin of Axis Z to 12.331400
+Tue10 14:08: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76, both vises.ngc
+Tue10 14:08: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 2,5x0,5x0,76, both vises.ngc
+Tue10 14:21: Tool 51: .201" twist drill, aluminum 
+Tue10 14:21:  Auto Tool probe disabled 
+Tue10 14:23: Tool 32: 3/16" 3F end mill 
+Tue10 14:23:  Auto Tool probe disabled 
+Tue10 14:32: Tool 12: 6mm 2F chamfer mill 
+Tue10 14:32:  Auto Tool probe disabled 
+Tue10 14:35: Tool 51: .201" twist drill, aluminum 
+Tue10 14:35:  Auto Tool probe disabled 
+Tue10 14:37: Tool 32: 3/16" 3F end mill 
+Tue10 14:37:  Auto Tool probe disabled 
+Tue10 14:37: Probe tripped during non-probe move.
+Tue10 14:37:  error parameter is [3.000000]
+Tue10 14:38: Tool 51: .201" twist drill, aluminum 
+Tue10 14:38:  Auto Tool probe disabled 
+Tue10 14:40: Tool 32: 3/16" 3F end mill 
+Tue10 14:40:  Auto Tool probe disabled 
+Tue10 14:48: Tool 12: 6mm 2F chamfer mill 
+Tue10 14:48:  Auto Tool probe disabled 
+Tue10 14:51: Tool 51: .201" twist drill, aluminum 
+Tue10 14:51:  Auto Tool probe disabled 
+Tue10 14:53: Tool 32: 3/16" 3F end mill 
+Tue10 14:53:  Auto Tool probe disabled 
+Tue10 15:01: Tool 12: 6mm 2F chamfer mill 
+Tue10 15:01:  Auto Tool probe disabled 
+Tue10 15:06: Machine OFF
