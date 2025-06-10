@@ -1,25 +1,18 @@
---- QtVCP Screen Started on: Tue, Jun 10 2025 06:30:20 PM ---
+--- QtVCP Screen Started on: Tue, Jun 10 2025 07:03:54 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Tue10 18:30: Machine OFF
-Tue10 18:30: Hard limits tripped
-Tue10 18:30: Tool 0: No Tool
-Tue10 18:30: Machine ON
-Tue10 18:30: Machine OFF
-Tue10 18:30: Machine ON
-Tue10 18:31: Cannot switch pages while in AUTO mode
-Tue10 18:32: Tool 35: 3/8" 3F end mill 
-Tue10 18:32:  Probe Height: -16.1480
-Tue10 18:32: Tool 35: 3/8" 3F end mill 
-Tue10 18:32:  Block Height: 0.0000
-Tue10 18:32:  Probe Result: -13.0829
-Tue10 18:33: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 0,375 tool in both vises.ngc
-Tue10 18:33: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 0,375 tool in both vises.ngc
-Tue10 18:43: Cannot switch pages while in AUTO mode
-Tue10 18:44:  Auto Tool probe disabled 
-Tue10 18:48: Tool 51: .201" twist drill, aluminum 
-Tue10 18:48:  Auto Tool probe disabled 
-Tue10 18:49: Tool 32: 3/16" 3F end mill 
-Tue10 18:49:  Auto Tool probe disabled 
-Tue10 18:52: Tool 12: 6mm 2F chamfer mill 
-Tue10 18:52:  Auto Tool probe disabled 
-Tue10 18:57: Machine OFF
+Tue10 19:03: Machine OFF
+Tue10 19:03: Hard limits tripped
+Tue10 19:03: Tool 0: No Tool
+Tue10 19:04: Machine ON
+Tue10 19:05: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 0,375 tool in both vises.ngc
+Tue10 19:05: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 0,375 tool in both vises.ngc
+Tue10 19:06: Loaded tool 35
+Tue10 19:06: Tool 35: 3/8" 3F end mill 
+Tue10 19:07:  Auto Tool probe disabled 
+Tue10 19:10: Tool 51: .201" twist drill, aluminum 
+Tue10 19:10:  Auto Tool probe disabled 
+Tue10 19:11: Tool 32: 3/16" 3F end mill 
+Tue10 19:11:  Auto Tool probe disabled 
+Tue10 19:14: Tool 12: 6mm 2F chamfer mill 
+Tue10 19:14:  Auto Tool probe disabled 
+Tue10 19:17: Machine OFF
