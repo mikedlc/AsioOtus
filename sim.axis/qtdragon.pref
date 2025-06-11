@@ -24,9 +24,9 @@ RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
 last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 0,375 tool in both vises.ngc
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side, both vises.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 0,375 tool in both vises.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side, both vises.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
