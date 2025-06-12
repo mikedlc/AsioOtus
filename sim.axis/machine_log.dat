@@ -1,56 +1,13 @@
---- QtVCP Screen Started on: Tue, Jun 10 2025 07:19:19 PM ---
+--- QtVCP Screen Started on: Thu, Jun 12 2025 05:34:20 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Tue10 19:19: Machine OFF
-Tue10 19:19: Hard limits tripped
-Tue10 19:19: Tool 0: No Tool
-Tue10 19:20: Machine ON
-Tue10 19:20: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 0,375 tool in both vises.ngc
-Tue10 19:20: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op1 - 0,375 tool in both vises.ngc
-Tue10 19:20: Tool 35: 3/8" 3F end mill 
-Tue10 19:20:  Auto Tool probe disabled 
-Tue10 19:23: Tool 51: .201" twist drill, aluminum 
-Tue10 19:23:  Auto Tool probe disabled 
-Tue10 19:24: Tool 32: 3/16" 3F end mill 
-Tue10 19:24:  Auto Tool probe disabled 
-Tue10 19:28: Tool 12: 6mm 2F chamfer mill 
-Tue10 19:28:  Auto Tool probe disabled 
-Tue10 19:31: Tool 35: 3/8" 3F end mill 
-Tue10 19:31:  Auto Tool probe disabled 
-Tue10 19:33: Tool 51: .201" twist drill, aluminum 
-Tue10 19:33:  Auto Tool probe disabled 
-Tue10 19:34: Tool 32: 3/16" 3F end mill 
-Tue10 19:34:  Auto Tool probe disabled 
-Tue10 19:38: Tool 12: 6mm 2F chamfer mill 
-Tue10 19:38:  Auto Tool probe disabled 
-Tue10 19:59: Convert Entry from: 5.3934-1.7625 to 5.3934-1.7625
-Tue10 19:59: Set Origin of Axis X to 3.630900
-Tue10 20:00: Convert Entry from: -1.0388-1.8625 to -1.0388-1.8625
-Tue10 20:00: Set Origin of Axis X to -2.901300
-Tue10 20:00: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side, both vises.ngc
-Tue10 20:00: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side, both vises.ngc
-Tue10 20:06: Loaded tool 32
-Tue10 20:06: Tool 32: 3/16" 3F end mill 
-Tue10 20:07:  Auto Tool probe disabled 
-Tue10 20:12: Tool 12: 6mm 2F chamfer mill 
-Tue10 20:12:  Auto Tool probe disabled 
-Tue10 20:15: Started program from line 1
-Tue10 20:15: Tool 32: 3/16" 3F end mill 
-Tue10 20:15:  Auto Tool probe disabled 
-Tue10 20:24: Tool 12: 6mm 2F chamfer mill 
-Tue10 20:24:  Auto Tool probe disabled 
-Tue10 20:24: Run timer stopped at 00:09:13
-Tue10 20:28: Tool 32: 3/16" 3F end mill 
-Tue10 20:28:  Auto Tool probe disabled 
-Tue10 20:32: Tool 12: 6mm 2F chamfer mill 
-Tue10 20:32:  Auto Tool probe disabled 
-Tue10 20:35: Tool 32: 3/16" 3F end mill 
-Tue10 20:35:  Auto Tool probe disabled 
-Tue10 20:39: Tool 12: 6mm 2F chamfer mill 
-Tue10 20:39:  Auto Tool probe disabled 
-Tue10 20:43: Started program from line 1
-Tue10 20:43: Tool 32: 3/16" 3F end mill 
-Tue10 20:43:  Auto Tool probe disabled 
-Tue10 20:47: Tool 12: 6mm 2F chamfer mill 
-Tue10 20:47:  Auto Tool probe disabled 
-Tue10 20:48: Run timer stopped at 00:05:20
-Tue10 20:58: Machine OFF
+Thu12 17:34: Machine OFF
+Thu12 17:34: Hard limits tripped
+Thu12 17:34: Tool 0: No Tool
+Thu12 17:34: Machine ON
+Thu12 17:37: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side, both vises.ngc
+Thu12 17:37: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/op2 - flipped, x zero right side, both vises.ngc
+Thu12 17:37: Tool 32: 3/16" 3F end mill 
+Thu12 17:37:  Auto Tool probe disabled 
+Thu12 17:48: Tool 12: 6mm 2F chamfer mill 
+Thu12 17:48:  Auto Tool probe disabled 
+Thu12 17:55: Machine OFF
