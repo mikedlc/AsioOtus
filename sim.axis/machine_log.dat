@@ -1,16 +1,51 @@
---- QtVCP Screen Started on: Fri, Jul 04 2025 02:42:17 PM ---
+--- QtVCP Screen Started on: Fri, Jul 04 2025 06:03:29 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Fri04 14:42: Machine OFF
-Fri04 14:42: Hard limits tripped
-Fri04 14:42: Tool 0: No Tool
-Fri04 14:42: Machine ON
-Fri04 14:42: Cannot switch pages while in AUTO mode
-Fri04 14:43: Loaded tool 103
-Fri04 14:43: Tool 103: random ~0.300" twist drill 
-Fri04 14:43: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Lifting point r3/lifting bar holes.ngc
-Fri04 14:43: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Lifting point r3/lifting bar holes.ngc
-Fri04 14:44:  Auto Tool probe disabled 
-Fri04 14:45: Tool 35: 3/8" 3F end mill 
-Fri04 14:45:  Auto Tool probe disabled 
-Fri04 14:48:  abort pressed
-Fri04 14:48: Machine OFF
+Fri04 18:03: Machine OFF
+Fri04 18:03: Hard limits tripped
+Fri04 18:03: Tool 0: No Tool
+Fri04 18:03: Machine ON
+Fri04 18:06:  abort pressed
+Fri04 18:10:  abort pressed
+Fri04 18:10:  abort pressed
+Fri04 18:15: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Stand/Foot pads/op1.ngc
+Fri04 18:15: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Stand/Foot pads/op1.ngc
+Fri04 18:15: Loaded tool 25
+Fri04 18:15: Tool 25: 3/8" 4F end mill 
+Fri04 18:15: Cannot switch pages while in AUTO mode
+Fri04 18:16:  abort pressed
+Fri04 18:16:  abort pressed
+Fri04 18:16: Loaded tool 25
+Fri04 18:19: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Stand/Foot pads/op1.ngc
+Fri04 18:19: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Stand/Foot pads/op1.ngc
+Fri04 18:21: Tool 103: random ~0.300" twist drill 
+Fri04 18:21:  Auto Tool probe disabled 
+Fri04 18:22: Tool 25: 3/8" 4F end mill 
+Fri04 18:22:  Auto Tool probe disabled 
+Fri04 18:24: Tool 13: 3/8" 4F chamfer mill 
+Fri04 18:24:  Auto Tool probe disabled 
+Fri04 18:28: Tool 103: random ~0.300" twist drill 
+Fri04 18:28:  Auto Tool probe disabled 
+Fri04 18:28: Tool 25: 3/8" 4F end mill 
+Fri04 18:28:  Auto Tool probe disabled 
+Fri04 18:30: Tool 13: 3/8" 4F chamfer mill 
+Fri04 18:30:  Auto Tool probe disabled 
+Fri04 18:32: Tool 103: random ~0.300" twist drill 
+Fri04 18:32:  Auto Tool probe disabled 
+Fri04 18:32: Tool 25: 3/8" 4F end mill 
+Fri04 18:32:  Auto Tool probe disabled 
+Fri04 18:34: Tool 13: 3/8" 4F chamfer mill 
+Fri04 18:34:  Auto Tool probe disabled 
+Fri04 18:40: Cannot switch pages while in AUTO mode
+Fri04 18:40: Cannot switch pages while in AUTO mode
+Fri04 18:40: Cannot switch pages while in AUTO mode
+Fri04 18:40: Tool 25: 3/8" 4F end mill 
+Fri04 18:40:  Probe Height: -16.1480
+Fri04 18:40: Tool 25: 3/8" 4F end mill 
+Fri04 18:40:  Block Height: 0.0000
+Fri04 18:40:  Probe Result: -13.0695
+Fri04 18:41:  abort pressed
+Fri04 18:41:  abort pressed
+Fri04 18:41: Cannot switch pages while in AUTO mode
+Fri04 18:42: Loaded tool 25
+Fri04 18:43: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Stand/Foot pads/op2.ngc
+Fri04 18:43: Loaded file /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Stand/Foot pads/op2.ngc

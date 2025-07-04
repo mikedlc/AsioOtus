@@ -23,10 +23,10 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Lifting point r3
+last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Stand/Foot pads
 last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Lifting point r3/lifting bar holes.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Lifting point r3/lifting bar holes.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Stand/Foot pads/op2.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
