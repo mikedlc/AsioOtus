@@ -1,28 +1,28 @@
-T2  P0   D+2.000000 Z+9.000000 ;2" facemill, aluminum 
-T3  P0   D+2.000000 Z+9.000000 ;2" facemill, steel 
+T2   P0   D+2.000000 Z+9.000000 ;2" facemill, aluminum 
+T3   P0   D+2.000000 Z+9.000000 ;2" facemill, steel 
 T11  P0   D+0.125000 Z+3.121790 ;1/8" 2F chamfer mill 
 T12  P0   D+0.236000 Z+3.215590 ;6mm 2F chamfer mill 
-T13  P0   D+0.375000 Z+9.000000 ;3/8" 4F chamfer mill 
+T13  P0   D+0.375000 Z+2.901991 ;3/8" 4F chamfer mill 
 T14  P0   D+0.750000 Z+9.000000 ;1F indexable chamfer mill 
 T21  P0   D+0.125000 Z+2.337092 ;1/8" 4F end drill 
 T22  P0   D+0.187500 Z+3.563327 ;3/16" 4F end mill 
 T23  P0   D+0.250000 Z+9.000000 ;1/4" 4F end mill 
 T24  P0   D+2.000000 Z+9.000000 ;--- 
 T25  P0   D+0.375000 Z+3.078360 ;3/8" 4F end mill 
-T31  P0   D+0.125000 Z+9.000000 ;1/8" 3F end mill 
+T31  P0   D+0.125000 Z+3.376898 ;1/8" 3F end mill 
 T32  P0   D+0.187500 Z+3.475220 ;3/16" 3F end mill 
 T33  P0   D+0.250000 Z+9.000000 ;1/4" 3F end mill 
 T34  P0   D+2.000000 Z+9.000000 ;--- 
-T35  P0   D+0.375000 Z+3.065057 ;3/8" 3F end mill 
-T36  P0   D+0.375000 Z+3.771750 ;3/8" long 3F end mill 
+T35  P0   D+0.375000 Z+3.064442 ;3/8" 3F end mill 
+T36  P0   D+0.375000 Z+3.771069 ;3/8" long 3F end mill 
 T50  P0   D+0.250000 Z+3.076706 ;1/4" 140 deg spot drill 
-T51  P0   D+0.201000 Z+3.909790 ;.201" twist drill, aluminum 
+T51  P0   D+0.201000 Z+3.906789 ;.201" twist drill, aluminum 
 T52  P0   D+0.500000 Z+6.491258 ;1/2" twist drill 
-T53  P0   D+0.264000 Z+9.000000 ;0.264" twist drill, aluminum
-T54  P0   D+0.312500 Z+9.000000 ;0.3125" twist drill, aluminum
+T53  P0   D+0.264000 Z+4.290381 ;0.264" twist drill, aluminum
+T54  P0   D+0.312500 Z+4.379928 ;0.3125" twist drill, aluminum
 T101 P0   D+0.100000 Z+9.000000 ;random ~0.100" twist drill 
 T102 P0   D+0.200000 Z+9.000000 ;random ~0.200" twist drill 
-T103 P0   D+0.300000 Z+9.000000 ;random ~0.300" twist drill 
+T103 P0   D+0.300000 Z+8.076055 ;random ~0.300" twist drill 
 T104 P0   D+0.400000 Z+9.000000 ;random ~0.400" twist drill 
 T105 P0   D+0.500000 Z+9.000000 ;random ~0.500" twist drill 
 T99  P0   Z+6.433000 ;Haimer Probe 
