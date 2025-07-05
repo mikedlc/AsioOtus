@@ -68,3 +68,18 @@
                 - 0: Fault reset command invalid
                 - 1: Fault reset command valid
             - bit9～bit15 Reserved
+
+
+- H150 PID tuning
+    - P40.03 - Proportional gain Kp1
+        - Default 50 (range: 0-100)
+    - P40.04 - Integral time Ti1
+        - Default 0.5s 
+    - P40.05 - Differential time Kd1
+        - Default 0s (diabled)
+    - P40.06 - Proportional gain Kp2
+        - Default 50 (range: 0-100)
+    - P40.07 - Integral time Ti2
+        - Default 0.5s
+    - P40.08 - Differential time Kd1
+        - Default 0s (diabled)
