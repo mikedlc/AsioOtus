@@ -71,15 +71,26 @@
 
 
 - H150 PID tuning
-    - P40.03 - Proportional gain Kp1
-        - Default 50 (range: 0-100)
-    - P40.04 - Integral time Ti1
-        - Default 0.5s 
-    - P40.05 - Differential time Kd1
-        - Default 0s (diabled)
-    - P40.06 - Proportional gain Kp2
-        - Default 50 (range: 0-100)
-    - P40.07 - Integral time Ti2
-        - Default 0.5s
-    - P40.08 - Differential time Kd1
-        - Default 0s (diabled)
+    - For above 10 Hz (250 rpm):
+        - P03.01 - Speed loop high speed proportional gain, default 2s
+            - Drive arrived set to 7s 
+        - P03.02 - Speed loop high speed integration time, default 0.2s
+            - Drive arrived set to 0.7s
+            - Currently set to 0.05s, this seems to have solved the bogging down issue upon entry
+        - P03.20 - Driving torque rising filter time, default 0.3s
+
+    - THIS SECTION MAY DO NOTHING:
+        - P40.03 - Proportional gain Kp1
+            - Default 50 (range: 0-100)
+            - Currently 100
+        - P40.04 - Integral time Ti1
+            - Default 0.5s in manual
+            - Currently 0.05s
+        - P40.05 - Differential time Kd1
+            - Default 0s (diabled)
+        - P40.06 - Proportional gain Kp2
+            - Default 50 (range: 0-100)
+        - P40.07 - Integral time Ti2
+            - Default 0.5s
+        - P40.08 - Differential time Kd1
+            - Default 0s (diabled)
