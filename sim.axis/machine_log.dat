@@ -1,7 +1,19 @@
---- QtVCP Screen Started on: Wed, Jul 09 2025 06:06:46 PM ---
+--- QtVCP Screen Started on: Sat, Jul 12 2025 04:16:23 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Wed09 18:06: Machine OFF
-Wed09 18:06: Hard limits tripped
-Wed09 18:06: Tool 0: No Tool
-Wed09 18:06: Machine ON
-Wed09 18:09: Machine OFF
+Sat12 16:16: Machine OFF
+Sat12 16:16: Hard limits tripped
+Sat12 16:16: Tool 0: No Tool
+Sat12 16:16: Machine ON
+Sat12 16:17: Cannot switch pages while in AUTO mode
+Sat12 16:17: Tool 52: 1/2" twist drill 
+Sat12 16:17:  Probe Height: -16.1480
+Sat12 16:17:  Block Height: 0.0000
+Sat12 16:17: Tool 52: 1/2" twist drill 
+Sat12 16:17:  Probe Result: -9.6582
+Sat12 16:18: Tool 35: 3/8" 3F end mill 
+Sat12 16:19:  Probe Height: -16.1480
+Sat12 16:19: Tool 35: 3/8" 3F end mill 
+Sat12 16:19:  Block Height: 0.0000
+Sat12 16:19:  Probe Result: -13.0838
+Sat12 16:22: Unknown or invalid filename extension .nc
+Sat12 16:22: Unknown or invalid filename extension .nc
