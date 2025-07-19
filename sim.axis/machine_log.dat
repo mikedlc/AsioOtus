@@ -1,49 +1,7 @@
---- QtVCP Screen Started on: Sat, Jul 12 2025 04:16:23 PM ---
+--- QtVCP Screen Started on: Fri, Jul 18 2025 07:48:15 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sat12 16:16: Machine OFF
-Sat12 16:16: Hard limits tripped
-Sat12 16:16: Tool 0: No Tool
-Sat12 16:16: Machine ON
-Sat12 16:17: Cannot switch pages while in AUTO mode
-Sat12 16:17: Tool 52: 1/2" twist drill 
-Sat12 16:17:  Probe Height: -16.1480
-Sat12 16:17:  Block Height: 0.0000
-Sat12 16:17: Tool 52: 1/2" twist drill 
-Sat12 16:17:  Probe Result: -9.6582
-Sat12 16:18: Tool 35: 3/8" 3F end mill 
-Sat12 16:19:  Probe Height: -16.1480
-Sat12 16:19: Tool 35: 3/8" 3F end mill 
-Sat12 16:19:  Block Height: 0.0000
-Sat12 16:19:  Probe Result: -13.0838
-Sat12 16:22: Unknown or invalid filename extension .nc
-Sat12 16:22: Unknown or invalid filename extension .nc
-Sat12 16:23: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Nala tag/Nala op1 v1 - 1 round brass in vise.ngc
-Sat12 16:23: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Nala tag/Nala op1 v1 - 1 round brass in vise.ngc
-Sat12 16:23: Tool 102: random ~0.200" twist drill 
-Sat12 16:24:  Probe Height: -16.1480
-Sat12 16:24:  Block Height: 0.0000
-Sat12 16:24: Tool 102: random ~0.200" twist drill 
-Sat12 16:24:  Probe Result: -10.2802
-Sat12 16:24: Cannot switch pages while in AUTO mode
-Sat12 16:26: Divided Axis X in Half - -0.501000
-Sat12 16:27: Divided Axis Y in Half - -0.501000
-Sat12 16:28: Loaded tool 99
-Sat12 16:28: Tool 99: Haimer Probe 
-Sat12 16:28: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Nala tag/Nala op1 v1 - 1 round brass in vise.ngc
-Sat12 16:28: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Nala tag/Nala op1 v1 - 1 round brass in vise.ngc
-Sat12 16:30: Loaded tool 35
-Sat12 16:30: Tool 35: 3/8" 3F end mill 
-Sat12 16:32:  Auto Tool probe disabled 
-Sat12 16:33: Tool 102: random ~0.200" twist drill 
-Sat12 16:33:  Auto Tool probe disabled 
-Sat12 16:33: Tool 11: 1/8" 2F chamfer mill 
-Sat12 16:33:  Auto Tool probe disabled 
-Sat12 16:40: Tool 35: 3/8" 3F end mill 
-Sat12 16:40:  Auto Tool probe disabled 
-Sat12 16:41: Tool 102: random ~0.200" twist drill 
-Sat12 16:41:  Auto Tool probe disabled 
-Sat12 16:42: Tool 11: 1/8" 2F chamfer mill 
-Sat12 16:42:  Auto Tool probe disabled 
-Sat12 16:53:  abort pressed
-Sat12 16:53:  abort pressed
-Sat12 17:05: Machine OFF
+Fri18 19:48: Machine OFF
+Fri18 19:48: Hard limits tripped
+Fri18 19:48: Tool 0: No Tool
+Fri18 19:48: Machine ON
+Fri18 19:48: Machine OFF
