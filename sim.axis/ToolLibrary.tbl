@@ -23,6 +23,8 @@ T51  P0   D+0.201000 Z+3.906789 ;.201" twist drill, aluminum
 T52  P0   D+0.500000 Z+6.489787 ;1/2" twist drill 
 T53  P0   D+0.264000 Z+4.290381 ;0.264" twist drill, aluminum
 T54  P0   D+0.312500 Z+4.379928 ;0.3125" twist drill, aluminum
+T71  P0   D+0.125000 Z+9.000000 ;1/8" 2F ball mill 
+T72  P0   D+0.187500 Z+9.000000 ;3/16" 2F ball mill 
 T101 P0   D+0.100000 Z+9.000000 ;random ~0.100" twist drill 
 T102 P0   D+0.200000 Z+5.867773 ;random ~0.200" twist drill 
 T103 P0   D+0.300000 Z+8.076055 ;random ~0.300" twist drill 
