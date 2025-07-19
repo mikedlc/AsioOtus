@@ -79,6 +79,10 @@
             - Currently set to 0.05s, this seems to have solved the bogging down issue upon entry
         - P03.20 - Driving torque rising filter time, default 0.3s
 
+- Deceleration upon shutdown can't be too short
+    - P02.01 - Deceleration time 1, 0.1s - 6000s
+        - Was set to 3s, now set to 5s
+
     - THIS SECTION MAY DO NOTHING:
         - P40.03 - Proportional gain Kp1
             - Default 50 (range: 0-100)
