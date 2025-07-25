@@ -23,10 +23,10 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Mist cooler mounting plate
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Mist cooler mounting plate/op2.ngc
+last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Random/Beinn Alligin 3
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Random/Beinn Alligin 3/Full program, z zero on top.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Mill R2 parts/Mist cooler mounting plate/op2.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Random/Beinn Alligin 3/Full program, z zero on top.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
