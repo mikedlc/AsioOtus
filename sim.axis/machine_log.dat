@@ -1,7 +1,82 @@
---- QtVCP Screen Started on: Sun, Jul 20 2025 05:03:15 PM ---
+--- QtVCP Screen Started on: Fri, Jul 25 2025 07:20:12 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sun20 17:03: Machine OFF
-Sun20 17:03: Hard limits tripped
-Sun20 17:03: Tool 0: No Tool
-Sun20 17:03: Machine ON
-Sun20 17:04: Machine OFF
+Fri25 19:20: Machine OFF
+Fri25 19:20: Hard limits tripped
+Fri25 19:20: Tool 0: No Tool
+Fri25 19:34: Machine ON
+Fri25 19:36: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
+Fri25 19:36: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
+Fri25 19:37: Loaded tool 35
+Fri25 19:37: Tool 35: 3/8" 3F end mill 
+Fri25 19:38: Loaded tool 36
+Fri25 19:38: Tool 36: 3/8" long 3F end mill 
+Fri25 19:38: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
+Fri25 19:38: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
+Fri25 19:40: can't do that (EMC_TRAJ_SET_TELEOP_ENABLE) in auto mode with the interpreter reading
+Fri25 19:40: Can't switch mode while mode is AUTO and interpreter is not IDLE
+Fri25 19:40: can't do that (EMC_TRAJ_SET_TELEOP_ENABLE) in auto mode with the interpreter reading
+Fri25 19:40: Can't switch mode while mode is AUTO and interpreter is not IDLE
+Fri25 19:40: Tool 35: 3/8" 3F end mill 
+Fri25 19:40:  Auto Tool probe disabled 
+Fri25 19:48: Tool 43: 1/4" 3F end mill, DLC
+Fri25 19:49:  Auto Tool probe disabled 
+Fri25 19:50:  abort pressed
+Fri25 19:55: Loaded tool 43
+Fri25 19:55: Cannot switch pages while in AUTO mode
+Fri25 19:55: Cannot switch pages while in AUTO mode
+Fri25 19:55: Cannot switch pages while in AUTO mode
+Fri25 19:55: Cannot switch pages while in AUTO mode
+Fri25 19:57: Machine OFF
+Fri25 19:57: joint 2 following error
+Fri25 19:57: Machine must be ON and in Manual mode to jog
+Fri25 19:57: command (EMC_JOG_STOP) cannot be executed until the machine is out of E-stop and turned on
+Fri25 19:57: Machine must be ON and in Manual mode to jog
+Fri25 19:57: Machine ON
+Fri25 19:57: Machine OFF
+Fri25 19:57: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine ON
+Fri25 19:58: joint 2 following error
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine must be ON and in Manual mode to jog
+Fri25 19:58: Machine ON
+Fri25 19:58: Machine OFF
+Fri25 19:58: Machine ON
+Fri25 19:59: Machine OFF
