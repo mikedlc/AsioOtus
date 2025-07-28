@@ -1,82 +1,24 @@
---- QtVCP Screen Started on: Fri, Jul 25 2025 07:20:12 PM ---
+--- QtVCP Screen Started on: Mon, Jul 28 2025 02:12:01 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Fri25 19:20: Machine OFF
-Fri25 19:20: Hard limits tripped
-Fri25 19:20: Tool 0: No Tool
-Fri25 19:34: Machine ON
-Fri25 19:36: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
-Fri25 19:36: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
-Fri25 19:37: Loaded tool 35
-Fri25 19:37: Tool 35: 3/8" 3F end mill 
-Fri25 19:38: Loaded tool 36
-Fri25 19:38: Tool 36: 3/8" long 3F end mill 
-Fri25 19:38: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
-Fri25 19:38: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
-Fri25 19:40: can't do that (EMC_TRAJ_SET_TELEOP_ENABLE) in auto mode with the interpreter reading
-Fri25 19:40: Can't switch mode while mode is AUTO and interpreter is not IDLE
-Fri25 19:40: can't do that (EMC_TRAJ_SET_TELEOP_ENABLE) in auto mode with the interpreter reading
-Fri25 19:40: Can't switch mode while mode is AUTO and interpreter is not IDLE
-Fri25 19:40: Tool 35: 3/8" 3F end mill 
-Fri25 19:40:  Auto Tool probe disabled 
-Fri25 19:48: Tool 43: 1/4" 3F end mill, DLC
-Fri25 19:49:  Auto Tool probe disabled 
-Fri25 19:50:  abort pressed
-Fri25 19:55: Loaded tool 43
-Fri25 19:55: Cannot switch pages while in AUTO mode
-Fri25 19:55: Cannot switch pages while in AUTO mode
-Fri25 19:55: Cannot switch pages while in AUTO mode
-Fri25 19:55: Cannot switch pages while in AUTO mode
-Fri25 19:57: Machine OFF
-Fri25 19:57: joint 2 following error
-Fri25 19:57: Machine must be ON and in Manual mode to jog
-Fri25 19:57: command (EMC_JOG_STOP) cannot be executed until the machine is out of E-stop and turned on
-Fri25 19:57: Machine must be ON and in Manual mode to jog
-Fri25 19:57: Machine ON
-Fri25 19:57: Machine OFF
-Fri25 19:57: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine ON
-Fri25 19:58: joint 2 following error
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine must be ON and in Manual mode to jog
-Fri25 19:58: Machine ON
-Fri25 19:58: Machine OFF
-Fri25 19:58: Machine ON
-Fri25 19:59: Machine OFF
+Mon28 14:12: Machine OFF
+Mon28 14:12: Hard limits tripped
+Mon28 14:12: Tool 0: No Tool
+Mon28 14:12: Machine ON
+Mon28 14:14: Cannot switch pages while in AUTO mode
+Mon28 14:15: Probe move on line 0 would exceed joint 2's negative limit
+Mon28 14:15: ERROR INFO Probe routine: failed: Probe move on line 0 would exceed Z's negative limit cmd: G38.2 Z-9.1 F50.0
+Mon28 14:15:  abort pressed
+Mon28 14:16: HISTORY Tool Setter height Z[-13.1461]
+Mon28 14:18: Tool 35: 3/8" 3F end mill 
+Mon28 14:19:  Probe Height: -16.1460
+Mon28 14:19: Tool 35: 3/8" 3F end mill 
+Mon28 14:19:  Block Height: 0.0000
+Mon28 14:19:  Probe Result: -13.0822
+Mon28 14:25: Cannot switch pages while in AUTO mode
+Mon28 14:25: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
+Mon28 14:25: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
+Mon28 14:28:  Auto Tool probe disabled 
+Mon28 14:33: Tool 43: 1/4" 3F end mill, DLC
+Mon28 14:33:  Auto Tool probe disabled 
+Mon28 14:37:  abort pressed
+Mon28 14:38: Machine OFF
