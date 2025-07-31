@@ -1,24 +1,22 @@
---- QtVCP Screen Started on: Mon, Jul 28 2025 02:12:01 PM ---
+--- QtVCP Screen Started on: Wed, Jul 30 2025 08:56:16 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Mon28 14:12: Machine OFF
-Mon28 14:12: Hard limits tripped
-Mon28 14:12: Tool 0: No Tool
-Mon28 14:12: Machine ON
-Mon28 14:14: Cannot switch pages while in AUTO mode
-Mon28 14:15: Probe move on line 0 would exceed joint 2's negative limit
-Mon28 14:15: ERROR INFO Probe routine: failed: Probe move on line 0 would exceed Z's negative limit cmd: G38.2 Z-9.1 F50.0
-Mon28 14:15:  abort pressed
-Mon28 14:16: HISTORY Tool Setter height Z[-13.1461]
-Mon28 14:18: Tool 35: 3/8" 3F end mill 
-Mon28 14:19:  Probe Height: -16.1460
-Mon28 14:19: Tool 35: 3/8" 3F end mill 
-Mon28 14:19:  Block Height: 0.0000
-Mon28 14:19:  Probe Result: -13.0822
-Mon28 14:25: Cannot switch pages while in AUTO mode
-Mon28 14:25: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
-Mon28 14:25: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
-Mon28 14:28:  Auto Tool probe disabled 
-Mon28 14:33: Tool 43: 1/4" 3F end mill, DLC
-Mon28 14:33:  Auto Tool probe disabled 
-Mon28 14:37:  abort pressed
-Mon28 14:38: Machine OFF
+Wed30 20:56: Machine OFF
+Wed30 20:56: Hard limits tripped
+Wed30 20:56: Tool 0: No Tool
+Wed30 20:57: Machine ON
+Wed30 20:57: Cannot switch pages while in AUTO mode
+Wed30 20:57: Tool 33: 1/4" 3F end mill 
+Wed30 20:58:  Probe Height: -16.1460
+Wed30 20:58:  Block Height: 0.0000
+Wed30 20:58: Tool 33: 1/4" 3F end mill 
+Wed30 20:58:  Probe Result: -11.9450
+Wed30 20:58: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
+Wed30 20:58: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
+Wed30 21:40:  Auto Tool probe disabled 
+Wed30 21:43: Tool 51: .201" twist drill, aluminum 
+Wed30 21:43:  Auto Tool probe disabled 
+Wed30 21:45: Tool 32: 3/16" 3F end mill 
+Wed30 21:45:  Auto Tool probe disabled 
+Wed30 21:47: Tool 12: 6mm 2F chamfer mill 
+Wed30 21:47:  Auto Tool probe disabled 
+Wed30 21:48: Machine OFF

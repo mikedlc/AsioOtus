@@ -93,7 +93,7 @@ gcodegraphics-user-lat = 0.0
 gcodegraphics-user-lon = 0.0
 
 [CUSTOM_FORM_ENTRIES]
-Tool to load = 43
+Tool to load = 12
 Laser X = 100.0
 Laser Y = -20.0
 Sensor X = 10.0
