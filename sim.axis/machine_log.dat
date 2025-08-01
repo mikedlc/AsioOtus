@@ -1,32 +1,21 @@
---- QtVCP Screen Started on: Fri, Aug 01 2025 02:42:51 PM ---
+--- QtVCP Screen Started on: Fri, Aug 01 2025 03:12:55 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Fri01 14:42: Machine OFF
-Fri01 14:42: Hard limits tripped
-Fri01 14:42: Tool 0: No Tool
-Fri01 14:48: Machine ON
-Fri01 14:50:  abort pressed
-Fri01 14:51:  abort pressed
-Fri01 14:56:  abort pressed
-Fri01 14:58: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/fixture plate setup, 2,875x4,57.ngc
-Fri01 14:58: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/fixture plate setup, 2,875x4,57.ngc
-Fri01 15:02: can't do that (EMC_TRAJ_SET_TELEOP_ENABLE) in auto mode with the interpreter reading
-Fri01 15:02: Can't switch mode while mode is AUTO and interpreter is not IDLE
-Fri01 15:03: Tool 33: 1/4" 3F end mill 
-Fri01 15:03:  Auto Tool probe disabled 
-Fri01 15:08: joint 0 following error
-Fri01 15:08: Machine OFF
-Fri01 15:08: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/fixture plate setup, 2,875x4,57.ngc
-Fri01 15:09:  abort pressed
-Fri01 15:09:  abort pressed
-Fri01 15:09:  abort pressed
-Fri01 15:09:  abort pressed
-Fri01 15:09:  abort pressed
-Fri01 15:09:  abort pressed
-Fri01 15:09:  abort pressed
-Fri01 15:09:  abort pressed
-Fri01 15:09: Machine ON
-Fri01 15:09: Machine OFF
-Fri01 15:09: Machine ON
-Fri01 15:09:  abort pressed
-Fri01 15:09: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/fixture plate setup, 2,875x4,57.ngc
-Fri01 15:09: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/fixture plate setup, 2,875x4,57.ngc
+Fri01 15:12: Machine OFF
+Fri01 15:12: Hard limits tripped
+Fri01 15:12: Tool 0: No Tool
+Fri01 15:13: Machine ON
+Fri01 15:13: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/fixture plate setup, 2,875x4,57.ngc
+Fri01 15:13: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/fixture plate setup, 2,875x4,57.ngc
+Fri01 15:13: Tool 52: 1/2" twist drill 
+Fri01 15:13:  Auto Tool probe disabled 
+Fri01 15:14: Tool 51: .201" twist drill, aluminum 
+Fri01 15:14:  Auto Tool probe disabled 
+Fri01 15:14: Tool 32: 3/16" 3F end mill 
+Fri01 15:15:  Auto Tool probe disabled 
+Fri01 15:17: Tool 12: 6mm 2F chamfer mill 
+Fri01 15:17:  Auto Tool probe disabled 
+Fri01 15:33: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/TS101 op2 - on plate.ngc
+Fri01 15:33: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/TS101 op2 - on plate.ngc
+Fri01 15:34: Tool 35: 3/8" 3F end mill 
+Fri01 15:34:  Auto Tool probe disabled 
+Fri01 15:35:  abort pressed
