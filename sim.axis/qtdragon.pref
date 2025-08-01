@@ -24,7 +24,7 @@ RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
 last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/fixture plate setup, 2,875x4,57.ngc
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/TS101 op2 - on plate.ngc
 style_QSS_Path = DEFAULT
 RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/TS101 op2 - on plate.ngc
 
@@ -93,7 +93,7 @@ gcodegraphics-user-lat = 0.0
 gcodegraphics-user-lon = 0.0
 
 [CUSTOM_FORM_ENTRIES]
-Tool to load = 52
+Tool to load = 13
 Laser X = 100.0
 Laser Y = -20.0
 Sensor X = 10.0

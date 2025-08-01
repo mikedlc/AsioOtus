@@ -30,3 +30,9 @@ Fri01 15:50:  Probe Height: -16.1460
 Fri01 15:50:  Block Height: 0.0000
 Fri01 15:50: Tool 32: 3/16" 3F end mill 
 Fri01 15:50:  Probe Result: -12.5952
+Fri01 15:50: Loaded program file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/TS101 op2 - on plate.ngc
+Fri01 15:50: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op2 Fixture plate/TS101 op2 - on plate.ngc
+Fri01 15:50:  Auto Tool probe disabled 
+Fri01 15:54: Tool 13: 3/8" 4F chamfer mill 
+Fri01 15:54:  Auto Tool probe disabled 
+Fri01 15:58: Machine OFF
