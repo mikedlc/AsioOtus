@@ -52,6 +52,21 @@
 
 	- Currently all inputs are unassigned (0000) so that the drive doesn't use them but LinuxCNC does
 
+
+- Digital outputs
+	- Page 11-92 in the B3 manual
+	- 60FE index
+		- Bits 0-15 are reserved
+		- Bit 16 is DO1
+			- Has a sub index
+				- 0 - # of sub index
+				- 1 - physical outputs
+				- 2 - bit mask
+			- I believe that both sub index 1 and 2 need to be change from 0 to 1 to enable to output
+				- So one can be perminently set to 1, the other can can be switched with the software button
+
+
+
 - Homing within driver - Page 7-9
 	- DI value 0x027 - SHOM ('during homing, when this DI is on, the servo starts to search for the origin. refer to the setting of P5.004)
 	- "Homing method is specified by P5.004 and the homing definition is determiend by P6.000"

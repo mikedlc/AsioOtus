@@ -126,6 +126,11 @@ net estop-out     <=  iocontrol.0.user-enable-out
 
 net probe  motion.probe-input <= lcec.0.0.in-4-Toolsetter-Trigger
 
+# --- COOLANT ---
+# net coolant-mist <= iocontrol.0.coolant-mist
+# net cooland-flood <= iocontrol.0.coolant-flood
+
+
 #*******************
 # net creates a connection between a signal and one or more pins.
 # replaces the need for command newsig.
