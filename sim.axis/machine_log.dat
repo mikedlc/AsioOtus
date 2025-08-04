@@ -42,3 +42,33 @@ Mon04 18:44:  Block Height: 0.0000
 Mon04 18:44:  Probe Result: -13.0821
 Mon04 18:45: Open File error: Multiple '.' not allowed in Linuxcnc
 Mon04 18:45: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/Pinecil/Pinecil op1 - 10,6x0.77.ngc
+Mon04 18:47: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/Pinecil/Pinecil op1 - 10,6x0,77.ngc
+Mon04 18:47: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/Pinecil/Pinecil op1 - 10,6x0,77.ngc
+Mon04 18:48: Tool 33: 1/4" 3F end mill 
+Mon04 18:48:  abort pressed
+Mon04 18:48:  abort pressed
+Mon04 18:48:  abort pressed
+Mon04 18:48:  abort pressed
+Mon04 18:48:  abort pressed
+Mon04 18:48: Cannot switch pages while in AUTO mode
+Mon04 18:48: Cannot switch pages while in AUTO mode
+Mon04 18:48: Cannot switch pages while in AUTO mode
+Mon04 18:48: Cannot switch pages while in AUTO mode
+Mon04 18:48: Loaded tool 31
+Mon04 18:48: Tool 31: 1/8" 3F end mill 
+Mon04 18:49: Tool 33: 1/4" 3F end mill 
+Mon04 18:49:  Auto Tool probe disabled 
+Mon04 18:56: Tool 51: .201" twist drill, aluminum 
+Mon04 18:56:  Auto Tool probe disabled 
+Mon04 18:57: Tool 53: 0.264" twist drill, aluminum
+Mon04 18:57:  Auto Tool probe disabled 
+Mon04 18:58: Tool 12: 6mm 2F chamfer mill 
+Mon04 18:58:  Auto Tool probe disabled 
+Mon04 19:01: Tool 33: 1/4" 3F end mill 
+Mon04 19:01:  Auto Tool probe disabled 
+Mon04 19:08: Tool 51: .201" twist drill, aluminum 
+Mon04 19:08:  Auto Tool probe disabled 
+Mon04 19:09: Tool 53: 0.264" twist drill, aluminum
+Mon04 19:09:  Auto Tool probe disabled 
+Mon04 19:10: Tool 12: 6mm 2F chamfer mill 
+Mon04 19:10:  Auto Tool probe disabled 
