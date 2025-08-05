@@ -72,3 +72,112 @@ Mon04 19:09: Tool 53: 0.264" twist drill, aluminum
 Mon04 19:09:  Auto Tool probe disabled 
 Mon04 19:10: Tool 12: 6mm 2F chamfer mill 
 Mon04 19:10:  Auto Tool probe disabled 
+Mon04 19:13: Cannot switch pages while in AUTO mode
+Mon04 19:13: Cannot switch pages while in AUTO mode
+Mon04 19:13: Cannot switch pages while in AUTO mode
+Mon04 19:13: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/Pinecil/pinecil op1 - 10,6x0,77 T35.ngc
+Mon04 19:13: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/Pinecil/pinecil op1 - 10,6x0,77 T35.ngc
+Mon04 19:15: Tool 35: 3/8" 3F end mill 
+Mon04 19:15:  Auto Tool probe disabled 
+Mon04 19:18: Tool 33: 1/4" 3F end mill 
+Mon04 19:18:  Auto Tool probe disabled 
+Mon04 19:22: Tool 51: .201" twist drill, aluminum 
+Mon04 19:22:  Auto Tool probe disabled 
+Mon04 19:22: Tool 53: 0.264" twist drill, aluminum
+Mon04 19:22:  Auto Tool probe disabled 
+Mon04 19:23: Tool 12: 6mm 2F chamfer mill 
+Mon04 19:23:  Auto Tool probe disabled 
+Mon04 19:26: Tool 35: 3/8" 3F end mill 
+Mon04 19:26:  Auto Tool probe disabled 
+Mon04 19:28: Tool 33: 1/4" 3F end mill 
+Mon04 19:28:  Auto Tool probe disabled 
+Mon04 19:32: Tool 51: .201" twist drill, aluminum 
+Mon04 19:32:  Auto Tool probe disabled 
+Mon04 19:33: Tool 53: 0.264" twist drill, aluminum
+Mon04 19:33:  Auto Tool probe disabled 
+Mon04 19:34: Tool 12: 6mm 2F chamfer mill 
+Mon04 19:34:  Auto Tool probe disabled 
+Mon04 19:39: Cannot switch pages while in AUTO mode
+Mon04 19:39: Cannot switch pages while in AUTO mode
+Mon04 19:40: Tool 33: 1/4" 3F end mill 
+Mon04 19:40:  Probe Height: -16.1460
+Mon04 19:40: Tool 33: 1/4" 3F end mill 
+Mon04 19:40:  Block Height: 0.0000
+Mon04 19:40:  Probe Result: -13.1646
+Mon04 19:42: Tool 35: 3/8" 3F end mill 
+Mon04 19:42:  Auto Tool probe disabled 
+Mon04 19:44: Tool 33: 1/4" 3F end mill 
+Mon04 19:44:  Auto Tool probe disabled 
+Mon04 19:48: Tool 51: .201" twist drill, aluminum 
+Mon04 19:48:  Auto Tool probe disabled 
+Mon04 19:49: Tool 53: 0.264" twist drill, aluminum
+Mon04 19:49:  Auto Tool probe disabled 
+Mon04 19:49: Tool 12: 6mm 2F chamfer mill 
+Mon04 19:49:  Auto Tool probe disabled 
+Mon04 19:56: Machine OFF
+Mon04 20:24: Machine ON
+Mon04 20:25: Tool 35: 3/8" 3F end mill 
+Mon04 20:25:  Auto Tool probe disabled 
+Mon04 20:27: Tool 33: 1/4" 3F end mill 
+Mon04 20:27:  Auto Tool probe disabled 
+Mon04 20:31: Tool 51: .201" twist drill, aluminum 
+Mon04 20:31:  Auto Tool probe disabled 
+Mon04 20:31: Tool 53: 0.264" twist drill, aluminum
+Mon04 20:31:  Auto Tool probe disabled 
+Mon04 20:32: Tool 12: 6mm 2F chamfer mill 
+Mon04 20:32:  Auto Tool probe disabled 
+Mon04 20:35: Tool 35: 3/8" 3F end mill 
+Mon04 20:35:  Auto Tool probe disabled 
+Mon04 20:37: Tool 33: 1/4" 3F end mill 
+Mon04 20:37:  Auto Tool probe disabled 
+Mon04 20:40: Tool 51: .201" twist drill, aluminum 
+Mon04 20:40:  Auto Tool probe disabled 
+Mon04 20:41: Tool 53: 0.264" twist drill, aluminum
+Mon04 20:41:  Auto Tool probe disabled 
+Mon04 20:42: Tool 12: 6mm 2F chamfer mill 
+Mon04 20:42:  Auto Tool probe disabled 
+Mon04 20:44: Tool 35: 3/8" 3F end mill 
+Mon04 20:44:  Auto Tool probe disabled 
+Mon04 20:47: Tool 33: 1/4" 3F end mill 
+Mon04 20:47:  Auto Tool probe disabled 
+Mon04 20:50: Tool 51: .201" twist drill, aluminum 
+Mon04 20:50:  Auto Tool probe disabled 
+Mon04 20:51: Tool 53: 0.264" twist drill, aluminum
+Mon04 20:51:  Auto Tool probe disabled 
+Mon04 20:52: Tool 12: 6mm 2F chamfer mill 
+Mon04 20:52:  Auto Tool probe disabled 
+Mon04 20:53: Machine OFF
+Mon04 21:49: Machine ON
+Mon04 21:50: Tool 35: 3/8" 3F end mill 
+Mon04 21:50:  Auto Tool probe disabled 
+Mon04 21:52: Tool 33: 1/4" 3F end mill 
+Mon04 21:52:  Auto Tool probe disabled 
+Mon04 21:56: Tool 51: .201" twist drill, aluminum 
+Mon04 21:56:  Auto Tool probe disabled 
+Mon04 21:57: Tool 53: 0.264" twist drill, aluminum
+Mon04 21:57:  Auto Tool probe disabled 
+Mon04 21:57: Tool 12: 6mm 2F chamfer mill 
+Mon04 21:57:  Auto Tool probe disabled 
+Mon04 22:00: Tool 35: 3/8" 3F end mill 
+Mon04 22:00:  Auto Tool probe disabled 
+Mon04 22:02: Tool 33: 1/4" 3F end mill 
+Mon04 22:02:  Auto Tool probe disabled 
+Mon04 22:06: Tool 51: .201" twist drill, aluminum 
+Mon04 22:06:  Auto Tool probe disabled 
+Mon04 22:06: Tool 53: 0.264" twist drill, aluminum
+Mon04 22:06:  Auto Tool probe disabled 
+Mon04 22:07: Tool 12: 6mm 2F chamfer mill 
+Mon04 22:07:  Auto Tool probe disabled 
+Mon04 22:10: Tool 35: 3/8" 3F end mill 
+Mon04 22:10:  Auto Tool probe disabled 
+Mon04 22:12: Tool 33: 1/4" 3F end mill 
+Mon04 22:12:  Auto Tool probe disabled 
+Mon04 22:15: Tool 51: .201" twist drill, aluminum 
+Mon04 22:15:  Auto Tool probe disabled 
+Mon04 22:16: Tool 53: 0.264" twist drill, aluminum
+Mon04 22:16:  Auto Tool probe disabled 
+Mon04 22:17: Tool 12: 6mm 2F chamfer mill 
+Mon04 22:17:  Auto Tool probe disabled 
+Mon04 22:18: Machine OFF
+Mon04 22:19: Machine ON
+Mon04 22:19: Machine OFF
