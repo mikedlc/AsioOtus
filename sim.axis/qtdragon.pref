@@ -24,7 +24,7 @@ RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
 last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/Pinecil/pinecil op1 - 10,6x0,77 T35.ngc
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
 style_QSS_Path = DEFAULT
 RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
 

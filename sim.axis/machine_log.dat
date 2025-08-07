@@ -28,3 +28,18 @@ Tue05 19:05: Tool 32: 3/16" 3F end mill
 Tue05 19:05:  Auto Tool probe disabled 
 Tue05 19:06: Tool 12: 6mm 2F chamfer mill 
 Tue05 19:06:  Auto Tool probe disabled 
+Tue05 19:10: Loaded program file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
+Tue05 19:10: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/TS101/op1 - 10,625x1,125+.ngc
+Tue05 19:10: Tool 35: 3/8" 3F end mill 
+Tue05 19:10:  Auto Tool probe disabled 
+Tue05 19:14: Tool 33: 1/4" 3F end mill 
+Tue05 19:14:  Auto Tool probe disabled 
+Tue05 19:19: Tool 51: .201" twist drill, aluminum 
+Tue05 19:19:  Auto Tool probe disabled 
+Tue05 19:20: Tool 32: 3/16" 3F end mill 
+Tue05 19:20:  Auto Tool probe disabled 
+Tue05 19:20: Tool 12: 6mm 2F chamfer mill 
+Tue05 19:20:  Auto Tool probe disabled 
+Tue05 19:21: Machine OFF
+Tue05 19:22: Machine ON
+Tue05 19:22: Machine OFF
