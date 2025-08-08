@@ -63,3 +63,12 @@ Thu07 19:47: Tool 13: 3/8" 4F chamfer mill
 Thu07 19:47:  Auto Tool probe disabled 
 Thu07 19:51: Machine OFF
 Thu07 20:02: Machine ON
+Thu07 20:10: Loaded program file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/Pinecil/pinecil op2 - on plate.ngc
+Thu07 20:10: Loaded file /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/Pinecil/pinecil op2 - on plate.ngc
+Thu07 20:12: Tool 35: 3/8" 3F end mill 
+Thu07 20:12:  Auto Tool probe disabled 
+Thu07 20:14: Tool 32: 3/16" 3F end mill 
+Thu07 20:14:  Auto Tool probe disabled 
+Thu07 20:21: Tool 13: 3/8" 4F chamfer mill 
+Thu07 20:21:  Auto Tool probe disabled 
+Thu07 20:25: Machine OFF
