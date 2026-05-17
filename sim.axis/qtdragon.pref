@@ -1,7 +1,7 @@
 [DIALOG_GEOMETRY]
 AboutDialog-geometry = half
 LncMessage-geometry = 910 539 280 118
-ToolChangeDialog-geometry = 910 525 340 237
+ToolChangeDialog-geometry = 897 603 340 237
 CalculatorDialog-geometry = 910 539 472 376
 VersaHelpDialog-geometry = 660 240 600 600
 _CALCULATOR = 910 525 472 376
@@ -23,10 +23,10 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/Pinecil
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/Pinecil/pinecil op2 - on plate.ngc
+last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Random/NLCH oven cookie sheet
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Random/NLCH oven cookie sheet/opw - flipped.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Omnifixo Pinecil/Pinecil/pinecil op2 - on plate.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Random/NLCH oven cookie sheet/opw - flipped.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
@@ -93,7 +93,7 @@ gcodegraphics-user-lat = 0.0
 gcodegraphics-user-lon = 0.0
 
 [CUSTOM_FORM_ENTRIES]
-Tool to load = 13
+Tool to load = 0
 Laser X = 100.0
 Laser Y = -20.0
 Sensor X = 10.0
