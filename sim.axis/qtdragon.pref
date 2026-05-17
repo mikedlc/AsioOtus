@@ -23,10 +23,10 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Random/NLCH oven cookie sheet
+last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1
 last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Random/NLCH oven cookie sheet/opw - flipped.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Random/NLCH oven cookie sheet/opw - flipped.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/dovetail saw op1.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1

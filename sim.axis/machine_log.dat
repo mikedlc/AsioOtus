@@ -1,10 +1,31 @@
---- QtVCP Screen Started on: Sun, Apr 05 2026 05:32:34 PM ---
+--- QtVCP Screen Started on: Sun, May 17 2026 12:04:54 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sun05 17:32: Machine OFF
-Sun05 17:32: Hard limits tripped
-Sun05 17:32: Tool 0: No Tool
-Sun05 17:32: Machine ON
-Sun05 17:42:  abort pressed
-Sun05 17:46:  abort pressed
-Sun05 17:50:  abort pressed
-Sun05 17:55: Machine OFF
+Sun17 12:04: Machine OFF
+Sun17 12:04: Hard limits tripped
+Sun17 12:04: Tool 0: No Tool
+Sun17 12:05: Machine ON
+Sun17 12:10:  abort pressed
+Sun17 12:11: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/dovetail saw op1.ngc
+Sun17 12:11: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/dovetail saw op1.ngc
+Sun17 12:14: Loaded tool 51
+Sun17 12:14: Tool 51: .201" twist drill, aluminum 
+Sun17 12:23: Cannot switch pages while in AUTO mode
+Sun17 12:34: Cannot switch pages while in AUTO mode
+Sun17 12:35: Cannot switch pages while in AUTO mode
+Sun17 12:36:  Probe Height: -16.1460
+Sun17 12:36:  Block Height: 0.0000
+Sun17 12:36: Tool 51: .201" twist drill, aluminum 
+Sun17 12:36:  Probe Result: -12.2397
+Sun17 12:38: Tool 32: 3/16" 3F end mill 
+Sun17 12:39:  Probe Height: -16.1460
+Sun17 12:39:  Block Height: 0.0000
+Sun17 12:39: Tool 32: 3/16" 3F end mill 
+Sun17 12:39:  Probe Result: -12.5964
+Sun17 12:52: Machine must be ON and in Manual mode to jog
+Sun17 12:52: Machine must be ON and in Manual mode to jog
+Sun17 13:00: Tool 12: 6mm 2F chamfer mill 
+Sun17 13:00:  Probe Height: -16.1460
+Sun17 13:00:  Block Height: 0.0000
+Sun17 13:00: Tool 12: 6mm 2F chamfer mill 
+Sun17 13:00:  Probe Result: -12.9313
+Sun17 13:04: Machine OFF
