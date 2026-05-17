@@ -29,3 +29,28 @@ Sun17 13:00:  Block Height: 0.0000
 Sun17 13:00: Tool 12: 6mm 2F chamfer mill 
 Sun17 13:00:  Probe Result: -12.9313
 Sun17 13:04: Machine OFF
+Sun17 14:36: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/dovetail saw op1.ngc
+Sun17 14:36: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/dovetail saw op1.ngc
+Sun17 14:36: Cannot switch pages while in AUTO mode
+Sun17 14:36: Machine ON
+Sun17 14:37: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/dovetail saw op1.ngc
+Sun17 14:37: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/dovetail saw op1.ngc
+Sun17 14:38: Tool 51: .201" twist drill, aluminum 
+Sun17 14:38:  Auto Tool probe disabled 
+Sun17 14:39: Tool 32: 3/16" 3F end mill 
+Sun17 14:39:  Auto Tool probe disabled 
+Sun17 14:55: Tool 12: 6mm 2F chamfer mill 
+Sun17 14:55:  Auto Tool probe disabled 
+Sun17 15:24: Machine OFF
+Sun17 16:01: Machine ON
+Sun17 16:07: Loaded tool 99
+Sun17 16:07: Tool 99: Haimer Probe 
+Sun17 16:08: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/dovetail saw op2.ngc
+Sun17 16:08: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/dovetail saw op2.ngc
+Sun17 16:09: Tool 32: 3/16" 3F end mill 
+Sun17 16:09:  Auto Tool probe disabled 
+Sun17 16:17: Tool 12: 6mm 2F chamfer mill 
+Sun17 16:17:  Auto Tool probe disabled 
+Sun17 17:03: Loaded tool 99
+Sun17 17:03: Tool 99: Haimer Probe 
+Sun17 17:06: Cannot switch pages while in AUTO mode
