@@ -23,3 +23,7 @@ Sat23 14:35:  Probe Height: -16.1460
 Sat23 14:35: Tool 32: 3/16" 3F end mill 
 Sat23 14:35:  Block Height: 0.0000
 Sat23 14:35:  Probe Result: -12.5962
+Sat23 14:42: Cannot switch pages while in AUTO mode
+Sat23 14:43: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/handle enlarge slot.ngc
+Sat23 14:43: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/handle enlarge slot.ngc
+Sat23 14:45: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/Handle, 7x6 op 1.ngc
