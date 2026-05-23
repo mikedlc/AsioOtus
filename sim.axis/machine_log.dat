@@ -27,3 +27,17 @@ Sat23 14:42: Cannot switch pages while in AUTO mode
 Sat23 14:43: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/handle enlarge slot.ngc
 Sat23 14:43: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/handle enlarge slot.ngc
 Sat23 14:45: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/Handle, 7x6 op 1.ngc
+Sat23 14:45: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/handle just widen slot.ngc
+Sat23 14:45: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/handle just widen slot.ngc
+Sat23 14:46: Cannot switch pages while in AUTO mode
+Sat23 14:47: Tool 33: 1/4" 3F end mill 
+Sat23 14:47:  Auto Tool probe disabled 
+Sat23 14:51: Loaded tool 99
+Sat23 14:51: Tool 99: Haimer Probe 
+Sat23 14:53: Divided Axis X in Half - -0.234500
+Sat23 14:54: Divided Axis Y in Half - -0.233499
+Sat23 14:58: Loaded program file : /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/Handle, 7x6 op 2, xy zero in hole.ngc
+Sat23 14:58: Loaded file /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/Handle, 7x6 op 2, xy zero in hole.ngc
+Sat23 14:59: Tool 33: 1/4" 3F end mill 
+Sat23 14:59:  Auto Tool probe disabled 
+Sat23 15:33: Machine OFF
