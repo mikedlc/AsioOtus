@@ -26,7 +26,7 @@ RunFromLineDialog_sound_type = READY
 last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1
 last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/handle side plates, 0,5x0,5x.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/handle side plates, 0,5x0,5x.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Random/Dovetail saw r1/Handle, 7x6 op 1.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
