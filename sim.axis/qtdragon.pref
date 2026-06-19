@@ -23,10 +23,10 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/Random/bike stuff
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/Random/bike stuff/bash guard op2, on tape.ngc
+last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/FS bike
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/FS bike/rocker r2 10,6x5.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/Random/bike stuff/bash guard op2, on tape.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/rocker r2 10,6x5.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
@@ -93,7 +93,7 @@ gcodegraphics-user-lat = 0.0
 gcodegraphics-user-lon = 0.0
 
 [CUSTOM_FORM_ENTRIES]
-Tool to load = 12
+Tool to load = 11
 Laser X = 100.0
 Laser Y = -20.0
 Sensor X = 10.0
