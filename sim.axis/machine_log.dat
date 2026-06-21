@@ -53,3 +53,16 @@ Sun21 13:16: Tool 33: 1/4" 3F end mill
 Sun21 13:16:  Probe Result: -13.1796
 Sun21 13:16:  abort pressed
 Sun21 13:16:  abort pressed
+Sun21 13:19: Cannot switch pages while in AUTO mode
+Sun21 13:19: Cannot switch pages while in AUTO mode
+Sun21 13:19: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
+Sun21 13:19: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
+Sun21 13:20:  Probe Height: -16.1460
+Sun21 13:20: Tool 33: 1/4" 3F end mill 
+Sun21 13:20:  Block Height: 0.0000
+Sun21 13:20:  Probe Result: -13.1797
+Sun21 13:24: Tool 13: 3/8" 4F chamfer mill 
+Sun21 13:24:  Probe Height: -16.1460
+Sun21 13:24:  Block Height: 0.0000
+Sun21 13:24: Tool 13: 3/8" 4F chamfer mill 
+Sun21 13:24:  Probe Result: -13.2437
