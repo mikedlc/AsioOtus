@@ -158,3 +158,28 @@ Sun21 17:01: Open File error: Multiple '.' not allowed in Linuxcnc
 Sun21 17:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4.5 mm op1.ngc
 Sun21 17:01: Open File error: Multiple '.' not allowed in Linuxcnc
 Sun21 17:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4.5 mm op1.ngc
+Sun21 17:03: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4,5 mm op1.ngc
+Sun21 17:03: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4,5 mm op1.ngc
+Sun21 17:04: Tool 54: 0.3125" twist drill, aluminum
+Sun21 17:04:  Probe Height: -16.1460
+Sun21 17:04:  Block Height: 0.0000
+Sun21 17:04: Tool 54: 0.3125" twist drill, aluminum
+Sun21 17:04:  Probe Result: -11.7666
+Sun21 17:05: Tool 33: 1/4" 3F end mill 
+Sun21 17:05:  Probe Height: -16.1460
+Sun21 17:05: Tool 33: 1/4" 3F end mill 
+Sun21 17:05:  Block Height: 0.0000
+Sun21 17:05:  Probe Result: -13.1804
+Sun21 17:06: Cannot switch pages while in AUTO mode
+Sun21 17:06: Cannot switch pages while in AUTO mode
+Sun21 17:06: Cannot switch pages while in AUTO mode
+Sun21 17:07: Tool 54: 0.3125" twist drill, aluminum
+Sun21 17:07:  Auto Tool probe disabled 
+Sun21 17:07: Tool 33: 1/4" 3F end mill 
+Sun21 17:07:  Auto Tool probe disabled 
+Sun21 17:11: Cannot switch pages while in AUTO mode
+Sun21 17:11: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4,5 mm op2.ngc
+Sun21 17:11: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4,5 mm op2.ngc
+Sun21 17:11:  Auto Tool probe disabled 
+Sun21 17:13:  Auto Tool probe disabled 
+Sun21 17:19: Machine OFF
