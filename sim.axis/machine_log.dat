@@ -154,3 +154,7 @@ Sun21 16:59: command (EMC_TASK_PLAN_EXECUTE) cannot be executed until the machin
 Sun21 16:59: Machine ON
 Sun21 16:59: Loaded tool 99
 Sun21 16:59: Tool 99: Haimer Probe 
+Sun21 17:01: Open File error: Multiple '.' not allowed in Linuxcnc
+Sun21 17:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4.5 mm op1.ngc
+Sun21 17:01: Open File error: Multiple '.' not allowed in Linuxcnc
+Sun21 17:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4.5 mm op1.ngc
