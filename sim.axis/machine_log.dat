@@ -39,3 +39,17 @@ Sun21 12:53:  Probe Result: -12.6346
 Sun21 13:05: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
 Sun21 13:05:  abort pressed
 Sun21 13:05:  abort pressed
+Sun21 13:12: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
+Sun21 13:12: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
+Sun21 13:13: Tool 33: 1/4" 3F end mill 
+Sun21 13:13:  Probe Height: -16.1460
+Sun21 13:13:  Block Height: 0.0000
+Sun21 13:13: Tool 33: 1/4" 3F end mill 
+Sun21 13:13:  Probe Result: -13.1798
+Sun21 13:13:  abort pressed
+Sun21 13:16:  Probe Height: -16.1460
+Sun21 13:16:  Block Height: 0.0000
+Sun21 13:16: Tool 33: 1/4" 3F end mill 
+Sun21 13:16:  Probe Result: -13.1796
+Sun21 13:16:  abort pressed
+Sun21 13:16:  abort pressed
