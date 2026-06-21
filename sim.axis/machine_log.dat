@@ -66,3 +66,91 @@ Sun21 13:24:  Probe Height: -16.1460
 Sun21 13:24:  Block Height: 0.0000
 Sun21 13:24: Tool 13: 3/8" 4F chamfer mill 
 Sun21 13:24:  Probe Result: -13.2437
+Sun21 14:45: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/16 mm spreader op1.ngc
+Sun21 14:45: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/16 mm spreader op1.ngc
+Sun21 14:46: Tool 36: 3/8" long 3F end mill 
+Sun21 14:46:  Probe Height: -16.1460
+Sun21 14:46: Tool 36: 3/8" long 3F end mill 
+Sun21 14:46:  Block Height: 0.0000
+Sun21 14:46:  Probe Result: -12.3755
+Sun21 14:48: Tool 51: .201" twist drill, aluminum 
+Sun21 14:49:  Probe Height: -16.1460
+Sun21 14:49: Tool 51: .201" twist drill, aluminum 
+Sun21 14:49:  Block Height: 0.0000
+Sun21 14:49:  Probe Result: -12.2390
+Sun21 14:52: Tool 101: random ~0.100" twist drill 
+Sun21 14:52:  Probe Height: -16.1460
+Sun21 14:52: Tool 101: random ~0.100" twist drill 
+Sun21 14:52:  Block Height: 0.0000
+Sun21 14:52:  Probe Result: -10.7449
+Sun21 14:59: Tool 12: 6mm 2F chamfer mill 
+Sun21 14:59:  Probe Height: -16.1460
+Sun21 14:59: Tool 12: 6mm 2F chamfer mill 
+Sun21 14:59:  Block Height: 0.0000
+Sun21 14:59:  Probe Result: -12.9309
+Sun21 15:01: Cannot switch pages while in AUTO mode
+Sun21 15:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader op1.ngc
+Sun21 15:01: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader op1.ngc
+Sun21 15:02: Tool 36: 3/8" long 3F end mill 
+Sun21 15:02:  Probe Height: -16.1460
+Sun21 15:02:  Block Height: 0.0000
+Sun21 15:02: Tool 36: 3/8" long 3F end mill 
+Sun21 15:02:  Probe Result: -12.3748
+Sun21 15:03: Tool 51: .201" twist drill, aluminum 
+Sun21 15:03:  Probe Height: -16.1460
+Sun21 15:03: Tool 51: .201" twist drill, aluminum 
+Sun21 15:03:  Block Height: 0.0000
+Sun21 15:03:  Probe Result: -12.2387
+Sun21 15:04: Tool 101: random ~0.100" twist drill 
+Sun21 15:05:  Probe Height: -16.1460
+Sun21 15:05: Tool 101: random ~0.100" twist drill 
+Sun21 15:05:  Block Height: 0.0000
+Sun21 15:05:  Probe Result: -10.3804
+Sun21 15:11: Tool 12: 6mm 2F chamfer mill 
+Sun21 15:11:  Probe Height: -16.1460
+Sun21 15:11:  Block Height: 0.0000
+Sun21 15:11: Tool 12: 6mm 2F chamfer mill 
+Sun21 15:11:  Probe Result: -12.9308
+Sun21 15:21: Cannot switch pages while in AUTO mode
+Sun21 15:21: Cannot switch pages while in AUTO mode
+Sun21 15:21: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader op2.ngc
+Sun21 15:21: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader op2.ngc
+Sun21 15:22: Set Origin of Axis Z to 12.669600
+Sun21 15:22: Tool 36: 3/8" long 3F end mill 
+Sun21 15:22:  Auto Tool probe disabled 
+Sun21 15:24: Tool 51: .201" twist drill, aluminum 
+Sun21 15:24:  Auto Tool probe disabled 
+Sun21 15:24: Tool 101: random ~0.100" twist drill 
+Sun21 15:24:  Auto Tool probe disabled 
+Sun21 15:31: Tool 12: 6mm 2F chamfer mill 
+Sun21 15:31:  Auto Tool probe disabled 
+Sun21 15:35: Cannot switch pages while in AUTO mode
+Sun21 15:35: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/16 mm spreader op2.ngc
+Sun21 15:35: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/16 mm spreader op2.ngc
+Sun21 15:35: Cannot switch pages while in AUTO mode
+Sun21 15:35: Tool 36: 3/8" long 3F end mill 
+Sun21 15:36:  Probe Height: -16.1460
+Sun21 15:36:  Block Height: 0.0000
+Sun21 15:36: Tool 36: 3/8" long 3F end mill 
+Sun21 15:36:  Probe Result: -12.3746
+Sun21 15:37: Tool 51: .201" twist drill, aluminum 
+Sun21 15:37:  Probe Height: -16.1460
+Sun21 15:37:  Block Height: 0.0000
+Sun21 15:37: Tool 51: .201" twist drill, aluminum 
+Sun21 15:37:  Probe Result: -12.2387
+Sun21 15:38: Tool 101: random ~0.100" twist drill 
+Sun21 15:39:  Probe Height: -16.1460
+Sun21 15:39:  Block Height: 0.0000
+Sun21 15:39: Tool 101: random ~0.100" twist drill 
+Sun21 15:39:  Probe Result: -10.7466
+Sun21 15:44: Tool 12: 6mm 2F chamfer mill 
+Sun21 15:45:  Probe Height: -16.1460
+Sun21 15:45:  Block Height: 0.0000
+Sun21 15:45: Tool 12: 6mm 2F chamfer mill 
+Sun21 15:45:  Probe Result: -12.9305
+Sun21 15:56: Machine OFF
+Sun21 16:59: Loaded tool 99
+Sun21 16:59: command (EMC_TASK_PLAN_EXECUTE) cannot be executed until the machine is out of E-stop and turned on
+Sun21 16:59: Machine ON
+Sun21 16:59: Loaded tool 99
+Sun21 16:59: Tool 99: Haimer Probe 
