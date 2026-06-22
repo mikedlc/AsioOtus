@@ -1,185 +1,66 @@
---- QtVCP Screen Started on: Sun, Jun 21 2026 12:04:30 PM ---
+--- QtVCP Screen Started on: Mon, Jun 22 2026 02:40:01 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sun21 12:04: Machine OFF
-Sun21 12:04: Hard limits tripped
-Sun21 12:04: Tool 0: No Tool
-Sun21 12:05: Machine ON
-Sun21 12:07: Loaded tool 99
-Sun21 12:07: Tool 99: Haimer Probe 
-Sun21 12:09: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/fixture plate setup.ngc
-Sun21 12:09: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/fixture plate setup.ngc
-Sun21 12:09: Tool 35: 3/8" 3F end mill 
-Sun21 12:09:  Probe Height: -16.1460
-Sun21 12:09: Tool 35: 3/8" 3F end mill 
-Sun21 12:09:  Block Height: 0.0000
-Sun21 12:09:  Probe Result: -13.0826
-Sun21 12:10:  abort pressed
-Sun21 12:11: Set Origin of Axis Z to 3.240000
-Sun21 12:12: Cannot switch pages while in AUTO mode
-Sun21 12:12:  Auto Tool probe disabled 
-Sun21 12:16: Tool 51: .201" twist drill, aluminum 
-Sun21 12:16:  Auto Tool probe disabled 
-Sun21 12:17: Tool 32: 3/16" 3F end mill 
-Sun21 12:17:  Auto Tool probe disabled 
-Sun21 12:19: Loaded tool 99
-Sun21 12:19: Tool 99: Haimer Probe 
-Sun21 12:21: Cannot switch pages while in AUTO mode
-Sun21 12:21: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
-Sun21 12:21: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
-Sun21 12:38: Tool 33: 1/4" 3F end mill 
-Sun21 12:38:  Probe Height: -16.1460
-Sun21 12:38:  Block Height: 0.0000
-Sun21 12:38: Tool 33: 1/4" 3F end mill 
-Sun21 12:38:  Probe Result: -13.1808
-Sun21 12:52: Tool 72: 3/16" 2F ball mill 
-Sun21 12:53:  Probe Height: -16.1460
-Sun21 12:53: Tool 72: 3/16" 2F ball mill 
-Sun21 12:53:  Block Height: 0.0000
-Sun21 12:53:  Probe Result: -12.6346
-Sun21 13:05: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
-Sun21 13:05:  abort pressed
-Sun21 13:05:  abort pressed
-Sun21 13:12: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
-Sun21 13:12: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
-Sun21 13:13: Tool 33: 1/4" 3F end mill 
-Sun21 13:13:  Probe Height: -16.1460
-Sun21 13:13:  Block Height: 0.0000
-Sun21 13:13: Tool 33: 1/4" 3F end mill 
-Sun21 13:13:  Probe Result: -13.1798
-Sun21 13:13:  abort pressed
-Sun21 13:16:  Probe Height: -16.1460
-Sun21 13:16:  Block Height: 0.0000
-Sun21 13:16: Tool 33: 1/4" 3F end mill 
-Sun21 13:16:  Probe Result: -13.1796
-Sun21 13:16:  abort pressed
-Sun21 13:16:  abort pressed
-Sun21 13:19: Cannot switch pages while in AUTO mode
-Sun21 13:19: Cannot switch pages while in AUTO mode
-Sun21 13:19: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
-Sun21 13:19: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/op2 - on place.ngc
-Sun21 13:20:  Probe Height: -16.1460
-Sun21 13:20: Tool 33: 1/4" 3F end mill 
-Sun21 13:20:  Block Height: 0.0000
-Sun21 13:20:  Probe Result: -13.1797
-Sun21 13:24: Tool 13: 3/8" 4F chamfer mill 
-Sun21 13:24:  Probe Height: -16.1460
-Sun21 13:24:  Block Height: 0.0000
-Sun21 13:24: Tool 13: 3/8" 4F chamfer mill 
-Sun21 13:24:  Probe Result: -13.2437
-Sun21 14:45: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/16 mm spreader op1.ngc
-Sun21 14:45: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/16 mm spreader op1.ngc
-Sun21 14:46: Tool 36: 3/8" long 3F end mill 
-Sun21 14:46:  Probe Height: -16.1460
-Sun21 14:46: Tool 36: 3/8" long 3F end mill 
-Sun21 14:46:  Block Height: 0.0000
-Sun21 14:46:  Probe Result: -12.3755
-Sun21 14:48: Tool 51: .201" twist drill, aluminum 
-Sun21 14:49:  Probe Height: -16.1460
-Sun21 14:49: Tool 51: .201" twist drill, aluminum 
-Sun21 14:49:  Block Height: 0.0000
-Sun21 14:49:  Probe Result: -12.2390
-Sun21 14:52: Tool 101: random ~0.100" twist drill 
-Sun21 14:52:  Probe Height: -16.1460
-Sun21 14:52: Tool 101: random ~0.100" twist drill 
-Sun21 14:52:  Block Height: 0.0000
-Sun21 14:52:  Probe Result: -10.7449
-Sun21 14:59: Tool 12: 6mm 2F chamfer mill 
-Sun21 14:59:  Probe Height: -16.1460
-Sun21 14:59: Tool 12: 6mm 2F chamfer mill 
-Sun21 14:59:  Block Height: 0.0000
-Sun21 14:59:  Probe Result: -12.9309
-Sun21 15:01: Cannot switch pages while in AUTO mode
-Sun21 15:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader op1.ngc
-Sun21 15:01: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader op1.ngc
-Sun21 15:02: Tool 36: 3/8" long 3F end mill 
-Sun21 15:02:  Probe Height: -16.1460
-Sun21 15:02:  Block Height: 0.0000
-Sun21 15:02: Tool 36: 3/8" long 3F end mill 
-Sun21 15:02:  Probe Result: -12.3748
-Sun21 15:03: Tool 51: .201" twist drill, aluminum 
-Sun21 15:03:  Probe Height: -16.1460
-Sun21 15:03: Tool 51: .201" twist drill, aluminum 
-Sun21 15:03:  Block Height: 0.0000
-Sun21 15:03:  Probe Result: -12.2387
-Sun21 15:04: Tool 101: random ~0.100" twist drill 
-Sun21 15:05:  Probe Height: -16.1460
-Sun21 15:05: Tool 101: random ~0.100" twist drill 
-Sun21 15:05:  Block Height: 0.0000
-Sun21 15:05:  Probe Result: -10.3804
-Sun21 15:11: Tool 12: 6mm 2F chamfer mill 
-Sun21 15:11:  Probe Height: -16.1460
-Sun21 15:11:  Block Height: 0.0000
-Sun21 15:11: Tool 12: 6mm 2F chamfer mill 
-Sun21 15:11:  Probe Result: -12.9308
-Sun21 15:21: Cannot switch pages while in AUTO mode
-Sun21 15:21: Cannot switch pages while in AUTO mode
-Sun21 15:21: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader op2.ngc
-Sun21 15:21: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader op2.ngc
-Sun21 15:22: Set Origin of Axis Z to 12.669600
-Sun21 15:22: Tool 36: 3/8" long 3F end mill 
-Sun21 15:22:  Auto Tool probe disabled 
-Sun21 15:24: Tool 51: .201" twist drill, aluminum 
-Sun21 15:24:  Auto Tool probe disabled 
-Sun21 15:24: Tool 101: random ~0.100" twist drill 
-Sun21 15:24:  Auto Tool probe disabled 
-Sun21 15:31: Tool 12: 6mm 2F chamfer mill 
-Sun21 15:31:  Auto Tool probe disabled 
-Sun21 15:35: Cannot switch pages while in AUTO mode
-Sun21 15:35: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/16 mm spreader op2.ngc
-Sun21 15:35: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/16 mm spreader op2.ngc
-Sun21 15:35: Cannot switch pages while in AUTO mode
-Sun21 15:35: Tool 36: 3/8" long 3F end mill 
-Sun21 15:36:  Probe Height: -16.1460
-Sun21 15:36:  Block Height: 0.0000
-Sun21 15:36: Tool 36: 3/8" long 3F end mill 
-Sun21 15:36:  Probe Result: -12.3746
-Sun21 15:37: Tool 51: .201" twist drill, aluminum 
-Sun21 15:37:  Probe Height: -16.1460
-Sun21 15:37:  Block Height: 0.0000
-Sun21 15:37: Tool 51: .201" twist drill, aluminum 
-Sun21 15:37:  Probe Result: -12.2387
-Sun21 15:38: Tool 101: random ~0.100" twist drill 
-Sun21 15:39:  Probe Height: -16.1460
-Sun21 15:39:  Block Height: 0.0000
-Sun21 15:39: Tool 101: random ~0.100" twist drill 
-Sun21 15:39:  Probe Result: -10.7466
-Sun21 15:44: Tool 12: 6mm 2F chamfer mill 
-Sun21 15:45:  Probe Height: -16.1460
-Sun21 15:45:  Block Height: 0.0000
-Sun21 15:45: Tool 12: 6mm 2F chamfer mill 
-Sun21 15:45:  Probe Result: -12.9305
-Sun21 15:56: Machine OFF
-Sun21 16:59: Loaded tool 99
-Sun21 16:59: command (EMC_TASK_PLAN_EXECUTE) cannot be executed until the machine is out of E-stop and turned on
-Sun21 16:59: Machine ON
-Sun21 16:59: Loaded tool 99
-Sun21 16:59: Tool 99: Haimer Probe 
-Sun21 17:01: Open File error: Multiple '.' not allowed in Linuxcnc
-Sun21 17:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4.5 mm op1.ngc
-Sun21 17:01: Open File error: Multiple '.' not allowed in Linuxcnc
-Sun21 17:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4.5 mm op1.ngc
-Sun21 17:03: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4,5 mm op1.ngc
-Sun21 17:03: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4,5 mm op1.ngc
-Sun21 17:04: Tool 54: 0.3125" twist drill, aluminum
-Sun21 17:04:  Probe Height: -16.1460
-Sun21 17:04:  Block Height: 0.0000
-Sun21 17:04: Tool 54: 0.3125" twist drill, aluminum
-Sun21 17:04:  Probe Result: -11.7666
-Sun21 17:05: Tool 33: 1/4" 3F end mill 
-Sun21 17:05:  Probe Height: -16.1460
-Sun21 17:05: Tool 33: 1/4" 3F end mill 
-Sun21 17:05:  Block Height: 0.0000
-Sun21 17:05:  Probe Result: -13.1804
-Sun21 17:06: Cannot switch pages while in AUTO mode
-Sun21 17:06: Cannot switch pages while in AUTO mode
-Sun21 17:06: Cannot switch pages while in AUTO mode
-Sun21 17:07: Tool 54: 0.3125" twist drill, aluminum
-Sun21 17:07:  Auto Tool probe disabled 
-Sun21 17:07: Tool 33: 1/4" 3F end mill 
-Sun21 17:07:  Auto Tool probe disabled 
-Sun21 17:11: Cannot switch pages while in AUTO mode
-Sun21 17:11: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4,5 mm op2.ngc
-Sun21 17:11: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/shock spacer 4,5 mm op2.ngc
-Sun21 17:11:  Auto Tool probe disabled 
-Sun21 17:13:  Auto Tool probe disabled 
-Sun21 17:19: Machine OFF
+Mon22 14:40: Machine OFF
+Mon22 14:40: Hard limits tripped
+Mon22 14:40: Tool 0: No Tool
+Mon22 14:40: Machine ON
+Mon22 14:40: Loaded tool 36
+Mon22 14:40: Tool 36: 3/8" long 3F end mill 
+Mon22 14:42: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op1.ngc
+Mon22 14:42: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op1.ngc
+Mon22 14:42:  Probe Height: -16.1460
+Mon22 14:42: Tool 36: 3/8" long 3F end mill 
+Mon22 14:42:  Block Height: 0.0000
+Mon22 14:42:  Probe Result: -12.3759
+Mon22 14:44: Tool 51: .201" twist drill, aluminum 
+Mon22 14:44:  Probe Height: -16.1460
+Mon22 14:44:  Block Height: 0.0000
+Mon22 14:44: Tool 51: .201" twist drill, aluminum 
+Mon22 14:44:  Probe Result: -12.2397
+Mon22 14:45: Tool 101: random ~0.100" twist drill 
+Mon22 14:46: can't do that (EMC_TRAJ_SET_TELEOP_ENABLE) in auto mode with the interpreter reading
+Mon22 14:46: Can't switch mode while mode is AUTO and interpreter is not IDLE
+Mon22 14:46:  Probe Height: -16.1460
+Mon22 14:46: Tool 101: random ~0.100" twist drill 
+Mon22 14:46:  Block Height: 0.0000
+Mon22 14:46:  Probe Result: -10.3971
+Mon22 14:49: Tool 12: 6mm 2F chamfer mill 
+Mon22 14:49:  Probe Height: -16.1460
+Mon22 14:49: Tool 12: 6mm 2F chamfer mill 
+Mon22 14:49:  Block Height: 0.0000
+Mon22 14:49:  Probe Result: -12.9317
+Mon22 14:51: Cannot switch pages while in AUTO mode
+Mon22 14:51: Cannot switch pages while in AUTO mode
+Mon22 14:51: Tool 36: 3/8" long 3F end mill 
+Mon22 14:51:  Auto Tool probe disabled 
+Mon22 14:53: Tool 51: .201" twist drill, aluminum 
+Mon22 14:53:  Auto Tool probe disabled 
+Mon22 14:53: Tool 101: random ~0.100" twist drill 
+Mon22 14:53:  Auto Tool probe disabled 
+Mon22 14:56: Tool 12: 6mm 2F chamfer mill 
+Mon22 14:56:  Auto Tool probe disabled 
+Mon22 14:59: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op2.ngc
+Mon22 14:59: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op2.ngc
+Mon22 14:59: Tool 36: 3/8" long 3F end mill 
+Mon22 14:59:  Auto Tool probe disabled 
+Mon22 14:59: can't do that (EMC_TRAJ_SET_TELEOP_ENABLE) in auto mode with the interpreter reading
+Mon22 14:59: Can't switch mode while mode is AUTO and interpreter is not IDLE
+Mon22 14:59:  abort pressed
+Mon22 15:00:  Auto Tool probe disabled 
+Mon22 15:02: Tool 51: .201" twist drill, aluminum 
+Mon22 15:02:  Auto Tool probe disabled 
+Mon22 15:02: Tool 101: random ~0.100" twist drill 
+Mon22 15:02:  Auto Tool probe disabled 
+Mon22 15:06: Tool 12: 6mm 2F chamfer mill 
+Mon22 15:06:  Auto Tool probe disabled 
+Mon22 15:08: Tool 36: 3/8" long 3F end mill 
+Mon22 15:08:  Auto Tool probe disabled 
+Mon22 15:08:  abort pressed
+Mon22 15:09:  Auto Tool probe disabled 
+Mon22 15:11: Tool 51: .201" twist drill, aluminum 
+Mon22 15:11:  Auto Tool probe disabled 
+Mon22 15:11: Tool 101: random ~0.100" twist drill 
+Mon22 15:11:  Auto Tool probe disabled 
+Mon22 15:15: Tool 12: 6mm 2F chamfer mill 
+Mon22 15:15:  Auto Tool probe disabled 
+Mon22 15:16: Machine OFF
