@@ -1,7 +1,7 @@
 T2   P0   D+2.000000 Z+9.000000 ;2" facemill, aluminum 
 T3   P0   D+2.000000 Z+9.000000 ;2" facemill, steel 
 T11  P0   D+0.125000 Z+3.122573 ;1/8" 2F chamfer mill 
-T12  P0   D+0.236000 Z+3.214361 ;6mm 2F chamfer mill 
+T12  P0   D+0.236000 Z+3.214688 ;6mm 2F chamfer mill 
 T13  P0   D+0.375000 Z+2.902259 ;3/8" 4F chamfer mill 
 T14  P0   D+0.750000 Z+9.000000 ;1F indexable chamfer mill 
 T21  P0   D+0.125000 Z+2.337092 ;1/8" 4F end drill 
@@ -11,7 +11,7 @@ T24  P0   D+2.000000 Z+9.000000 ;---
 T25  P0   D+0.375000 Z+3.078462 ;3/8" 4F end mill 
 T31  P0   D+0.125000 Z+3.376046 ;1/8" 3F end mill 
 T32  P0   D+0.187500 Z+3.550633 ;3/16" 3F end mill 
-T33  P0   D+0.250000 Z+2.965565 ;1/4" 3F end mill 
+T33  P0   D+0.250000 Z+2.965382 ;1/4" 3F end mill 
 T34  P0   D+2.000000 Z+9.000000 ;--- 
 T35  P0   D+0.375000 Z+3.063427 ;3/8" 3F end mill 
 T36  P0   D+0.375000 Z+3.770523 ;3/8" long 3F end mill 
@@ -21,7 +21,7 @@ T45  P0   D+0.375000 Z+9.000000 ;3/8" 3F end mill, DLC
 T50  P0   D+0.250000 Z+3.076706 ;1/4" 140 deg spot drill 
 T51  P0   D+0.201000 Z+3.906416 ;.201" twist drill, aluminum 
 T52  P0   D+0.500000 Z+6.490213 ;1/2" twist drill 
-T53  P0   D+0.264000 Z+4.289750 ;0.264" twist drill, aluminum
+T53  P0   D+0.264000 Z+4.379409 ;0.264" twist drill, aluminum
 T54  P0   D+0.312500 Z+4.379439 ;0.3125" twist drill, aluminum
 T71  P0   D+0.125000 Z+4.020419 ;1/8" 2F ball mill 
 T72  P0   D+0.187500 Z+3.511449 ;3/16" 2F ball mill 

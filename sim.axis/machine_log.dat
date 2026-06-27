@@ -50,3 +50,26 @@ Sat27 11:26: Tool 51: .201" twist drill, aluminum
 Sat27 11:26:  Auto Tool probe disabled 
 Sat27 11:27: Tool 12: 6mm 2F chamfer mill 
 Sat27 11:27:  Auto Tool probe disabled 
+Sat27 11:37: Cannot switch pages while in AUTO mode
+Sat27 11:37: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/needle bearing press tool op1.ngc
+Sat27 11:37: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/needle bearing press tool op1.ngc
+Sat27 11:40: Cannot switch pages while in AUTO mode
+Sat27 11:41: Tool 53: 0.264" twist drill, aluminum
+Sat27 11:41:  Probe Height: -16.1460
+Sat27 11:41: Tool 53: 0.264" twist drill, aluminum
+Sat27 11:41:  Block Height: 0.0000
+Sat27 11:41:  Probe Result: -11.7666
+Sat27 11:42: Tool 33: 1/4" 3F end mill 
+Sat27 11:42:  Probe Height: -16.1460
+Sat27 11:42: Tool 33: 1/4" 3F end mill 
+Sat27 11:42:  Block Height: 0.0000
+Sat27 11:42:  Probe Result: -13.1806
+Sat27 11:46: Tool 12: 6mm 2F chamfer mill 
+Sat27 11:46:  Probe Height: -16.1460
+Sat27 11:46: Tool 12: 6mm 2F chamfer mill 
+Sat27 11:46:  Block Height: 0.0000
+Sat27 11:46:  Probe Result: -12.9313
+Sat27 11:51:  abort pressed
+Sat27 11:52:  abort pressed
+Sat27 11:53:  abort pressed
+Sat27 12:03: Machine OFF
