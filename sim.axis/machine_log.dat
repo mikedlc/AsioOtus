@@ -1,66 +1,52 @@
---- QtVCP Screen Started on: Mon, Jun 22 2026 02:40:01 PM ---
+--- QtVCP Screen Started on: Sat, Jun 27 2026 11:00:36 AM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Mon22 14:40: Machine OFF
-Mon22 14:40: Hard limits tripped
-Mon22 14:40: Tool 0: No Tool
-Mon22 14:40: Machine ON
-Mon22 14:40: Loaded tool 36
-Mon22 14:40: Tool 36: 3/8" long 3F end mill 
-Mon22 14:42: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op1.ngc
-Mon22 14:42: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op1.ngc
-Mon22 14:42:  Probe Height: -16.1460
-Mon22 14:42: Tool 36: 3/8" long 3F end mill 
-Mon22 14:42:  Block Height: 0.0000
-Mon22 14:42:  Probe Result: -12.3759
-Mon22 14:44: Tool 51: .201" twist drill, aluminum 
-Mon22 14:44:  Probe Height: -16.1460
-Mon22 14:44:  Block Height: 0.0000
-Mon22 14:44: Tool 51: .201" twist drill, aluminum 
-Mon22 14:44:  Probe Result: -12.2397
-Mon22 14:45: Tool 101: random ~0.100" twist drill 
-Mon22 14:46: can't do that (EMC_TRAJ_SET_TELEOP_ENABLE) in auto mode with the interpreter reading
-Mon22 14:46: Can't switch mode while mode is AUTO and interpreter is not IDLE
-Mon22 14:46:  Probe Height: -16.1460
-Mon22 14:46: Tool 101: random ~0.100" twist drill 
-Mon22 14:46:  Block Height: 0.0000
-Mon22 14:46:  Probe Result: -10.3971
-Mon22 14:49: Tool 12: 6mm 2F chamfer mill 
-Mon22 14:49:  Probe Height: -16.1460
-Mon22 14:49: Tool 12: 6mm 2F chamfer mill 
-Mon22 14:49:  Block Height: 0.0000
-Mon22 14:49:  Probe Result: -12.9317
-Mon22 14:51: Cannot switch pages while in AUTO mode
-Mon22 14:51: Cannot switch pages while in AUTO mode
-Mon22 14:51: Tool 36: 3/8" long 3F end mill 
-Mon22 14:51:  Auto Tool probe disabled 
-Mon22 14:53: Tool 51: .201" twist drill, aluminum 
-Mon22 14:53:  Auto Tool probe disabled 
-Mon22 14:53: Tool 101: random ~0.100" twist drill 
-Mon22 14:53:  Auto Tool probe disabled 
-Mon22 14:56: Tool 12: 6mm 2F chamfer mill 
-Mon22 14:56:  Auto Tool probe disabled 
-Mon22 14:59: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op2.ngc
-Mon22 14:59: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op2.ngc
-Mon22 14:59: Tool 36: 3/8" long 3F end mill 
-Mon22 14:59:  Auto Tool probe disabled 
-Mon22 14:59: can't do that (EMC_TRAJ_SET_TELEOP_ENABLE) in auto mode with the interpreter reading
-Mon22 14:59: Can't switch mode while mode is AUTO and interpreter is not IDLE
-Mon22 14:59:  abort pressed
-Mon22 15:00:  Auto Tool probe disabled 
-Mon22 15:02: Tool 51: .201" twist drill, aluminum 
-Mon22 15:02:  Auto Tool probe disabled 
-Mon22 15:02: Tool 101: random ~0.100" twist drill 
-Mon22 15:02:  Auto Tool probe disabled 
-Mon22 15:06: Tool 12: 6mm 2F chamfer mill 
-Mon22 15:06:  Auto Tool probe disabled 
-Mon22 15:08: Tool 36: 3/8" long 3F end mill 
-Mon22 15:08:  Auto Tool probe disabled 
-Mon22 15:08:  abort pressed
-Mon22 15:09:  Auto Tool probe disabled 
-Mon22 15:11: Tool 51: .201" twist drill, aluminum 
-Mon22 15:11:  Auto Tool probe disabled 
-Mon22 15:11: Tool 101: random ~0.100" twist drill 
-Mon22 15:11:  Auto Tool probe disabled 
-Mon22 15:15: Tool 12: 6mm 2F chamfer mill 
-Mon22 15:15:  Auto Tool probe disabled 
-Mon22 15:16: Machine OFF
+Sat27 11:00: Machine OFF
+Sat27 11:00: Hard limits tripped
+Sat27 11:00: Tool 0: No Tool
+Sat27 11:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op1.ngc
+Sat27 11:01: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op1.ngc
+Sat27 11:04: Machine ON
+Sat27 11:07: Loaded tool 99
+Sat27 11:07: Tool 99: Haimer Probe 
+Sat27 11:08: Set Origin of Axis Z to 2.000000
+Sat27 11:10: Tool 36: 3/8" long 3F end mill 
+Sat27 11:10:  Auto Tool probe disabled 
+Sat27 11:11:  abort pressed
+Sat27 11:11: Cannot switch pages while in AUTO mode
+Sat27 11:11: Cannot switch pages while in AUTO mode
+Sat27 11:11:  Probe Height: -16.1460
+Sat27 11:11: Tool 36: 3/8" long 3F end mill 
+Sat27 11:11:  Block Height: 0.0000
+Sat27 11:11:  Probe Result: -12.3755
+Sat27 11:12: Tool 51: .201" twist drill, aluminum 
+Sat27 11:13:  Probe Height: -16.1460
+Sat27 11:13:  Block Height: 0.0000
+Sat27 11:13: Tool 51: .201" twist drill, aluminum 
+Sat27 11:13:  Probe Result: -12.2396
+Sat27 11:13: Tool 12: 6mm 2F chamfer mill 
+Sat27 11:14:  Probe Height: -16.1460
+Sat27 11:14: Tool 12: 6mm 2F chamfer mill 
+Sat27 11:14:  Block Height: 0.0000
+Sat27 11:14:  Probe Result: -12.9316
+Sat27 11:15: Cannot switch pages while in AUTO mode
+Sat27 11:15: Cannot switch pages while in AUTO mode
+Sat27 11:15: Tool 36: 3/8" long 3F end mill 
+Sat27 11:15:  Auto Tool probe disabled 
+Sat27 11:16: Tool 51: .201" twist drill, aluminum 
+Sat27 11:16:  Auto Tool probe disabled 
+Sat27 11:17: Tool 12: 6mm 2F chamfer mill 
+Sat27 11:17:  Auto Tool probe disabled 
+Sat27 11:19: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op2.ngc
+Sat27 11:19: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op2.ngc
+Sat27 11:20: Tool 36: 3/8" long 3F end mill 
+Sat27 11:20:  Auto Tool probe disabled 
+Sat27 11:22: Tool 51: .201" twist drill, aluminum 
+Sat27 11:22:  Auto Tool probe disabled 
+Sat27 11:22: Tool 12: 6mm 2F chamfer mill 
+Sat27 11:22:  Auto Tool probe disabled 
+Sat27 11:25: Tool 36: 3/8" long 3F end mill 
+Sat27 11:25:  Auto Tool probe disabled 
+Sat27 11:26: Tool 51: .201" twist drill, aluminum 
+Sat27 11:26:  Auto Tool probe disabled 
+Sat27 11:27: Tool 12: 6mm 2F chamfer mill 
+Sat27 11:27:  Auto Tool probe disabled 
