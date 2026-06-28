@@ -1,75 +1,13 @@
---- QtVCP Screen Started on: Sat, Jun 27 2026 11:00:36 AM ---
+--- QtVCP Screen Started on: Sat, Jun 27 2026 03:19:27 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sat27 11:00: Machine OFF
-Sat27 11:00: Hard limits tripped
-Sat27 11:00: Tool 0: No Tool
-Sat27 11:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op1.ngc
-Sat27 11:01: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op1.ngc
-Sat27 11:04: Machine ON
-Sat27 11:07: Loaded tool 99
-Sat27 11:07: Tool 99: Haimer Probe 
-Sat27 11:08: Set Origin of Axis Z to 2.000000
-Sat27 11:10: Tool 36: 3/8" long 3F end mill 
-Sat27 11:10:  Auto Tool probe disabled 
-Sat27 11:11:  abort pressed
-Sat27 11:11: Cannot switch pages while in AUTO mode
-Sat27 11:11: Cannot switch pages while in AUTO mode
-Sat27 11:11:  Probe Height: -16.1460
-Sat27 11:11: Tool 36: 3/8" long 3F end mill 
-Sat27 11:11:  Block Height: 0.0000
-Sat27 11:11:  Probe Result: -12.3755
-Sat27 11:12: Tool 51: .201" twist drill, aluminum 
-Sat27 11:13:  Probe Height: -16.1460
-Sat27 11:13:  Block Height: 0.0000
-Sat27 11:13: Tool 51: .201" twist drill, aluminum 
-Sat27 11:13:  Probe Result: -12.2396
-Sat27 11:13: Tool 12: 6mm 2F chamfer mill 
-Sat27 11:14:  Probe Height: -16.1460
-Sat27 11:14: Tool 12: 6mm 2F chamfer mill 
-Sat27 11:14:  Block Height: 0.0000
-Sat27 11:14:  Probe Result: -12.9316
-Sat27 11:15: Cannot switch pages while in AUTO mode
-Sat27 11:15: Cannot switch pages while in AUTO mode
-Sat27 11:15: Tool 36: 3/8" long 3F end mill 
-Sat27 11:15:  Auto Tool probe disabled 
-Sat27 11:16: Tool 51: .201" twist drill, aluminum 
-Sat27 11:16:  Auto Tool probe disabled 
-Sat27 11:17: Tool 12: 6mm 2F chamfer mill 
-Sat27 11:17:  Auto Tool probe disabled 
-Sat27 11:19: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op2.ngc
-Sat27 11:19: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader 2,332 op2.ngc
-Sat27 11:20: Tool 36: 3/8" long 3F end mill 
-Sat27 11:20:  Auto Tool probe disabled 
-Sat27 11:22: Tool 51: .201" twist drill, aluminum 
-Sat27 11:22:  Auto Tool probe disabled 
-Sat27 11:22: Tool 12: 6mm 2F chamfer mill 
-Sat27 11:22:  Auto Tool probe disabled 
-Sat27 11:25: Tool 36: 3/8" long 3F end mill 
-Sat27 11:25:  Auto Tool probe disabled 
-Sat27 11:26: Tool 51: .201" twist drill, aluminum 
-Sat27 11:26:  Auto Tool probe disabled 
-Sat27 11:27: Tool 12: 6mm 2F chamfer mill 
-Sat27 11:27:  Auto Tool probe disabled 
-Sat27 11:37: Cannot switch pages while in AUTO mode
-Sat27 11:37: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/needle bearing press tool op1.ngc
-Sat27 11:37: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/needle bearing press tool op1.ngc
-Sat27 11:40: Cannot switch pages while in AUTO mode
-Sat27 11:41: Tool 53: 0.264" twist drill, aluminum
-Sat27 11:41:  Probe Height: -16.1460
-Sat27 11:41: Tool 53: 0.264" twist drill, aluminum
-Sat27 11:41:  Block Height: 0.0000
-Sat27 11:41:  Probe Result: -11.7666
-Sat27 11:42: Tool 33: 1/4" 3F end mill 
-Sat27 11:42:  Probe Height: -16.1460
-Sat27 11:42: Tool 33: 1/4" 3F end mill 
-Sat27 11:42:  Block Height: 0.0000
-Sat27 11:42:  Probe Result: -13.1806
-Sat27 11:46: Tool 12: 6mm 2F chamfer mill 
-Sat27 11:46:  Probe Height: -16.1460
-Sat27 11:46: Tool 12: 6mm 2F chamfer mill 
-Sat27 11:46:  Block Height: 0.0000
-Sat27 11:46:  Probe Result: -12.9313
-Sat27 11:51:  abort pressed
-Sat27 11:52:  abort pressed
-Sat27 11:53:  abort pressed
-Sat27 12:03: Machine OFF
+Sat27 15:19: Machine OFF
+Sat27 15:19: Hard limits tripped
+Sat27 15:19: Tool 0: No Tool
+Sat27 15:19: Machine ON
+Sat27 15:19: Loaded tool 36
+Sat27 15:19: Tool 36: 3/8" long 3F end mill 
+Sat27 15:20: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader seat tube clearance.ngc
+Sat27 15:20: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/18 mm spreader seat tube clearance.ngc
+Sat27 15:22: Cannot switch pages while in AUTO mode
+Sat27 15:22:  Auto Tool probe disabled 
+Sat27 15:23: Machine OFF
