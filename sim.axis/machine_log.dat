@@ -1,40 +1,6 @@
---- QtVCP Screen Started on: Sat, Jun 27 2026 09:15:37 PM ---
+--- QtVCP Screen Started on: Sat, Jul 04 2026 11:37:31 AM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sat27 21:15: Machine OFF
-Sat27 21:15: Hard limits tripped
-Sat27 21:15: Tool 0: No Tool
-Sat27 21:15: Machine ON
-Sat27 21:15: Loaded tool 36
-Sat27 21:15: Tool 36: 3/8" long 3F end mill 
-Sat27 21:17: Cannot switch pages while in AUTO mode
-Sat27 21:17: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/FS bottle cage relocator op1.ngc
-Sat27 21:17: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/FS bottle cage relocator op1.ngc
-Sat27 21:17: Tool 33: 1/4" 3F end mill 
-Sat27 21:18:  Probe Height: -16.1460
-Sat27 21:18:  Block Height: 0.0000
-Sat27 21:18: Tool 33: 1/4" 3F end mill 
-Sat27 21:18:  Probe Result: -13.1809
-Sat27 21:19: Tool 51: .201" twist drill, aluminum 
-Sat27 21:19:  Probe Height: -16.1460
-Sat27 21:19: Tool 51: .201" twist drill, aluminum 
-Sat27 21:19:  Block Height: 0.0000
-Sat27 21:19:  Probe Result: -12.2395
-Sat27 21:20: Tool 101: random ~0.100" twist drill 
-Sat27 21:20:  Probe Height: -16.1460
-Sat27 21:20: Tool 101: random ~0.100" twist drill 
-Sat27 21:20:  Block Height: 0.0000
-Sat27 21:20:  Probe Result: -10.3969
-Sat27 21:21: Tool 12: 6mm 2F chamfer mill 
-Sat27 21:21:  Probe Height: -16.1460
-Sat27 21:21:  Block Height: 0.0000
-Sat27 21:21: Tool 12: 6mm 2F chamfer mill 
-Sat27 21:21:  Probe Result: -12.9315
-Sat27 21:22: Cannot switch pages while in AUTO mode
-Sat27 21:23: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/FS bottle cage relocator op2.ngc
-Sat27 21:23: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/FS bottle cage relocator op2.ngc
-Sat27 21:23: Cannot switch pages while in AUTO mode
-Sat27 21:23: Tool 33: 1/4" 3F end mill 
-Sat27 21:23:  Auto Tool probe disabled 
-Sat27 21:25: Tool 12: 6mm 2F chamfer mill 
-Sat27 21:25:  Auto Tool probe disabled 
-Sat27 21:29: Machine OFF
+Sat04 11:37: Machine OFF
+Sat04 11:37: Hard limits tripped
+Sat04 11:37: Tool 0: No Tool
+Sat04 11:37: Machine ON
