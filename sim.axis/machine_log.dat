@@ -114,3 +114,47 @@ Sat04 15:13:  Probe Result: -13.0238
 Sat04 15:20: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/NDS op2.ngc
 Sat04 15:20: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/NDS op2.ngc
 Sat04 15:29: Machine OFF
+Sat04 16:21: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op1.ngc
+Sat04 16:21: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op1.ngc
+Sat04 16:21: Machine ON
+Sat04 16:22: Set Origin of Axis X to 3.500000
+Sat04 16:22: Set Origin of Axis X to 3.600000
+Sat04 16:22: Set Origin of Axis X to 3.700000
+Sat04 16:26: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/NDS op2.ngc
+Sat04 16:26: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/NDS op2.ngc
+Sat04 16:32: Loaded tool 99
+Sat04 16:32: Tool 99: Haimer Probe 
+Sat04 16:33: Divided Axis X in Half - -0.295000
+Sat04 16:34: Divided Axis Y in Half - -0.294999
+Sat04 16:35: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/NDS op2.ngc
+Sat04 16:35: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/NDS op2.ngc
+Sat04 16:36: Tool 33: 1/4" 3F end mill 
+Sat04 16:36:  Probe Height: -16.1460
+Sat04 16:36: Tool 33: 1/4" 3F end mill 
+Sat04 16:36:  Block Height: 0.0000
+Sat04 16:36:  Probe Result: -13.1806
+Sat04 16:49: Tool 72: 3/16" 2F ball mill 
+Sat04 16:49:  Probe Height: -16.1460
+Sat04 16:49:  Block Height: 0.0000
+Sat04 16:49: Tool 72: 3/16" 2F ball mill 
+Sat04 16:49:  Probe Result: -12.6344
+Sat04 17:12: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/DS op2.ngc
+Sat04 17:12: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/DS op2.ngc
+Sat04 17:12: Loaded tool 99
+Sat04 17:12: Tool 99: Haimer Probe 
+Sat04 17:13: Divided Axis X in Half - 0.295500
+Sat04 17:14: Divided Axis Y in Half - -0.294999
+Sat04 17:18: Divided Axis X in Half - -0.294999
+Sat04 17:19: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/DS op2.ngc
+Sat04 17:19: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/DS op2.ngc
+Sat04 17:19: Tool 33: 1/4" 3F end mill 
+Sat04 17:20:  Probe Height: -16.1460
+Sat04 17:20:  Block Height: 0.0000
+Sat04 17:20: Tool 33: 1/4" 3F end mill 
+Sat04 17:20:  Probe Result: -13.1798
+Sat04 17:31: Tool 72: 3/16" 2F ball mill 
+Sat04 17:31:  Probe Height: -16.1460
+Sat04 17:31:  Block Height: 0.0000
+Sat04 17:31: Tool 72: 3/16" 2F ball mill 
+Sat04 17:31:  Probe Result: -12.6338
+Sat04 17:58: Machine OFF
