@@ -26,7 +26,7 @@ RunFromLineDialog_sound_type = READY
 last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts
 last_loaded_file = /home/callum/linuxcnc/configs/nc_files/FS bike/FS bottle cage relocator op2.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/NDS op1.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/DS op1.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1

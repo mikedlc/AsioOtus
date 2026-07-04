@@ -59,3 +59,39 @@ Sat04 13:13:  Probe Height: -16.1460
 Sat04 13:13:  Block Height: 0.0000
 Sat04 13:13: Tool 11: 1/8" 2F chamfer mill 
 Sat04 13:13:  Probe Result: -13.0241
+Sat04 14:21: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/DS op1.ngc
+Sat04 14:21: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/DS op1.ngc
+Sat04 14:22: Set Origin of Axis Z to 8.136800
+Sat04 14:23: Tool 52: 1/2" twist drill 
+Sat04 14:23:  Probe Height: -16.1460
+Sat04 14:23:  Block Height: 0.0000
+Sat04 14:23: Tool 52: 1/2" twist drill 
+Sat04 14:23:  Probe Result: -9.6556
+Sat04 14:24: Tool 33: 1/4" 3F end mill 
+Sat04 14:24:  Probe Height: -16.1460
+Sat04 14:24:  Block Height: 0.0000
+Sat04 14:24: Tool 33: 1/4" 3F end mill 
+Sat04 14:24:  Probe Result: -13.1803
+Sat04 14:35: Tool 50: 1/4" 140 deg spot drill 
+Sat04 14:36:  Probe Height: -16.1460
+Sat04 14:36: Tool 50: 1/4" 140 deg spot drill 
+Sat04 14:36:  Block Height: 0.0000
+Sat04 14:36:  Probe Result: -13.0696
+Sat04 14:36: Tool 101: random ~0.100" twist drill 
+Sat04 14:36:  Probe Height: -16.1460
+Sat04 14:36:  Block Height: 0.0000
+Sat04 14:36: Tool 101: random ~0.100" twist drill 
+Sat04 14:36:  Probe Result: -10.2827
+Sat04 14:37: Tool 33: 1/4" 3F end mill 
+Sat04 14:37:  Probe Height: -16.1460
+Sat04 14:37: Tool 33: 1/4" 3F end mill 
+Sat04 14:37:  Block Height: 0.0000
+Sat04 14:37:  Probe Result: -13.1793
+Sat04 14:40: Tool 72: 3/16" 2F ball mill 
+Sat04 14:40:  Probe Height: -16.1460
+Sat04 14:40:  Block Height: 0.0000
+Sat04 14:40: Tool 72: 3/16" 2F ball mill 
+Sat04 14:40:  Probe Result: -12.6341
+Sat04 14:55: joint 0 following error
+Sat04 14:55: Machine OFF
+Sat04 14:56: Machine ON
