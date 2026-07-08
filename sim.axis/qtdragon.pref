@@ -24,9 +24,9 @@ RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
 last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/DS op2.ngc
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op2.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op1.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op2.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
