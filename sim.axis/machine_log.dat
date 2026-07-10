@@ -106,3 +106,44 @@ Thu09 20:10:  Auto Tool probe disabled
 Thu09 20:11: Tool 72: 3/16" 2F ball mill 
 Thu09 20:11:  Auto Tool probe disabled 
 Thu09 20:17: Machine OFF
+Thu09 21:39: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
+Thu09 21:39: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
+Thu09 21:42: Machine must be ON and in Manual mode to jog
+Thu09 21:42: Machine must be ON and in Manual mode to jog
+Thu09 21:42: Machine must be ON and in Manual mode to jog
+Thu09 21:42: Machine must be ON and in Manual mode to jog
+Thu09 21:42: Machine ON
+Thu09 21:42: Loaded tool 99
+Thu09 21:42: Tool 99: Haimer Probe 
+Thu09 21:43: Set Origin of Axis X to -0.250000
+Thu09 21:44: Cannot switch pages while in AUTO mode
+Thu09 21:44: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
+Thu09 21:44: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
+Thu09 21:44: Tool 33: 1/4" 3F end mill 
+Thu09 21:45:  Probe Height: -16.1460
+Thu09 21:45:  Block Height: 0.0000
+Thu09 21:45: Tool 33: 1/4" 3F end mill 
+Thu09 21:45:  Probe Result: -13.1813
+Thu09 21:46: Tool 54: 0.3125" twist drill, aluminum
+Thu09 21:46:  Probe Height: -16.1460
+Thu09 21:46: Tool 54: 0.3125" twist drill, aluminum
+Thu09 21:46:  Block Height: 0.0000
+Thu09 21:46:  Probe Result: -11.7671
+Thu09 21:50:  abort pressed
+Thu09 21:50:  abort pressed
+Thu09 21:58:  abort pressed
+Thu09 21:58:  abort pressed
+Thu09 21:59:  abort pressed
+Thu09 22:05: Loaded tool 99
+Thu09 22:05: Tool 99: Haimer Probe 
+Thu09 22:07: Cannot switch pages while in AUTO mode
+Thu09 22:07: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
+Thu09 22:07: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
+Thu09 22:07: Tool 33: 1/4" 3F end mill 
+Thu09 22:07:  Auto Tool probe disabled 
+Thu09 22:08: Tool 54: 0.3125" twist drill, aluminum
+Thu09 22:08:  Auto Tool probe disabled 
+Thu09 22:10:  abort pressed
+Thu09 22:10:  abort pressed
+Thu09 22:16:  abort pressed
+Thu09 22:17: Machine OFF

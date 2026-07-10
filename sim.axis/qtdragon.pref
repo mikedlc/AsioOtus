@@ -24,9 +24,9 @@ RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
 last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts
-last_loaded_file = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op2.ngc
+last_loaded_file = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op5 - chamfers.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
@@ -93,7 +93,7 @@ gcodegraphics-user-lat = 0.0
 gcodegraphics-user-lon = 0.0
 
 [CUSTOM_FORM_ENTRIES]
-Tool to load = 72
+Tool to load = 54
 Laser X = 100.0
 Laser Y = -20.0
 Sensor X = 10.0
@@ -136,7 +136,7 @@ ps_xy_clearance = 5.0
 ps_side_edge_length = 5.0
 ps_probe_height = -16.146
 ps_block_height = 0.0
-use_tool_measurement = True
+use_tool_measurement = False
 ps_offs_x = 0.0
 ps_offs_y = 0.0
 ps_offs_z = 0.0
