@@ -88,3 +88,21 @@ Thu09 19:53:  Probe Height: -16.1460
 Thu09 19:53: Tool 101: random ~0.100" twist drill 
 Thu09 19:53:  Block Height: 0.0000
 Thu09 19:53:  Probe Result: -10.7689
+Thu09 20:05: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op5 - chamfers.ngc
+Thu09 20:05: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op5 - chamfers.ngc
+Thu09 20:06: Cannot switch pages while in AUTO mode
+Thu09 20:06: Cannot switch pages while in AUTO mode
+Thu09 20:06: Tool 32: 3/16" 3F end mill 
+Thu09 20:06:  Auto Tool probe disabled 
+Thu09 20:07:  abort pressed
+Thu09 20:07: Loaded tool 99
+Thu09 20:07: Tool 99: Haimer Probe 
+Thu09 20:08: Tool 32: 3/16" 3F end mill 
+Thu09 20:08:  Auto Tool probe disabled 
+Thu09 20:08: Tool 72: 3/16" 2F ball mill 
+Thu09 20:09:  Auto Tool probe disabled 
+Thu09 20:10: Tool 32: 3/16" 3F end mill 
+Thu09 20:10:  Auto Tool probe disabled 
+Thu09 20:11: Tool 72: 3/16" 2F ball mill 
+Thu09 20:11:  Auto Tool probe disabled 
+Thu09 20:17: Machine OFF
