@@ -1,427 +1,203 @@
-2026-07-09 19:07:13,784 - QTvcp - DEBUG - DEBUGGING logging on
-2026-07-09 19:07:13,849 - QTvcp.QTVCP.QT_ISTAT - DEBUG - Machine is IMPERIAL based. unit Conversion constant=25.4
-2026-07-09 19:07:13,850 - QTvcp.QTVCP.QT_ISTAT - DEBUG - TRAJ COORDINATES: XYZ
-2026-07-09 19:07:13,850 - QTvcp.QTVCP.QT_ISTAT - DEBUG - DEFAULT_LINEAR_VELOCITY = 120.0
-2026-07-09 19:07:13,850 - QTvcp.QTVCP.QT_ISTAT - DEBUG - MIN_LINEAR_VELOCITY = 0.0
-2026-07-09 19:07:13,850 - QTvcp.QTVCP.QT_ISTAT - DEBUG - MAX_LINEAR_VELOCITY = 300.0
-2026-07-09 19:07:14,406 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Passed name=qtdragon_hd, BASENAME=qtdragon_hd BASEPATH=qtdragon_hd
-2026-07-09 19:07:14,406 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd_handler.py
-2026-07-09 19:07:14,406 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_handler.py
-2026-07-09 19:07:14,406 - QTvcp.QTVCP.QT_PSTAT - INFO - Using LOCAL handler file path: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_handler.py
-2026-07-09 19:07:14,406 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.ui
-2026-07-09 19:07:14,407 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
-2026-07-09 19:07:14,407 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.ui
-2026-07-09 19:07:14,407 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
-2026-07-09 19:07:14,408 - QTvcp.QTVCP.QT_PSTAT - INFO - Using DEFAULT ui file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
-2026-07-09 19:07:14,408 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.qss
-2026-07-09 19:07:14,409 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
-2026-07-09 19:07:14,409 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.qss
-2026-07-09 19:07:14,409 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
-2026-07-09 19:07:14,409 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT qss file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
-2026-07-09 19:07:14,409 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.qrc
-2026-07-09 19:07:14,409 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2026-07-09 19:07:14,409 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.qrc
-2026-07-09 19:07:14,409 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2026-07-09 19:07:14,409 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT qrc file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2026-07-09 19:07:14,409 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for resources.py in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
-2026-07-09 19:07:14,409 - QTvcp.QTVCP.QT_PSTAT - INFO - Using LOCAL resources.py file from: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
-2026-07-09 19:07:14,412 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2026-07-09 19:07:14,412 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/languages/qtdragon_hd_en.qm
-2026-07-09 19:07:14,412 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /usr/share/qtvcp/screens/qtdragon_hd/languages/qtdragon_hd_en.qm
-2026-07-09 19:07:14,412 - QTvcp.QTVCP.QT_PSTAT - INFO - Using no translations, default system locale is: en
-2026-07-09 19:07:14,412 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for LOCAL about file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd_ABOUT
-2026-07-09 19:07:14,412 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for LOCAL about file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
-2026-07-09 19:07:14,413 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for DEFAULT about file in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
-2026-07-09 19:07:14,413 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT about file path: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
-2026-07-09 19:07:14,413 - QTvcp - INFO - Building A LinuxCNC Main Screen with: Python 3
-2026-07-09 19:07:14,413 - QTvcp - INFO - No handler file specified on command line.
-2026-07-09 19:07:14,413 - QTvcp - INFO - No HAL component base name specified on command line using: qtdragon_hd
-2026-07-09 19:07:14,419 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Qsettings file path: /home/callum/.config/QtVcp/qtdragon_hd.conf
-2026-07-09 19:07:14,419 - QTvcp - DEBUG - Loading the handler file.
-2026-07-09 19:07:14,419 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Adding import dir: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd
-2026-07-09 19:07:14,616 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Module 'qtdragon_hd_handler' imported OK
-2026-07-09 19:07:14,616 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Module 'qtdragon_hd_handler' : 'get_handlers' function found.
-2026-07-09 19:07:14,626 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Registering handlers in module qtdragon_hd_handler object <qtdragon_hd_handler.UserHandlerClass object at 0x7f1e3c2d8e90>
-2026-07-09 19:07:14,627 - QTvcp - DEBUG - Adding the key events filter.
-2026-07-09 19:07:14,631 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Imported resources.py filed: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
-2026-07-09 19:07:16,655 - QTvcp.QTVCP.QT_MAKEPINS - INFO - Changed HAL Component basename to qtdragon, as specified in screenOptions: 
-2026-07-09 19:07:16,656 - QTvcp.QTVCP.WIDGETS.SCREEN_OPTIONS - DEBUG - Preference File Path: /home/callum/linuxcnc/configs/sim.axis/qtdragon.pref
-2026-07-09 19:07:16,658 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - QTVCP: Parsing for HAL widgets.
-2026-07-09 19:07:16,936 - QTvcp.QTVCP.WIDGETS.FILE_MANAGER - DEBUG - lAST FILE PATH: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts
-2026-07-09 19:07:16,937 - QTvcp.QTVCP.WIDGETS.FILE_MANAGER - DEBUG - lAST FILE PATH: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts
-2026-07-09 19:07:16,944 - QTvcp.QTVCP.WIDGETS.DRO_WIDGET - DEBUG - axis number 3 not found in available-axis to joint conversion dict {0: 0, 1: 1, 2: 2} of widget: dro_axis_4
-2026-07-09 19:07:16,944 - QTvcp.QTVCP.WIDGETS.DRO_WIDGET - DEBUG - axis number 4 not found in available-axis to joint conversion dict {0: 0, 1: 1, 2: 2} of widget: dro_axis_5
-2026-07-09 19:07:16,975 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
-2026-07-09 19:07:16,975 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Angular Current index: 0 Increment: 0 , selection changed Continuous
-2026-07-09 19:07:16,976 - QTvcp - DEBUG - Calling the handler file's initialized__ function
-2026-07-09 19:07:17,250 - QTvcp.QTDRAGON_HD.QTDRAGON_HD_HANDLER - INFO - Using Versa Probe
-2026-07-09 19:07:17,442 - QTvcp.QTDRAGON_HD.QTDRAGON_HD_HANDLER - INFO - Using NGCGUI utility
-2026-07-09 19:07:17,443 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui
-2026-07-09 19:07:17,456 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui Didn't find a path NGCGUI files
-2026-07-09 19:07:17,483 - QTvcp.QTVCP.QT_MAKEGUI - INFO - No Handler Override file at: /home/callum/linuxcnc/configs/sim.axis/.qtdragon_hdrc
-2026-07-09 19:07:17,519 - QTvcp - DEBUG - Set HAL ready.
-2026-07-09 19:07:17,734 - QTvcp - DEBUG - Show window.
-2026-07-09 19:07:17,734 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - Calculating geometry of main window using natural placement: 0 0 1920 1080
-2026-07-09 19:07:17,984 - QTvcp - INFO - Postgui filename: ['qtdragon_hd_postgui.hal']
-2026-07-09 19:07:18,002 - QTvcp - INFO - Postgui commands: None
-2026-07-09 19:07:18,002 - QTvcp - INFO - Preference path: /home/callum/linuxcnc/configs/sim.axis/qtdragon.pref
-2026-07-09 19:08:17,706 - QTvcp.QTVCP.QT_ACTION - INFO - Homing Joint: -1
-2026-07-09 19:09:47,288 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
-2026-07-09 19:10:02,103 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - original value:<PyQt5.QtWidgets.QCheckBox object at 0x7f1e1eb94550>
-2026-07-09 19:10:02,103 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() role = 10
-2026-07-09 19:10:02,104 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() column() = 0
-2026-07-09 19:10:02,104 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: <PyQt5.QtWidgets.QCheckBox object at 0x7f1e1eb94550>, Row: 32, Column: 0
-2026-07-09 19:10:06,117 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: M61 Q99 G43
-2026-07-09 19:10:06,212 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: , mdi_history.dat
-2026-07-09 19:10:56,366 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
-2026-07-09 19:11:38,523 - QTvcp.QTVCP.QT_ACTION - DEBUG - Load program /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op3 - rocker end.ngc
-2026-07-09 19:11:38,583 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - load the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op3 - rocker end.ngc
-2026-07-09 19:12:42,009 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:12:42,009 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:12:42,009 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:12:42,009 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:13:44,510 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:13:44,510 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:13:44,511 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:13:44,511 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:13:44,512 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:13:44,512 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:15:19,618 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2026-07-09 19:15:19,619 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2026-07-09 19:16:05,831 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op3 - rocker end.ngc
-2026-07-09 19:16:51,947 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:16:51,947 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:16:51,948 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:16:51,948 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:16:51,948 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:16:51,949 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:16:51,949 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:16:51,949 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:17:32,789 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:17:32,789 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:17:32,790 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:17:32,790 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:17:32,790 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:17:32,790 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:17:32,790 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:17:32,790 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:17:32,791 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:17:32,791 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:30:04,529 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2026-07-09 19:30:04,529 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2026-07-09 19:30:59,026 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving axisToolButtonDialog_ENTRY data from widget  to file.
-2026-07-09 19:30:59,026 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 1
-2026-07-09 19:30:59,027 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': -0.37019642889532367, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 0.005}
-2026-07-09 19:30:59,027 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': -0.37019642889532367, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 0.005}
-2026-07-09 19:30:59,027 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': -0.37019642889532367, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 0.005}
-2026-07-09 19:30:59,027 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message return:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': -0.37019642889532367, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 0.005}
-2026-07-09 19:30:59,140 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op3 - rocker end.ngc
-2026-07-09 19:30:59,211 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message sent:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': -0.37019642889532367, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 0.005}
-2026-07-09 19:31:07,508 - QTvcp.QTVCP.QT_ACTION - DEBUG - Load program /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-2026-07-09 19:31:07,563 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - load the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-2026-07-09 19:32:09,382 - QTvcp.QTVCP.LIB.KEYBINDINGS - DEBUG - Exception in KEYBINDING: no function name conversion for QT Event: 'Key_0'
-2026-07-09 19:33:06,884 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-2026-07-09 19:33:20,726 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-2026-07-09 19:37:07,497 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving axisToolButtonDialog_ENTRY data from widget  to file.
-2026-07-09 19:37:07,498 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 1
-2026-07-09 19:37:07,498 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': -0.0004999967247272252, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 12.553}
-2026-07-09 19:37:07,498 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': -0.0004999967247272252, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 12.553}
-2026-07-09 19:37:07,499 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': -0.0004999967247272252, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 12.553}
-2026-07-09 19:37:07,499 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message return:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': -0.0004999967247272252, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 12.553}
-2026-07-09 19:37:07,610 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-2026-07-09 19:37:07,633 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message sent:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': -0.0004999967247272252, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 12.553}
-2026-07-09 19:38:33,869 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:38:33,870 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:38:33,870 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:38:33,870 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:38:33,871 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:38:33,871 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:38:33,871 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:38:33,871 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:38:33,872 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:38:33,872 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:38:33,872 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:38:33,872 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:38:37,501 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2026-07-09 19:38:37,502 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2026-07-09 19:40:44,536 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:40:44,537 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:40:44,537 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:40:44,537 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:40:44,538 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:40:44,538 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:40:44,538 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:40:44,538 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:40:44,539 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:40:44,539 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:40:44,539 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:40:44,539 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:40:44,539 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:40:44,540 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:41:44,028 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:41:44,028 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:41:44,029 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:41:44,029 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:41:44,029 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:41:44,029 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:41:44,030 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:41:44,030 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:41:44,030 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:41:44,030 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:41:44,030 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:41:44,030 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:41:44,031 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:41:44,031 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:41:44,031 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:41:44,031 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:42:37,284 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:42:37,284 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:42:37,285 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:42:37,285 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:42:37,285 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:42:37,285 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:42:37,286 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:42:37,286 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:42:37,286 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:42:37,286 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:42:37,287 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:42:37,287 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:42:37,287 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:42:37,287 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:42:37,287 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:42:37,287 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:42:37,288 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:42:37,288 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:43:28,162 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:43:28,162 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:43:28,162 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:43:28,163 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:43:28,163 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:43:28,163 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:43:28,163 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:43:28,163 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:43:28,164 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:43:28,164 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:43:28,164 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:43:28,164 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:43:28,164 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:43:28,165 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:43:28,165 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:43:28,165 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:43:28,165 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:43:28,165 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:43:28,166 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:43:28,166 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:44:09,944 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:44:09,944 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:44:09,944 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:44:09,944 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:44:09,945 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:44:09,945 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:44:09,945 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:44:09,945 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:44:09,946 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:44:09,946 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:44:09,946 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:44:09,946 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:44:09,946 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:44:09,947 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:44:09,947 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:44:09,947 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:44:09,947 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:44:09,947 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:44:09,948 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:44:09,948 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:44:09,948 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:44:09,948 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:46:51,312 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2026-07-09 19:46:51,312 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2026-07-09 19:47:39,952 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-2026-07-09 19:47:51,523 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-2026-07-09 19:48:02,293 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving axisToolButtonDialog_ENTRY data from widget  to file.
-2026-07-09 19:48:02,294 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 1
-2026-07-09 19:48:02,294 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.0004963426626822809, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 12.553}
-2026-07-09 19:48:02,294 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.0004963426626822809, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 12.553}
-2026-07-09 19:48:02,294 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.0004963426626822809, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 12.553}
-2026-07-09 19:48:02,295 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message return:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.0004963426626822809, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 12.553}
-2026-07-09 19:48:02,406 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-2026-07-09 19:48:02,430 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message sent:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.0004963426626822809, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 12.553}
-2026-07-09 19:49:10,076 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,076 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:10,076 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,076 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:10,077 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,077 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:10,077 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,077 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:10,078 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,078 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:10,078 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,078 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:10,078 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,078 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:10,079 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,079 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:10,079 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,079 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:10,080 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,080 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:10,080 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,080 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:10,080 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:49:10,080 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:49:53,889 - QTvcp.QTVCP.LIB.KEYBINDINGS - DEBUG - Exception in KEYBINDING: no function name conversion for QT Event: 'Alt+<unknown - 16777251>'
-2026-07-09 19:50:37,117 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,117 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,118 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,118 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,118 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,118 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,119 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,119 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,119 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,119 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,119 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,120 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,120 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,120 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,120 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,120 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,121 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,121 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,121 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,121 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,121 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,121 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,122 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,122 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:50:37,122 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:50:37,122 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,421 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,421 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,421 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,422 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,422 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,422 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,422 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,422 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,423 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,423 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,423 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,423 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,424 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,424 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,424 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,424 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,425 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,425 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,425 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,425 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,425 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,425 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,426 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,426 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,426 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,426 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:51:26,427 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:51:26,427 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,032 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,033 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,033 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,033 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,034 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,034 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,034 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,034 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,034 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,034 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,035 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,035 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,035 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,035 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,036 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,036 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,036 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,036 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,036 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,036 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,037 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,037 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,037 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,037 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,037 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,037 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,038 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,038 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:10,038 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:10,038 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,360 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,360 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,361 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,361 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,361 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,362 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,362 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,362 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,362 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,362 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,363 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,363 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,363 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,363 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,363 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,363 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,364 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,364 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,364 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,364 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,364 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,365 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,365 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,365 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,365 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,365 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,366 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,366 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,366 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,366 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:52:46,366 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:52:46,366 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,504 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,504 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,505 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,505 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,505 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,505 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,506 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,506 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,506 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,506 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,507 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,507 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,507 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,507 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,507 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,507 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,508 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,508 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,508 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,508 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,508 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,509 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,509 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,509 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,509 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,509 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,510 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,510 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,510 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,510 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,510 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,510 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:53:30,511 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-07-09 19:53:30,511 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-07-09 19:54:09,197 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2026-07-09 19:54:09,198 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2026-07-09 20:05:00,689 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-2026-07-09 20:05:26,018 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
+2026-07-10 20:56:53,070 - QTvcp - DEBUG - DEBUGGING logging on
+2026-07-10 20:56:53,137 - QTvcp.QTVCP.QT_ISTAT - DEBUG - Machine is IMPERIAL based. unit Conversion constant=25.4
+2026-07-10 20:56:53,137 - QTvcp.QTVCP.QT_ISTAT - DEBUG - TRAJ COORDINATES: XYZ
+2026-07-10 20:56:53,138 - QTvcp.QTVCP.QT_ISTAT - DEBUG - DEFAULT_LINEAR_VELOCITY = 120.0
+2026-07-10 20:56:53,138 - QTvcp.QTVCP.QT_ISTAT - DEBUG - MIN_LINEAR_VELOCITY = 0.0
+2026-07-10 20:56:53,138 - QTvcp.QTVCP.QT_ISTAT - DEBUG - MAX_LINEAR_VELOCITY = 300.0
+2026-07-10 20:56:53,695 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Passed name=qtdragon_hd, BASENAME=qtdragon_hd BASEPATH=qtdragon_hd
+2026-07-10 20:56:53,695 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd_handler.py
+2026-07-10 20:56:53,695 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_handler.py
+2026-07-10 20:56:53,695 - QTvcp.QTVCP.QT_PSTAT - INFO - Using LOCAL handler file path: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_handler.py
+2026-07-10 20:56:53,695 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.ui
+2026-07-10 20:56:53,696 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
+2026-07-10 20:56:53,696 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.ui
+2026-07-10 20:56:53,696 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
+2026-07-10 20:56:53,697 - QTvcp.QTVCP.QT_PSTAT - INFO - Using DEFAULT ui file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
+2026-07-10 20:56:53,697 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.qss
+2026-07-10 20:56:53,697 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
+2026-07-10 20:56:53,697 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.qss
+2026-07-10 20:56:53,698 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
+2026-07-10 20:56:53,698 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT qss file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
+2026-07-10 20:56:53,698 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.qrc
+2026-07-10 20:56:53,698 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
+2026-07-10 20:56:53,698 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.qrc
+2026-07-10 20:56:53,698 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
+2026-07-10 20:56:53,698 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT qrc file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
+2026-07-10 20:56:53,698 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for resources.py in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
+2026-07-10 20:56:53,698 - QTvcp.QTVCP.QT_PSTAT - INFO - Using LOCAL resources.py file from: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
+2026-07-10 20:56:53,701 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
+2026-07-10 20:56:53,701 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/languages/qtdragon_hd_en.qm
+2026-07-10 20:56:53,701 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /usr/share/qtvcp/screens/qtdragon_hd/languages/qtdragon_hd_en.qm
+2026-07-10 20:56:53,701 - QTvcp.QTVCP.QT_PSTAT - INFO - Using no translations, default system locale is: en
+2026-07-10 20:56:53,701 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for LOCAL about file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd_ABOUT
+2026-07-10 20:56:53,701 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for LOCAL about file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
+2026-07-10 20:56:53,701 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for DEFAULT about file in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
+2026-07-10 20:56:53,702 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT about file path: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
+2026-07-10 20:56:53,702 - QTvcp - INFO - Building A LinuxCNC Main Screen with: Python 3
+2026-07-10 20:56:53,702 - QTvcp - INFO - No handler file specified on command line.
+2026-07-10 20:56:53,702 - QTvcp - INFO - No HAL component base name specified on command line using: qtdragon_hd
+2026-07-10 20:56:53,708 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Qsettings file path: /home/callum/.config/QtVcp/qtdragon_hd.conf
+2026-07-10 20:56:53,708 - QTvcp - DEBUG - Loading the handler file.
+2026-07-10 20:56:53,708 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Adding import dir: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd
+2026-07-10 20:56:53,891 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Module 'qtdragon_hd_handler' imported OK
+2026-07-10 20:56:53,891 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Module 'qtdragon_hd_handler' : 'get_handlers' function found.
+2026-07-10 20:56:53,900 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Registering handlers in module qtdragon_hd_handler object <qtdragon_hd_handler.UserHandlerClass object at 0x7fed3e9fa590>
+2026-07-10 20:56:53,901 - QTvcp - DEBUG - Adding the key events filter.
+2026-07-10 20:56:53,905 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Imported resources.py filed: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
+2026-07-10 20:56:55,907 - QTvcp.QTVCP.QT_MAKEPINS - INFO - Changed HAL Component basename to qtdragon, as specified in screenOptions: 
+2026-07-10 20:56:55,907 - QTvcp.QTVCP.WIDGETS.SCREEN_OPTIONS - DEBUG - Preference File Path: /home/callum/linuxcnc/configs/sim.axis/qtdragon.pref
+2026-07-10 20:56:55,909 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - QTVCP: Parsing for HAL widgets.
+2026-07-10 20:56:56,218 - QTvcp.QTVCP.WIDGETS.FILE_MANAGER - DEBUG - lAST FILE PATH: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts
+2026-07-10 20:56:56,220 - QTvcp.QTVCP.WIDGETS.FILE_MANAGER - DEBUG - lAST FILE PATH: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts
+2026-07-10 20:56:56,227 - QTvcp.QTVCP.WIDGETS.DRO_WIDGET - DEBUG - axis number 3 not found in available-axis to joint conversion dict {0: 0, 1: 1, 2: 2} of widget: dro_axis_4
+2026-07-10 20:56:56,227 - QTvcp.QTVCP.WIDGETS.DRO_WIDGET - DEBUG - axis number 4 not found in available-axis to joint conversion dict {0: 0, 1: 1, 2: 2} of widget: dro_axis_5
+2026-07-10 20:56:56,266 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
+2026-07-10 20:56:56,266 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Angular Current index: 0 Increment: 0 , selection changed Continuous
+2026-07-10 20:56:56,267 - QTvcp - DEBUG - Calling the handler file's initialized__ function
+2026-07-10 20:56:56,554 - QTvcp.QTDRAGON_HD.QTDRAGON_HD_HANDLER - INFO - Using Versa Probe
+2026-07-10 20:56:56,749 - QTvcp.QTDRAGON_HD.QTDRAGON_HD_HANDLER - INFO - Using NGCGUI utility
+2026-07-10 20:56:56,749 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui
+2026-07-10 20:56:56,762 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui Didn't find a path NGCGUI files
+2026-07-10 20:56:56,789 - QTvcp.QTVCP.QT_MAKEGUI - INFO - No Handler Override file at: /home/callum/linuxcnc/configs/sim.axis/.qtdragon_hdrc
+2026-07-10 20:56:56,825 - QTvcp - DEBUG - Set HAL ready.
+2026-07-10 20:56:57,040 - QTvcp - DEBUG - Show window.
+2026-07-10 20:56:57,041 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - Calculating geometry of main window using natural placement: 0 0 1920 1080
+2026-07-10 20:56:57,286 - QTvcp - INFO - Postgui filename: ['qtdragon_hd_postgui.hal']
+2026-07-10 20:56:57,316 - QTvcp - INFO - Postgui commands: None
+2026-07-10 20:56:57,317 - QTvcp - INFO - Preference path: /home/callum/linuxcnc/configs/sim.axis/qtdragon.pref
+2026-07-10 20:57:07,823 - QTvcp.QTVCP.QT_ACTION - INFO - Homing Joint: -1
+2026-07-10 20:57:16,667 - QTvcp.QTVCP.QT_ACTION - DEBUG - Load program /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+2026-07-10 20:57:16,753 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - load the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+2026-07-10 20:57:25,148 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - original value:<PyQt5.QtWidgets.QCheckBox object at 0x7fed3d384550>
+2026-07-10 20:57:25,148 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() role = 10
+2026-07-10 20:57:25,149 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() column() = 0
+2026-07-10 20:57:25,149 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: <PyQt5.QtWidgets.QCheckBox object at 0x7fed3d384550>, Row: 32, Column: 0
+2026-07-10 20:57:26,058 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: M61 Q99 G43
+2026-07-10 20:57:26,130 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: , mdi_history.dat
+2026-07-10 20:57:56,253 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+2026-07-10 20:58:18,253 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+2026-07-10 21:00:39,716 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+2026-07-10 21:00:47,260 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving axisToolButtonDialog_ENTRY data from widget  to file.
+2026-07-10 21:00:47,261 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 1
+2026-07-10 21:00:47,261 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': 7.27722413884635e-07, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -1.0}
+2026-07-10 21:00:47,261 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': 7.27722413884635e-07, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -1.0}
+2026-07-10 21:00:47,261 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': 7.27722413884635e-07, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -1.0}
+2026-07-10 21:00:47,261 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message return:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': 7.27722413884635e-07, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -1.0}
+2026-07-10 21:00:47,385 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+2026-07-10 21:00:48,671 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message sent:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': 7.27722413884635e-07, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -1.0}
+2026-07-10 21:03:39,916 - QTvcp.QTVCP.QT_ACTION - DEBUG - Load program /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+2026-07-10 21:03:39,981 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - load the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+2026-07-10 21:04:52,587 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:04:52,587 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:04:52,588 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:04:52,588 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:04:55,107 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
+2026-07-10 21:04:55,107 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
+2026-07-10 21:06:17,104 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:06:17,105 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:06:17,105 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:06:17,105 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:06:17,106 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:06:17,106 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:07:05,790 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:07:05,790 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:07:05,791 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:07:05,791 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:07:05,791 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:07:05,791 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:07:05,792 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:07:05,792 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:07:52,026 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:07:52,026 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:07:52,026 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:07:52,026 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:07:52,027 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:07:52,027 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:07:52,027 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:07:52,027 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:07:52,028 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:07:52,028 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:13:06,757 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - should reload the display
+2026-07-10 21:13:06,760 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - should reload the display
+2026-07-10 21:18:07,971 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:07,971 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:07,972 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:07,972 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:07,972 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:07,972 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:07,973 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:07,973 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:07,973 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:07,973 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:07,973 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:07,974 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:54,727 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:54,727 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:54,727 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:54,727 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:54,728 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:54,728 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:54,728 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:54,728 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:54,729 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:54,729 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:54,729 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:54,729 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:18:54,729 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:18:54,729 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:19:40,506 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:19:40,506 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:19:40,507 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:19:40,507 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:19:40,507 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:19:40,507 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:19:40,508 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:19:40,508 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:19:40,508 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:19:40,508 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:19:40,508 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:19:40,508 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:19:40,509 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:19:40,509 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:19:40,509 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:19:40,509 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:20:55,598 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:20:55,598 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:20:55,599 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:20:55,599 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:20:55,599 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:20:55,599 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:20:55,599 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:20:55,599 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:20:55,600 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:20:55,600 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:20:55,600 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:20:55,600 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:20:55,600 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:20:55,601 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:20:55,601 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:20:55,601 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:20:55,601 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-07-10 21:20:55,601 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-07-10 21:21:11,420 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - should reload the display
+2026-07-10 21:21:11,436 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - should reload the display
+2026-07-10 21:41:42,024 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
+2026-07-10 21:41:42,024 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
+2026-07-10 21:53:30,523 - QTvcp.QTVCP.QT_ACTION - DEBUG - Load program /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/DS op1.ngc
+2026-07-10 21:53:30,595 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - load the display: /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/DS op1.ngc
+2026-07-10 21:54:14,794 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &Yes
+2026-07-10 21:54:14,795 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving LncMessage-geometry data from widget  to file.
+2026-07-10 21:54:14,892 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 16384
+2026-07-10 21:54:14,892 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Calling handler file Closing_cleanup__ function of <qtvcp.qt_makegui.VCPWindow object at 0x7fed5c3bedd0>.
+2026-07-10 21:54:14,927 - QTvcp - DEBUG - Status shutdown
+2026-07-10 21:54:14,928 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Qsettings sync called:
+2026-07-10 21:54:14,929 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Calling handler file Closing_cleanup__ function of <qtvcp.qt_makegui.VCPWindow object at 0x7fed5c3bedd0>.
+2026-07-10 21:54:14,937 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - Saving Main Window geometry to preference file.
+2026-07-10 21:54:14,938 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - Calling widget's _hal_cleanup functions.
+2026-07-10 21:54:14,939 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving __dialogOffsetViewWidget data to file.
+2026-07-10 21:54:14,942 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving __dialogOffsetViewWidget data to file.
+2026-07-10 21:54:14,944 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving __dialogOffsetViewWidget data to file.
+2026-07-10 21:54:14,951 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving offset_table data to file.
+2026-07-10 21:54:14,961 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - Saving gcodegraphics data to file.
+2026-07-10 21:54:14,990 - QTvcp.QTVCP.WIDGETS.VERSA_PROBE - DEBUG - Saving Versa probe data to preference file.
+2026-07-10 21:54:14,999 - QTvcp - DEBUG - Exiting HAL

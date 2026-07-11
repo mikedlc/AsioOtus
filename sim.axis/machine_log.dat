@@ -1,149 +1,62 @@
---- QtVCP Screen Started on: Thu, Jul 09 2026 07:07:16 PM ---
+--- QtVCP Screen Started on: Fri, Jul 10 2026 08:56:56 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Thu09 19:07: Machine OFF
-Thu09 19:07: Hard limits tripped
-Thu09 19:07: Tool 0: No Tool
-Thu09 19:08: Machine ON
-Thu09 19:10: Loaded tool 99
-Thu09 19:10: Tool 99: Haimer Probe 
-Thu09 19:11: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op3 - rocker end.ngc
-Thu09 19:11: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op3 - rocker end.ngc
-Thu09 19:12: Cannot switch pages while in AUTO mode
-Thu09 19:12: Tool 33: 1/4" 3F end mill 
-Thu09 19:12:  Auto Tool probe disabled 
-Thu09 19:13: Tool 72: 3/16" 2F ball mill 
-Thu09 19:13:  Auto Tool probe disabled 
-Thu09 19:16: Tool 33: 1/4" 3F end mill 
-Thu09 19:16:  Auto Tool probe disabled 
-Thu09 19:17: Tool 72: 3/16" 2F ball mill 
-Thu09 19:17:  Auto Tool probe disabled 
-Thu09 19:30: Set Origin of Axis Z to 0.005000
-Thu09 19:31: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-Thu09 19:31: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-Thu09 19:33: Divided Axis X in Half - 0.157500
-Thu09 19:37: Set Origin of Axis X to 12.553000
-Thu09 19:38: Tool 33: 1/4" 3F end mill 
-Thu09 19:38:  Auto Tool probe disabled 
-Thu09 19:38:  abort pressed
-Thu09 19:38: Cannot switch pages while in AUTO mode
-Thu09 19:38: Cannot switch pages while in AUTO mode
-Thu09 19:39:  Probe Height: -16.1460
-Thu09 19:39:  Block Height: 0.0000
-Thu09 19:39: Tool 33: 1/4" 3F end mill 
-Thu09 19:39:  Probe Result: -13.1811
-Thu09 19:40: Tool 50: 1/4" 140 deg spot drill 
-Thu09 19:41:  Probe Height: -16.1460
-Thu09 19:41:  Block Height: 0.0000
-Thu09 19:41: Tool 50: 1/4" 140 deg spot drill 
-Thu09 19:41:  Probe Result: -13.0704
-Thu09 19:41: Tool 51: .201" twist drill, aluminum 
-Thu09 19:42:  Probe Height: -16.1460
-Thu09 19:42: Tool 51: .201" twist drill, aluminum 
-Thu09 19:42:  Block Height: 0.0000
-Thu09 19:42:  Probe Result: -12.2396
-Thu09 19:42: Tool 101: random ~0.100" twist drill 
-Thu09 19:42:  Probe Height: -16.1460
-Thu09 19:42: Tool 101: random ~0.100" twist drill 
-Thu09 19:42:  Block Height: 0.0000
-Thu09 19:42:  Probe Result: -10.2837
-Thu09 19:43: Tool 32: 3/16" 3F end mill 
-Thu09 19:43:  Probe Height: -16.1460
-Thu09 19:43: Tool 32: 3/16" 3F end mill 
-Thu09 19:43:  Block Height: 0.0000
-Thu09 19:43:  Probe Result: -12.5963
-Thu09 19:44: Tool 101: random ~0.100" twist drill 
-Thu09 19:44:  Probe Height: -16.1460
-Thu09 19:44:  Block Height: 0.0000
-Thu09 19:44: Tool 101: random ~0.100" twist drill 
-Thu09 19:44:  Probe Result: -10.7691
-Thu09 19:47: Divided Axis X in Half - 0.157500
-Thu09 19:48: Set Origin of Axis X to 12.553000
-Thu09 19:49: Tool 33: 1/4" 3F end mill 
-Thu09 19:49:  Probe Height: -16.1460
-Thu09 19:49:  Block Height: 0.0000
-Thu09 19:49: Tool 33: 1/4" 3F end mill 
-Thu09 19:49:  Probe Result: -13.1810
-Thu09 19:50: Tool 50: 1/4" 140 deg spot drill 
-Thu09 19:50:  Probe Height: -16.1460
-Thu09 19:50:  Block Height: 0.0000
-Thu09 19:50: Tool 50: 1/4" 140 deg spot drill 
-Thu09 19:50:  Probe Result: -13.0703
-Thu09 19:51: Tool 51: .201" twist drill, aluminum 
-Thu09 19:51:  Probe Height: -16.1460
-Thu09 19:51: Tool 51: .201" twist drill, aluminum 
-Thu09 19:51:  Block Height: 0.0000
-Thu09 19:51:  Probe Result: -12.2396
-Thu09 19:52: Tool 101: random ~0.100" twist drill 
-Thu09 19:52:  Probe Height: -16.1460
-Thu09 19:52:  Block Height: 0.0000
-Thu09 19:52: Tool 101: random ~0.100" twist drill 
-Thu09 19:52:  Probe Result: -10.2837
-Thu09 19:52: Tool 32: 3/16" 3F end mill 
-Thu09 19:53:  Probe Height: -16.1460
-Thu09 19:53:  Block Height: 0.0000
-Thu09 19:53: Tool 32: 3/16" 3F end mill 
-Thu09 19:53:  Probe Result: -12.5963
-Thu09 19:53: Tool 101: random ~0.100" twist drill 
-Thu09 19:53:  Probe Height: -16.1460
-Thu09 19:53: Tool 101: random ~0.100" twist drill 
-Thu09 19:53:  Block Height: 0.0000
-Thu09 19:53:  Probe Result: -10.7689
-Thu09 20:05: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op5 - chamfers.ngc
-Thu09 20:05: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op5 - chamfers.ngc
-Thu09 20:06: Cannot switch pages while in AUTO mode
-Thu09 20:06: Cannot switch pages while in AUTO mode
-Thu09 20:06: Tool 32: 3/16" 3F end mill 
-Thu09 20:06:  Auto Tool probe disabled 
-Thu09 20:07:  abort pressed
-Thu09 20:07: Loaded tool 99
-Thu09 20:07: Tool 99: Haimer Probe 
-Thu09 20:08: Tool 32: 3/16" 3F end mill 
-Thu09 20:08:  Auto Tool probe disabled 
-Thu09 20:08: Tool 72: 3/16" 2F ball mill 
-Thu09 20:09:  Auto Tool probe disabled 
-Thu09 20:10: Tool 32: 3/16" 3F end mill 
-Thu09 20:10:  Auto Tool probe disabled 
-Thu09 20:11: Tool 72: 3/16" 2F ball mill 
-Thu09 20:11:  Auto Tool probe disabled 
-Thu09 20:17: Machine OFF
-Thu09 21:39: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
-Thu09 21:39: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
-Thu09 21:42: Machine must be ON and in Manual mode to jog
-Thu09 21:42: Machine must be ON and in Manual mode to jog
-Thu09 21:42: Machine must be ON and in Manual mode to jog
-Thu09 21:42: Machine must be ON and in Manual mode to jog
-Thu09 21:42: Machine ON
-Thu09 21:42: Loaded tool 99
-Thu09 21:42: Tool 99: Haimer Probe 
-Thu09 21:43: Set Origin of Axis X to -0.250000
-Thu09 21:44: Cannot switch pages while in AUTO mode
-Thu09 21:44: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
-Thu09 21:44: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
-Thu09 21:44: Tool 33: 1/4" 3F end mill 
-Thu09 21:45:  Probe Height: -16.1460
-Thu09 21:45:  Block Height: 0.0000
-Thu09 21:45: Tool 33: 1/4" 3F end mill 
-Thu09 21:45:  Probe Result: -13.1813
-Thu09 21:46: Tool 54: 0.3125" twist drill, aluminum
-Thu09 21:46:  Probe Height: -16.1460
-Thu09 21:46: Tool 54: 0.3125" twist drill, aluminum
-Thu09 21:46:  Block Height: 0.0000
-Thu09 21:46:  Probe Result: -11.7671
-Thu09 21:50:  abort pressed
-Thu09 21:50:  abort pressed
-Thu09 21:58:  abort pressed
-Thu09 21:58:  abort pressed
-Thu09 21:59:  abort pressed
-Thu09 22:05: Loaded tool 99
-Thu09 22:05: Tool 99: Haimer Probe 
-Thu09 22:07: Cannot switch pages while in AUTO mode
-Thu09 22:07: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
-Thu09 22:07: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/8 mm ID spacers.ngc
-Thu09 22:07: Tool 33: 1/4" 3F end mill 
-Thu09 22:07:  Auto Tool probe disabled 
-Thu09 22:08: Tool 54: 0.3125" twist drill, aluminum
-Thu09 22:08:  Auto Tool probe disabled 
-Thu09 22:10:  abort pressed
-Thu09 22:10:  abort pressed
-Thu09 22:16:  abort pressed
-Thu09 22:17: Machine OFF
+Fri10 20:56: Machine OFF
+Fri10 20:56: Hard limits tripped
+Fri10 20:56: Tool 0: No Tool
+Fri10 20:57: Machine ON
+Fri10 20:57: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+Fri10 20:57: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+Fri10 20:57: Loaded tool 99
+Fri10 20:57: Tool 99: Haimer Probe 
+Fri10 21:00: Zeroed Axis Z
+Fri10 21:00: Set Origin of Axis Z to -1.000000
+Fri10 21:03: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+Fri10 21:03: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op1.ngc
+Fri10 21:04: Tool 51: .201" twist drill, aluminum 
+Fri10 21:04:  Auto Tool probe disabled 
+Fri10 21:04:  abort pressed
+Fri10 21:04: Cannot switch pages while in AUTO mode
+Fri10 21:04: Cannot switch pages while in AUTO mode
+Fri10 21:05: Cannot switch pages while in AUTO mode
+Fri10 21:05:  Probe Height: -16.1460
+Fri10 21:05:  Block Height: 0.0000
+Fri10 21:05: Tool 51: .201" twist drill, aluminum 
+Fri10 21:05:  Probe Result: -12.2396
+Fri10 21:06: Tool 52: 1/2" twist drill 
+Fri10 21:06:  Probe Height: -16.1460
+Fri10 21:06:  Block Height: 0.0000
+Fri10 21:06: Tool 52: 1/2" twist drill 
+Fri10 21:06:  Probe Result: -9.6559
+Fri10 21:07: Tool 54: 0.3125" twist drill, aluminum
+Fri10 21:07:  Probe Height: -16.1460
+Fri10 21:07:  Block Height: 0.0000
+Fri10 21:07: Tool 54: 0.3125" twist drill, aluminum
+Fri10 21:07:  Probe Result: -11.7666
+Fri10 21:07: Tool 33: 1/4" 3F end mill 
+Fri10 21:08:  Probe Height: -16.1460
+Fri10 21:08:  Block Height: 0.0000
+Fri10 21:08: Tool 33: 1/4" 3F end mill 
+Fri10 21:08:  Probe Result: -13.1807
+Fri10 21:18: Tool 50: 1/4" 140 deg spot drill 
+Fri10 21:18:  Probe Height: -16.1460
+Fri10 21:18: Tool 50: 1/4" 140 deg spot drill 
+Fri10 21:18:  Block Height: 0.0000
+Fri10 21:18:  Probe Result: -13.0697
+Fri10 21:18: Tool 101: random ~0.100" twist drill 
+Fri10 21:19:  Probe Height: -16.1460
+Fri10 21:19: Tool 101: random ~0.100" twist drill 
+Fri10 21:19:  Block Height: 0.0000
+Fri10 21:19:  Probe Result: -10.2832
+Fri10 21:19: Tool 32: 3/16" 3F end mill 
+Fri10 21:19:  Probe Height: -16.1460
+Fri10 21:19: Tool 32: 3/16" 3F end mill 
+Fri10 21:19:  Block Height: 0.0000
+Fri10 21:19:  Probe Result: -12.5956
+Fri10 21:20: Tool 72: 3/16" 2F ball mill 
+Fri10 21:21:  Probe Height: -16.1460
+Fri10 21:21:  Block Height: 0.0000
+Fri10 21:21: Tool 72: 3/16" 2F ball mill 
+Fri10 21:21:  Probe Result: -12.6344
+Fri10 21:53: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/DS op1.ngc
+Fri10 21:53: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/DS op1.ngc
+Fri10 21:54: Machine OFF
