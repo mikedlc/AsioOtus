@@ -100,3 +100,53 @@ Sat11 16:13: Divided Axis X in Half - 0.391500
 Sat11 16:14: Divided Axis Y in Half - -0.391498
 Sat11 16:14: Loaded tool 99
 Sat11 16:14: Tool 99: Haimer Probe 
+Sat11 16:17: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/enlarge 20mm.ngc
+Sat11 16:17: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/enlarge 20mm.ngc
+Sat11 16:17: Cannot switch pages while in AUTO mode
+Sat11 16:17: Tool 33: 1/4" 3F end mill 
+Sat11 16:17:  Auto Tool probe disabled 
+Sat11 16:18:  Auto Tool probe disabled 
+Sat11 16:20: Divided Axis X in Half - 0.373000
+Sat11 16:21: Divided Axis Y in Half - -0.373500
+Sat11 16:22: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/enlarge 19mm.ngc
+Sat11 16:22: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/enlarge 19mm.ngc
+Sat11 16:22:  Auto Tool probe disabled 
+Sat11 16:22:  abort pressed
+Sat11 16:23: Loaded tool 99
+Sat11 16:23: Tool 99: Haimer Probe 
+Sat11 16:23: Tool 33: 1/4" 3F end mill 
+Sat11 16:23:  Auto Tool probe disabled 
+Sat11 16:24: Cannot switch pages while in AUTO mode
+Sat11 16:24: Cannot switch pages while in AUTO mode
+Sat11 16:24: Loaded tool 99
+Sat11 16:24: Tool 99: Haimer Probe 
+Sat11 16:26: Divided Axis X in Half - 0.373000
+Sat11 16:27: Divided Axis Y in Half - -0.373999
+Sat11 16:27: Tool 33: 1/4" 3F end mill 
+Sat11 16:28:  Auto Tool probe disabled 
+Sat11 16:29: Cannot switch pages while in AUTO mode
+Sat11 16:30: Cannot switch pages while in AUTO mode
+Sat11 16:30: Loaded tool 99
+Sat11 16:30: Tool 99: Haimer Probe 
+Sat11 16:31: Divided Axis X in Half - -0.372000
+Sat11 16:31: Divided Axis Y in Half - -0.372501
+Sat11 16:32: Tool 33: 1/4" 3F end mill 
+Sat11 16:32:  Auto Tool probe disabled 
+Sat11 16:33: Loaded tool 99
+Sat11 16:33: Tool 99: Haimer Probe 
+Sat11 16:35: Divided Axis X in Half - -0.235000
+Sat11 16:35: Divided Axis Y in Half - -0.234999
+Sat11 16:36: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/enlarge 12mm.ngc
+Sat11 16:36: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/enlarge 12mm.ngc
+Sat11 16:36: Tool 33: 1/4" 3F end mill 
+Sat11 16:36:  Auto Tool probe disabled 
+Sat11 16:41: Cannot switch pages while in AUTO mode
+Sat11 16:41: Loaded tool 99
+Sat11 16:41: Tool 99: Haimer Probe 
+Sat11 16:42: Divided Axis X in Half - -0.373000
+Sat11 16:43: Divided Axis Y in Half - -0.372500
+Sat11 16:43: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/enlarge 19mm.ngc
+Sat11 16:43: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/enlarge 19mm.ngc
+Sat11 16:43: Tool 33: 1/4" 3F end mill 
+Sat11 16:43:  Auto Tool probe disabled 
+Sat11 16:46: Machine OFF
