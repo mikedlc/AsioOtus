@@ -54,3 +54,49 @@ Sat11 12:19: Divided Axis X in Half - 0.293500
 Sat11 12:20: Divided Axis Y in Half - 0.292999
 Sat11 12:21: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op2.ngc
 Sat11 12:21: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op2.ngc
+Sat11 12:59: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op2.ngc
+Sat11 12:59: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/NDS op2.ngc
+Sat11 13:00: Tool 52: 1/2" twist drill 
+Sat11 13:00:  Probe Height: -16.1460
+Sat11 13:00:  Block Height: 0.0000
+Sat11 13:00: Tool 52: 1/2" twist drill 
+Sat11 13:00:  Probe Result: -9.6556
+Sat11 13:01: Tool 33: 1/4" 3F end mill 
+Sat11 13:01:  Probe Height: -16.1460
+Sat11 13:01: Tool 33: 1/4" 3F end mill 
+Sat11 13:01:  Block Height: 0.0000
+Sat11 13:01:  Probe Result: -13.2071
+Sat11 13:08: Tool 72: 3/16" 2F ball mill 
+Sat11 13:08:  Probe Height: -16.1460
+Sat11 13:08:  Block Height: 0.0000
+Sat11 13:08: Tool 72: 3/16" 2F ball mill 
+Sat11 13:08:  Probe Result: -12.6347
+Sat11 13:30: Cannot switch pages while in AUTO mode
+Sat11 13:30: Cannot switch pages while in AUTO mode
+Sat11 13:30: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/DS op2.ngc
+Sat11 13:30: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/DS op2.ngc
+Sat11 13:31: Divided Axis X in Half - -0.292000
+Sat11 13:31: Divided Axis Y in Half - -0.293499
+Sat11 13:33: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/DS op2.ngc
+Sat11 13:33: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts r2/DS op2.ngc
+Sat11 13:33: Tool 52: 1/2" twist drill 
+Sat11 13:33:  Probe Height: -16.1460
+Sat11 13:33: Tool 52: 1/2" twist drill 
+Sat11 13:33:  Block Height: 0.0000
+Sat11 13:33:  Probe Result: -9.6553
+Sat11 13:34: Tool 33: 1/4" 3F end mill 
+Sat11 13:34:  Probe Height: -16.1460
+Sat11 13:34:  Block Height: 0.0000
+Sat11 13:34: Tool 33: 1/4" 3F end mill 
+Sat11 13:34:  Probe Result: -13.2067
+Sat11 13:45: Tool 72: 3/16" 2F ball mill 
+Sat11 13:45:  Probe Height: -16.1460
+Sat11 13:45:  Block Height: 0.0000
+Sat11 13:45: Tool 72: 3/16" 2F ball mill 
+Sat11 13:45:  Probe Result: -12.6338
+Sat11 14:12: Machine OFF
+Sat11 16:12: Machine ON
+Sat11 16:13: Divided Axis X in Half - 0.391500
+Sat11 16:14: Divided Axis Y in Half - -0.391498
+Sat11 16:14: Loaded tool 99
+Sat11 16:14: Tool 99: Haimer Probe 
