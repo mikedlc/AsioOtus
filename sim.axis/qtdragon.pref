@@ -26,7 +26,7 @@ RunFromLineDialog_sound_type = READY
 last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/FS bike/CSs r1
 last_loaded_file = /home/callum/linuxcnc/configs/nc_files/FS bike/CSs r1/op2 - on plate.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/CSs r1/op2 - on plate.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/CSs r1/op3 - end flats.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
