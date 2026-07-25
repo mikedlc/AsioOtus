@@ -17,3 +17,7 @@ Sat25 16:39: Tool 33: 1/4" 3F end mill
 Sat25 16:39:  Block Height: 0.0000
 Sat25 16:39:  Probe Result: -13.1964
 Sat25 16:42:  abort pressed
+Sat25 16:47: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CSs r1/op3 - end flats.ngc
+Sat25 16:47: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CSs r1/op3 - end flats.ngc
+Sat25 16:50: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CSs r1/op3 - end flats.ngc
+Sat25 16:50: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CSs r1/op3 - end flats.ngc
