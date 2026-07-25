@@ -65,3 +65,16 @@ Sat25 17:14: Tool 32: 3/16" 3F end mill
 Sat25 17:14:  Auto Tool probe disabled 
 Sat25 17:17: Loaded tool 99
 Sat25 17:17: Tool 99: Haimer Probe 
+Sat25 17:28: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CSs r1/op4 - counterbores.ngc
+Sat25 17:28: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CSs r1/op4 - counterbores.ngc
+Sat25 17:30: Tool 32: 3/16" 3F end mill 
+Sat25 17:30:  Auto Tool probe disabled 
+Sat25 17:31: Tool 72: 3/16" 2F ball mill 
+Sat25 17:31:  Auto Tool probe disabled 
+Sat25 17:33: Loaded tool 99
+Sat25 17:33: Tool 99: Haimer Probe 
+Sat25 17:38: Tool 32: 3/16" 3F end mill 
+Sat25 17:38:  Auto Tool probe disabled 
+Sat25 17:39: Tool 72: 3/16" 2F ball mill 
+Sat25 17:39:  Auto Tool probe disabled 
+Sat25 17:41: Machine OFF
