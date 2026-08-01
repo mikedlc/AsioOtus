@@ -29,3 +29,47 @@ Sat01 15:52: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke 
 Sat01 15:52: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
 Sat01 16:06: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
 Sat01 16:06: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
+Sat01 16:10: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
+Sat01 16:10: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
+Sat01 16:10: Tool 54: 0.3125" twist drill, aluminum
+Sat01 16:11:  Probe Height: -16.1460
+Sat01 16:11: Tool 54: 0.3125" twist drill, aluminum
+Sat01 16:11:  Block Height: 0.0000
+Sat01 16:11:  Probe Result: -11.7656
+Sat01 16:11: Tool 101: random ~0.100" twist drill 
+Sat01 16:12:  Probe Height: -16.1460
+Sat01 16:12:  Block Height: 0.0000
+Sat01 16:12: Tool 101: random ~0.100" twist drill 
+Sat01 16:12:  Probe Result: -10.2826
+Sat01 16:12: Tool 32: 3/16" 3F end mill 
+Sat01 16:13:  Probe Height: -16.1460
+Sat01 16:13: Tool 32: 3/16" 3F end mill 
+Sat01 16:13:  Block Height: 0.0000
+Sat01 16:13:  Probe Result: -12.5951
+Sat01 16:13: Tool 33: 1/4" 3F end mill 
+Sat01 16:13:  Probe Height: -16.1460
+Sat01 16:13: Tool 33: 1/4" 3F end mill 
+Sat01 16:13:  Block Height: 0.0000
+Sat01 16:13:  Probe Result: -13.1956
+Sat01 16:17: Tool 13: 3/8" 4F chamfer mill 
+Sat01 16:17:  Probe Height: -16.1460
+Sat01 16:17:  Block Height: 0.0000
+Sat01 16:17: Tool 13: 3/8" 4F chamfer mill 
+Sat01 16:17:  Probe Result: -13.2433
+Sat01 16:20: Cannot switch pages while in AUTO mode
+Sat01 16:20: Loaded tool 99
+Sat01 16:20: Tool 99: Haimer Probe 
+Sat01 16:21: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op4.ngc
+Sat01 16:21: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op4.ngc
+Sat01 16:21: Cannot switch pages while in AUTO mode
+Sat01 16:22: Tool 54: 0.3125" twist drill, aluminum
+Sat01 16:22:  Auto Tool probe disabled 
+Sat01 16:22: Tool 101: random ~0.100" twist drill 
+Sat01 16:22:  Auto Tool probe disabled 
+Sat01 16:23: Tool 32: 3/16" 3F end mill 
+Sat01 16:23:  Auto Tool probe disabled 
+Sat01 16:24: Tool 33: 1/4" 3F end mill 
+Sat01 16:24:  Auto Tool probe disabled 
+Sat01 16:28: Tool 13: 3/8" 4F chamfer mill 
+Sat01 16:28:  Auto Tool probe disabled 
+Sat01 17:00: Machine OFF
