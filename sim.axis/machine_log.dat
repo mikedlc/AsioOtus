@@ -1,75 +1,24 @@
---- QtVCP Screen Started on: Sat, Aug 01 2026 02:49:22 PM ---
+--- QtVCP Screen Started on: Sun, Aug 02 2026 11:30:34 AM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sat01 14:49: Machine OFF
-Sat01 14:49: Hard limits tripped
-Sat01 14:49: Tool 0: No Tool
-Sat01 14:49: Machine ON
-Sat01 14:49: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op2.ngc
-Sat01 14:49: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op2.ngc
-Sat01 15:03: Loaded tool 99
-Sat01 15:03: Tool 99: Haimer Probe 
-Sat01 15:04: Divided Axis Y in Half - -1.456000
-Sat01 15:06: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op2.ngc
-Sat01 15:06: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op2.ngc
-Sat01 15:09: Tool 36: 3/8" long 3F end mill 
-Sat01 15:09:  Probe Height: -16.1460
-Sat01 15:09: Tool 36: 3/8" long 3F end mill 
-Sat01 15:09:  Block Height: 0.0000
-Sat01 15:09:  Probe Result: -12.3752
-Sat01 15:22: Tool 72: 3/16" 2F ball mill 
-Sat01 15:22:  Probe Height: -16.1460
-Sat01 15:22: Tool 72: 3/16" 2F ball mill 
-Sat01 15:22:  Block Height: 0.0000
-Sat01 15:22:  Probe Result: -12.6342
-Sat01 15:45: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
-Sat01 15:45: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
-Sat01 15:49: Loaded tool 99
-Sat01 15:49: Tool 99: Haimer Probe 
-Sat01 15:52: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
-Sat01 15:52: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
-Sat01 16:06: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
-Sat01 16:06: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
-Sat01 16:10: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
-Sat01 16:10: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op3.ngc
-Sat01 16:10: Tool 54: 0.3125" twist drill, aluminum
-Sat01 16:11:  Probe Height: -16.1460
-Sat01 16:11: Tool 54: 0.3125" twist drill, aluminum
-Sat01 16:11:  Block Height: 0.0000
-Sat01 16:11:  Probe Result: -11.7656
-Sat01 16:11: Tool 101: random ~0.100" twist drill 
-Sat01 16:12:  Probe Height: -16.1460
-Sat01 16:12:  Block Height: 0.0000
-Sat01 16:12: Tool 101: random ~0.100" twist drill 
-Sat01 16:12:  Probe Result: -10.2826
-Sat01 16:12: Tool 32: 3/16" 3F end mill 
-Sat01 16:13:  Probe Height: -16.1460
-Sat01 16:13: Tool 32: 3/16" 3F end mill 
-Sat01 16:13:  Block Height: 0.0000
-Sat01 16:13:  Probe Result: -12.5951
-Sat01 16:13: Tool 33: 1/4" 3F end mill 
-Sat01 16:13:  Probe Height: -16.1460
-Sat01 16:13: Tool 33: 1/4" 3F end mill 
-Sat01 16:13:  Block Height: 0.0000
-Sat01 16:13:  Probe Result: -13.1956
-Sat01 16:17: Tool 13: 3/8" 4F chamfer mill 
-Sat01 16:17:  Probe Height: -16.1460
-Sat01 16:17:  Block Height: 0.0000
-Sat01 16:17: Tool 13: 3/8" 4F chamfer mill 
-Sat01 16:17:  Probe Result: -13.2433
-Sat01 16:20: Cannot switch pages while in AUTO mode
-Sat01 16:20: Loaded tool 99
-Sat01 16:20: Tool 99: Haimer Probe 
-Sat01 16:21: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op4.ngc
-Sat01 16:21: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke op4.ngc
-Sat01 16:21: Cannot switch pages while in AUTO mode
-Sat01 16:22: Tool 54: 0.3125" twist drill, aluminum
-Sat01 16:22:  Auto Tool probe disabled 
-Sat01 16:22: Tool 101: random ~0.100" twist drill 
-Sat01 16:22:  Auto Tool probe disabled 
-Sat01 16:23: Tool 32: 3/16" 3F end mill 
-Sat01 16:23:  Auto Tool probe disabled 
-Sat01 16:24: Tool 33: 1/4" 3F end mill 
-Sat01 16:24:  Auto Tool probe disabled 
-Sat01 16:28: Tool 13: 3/8" 4F chamfer mill 
-Sat01 16:28:  Auto Tool probe disabled 
-Sat01 17:00: Machine OFF
+Sun02 11:30: Machine OFF
+Sun02 11:30: Hard limits tripped
+Sun02 11:30: Tool 0: No Tool
+Sun02 11:30: Machine ON
+Sun02 11:30: Loaded tool 99
+Sun02 11:30: Tool 99: Haimer Probe 
+Sun02 11:34: Cannot switch pages while in AUTO mode
+Sun02 11:34: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke pocket.ngc
+Sun02 11:34: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/CS yoke pocket.ngc
+Sun02 11:35: Tool 36: 3/8" long 3F end mill 
+Sun02 11:35:  Auto Tool probe disabled 
+Sun02 11:37: Tool 72: 3/16" 2F ball mill 
+Sun02 11:37:  Auto Tool probe disabled 
+Sun02 11:40: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/dropout yoke op1.ngc
+Sun02 11:40: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/CS yoke r1/dropout yoke op1.ngc
+Sun02 11:40: Cannot switch pages while in AUTO mode
+Sun02 11:42: Tool 33: 1/4" 3F end mill 
+Sun02 11:43:  Probe Height: -16.1460
+Sun02 11:43: Tool 33: 1/4" 3F end mill 
+Sun02 11:43:  Block Height: 0.0000
+Sun02 11:43:  Probe Result: -13.1971
+Sun02 11:44:  abort pressed
