@@ -134,3 +134,13 @@ Sun16 15:25:  Auto Tool probe disabled
 Sun16 15:26: Tool 11: 1/8" 2F chamfer mill 
 Sun16 15:26:  Auto Tool probe disabled 
 Sun16 15:31: Cannot switch pages while in AUTO mode
+Sun16 15:31: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/SS/CS angle block.ngc
+Sun16 15:31: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/SS/CS angle block.ngc
+Sun16 15:32: Tool 35: 3/8" 3F end mill 
+Sun16 15:32:  Auto Tool probe disabled 
+Sun16 15:34: Tool 51: .201" twist drill, aluminum 
+Sun16 15:34:  Auto Tool probe disabled 
+Sun16 15:34: Tool 11: 1/8" 2F chamfer mill 
+Sun16 15:34:  Auto Tool probe disabled 
+Sun16 15:41:  abort pressed
+Sun16 15:44: Machine OFF
