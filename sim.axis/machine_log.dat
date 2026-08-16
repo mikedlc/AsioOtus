@@ -125,3 +125,12 @@ Sun16 15:18: Open File error: Multiple '.' not allowed in Linuxcnc
 Sun16 15:18: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/SS/SS angle block, 4x0.75x1.ngc
 Sun16 15:18: Open File error: Multiple '.' not allowed in Linuxcnc
 Sun16 15:18: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/SS/SS angle block, 4x0.75x1.ngc
+Sun16 15:22: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/SS/SS angle block, 4x0,75x1.ngc
+Sun16 15:22: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/SS/SS angle block, 4x0,75x1.ngc
+Sun16 15:23: Tool 35: 3/8" 3F end mill 
+Sun16 15:23:  Auto Tool probe disabled 
+Sun16 15:25: Tool 51: .201" twist drill, aluminum 
+Sun16 15:25:  Auto Tool probe disabled 
+Sun16 15:26: Tool 11: 1/8" 2F chamfer mill 
+Sun16 15:26:  Auto Tool probe disabled 
+Sun16 15:31: Cannot switch pages while in AUTO mode
