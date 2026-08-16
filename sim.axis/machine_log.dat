@@ -1,65 +1,48 @@
---- QtVCP Screen Started on: Sun, Aug 16 2026 04:17:15 PM ---
+--- QtVCP Screen Started on: Sun, Aug 16 2026 05:29:57 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sun16 16:17: Machine OFF
-Sun16 16:17: Hard limits tripped
-Sun16 16:17: Tool 0: No Tool
-Sun16 16:17: Machine ON
-Sun16 16:20: Loaded tool 99
-Sun16 16:20: Tool 99: Haimer Probe 
-Sun16 16:22: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op3 - rocker end.ngc
-Sun16 16:22: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op3 - rocker end.ngc
-Sun16 16:23: Tool 33: 1/4" 3F end mill 
-Sun16 16:23:  Auto Tool probe disabled 
-Sun16 16:24: Tool 51: .201" twist drill, aluminum 
-Sun16 16:24:  Auto Tool probe disabled 
-Sun16 16:24: Tool 72: 3/16" 2F ball mill 
-Sun16 16:24:  Auto Tool probe disabled 
-Sun16 16:27: Tool 33: 1/4" 3F end mill 
-Sun16 16:27:  Auto Tool probe disabled 
-Sun16 16:28: Tool 51: .201" twist drill, aluminum 
-Sun16 16:28:  Auto Tool probe disabled 
-Sun16 16:29: Tool 72: 3/16" 2F ball mill 
-Sun16 16:29:  Auto Tool probe disabled 
-Sun16 16:30: Cannot switch pages while in AUTO mode
-Sun16 16:30: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-Sun16 16:30: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-Sun16 16:36: Set Origin of Axis X to 1.145000
-Sun16 16:40: Loaded tool 99
-Sun16 16:40: Tool 99: Haimer Probe 
-Sun16 16:42: Set Origin of Axis X to 0.900000
-Sun16 16:43: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-Sun16 16:43: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op4 - dropout end.ngc
-Sun16 16:43: Tool 35: 3/8" 3F end mill 
-Sun16 16:43:  Auto Tool probe disabled 
-Sun16 16:44: Tool 51: .201" twist drill, aluminum 
-Sun16 16:44:  Auto Tool probe disabled 
-Sun16 16:45: Tool 101: random ~0.100" twist drill 
-Sun16 16:45:  Auto Tool probe disabled 
-Sun16 16:45: Tool 32: 3/16" 3F end mill 
-Sun16 16:45:  Auto Tool probe disabled 
-Sun16 16:46: Tool 35: 3/8" 3F end mill 
-Sun16 16:46:  Auto Tool probe disabled 
-Sun16 16:46:  abort pressed
-Sun16 16:49: Set Origin of Axis X to 0.892000
-Sun16 16:49:  Auto Tool probe disabled 
-Sun16 16:50: Tool 51: .201" twist drill, aluminum 
-Sun16 16:50:  Auto Tool probe disabled 
-Sun16 16:50: Tool 101: random ~0.100" twist drill 
-Sun16 16:50:  Auto Tool probe disabled 
-Sun16 16:51: Tool 32: 3/16" 3F end mill 
-Sun16 16:51:  Auto Tool probe disabled 
-Sun16 16:54: Loaded tool 99
-Sun16 16:54: Tool 99: Haimer Probe 
-Sun16 16:55: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op5 - chamfers.ngc
-Sun16 16:55: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/Dropouts/SS op5 - chamfers.ngc
-Sun16 16:56: Tool 32: 3/16" 3F end mill 
-Sun16 16:56:  Auto Tool probe disabled 
-Sun16 16:56: Tool 72: 3/16" 2F ball mill 
-Sun16 16:56:  Auto Tool probe disabled 
-Sun16 16:57: Loaded tool 99
-Sun16 16:57: Tool 99: Haimer Probe 
-Sun16 16:58: Tool 32: 3/16" 3F end mill 
-Sun16 16:58:  Auto Tool probe disabled 
-Sun16 16:59: Tool 72: 3/16" 2F ball mill 
-Sun16 16:59:  Auto Tool probe disabled 
-Sun16 17:02: Machine OFF
+Sun16 17:29: Machine OFF
+Sun16 17:29: Hard limits tripped
+Sun16 17:29: Tool 0: No Tool
+Sun16 17:30: Machine ON
+Sun16 17:31: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/SS/SS bridge op1.ngc
+Sun16 17:31: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/SS/SS bridge op1.ngc
+Sun16 17:32: Tool 33: 1/4" 3F end mill 
+Sun16 17:32:  Auto Tool probe disabled 
+Sun16 17:35: Tool 13: 3/8" 4F chamfer mill 
+Sun16 17:35:  Auto Tool probe disabled 
+Sun16 17:38: Cannot switch pages while in AUTO mode
+Sun16 17:38: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/SS/SS bridge op2.ngc
+Sun16 17:38: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/SS/SS bridge op2.ngc
+Sun16 17:38: Tool 33: 1/4" 3F end mill 
+Sun16 17:38:  Auto Tool probe disabled 
+Sun16 17:41: Tool 13: 3/8" 4F chamfer mill 
+Sun16 17:41:  Auto Tool probe disabled 
+Sun16 17:43: Cannot switch pages while in AUTO mode
+Sun16 17:43: Loaded tool 99
+Sun16 17:43: Tool 99: Haimer Probe 
+Sun16 17:44: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/SS/SS bridge op3.ngc
+Sun16 17:44: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/SS/SS bridge op3.ngc
+Sun16 17:45: Tool 53: 0.264" twist drill, aluminum
+Sun16 17:45:  Auto Tool probe disabled 
+Sun16 17:45: Tool 101: random ~0.100" twist drill 
+Sun16 17:45:  Auto Tool probe disabled 
+Sun16 17:46: Tool 33: 1/4" 3F end mill 
+Sun16 17:46:  Auto Tool probe disabled 
+Sun16 17:46:  abort pressed
+Sun16 17:48: Tool 53: 0.264" twist drill, aluminum
+Sun16 17:48:  Auto Tool probe disabled 
+Sun16 17:48: Tool 101: random ~0.100" twist drill 
+Sun16 17:48:  Auto Tool probe disabled 
+Sun16 17:49: Tool 33: 1/4" 3F end mill 
+Sun16 17:49:  Auto Tool probe disabled 
+Sun16 17:51: Tool 13: 3/8" 4F chamfer mill 
+Sun16 17:51:  Auto Tool probe disabled 
+Sun16 17:54: Tool 53: 0.264" twist drill, aluminum
+Sun16 17:54:  Auto Tool probe disabled 
+Sun16 17:54: Tool 101: random ~0.100" twist drill 
+Sun16 17:54:  Auto Tool probe disabled 
+Sun16 17:54: Tool 33: 1/4" 3F end mill 
+Sun16 17:54:  Auto Tool probe disabled 
+Sun16 17:56: Tool 13: 3/8" 4F chamfer mill 
+Sun16 17:56:  Auto Tool probe disabled 
+Sun16 18:04: Machine OFF
