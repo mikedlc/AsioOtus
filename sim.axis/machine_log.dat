@@ -17,3 +17,10 @@ Wed19 12:43:  Block Height: 0.0000
 Wed19 12:43: Tool 36: 3/8" long 3F end mill 
 Wed19 12:43:  Probe Result: -12.2346
 Wed19 12:47: Set Origin of Axis X to 1.080000
+Wed19 12:50: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,375 notch.ngc
+Wed19 12:50: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,375 notch.ngc
+Wed19 12:50:  Probe Height: -16.1460
+Wed19 12:50: Tool 36: 3/8" long 3F end mill 
+Wed19 12:50:  Block Height: 0.0000
+Wed19 12:50:  Probe Result: -12.2347
+Wed19 12:52: Machine OFF
