@@ -14,7 +14,7 @@ T32  P0   D+0.187500 Z+3.550584 ;3/16" 3F end mill
 T33  P0   D+0.250000 Z+2.941289 ;1/4" 3F end mill 
 T34  P0   D+2.000000 Z+9.000000 ;--- 
 T35  P0   D+0.375000 Z+3.064733 ;3/8" 3F end mill 
-T36  P0   D+0.375000 Z+3.770838 ;3/8" long 3F end mill 
+T36  P0   D+0.375000 Z+3.911432 ;3/8" long 3F end mill 
 T42  P0   D+0.187500 Z+9.000000 ;3/16" 3F end mill, DLC
 T43  P0   D+0.250000 Z+4.195072 ;1/4" 3F end mill, DLC
 T45  P0   D+0.375000 Z+9.000000 ;3/8" 3F end mill, DLC
