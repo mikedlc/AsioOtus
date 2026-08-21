@@ -1,20 +1,32 @@
---- QtVCP Screen Started on: Fri, Aug 21 2026 12:36:04 PM ---
+--- QtVCP Screen Started on: Fri, Aug 21 2026 05:42:46 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Fri21 12:36: Machine OFF
-Fri21 12:36: Hard limits tripped
-Fri21 12:36: Tool 0: No Tool
-Fri21 12:36: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
-Fri21 12:36: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
-Fri21 12:36: Machine ON
-Fri21 12:36: Loaded tool 99
-Fri21 12:36: Tool 99: Haimer Probe 
-Fri21 12:38: Divided Axis Y in Half - 0.682500
-Fri21 12:39: Cannot switch pages while in AUTO mode
-Fri21 12:39: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
-Fri21 12:39: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
-Fri21 12:40: Tool 36: 3/8" long 3F end mill 
-Fri21 12:40:  Auto Tool probe disabled 
-Fri21 12:45:  abort pressed
-Fri21 12:45:  abort pressed
-Fri21 12:47:  abort pressed
-Fri21 12:47: Machine OFF
+Fri21 17:42: Machine OFF
+Fri21 17:42: Hard limits tripped
+Fri21 17:42: Tool 0: No Tool
+Fri21 17:43: Machine ON
+Fri21 17:45: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/1,375 tube block.ngc
+Fri21 17:45: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/1,375 tube block.ngc
+Fri21 17:45: Cannot switch pages while in AUTO mode
+Fri21 17:48: Tool 36: 3/8" long 3F end mill 
+Fri21 17:48:  Probe Height: -16.1460
+Fri21 17:48:  Block Height: 0.0000
+Fri21 17:48: Tool 36: 3/8" long 3F end mill 
+Fri21 17:48:  Probe Result: -12.3758
+Fri21 17:49:  abort pressed
+Fri21 17:49:  abort pressed
+Fri21 17:49:  abort pressed
+Fri21 17:50: Set Origin of Axis Z to 6.700000
+Fri21 17:51:  Probe Height: -16.1460
+Fri21 17:51:  Block Height: 0.0000
+Fri21 17:51: Tool 36: 3/8" long 3F end mill 
+Fri21 17:51:  Probe Result: -12.3758
+Fri21 17:52: Tool 52: 1/2" twist drill 
+Fri21 17:52:  Probe Height: -16.1460
+Fri21 17:52: Tool 52: 1/2" twist drill 
+Fri21 17:52:  Block Height: 0.0000
+Fri21 17:52:  Probe Result: -9.6558
+Fri21 17:54: Tool 36: 3/8" long 3F end mill 
+Fri21 17:54:  Probe Height: -16.1460
+Fri21 17:54: Tool 36: 3/8" long 3F end mill 
+Fri21 17:54:  Block Height: 0.0000
+Fri21 17:54:  Probe Result: -12.3758
