@@ -1,107 +1,114 @@
-2026-08-19 12:36:02,033 - QTvcp - DEBUG - DEBUGGING logging on
-2026-08-19 12:36:02,098 - QTvcp.QTVCP.QT_ISTAT - DEBUG - Machine is IMPERIAL based. unit Conversion constant=25.4
-2026-08-19 12:36:02,098 - QTvcp.QTVCP.QT_ISTAT - DEBUG - TRAJ COORDINATES: XYZ
-2026-08-19 12:36:02,099 - QTvcp.QTVCP.QT_ISTAT - DEBUG - DEFAULT_LINEAR_VELOCITY = 120.0
-2026-08-19 12:36:02,099 - QTvcp.QTVCP.QT_ISTAT - DEBUG - MIN_LINEAR_VELOCITY = 0.0
-2026-08-19 12:36:02,099 - QTvcp.QTVCP.QT_ISTAT - DEBUG - MAX_LINEAR_VELOCITY = 300.0
-2026-08-19 12:36:02,656 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Passed name=qtdragon_hd, BASENAME=qtdragon_hd BASEPATH=qtdragon_hd
-2026-08-19 12:36:02,656 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd_handler.py
-2026-08-19 12:36:02,657 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_handler.py
-2026-08-19 12:36:02,657 - QTvcp.QTVCP.QT_PSTAT - INFO - Using LOCAL handler file path: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_handler.py
-2026-08-19 12:36:02,657 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.ui
-2026-08-19 12:36:02,657 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
-2026-08-19 12:36:02,657 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.ui
-2026-08-19 12:36:02,657 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
-2026-08-19 12:36:02,659 - QTvcp.QTVCP.QT_PSTAT - INFO - Using DEFAULT ui file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
-2026-08-19 12:36:02,659 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.qss
-2026-08-19 12:36:02,659 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
-2026-08-19 12:36:02,659 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.qss
-2026-08-19 12:36:02,659 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
-2026-08-19 12:36:02,659 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT qss file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
-2026-08-19 12:36:02,659 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.qrc
-2026-08-19 12:36:02,659 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2026-08-19 12:36:02,659 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.qrc
-2026-08-19 12:36:02,659 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2026-08-19 12:36:02,660 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT qrc file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2026-08-19 12:36:02,660 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for resources.py in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
-2026-08-19 12:36:02,660 - QTvcp.QTVCP.QT_PSTAT - INFO - Using LOCAL resources.py file from: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
-2026-08-19 12:36:02,662 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
-2026-08-19 12:36:02,662 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/languages/qtdragon_hd_en.qm
-2026-08-19 12:36:02,662 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /usr/share/qtvcp/screens/qtdragon_hd/languages/qtdragon_hd_en.qm
-2026-08-19 12:36:02,662 - QTvcp.QTVCP.QT_PSTAT - INFO - Using no translations, default system locale is: en
-2026-08-19 12:36:02,663 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for LOCAL about file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd_ABOUT
-2026-08-19 12:36:02,663 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for LOCAL about file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
-2026-08-19 12:36:02,663 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for DEFAULT about file in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
-2026-08-19 12:36:02,663 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT about file path: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
-2026-08-19 12:36:02,663 - QTvcp - INFO - Building A LinuxCNC Main Screen with: Python 3
-2026-08-19 12:36:02,663 - QTvcp - INFO - No handler file specified on command line.
-2026-08-19 12:36:02,663 - QTvcp - INFO - No HAL component base name specified on command line using: qtdragon_hd
-2026-08-19 12:36:02,669 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Qsettings file path: /home/callum/.config/QtVcp/qtdragon_hd.conf
-2026-08-19 12:36:02,669 - QTvcp - DEBUG - Loading the handler file.
-2026-08-19 12:36:02,669 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Adding import dir: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd
-2026-08-19 12:36:02,849 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Module 'qtdragon_hd_handler' imported OK
-2026-08-19 12:36:02,850 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Module 'qtdragon_hd_handler' : 'get_handlers' function found.
-2026-08-19 12:36:02,859 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Registering handlers in module qtdragon_hd_handler object <qtdragon_hd_handler.UserHandlerClass object at 0x7fc5004c0a90>
-2026-08-19 12:36:02,860 - QTvcp - DEBUG - Adding the key events filter.
-2026-08-19 12:36:02,864 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Imported resources.py filed: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
-2026-08-19 12:36:04,932 - QTvcp.QTVCP.QT_MAKEPINS - INFO - Changed HAL Component basename to qtdragon, as specified in screenOptions: 
-2026-08-19 12:36:04,932 - QTvcp.QTVCP.WIDGETS.SCREEN_OPTIONS - DEBUG - Preference File Path: /home/callum/linuxcnc/configs/sim.axis/qtdragon.pref
-2026-08-19 12:36:04,934 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - QTVCP: Parsing for HAL widgets.
-2026-08-19 12:36:05,221 - QTvcp.QTVCP.WIDGETS.FILE_MANAGER - DEBUG - lAST FILE PATH: /home/callum/linuxcnc/configs/nc_files/FS bike/SS
-2026-08-19 12:36:05,222 - QTvcp.QTVCP.WIDGETS.FILE_MANAGER - DEBUG - lAST FILE PATH: /home/callum/linuxcnc/configs/nc_files/FS bike/SS
-2026-08-19 12:36:05,229 - QTvcp.QTVCP.WIDGETS.DRO_WIDGET - DEBUG - axis number 3 not found in available-axis to joint conversion dict {0: 0, 1: 1, 2: 2} of widget: dro_axis_4
-2026-08-19 12:36:05,229 - QTvcp.QTVCP.WIDGETS.DRO_WIDGET - DEBUG - axis number 4 not found in available-axis to joint conversion dict {0: 0, 1: 1, 2: 2} of widget: dro_axis_5
-2026-08-19 12:36:05,261 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
-2026-08-19 12:36:05,262 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Angular Current index: 0 Increment: 0 , selection changed Continuous
-2026-08-19 12:36:05,263 - QTvcp - DEBUG - Calling the handler file's initialized__ function
-2026-08-19 12:36:05,536 - QTvcp.QTDRAGON_HD.QTDRAGON_HD_HANDLER - INFO - Using Versa Probe
-2026-08-19 12:36:05,730 - QTvcp.QTDRAGON_HD.QTDRAGON_HD_HANDLER - INFO - Using NGCGUI utility
-2026-08-19 12:36:05,730 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui
-2026-08-19 12:36:05,743 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui Didn't find a path NGCGUI files
-2026-08-19 12:36:05,771 - QTvcp.QTVCP.QT_MAKEGUI - INFO - No Handler Override file at: /home/callum/linuxcnc/configs/sim.axis/.qtdragon_hdrc
-2026-08-19 12:36:05,808 - QTvcp - DEBUG - Set HAL ready.
-2026-08-19 12:36:06,028 - QTvcp - DEBUG - Show window.
-2026-08-19 12:36:06,028 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - Calculating geometry of main window using natural placement: 0 0 1920 1080
-2026-08-19 12:36:06,278 - QTvcp - INFO - Postgui filename: ['qtdragon_hd_postgui.hal']
-2026-08-19 12:36:06,295 - QTvcp - INFO - Postgui commands: None
-2026-08-19 12:36:06,296 - QTvcp - INFO - Preference path: /home/callum/linuxcnc/configs/sim.axis/qtdragon.pref
-2026-08-19 12:37:39,388 - QTvcp.QTVCP.QT_ACTION - INFO - Homing Joint: -1
-2026-08-19 12:39:49,098 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - original value:<PyQt5.QtWidgets.QCheckBox object at 0x7fc4f1e54550>
-2026-08-19 12:39:49,098 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() role = 10
-2026-08-19 12:39:49,099 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() column() = 0
-2026-08-19 12:39:49,099 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: <PyQt5.QtWidgets.QCheckBox object at 0x7fc4f1e54550>, Row: 32, Column: 0
-2026-08-19 12:39:51,308 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: M61 Q99 G43
-2026-08-19 12:39:51,403 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: , mdi_history.dat
-2026-08-19 12:40:41,465 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving axisToolButtonDialog_ENTRY data from widget  to file.
-2026-08-19 12:40:41,465 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 1
-2026-08-19 12:40:41,465 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_y__', 'AXIS': 'Y', 'CURRENT': -2.309535137637017, 'TITLE': 'Set Y Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -0.5}
-2026-08-19 12:40:41,466 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_y__', 'AXIS': 'Y', 'CURRENT': -2.309535137637017, 'TITLE': 'Set Y Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -0.5}
-2026-08-19 12:40:41,466 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_y__', 'AXIS': 'Y', 'CURRENT': -2.309535137637017, 'TITLE': 'Set Y Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -0.5}
-2026-08-19 12:40:41,466 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message return:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_y__', 'AXIS': 'Y', 'CURRENT': -2.309535137637017, 'TITLE': 'Set Y Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -0.5}
-2026-08-19 12:40:41,577 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
-2026-08-19 12:40:41,578 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message sent:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_y__', 'AXIS': 'Y', 'CURRENT': -2.309535137637017, 'TITLE': 'Set Y Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': -0.5}
-2026-08-19 12:41:23,486 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving axisToolButtonDialog_ENTRY data from widget  to file.
-2026-08-19 12:41:23,486 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 1
-2026-08-19 12:41:23,486 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': -1.7730553433235183, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 1.0}
-2026-08-19 12:41:23,486 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': -1.7730553433235183, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 1.0}
-2026-08-19 12:41:23,487 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': -1.7730553433235183, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 1.0}
-2026-08-19 12:41:23,487 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message return:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': -1.7730553433235183, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 1.0}
-2026-08-19 12:41:23,598 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
-2026-08-19 12:41:23,599 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message sent:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_z__', 'AXIS': 'Z', 'CURRENT': -1.7730553433235183, 'TITLE': 'Set Z Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 1.0}
-2026-08-19 12:41:51,943 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: None
-2026-08-19 12:42:22,196 - QTvcp.QTVCP.QT_ACTION - DEBUG - Load program /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,375 notch.ngc
-2026-08-19 12:42:22,268 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - load the display: /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,375 notch.ngc
-2026-08-19 12:43:16,025 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-08-19 12:43:16,025 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-08-19 12:43:16,026 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
-2026-08-19 12:43:16,026 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
-2026-08-19 12:47:06,631 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving axisToolButtonDialog_ENTRY data from widget  to file.
-2026-08-19 12:47:06,632 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 1
-2026-08-19 12:47:06,632 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.9995007899291739, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 1.08}
-2026-08-19 12:47:06,632 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.9995007899291739, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 1.08}
-2026-08-19 12:47:06,632 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - message returned:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.9995007899291739, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 1.08}
-2026-08-19 12:47:06,632 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message return:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.9995007899291739, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 1.08}
-2026-08-19 12:47:06,744 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,375 notch.ngc
-2026-08-19 12:47:06,764 - QTvcp.QTVCP.WIDGETS.AXIS_TOOL_BUTTON - DEBUG - message sent:{'NAME': 'ENTRY', 'ID': 'axistoolbutton_x__', 'AXIS': 'X', 'CURRENT': 0.9995007899291739, 'TITLE': 'Set X Origin', 'GEONAME': 'axisToolButtonDialog_ENTRY', 'RETURN': 1.08}
-2026-08-19 12:47:06,766 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
-2026-08-19 12:47:06,766 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
+2026-08-21 12:36:01,537 - QTvcp - DEBUG - DEBUGGING logging on
+2026-08-21 12:36:01,600 - QTvcp.QTVCP.QT_ISTAT - DEBUG - Machine is IMPERIAL based. unit Conversion constant=25.4
+2026-08-21 12:36:01,600 - QTvcp.QTVCP.QT_ISTAT - DEBUG - TRAJ COORDINATES: XYZ
+2026-08-21 12:36:01,601 - QTvcp.QTVCP.QT_ISTAT - DEBUG - DEFAULT_LINEAR_VELOCITY = 120.0
+2026-08-21 12:36:01,601 - QTvcp.QTVCP.QT_ISTAT - DEBUG - MIN_LINEAR_VELOCITY = 0.0
+2026-08-21 12:36:01,601 - QTvcp.QTVCP.QT_ISTAT - DEBUG - MAX_LINEAR_VELOCITY = 300.0
+2026-08-21 12:36:02,151 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Passed name=qtdragon_hd, BASENAME=qtdragon_hd BASEPATH=qtdragon_hd
+2026-08-21 12:36:02,151 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd_handler.py
+2026-08-21 12:36:02,151 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for handler file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_handler.py
+2026-08-21 12:36:02,151 - QTvcp.QTVCP.QT_PSTAT - INFO - Using LOCAL handler file path: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_handler.py
+2026-08-21 12:36:02,151 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.ui
+2026-08-21 12:36:02,151 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
+2026-08-21 12:36:02,151 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.ui
+2026-08-21 12:36:02,151 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .ui in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
+2026-08-21 12:36:02,153 - QTvcp.QTVCP.QT_PSTAT - INFO - Using DEFAULT ui file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.ui
+2026-08-21 12:36:02,153 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.qss
+2026-08-21 12:36:02,153 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
+2026-08-21 12:36:02,153 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.qss
+2026-08-21 12:36:02,153 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qss in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
+2026-08-21 12:36:02,154 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT qss file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qss
+2026-08-21 12:36:02,154 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd.qrc
+2026-08-21 12:36:02,154 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
+2026-08-21 12:36:02,154 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/qtdragon_hd.qrc
+2026-08-21 12:36:02,154 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for .qrc in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
+2026-08-21 12:36:02,154 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT qrc file from: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
+2026-08-21 12:36:02,154 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for resources.py in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
+2026-08-21 12:36:02,154 - QTvcp.QTVCP.QT_PSTAT - INFO - Using LOCAL resources.py file from: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
+2026-08-21 12:36:02,157 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd.qrc
+2026-08-21 12:36:02,157 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd/languages/qtdragon_hd_en.qm
+2026-08-21 12:36:02,157 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for translation file in: /usr/share/qtvcp/screens/qtdragon_hd/languages/qtdragon_hd_en.qm
+2026-08-21 12:36:02,157 - QTvcp.QTVCP.QT_PSTAT - INFO - Using no translations, default system locale is: en
+2026-08-21 12:36:02,157 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for LOCAL about file in: /home/callum/linuxcnc/configs/sim.axis/qtdragon_hd_ABOUT
+2026-08-21 12:36:02,157 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for LOCAL about file in: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
+2026-08-21 12:36:02,157 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Checking for DEFAULT about file in: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
+2026-08-21 12:36:02,157 - QTvcp.QTVCP.QT_PSTAT - DEBUG - Using DEFAULT about file path: /usr/share/qtvcp/screens/qtdragon_hd/qtdragon_hd_ABOUT
+2026-08-21 12:36:02,157 - QTvcp - INFO - Building A LinuxCNC Main Screen with: Python 3
+2026-08-21 12:36:02,158 - QTvcp - INFO - No handler file specified on command line.
+2026-08-21 12:36:02,158 - QTvcp - INFO - No HAL component base name specified on command line using: qtdragon_hd
+2026-08-21 12:36:02,163 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Qsettings file path: /home/callum/.config/QtVcp/qtdragon_hd.conf
+2026-08-21 12:36:02,164 - QTvcp - DEBUG - Loading the handler file.
+2026-08-21 12:36:02,164 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Adding import dir: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd
+2026-08-21 12:36:02,342 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Module 'qtdragon_hd_handler' imported OK
+2026-08-21 12:36:02,342 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Module 'qtdragon_hd_handler' : 'get_handlers' function found.
+2026-08-21 12:36:02,351 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Registering handlers in module qtdragon_hd_handler object <qtdragon_hd_handler.UserHandlerClass object at 0x7fe800eeb110>
+2026-08-21 12:36:02,352 - QTvcp - DEBUG - Adding the key events filter.
+2026-08-21 12:36:02,356 - QTvcp.QTVCP.QT_MAKEGUI - INFO - Imported resources.py filed: /home/callum/linuxcnc/configs/sim.axis/qtvcp/screens/qtdragon_hd/resources.py
+2026-08-21 12:36:04,396 - QTvcp.QTVCP.QT_MAKEPINS - INFO - Changed HAL Component basename to qtdragon, as specified in screenOptions: 
+2026-08-21 12:36:04,396 - QTvcp.QTVCP.WIDGETS.SCREEN_OPTIONS - DEBUG - Preference File Path: /home/callum/linuxcnc/configs/sim.axis/qtdragon.pref
+2026-08-21 12:36:04,398 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - QTVCP: Parsing for HAL widgets.
+2026-08-21 12:36:04,683 - QTvcp.QTVCP.WIDGETS.FILE_MANAGER - DEBUG - lAST FILE PATH: /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching
+2026-08-21 12:36:04,684 - QTvcp.QTVCP.WIDGETS.FILE_MANAGER - DEBUG - lAST FILE PATH: /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching
+2026-08-21 12:36:04,690 - QTvcp.QTVCP.WIDGETS.DRO_WIDGET - DEBUG - axis number 3 not found in available-axis to joint conversion dict {0: 0, 1: 1, 2: 2} of widget: dro_axis_4
+2026-08-21 12:36:04,690 - QTvcp.QTVCP.WIDGETS.DRO_WIDGET - DEBUG - axis number 4 not found in available-axis to joint conversion dict {0: 0, 1: 1, 2: 2} of widget: dro_axis_5
+2026-08-21 12:36:04,722 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Linear Current index: 0 Increment: 0 , selection changed Continuous
+2026-08-21 12:36:04,722 - QTvcp.QTVCP.WIDGETS.JOG_INCREMENTS - DEBUG - Angular Current index: 0 Increment: 0 , selection changed Continuous
+2026-08-21 12:36:04,723 - QTvcp - DEBUG - Calling the handler file's initialized__ function
+2026-08-21 12:36:04,992 - QTvcp.QTDRAGON_HD.QTDRAGON_HD_HANDLER - INFO - Using Versa Probe
+2026-08-21 12:36:05,182 - QTvcp.QTDRAGON_HD.QTDRAGON_HD_HANDLER - INFO - Using NGCGUI utility
+2026-08-21 12:36:05,183 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui
+2026-08-21 12:36:05,196 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui Didn't find a path NGCGUI files
+2026-08-21 12:36:05,224 - QTvcp.QTVCP.QT_MAKEGUI - INFO - No Handler Override file at: /home/callum/linuxcnc/configs/sim.axis/.qtdragon_hdrc
+2026-08-21 12:36:05,260 - QTvcp - DEBUG - Set HAL ready.
+2026-08-21 12:36:05,478 - QTvcp - DEBUG - Show window.
+2026-08-21 12:36:05,478 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - Calculating geometry of main window using natural placement: 0 0 1920 1080
+2026-08-21 12:36:05,725 - QTvcp - INFO - Postgui filename: ['qtdragon_hd_postgui.hal']
+2026-08-21 12:36:05,742 - QTvcp - INFO - Postgui commands: None
+2026-08-21 12:36:05,742 - QTvcp - INFO - Preference path: /home/callum/linuxcnc/configs/sim.axis/qtdragon.pref
+2026-08-21 12:36:19,144 - QTvcp.QTVCP.QT_ACTION - DEBUG - Load program /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
+2026-08-21 12:36:19,199 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - load the display: /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
+2026-08-21 12:36:24,457 - QTvcp.QTVCP.QT_ACTION - INFO - Homing Joint: -1
+2026-08-21 12:36:27,369 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - original value:<PyQt5.QtWidgets.QCheckBox object at 0x7fe800768550>
+2026-08-21 12:36:27,369 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() role = 10
+2026-08-21 12:36:27,369 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - >>> setData() column() = 0
+2026-08-21 12:36:27,369 - QTvcp.QTVCP.WIDGETS.TOOL_OFFSETVIEW - DEBUG - Text: <PyQt5.QtWidgets.QCheckBox object at 0x7fe800768550>, Row: 32, Column: 0
+2026-08-21 12:36:28,202 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: M61 Q99 G43
+2026-08-21 12:36:28,273 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: , mdi_history.dat
+2026-08-21 12:37:07,210 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
+2026-08-21 12:38:05,579 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
+2026-08-21 12:38:37,535 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
+2026-08-21 12:39:11,803 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - reload the display: /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
+2026-08-21 12:39:42,094 - QTvcp.QTVCP.QT_ACTION - DEBUG - Load program /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
+2026-08-21 12:39:42,137 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - load the display: /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
+2026-08-21 12:40:14,552 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-08-21 12:40:14,552 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-08-21 12:40:14,552 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &OK
+2026-08-21 12:40:14,552 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving ToolChangeDialog-geometry data from widget  to file.
+2026-08-21 12:45:38,114 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
+2026-08-21 12:45:38,114 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - editor: got external highlight 0
+2026-08-21 12:46:35,448 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: , mdi_history.dat
+2026-08-21 12:46:37,303 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - up
+2026-08-21 12:46:37,303 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - 123
+2026-08-21 12:46:37,304 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: m3s7500, mdi_history.dat
+2026-08-21 12:46:38,524 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - up
+2026-08-21 12:46:38,524 - QTvcp.QTVCP.WIDGETS.GCODE_EDITOR - DEBUG - 122
+2026-08-21 12:46:38,524 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: m3s2000, mdi_history.dat
+2026-08-21 12:46:39,740 - QTvcp.QTVCP.QT_ACTION - DEBUG - CALL_MDI Command: m3s2000
+
+2026-08-21 12:46:39,864 - QTvcp.QTVCP.WIDGETS.MDI_LINE - DEBUG - Ext line selected: , mdi_history.dat
+2026-08-21 12:47:24,641 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Button pressed is: &Yes
+2026-08-21 12:47:24,641 - QTvcp.QTVCP.WIDGETS.DIALOGMIXIN - DEBUG - Saving LncMessage-geometry data from widget  to file.
+2026-08-21 12:47:24,743 - QTvcp.QTVCP.WIDGETS.DIALOG_WIDGET - DEBUG - Value of pressed button: 16384
+2026-08-21 12:47:24,743 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Calling handler file Closing_cleanup__ function of <qtvcp.qt_makegui.VCPWindow object at 0x7fe80272edd0>.
+2026-08-21 12:47:24,778 - QTvcp - DEBUG - Status shutdown
+2026-08-21 12:47:24,779 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Qsettings sync called:
+2026-08-21 12:47:24,779 - QTvcp.QTVCP.QT_MAKEGUI - DEBUG - Calling handler file Closing_cleanup__ function of <qtvcp.qt_makegui.VCPWindow object at 0x7fe80272edd0>.
+2026-08-21 12:47:24,789 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - Saving Main Window geometry to preference file.
+2026-08-21 12:47:24,790 - QTvcp.QTVCP.QT_MAKEPINS - DEBUG - Calling widget's _hal_cleanup functions.
+2026-08-21 12:47:24,791 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving __dialogOffsetViewWidget data to file.
+2026-08-21 12:47:24,794 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving __dialogOffsetViewWidget data to file.
+2026-08-21 12:47:24,799 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving __dialogOffsetViewWidget data to file.
+2026-08-21 12:47:24,809 - QTvcp.QTVCP.WIDGETS.ORIGIN_OFFSETVIEW - DEBUG - Saving offset_table data to file.
+2026-08-21 12:47:24,819 - QTvcp.QTVCP.WIDGETS.GCODE_GRAPHICS - DEBUG - Saving gcodegraphics data to file.
+2026-08-21 12:47:24,848 - QTvcp.QTVCP.WIDGETS.VERSA_PROBE - DEBUG - Saving Versa probe data to preference file.
+2026-08-21 12:47:24,856 - QTvcp - DEBUG - Exiting HAL
