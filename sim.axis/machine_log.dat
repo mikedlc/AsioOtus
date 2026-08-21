@@ -87,3 +87,7 @@ Fri21 19:10: Cannot switch pages while in AUTO mode
 Fri21 19:10: Loaded tool 81
 Fri21 19:11:  Auto Tool probe disabled 
 Fri21 19:13:  abort pressed
+Fri21 19:34: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/short ST angled piece.ngc
+Fri21 19:34: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/short ST angled piece.ngc
+Fri21 19:35:  Auto Tool probe disabled 
+Fri21 19:40: Machine OFF
