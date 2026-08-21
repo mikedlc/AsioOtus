@@ -72,3 +72,18 @@ Fri21 18:45: Loaded tool 25
 Fri21 18:46:  abort pressed
 Fri21 18:46:  abort pressed
 Fri21 19:07: Cannot switch pages while in AUTO mode
+Fri21 19:08: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,375 notch.ngc
+Fri21 19:08: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,375 notch.ngc
+Fri21 19:08: Tool 81: 9/16" 4F HSS long end mill 
+Fri21 19:08:  Auto Tool probe disabled 
+Fri21 19:08:  abort pressed
+Fri21 19:08: Cannot switch pages while in AUTO mode
+Fri21 19:09: Loaded tool 25
+Fri21 19:09: Tool 25: 3/8" 4F end mill 
+Fri21 19:10: Tool 81: 9/16" 4F HSS long end mill 
+Fri21 19:10:  Auto Tool probe disabled 
+Fri21 19:10:  abort pressed
+Fri21 19:10: Cannot switch pages while in AUTO mode
+Fri21 19:10: Loaded tool 81
+Fri21 19:11:  Auto Tool probe disabled 
+Fri21 19:13:  abort pressed
