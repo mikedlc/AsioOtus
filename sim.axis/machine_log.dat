@@ -1,93 +1,46 @@
---- QtVCP Screen Started on: Fri, Aug 21 2026 05:42:46 PM ---
+--- QtVCP Screen Started on: Sat, Aug 22 2026 03:48:03 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Fri21 17:42: Machine OFF
-Fri21 17:42: Hard limits tripped
-Fri21 17:42: Tool 0: No Tool
-Fri21 17:43: Machine ON
-Fri21 17:45: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/1,375 tube block.ngc
-Fri21 17:45: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/1,375 tube block.ngc
-Fri21 17:45: Cannot switch pages while in AUTO mode
-Fri21 17:48: Tool 36: 3/8" long 3F end mill 
-Fri21 17:48:  Probe Height: -16.1460
-Fri21 17:48:  Block Height: 0.0000
-Fri21 17:48: Tool 36: 3/8" long 3F end mill 
-Fri21 17:48:  Probe Result: -12.3758
-Fri21 17:49:  abort pressed
-Fri21 17:49:  abort pressed
-Fri21 17:49:  abort pressed
-Fri21 17:50: Set Origin of Axis Z to 6.700000
-Fri21 17:51:  Probe Height: -16.1460
-Fri21 17:51:  Block Height: 0.0000
-Fri21 17:51: Tool 36: 3/8" long 3F end mill 
-Fri21 17:51:  Probe Result: -12.3758
-Fri21 17:52: Tool 52: 1/2" twist drill 
-Fri21 17:52:  Probe Height: -16.1460
-Fri21 17:52: Tool 52: 1/2" twist drill 
-Fri21 17:52:  Block Height: 0.0000
-Fri21 17:52:  Probe Result: -9.6558
-Fri21 17:54: Tool 36: 3/8" long 3F end mill 
-Fri21 17:54:  Probe Height: -16.1460
-Fri21 17:54: Tool 36: 3/8" long 3F end mill 
-Fri21 17:54:  Block Height: 0.0000
-Fri21 17:54:  Probe Result: -12.3758
-Fri21 18:04: Cannot switch pages while in AUTO mode
-Fri21 18:04: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/1,375 tube block.ngc
-Fri21 18:04:  abort pressed
-Fri21 18:04:  abort pressed
-Fri21 18:04: Cannot switch pages while in AUTO mode
-Fri21 18:04: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/just 1,375 bore.ngc
-Fri21 18:04: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/just 1,375 bore.ngc
-Fri21 18:04: Cannot switch pages while in AUTO mode
-Fri21 18:05:  Auto Tool probe disabled 
-Fri21 18:08:  abort pressed
-Fri21 18:08:  abort pressed
-Fri21 18:08:  abort pressed
-Fri21 18:17: Loaded tool 99
-Fri21 18:17: Tool 99: Haimer Probe 
-Fri21 18:19: Divided Axis Y in Half - 0.805001
-Fri21 18:20: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
-Fri21 18:20: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
-Fri21 18:20: G-Code error in bb to main pivot.ngc
-Near line 0 of
-/home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/bb to main pivot.ngc
-Requested tool 81 not found in the tool table
-Fri21 18:22: Cannot switch pages while in AUTO mode
-Fri21 18:22: Tool 81: 9/16" 4F HSS long end mill 
-Fri21 18:22:  Probe Height: -16.1460
-Fri21 18:22:  Block Height: 0.0000
-Fri21 18:22: Tool 81: 9/16" 4F HSS long end mill 
-Fri21 18:22:  Probe Result: -10.9384
-Fri21 18:36:  abort pressed
-Fri21 18:36:  abort pressed
-Fri21 18:36:  abort pressed
-Fri21 18:40: Cannot switch pages while in AUTO mode
-Fri21 18:40: Tool 25: 3/8" 4F end mill 
-Fri21 18:41:  Probe Height: -16.1460
-Fri21 18:41:  Block Height: 0.0000
-Fri21 18:41: Tool 25: 3/8" 4F end mill 
-Fri21 18:41:  Probe Result: -11.6116
-Fri21 18:44:  abort pressed
-Fri21 18:45: Cannot switch pages while in AUTO mode
-Fri21 18:45: Loaded tool 25
-Fri21 18:46:  abort pressed
-Fri21 18:46:  abort pressed
-Fri21 19:07: Cannot switch pages while in AUTO mode
-Fri21 19:08: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,375 notch.ngc
-Fri21 19:08: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,375 notch.ngc
-Fri21 19:08: Tool 81: 9/16" 4F HSS long end mill 
-Fri21 19:08:  Auto Tool probe disabled 
-Fri21 19:08:  abort pressed
-Fri21 19:08: Cannot switch pages while in AUTO mode
-Fri21 19:09: Loaded tool 25
-Fri21 19:09: Tool 25: 3/8" 4F end mill 
-Fri21 19:10: Tool 81: 9/16" 4F HSS long end mill 
-Fri21 19:10:  Auto Tool probe disabled 
-Fri21 19:10:  abort pressed
-Fri21 19:10: Cannot switch pages while in AUTO mode
-Fri21 19:10: Loaded tool 81
-Fri21 19:11:  Auto Tool probe disabled 
-Fri21 19:13:  abort pressed
-Fri21 19:34: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/short ST angled piece.ngc
-Fri21 19:34: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/short ST angled piece.ngc
-Fri21 19:35:  Auto Tool probe disabled 
-Fri21 19:40: Machine OFF
+Sat22 15:48: Machine OFF
+Sat22 15:48: Hard limits tripped
+Sat22 15:48: Tool 0: No Tool
+Sat22 15:48: Machine ON
+Sat22 15:49: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/rocker for v4/op1 11x4,7.ngc
+Sat22 15:49: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/rocker for v4/op1 11x4,7.ngc
+Sat22 16:05: Loaded tool 99
+Sat22 16:05: Tool 99: Haimer Probe 
+Sat22 16:09: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/rocker for v4/op1 11x4,7.ngc
+Sat22 16:09: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/rocker for v4/op1 11x4,7.ngc
+Sat22 16:09: Cannot switch pages while in AUTO mode
+Sat22 16:10: Tool 52: 1/2" twist drill 
+Sat22 16:11:  Probe Height: -16.1460
+Sat22 16:11:  Block Height: 0.0000
+Sat22 16:11: Tool 52: 1/2" twist drill 
+Sat22 16:11:  Probe Result: -9.6558
+Sat22 16:11: Tool 51: .201" twist drill, aluminum 
+Sat22 16:12:  Probe Height: -16.1460
+Sat22 16:12:  Block Height: 0.0000
+Sat22 16:12: Tool 51: .201" twist drill, aluminum 
+Sat22 16:12:  Probe Result: -12.2394
+Sat22 16:12: Tool 35: 3/8" 3F end mill 
+Sat22 16:13:  Probe Height: -16.1460
+Sat22 16:13: Tool 35: 3/8" 3F end mill 
+Sat22 16:13:  Block Height: 0.0000
+Sat22 16:13:  Probe Result: -13.0819
+Sat22 16:28: Tool 33: 1/4" 3F end mill 
+Sat22 16:28:  Probe Height: -16.1460
+Sat22 16:28: Tool 33: 1/4" 3F end mill 
+Sat22 16:28:  Block Height: 0.0000
+Sat22 16:28:  Probe Result: -13.2051
+Sat22 16:31: Tool 13: 3/8" 4F chamfer mill 
+Sat22 16:31:  Probe Height: -16.1460
+Sat22 16:31:  Block Height: 0.0000
+Sat22 16:31: Tool 13: 3/8" 4F chamfer mill 
+Sat22 16:31:  Probe Result: -13.2429
+Sat22 16:34: Tool 72: 3/16" 2F ball mill 
+Sat22 16:34:  Probe Height: -16.1460
+Sat22 16:34:  Block Height: 0.0000
+Sat22 16:34: Tool 72: 3/16" 2F ball mill 
+Sat22 16:34:  Probe Result: -12.6343
+Sat22 16:57: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/rocker for v4/op1 11x4,7.ngc
+Sat22 16:57:  abort pressed
+Sat22 16:57:  abort pressed
