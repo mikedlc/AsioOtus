@@ -23,10 +23,10 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/FS bike/rocker for v4
+last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching
 last_loaded_file = /home/callum/linuxcnc/configs/nc_files/FS bike/rocker for v4/op2 - on plate.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/rocker for v4/op2 - on plate.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/1,5 tube block, 1,81x1,81x1,68.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
