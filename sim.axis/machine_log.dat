@@ -31,3 +31,24 @@ Sun23 13:12: Tool 54: 0.3125" twist drill, aluminum
 Sun23 13:12:  Auto Tool probe disabled 
 Sun23 13:17: Tool 36: 3/8" long 3F end mill 
 Sun23 13:17:  Auto Tool probe disabled 
+Sun23 13:36: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/1,25 tube block, 1,57x1,57x1,68.ngc
+Sun23 13:36: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/1,25 tube block, 1,57x1,57x1,68.ngc
+Sun23 13:36:  Auto Tool probe disabled 
+Sun23 13:37: Tool 52: 1/2" twist drill 
+Sun23 13:38:  Auto Tool probe disabled 
+Sun23 13:39: Tool 36: 3/8" long 3F end mill 
+Sun23 13:39:  Auto Tool probe disabled 
+Sun23 13:54: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock mount/shock mount op1, 1,75x1,61x1,25.ngc
+Sun23 13:54: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/shock mount/shock mount op1, 1,75x1,61x1,25.ngc
+Sun23 13:58:  Auto Tool probe disabled 
+Sun23 14:01: Tool 51: .201" twist drill, aluminum 
+Sun23 14:01:  Auto Tool probe disabled 
+Sun23 14:02: Tool 54: 0.3125" twist drill, aluminum 
+Sun23 14:02:  Auto Tool probe disabled 
+Sun23 14:03: Tool 33: 1/4" 3F end mill 
+Sun23 14:03:  Auto Tool probe disabled 
+Sun23 14:03:  abort pressed
+Sun23 14:03:  abort pressed
+Sun23 14:03:  abort pressed
+Sun23 14:03:  abort pressed
+Sun23 14:03:  abort pressed
