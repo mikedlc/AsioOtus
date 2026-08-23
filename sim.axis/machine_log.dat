@@ -72,3 +72,12 @@ Sun23 14:27: Tool 13: 3/8" 4F chamfer mill
 Sun23 14:27:  Auto Tool probe disabled 
 Sun23 14:35: Loaded tool 36
 Sun23 14:35: Tool 36: 3/8" long 3F end mill 
+Sun23 14:36: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock mount/shock mount op3.ngc
+Sun23 14:36: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/shock mount/shock mount op3.ngc
+Sun23 14:37:  Auto Tool probe disabled 
+Sun23 14:44:  abort pressed
+Sun23 14:45:  abort pressed
+Sun23 14:45:  abort pressed
+Sun23 14:47:  abort pressed
+Sun23 14:47:  abort pressed
+Sun23 14:59: Machine OFF
