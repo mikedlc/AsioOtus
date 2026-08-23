@@ -52,3 +52,23 @@ Sun23 14:03:  abort pressed
 Sun23 14:03:  abort pressed
 Sun23 14:03:  abort pressed
 Sun23 14:03:  abort pressed
+Sun23 14:17: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/shock mount/shock mount op1, 1,75x1,61x1,25.ngc
+Sun23 14:17: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock mount/shock mount op1, 1,75x1,61x1,25.ngc
+Sun23 14:18: Tool 36: 3/8" long 3F end mill 
+Sun23 14:18:  Auto Tool probe disabled 
+Sun23 14:20: Tool 51: .201" twist drill, aluminum 
+Sun23 14:20:  Auto Tool probe disabled 
+Sun23 14:20: Tool 54: 0.3125" twist drill, aluminum 
+Sun23 14:20:  Auto Tool probe disabled 
+Sun23 14:21: Tool 13: 3/8" 4F chamfer mill 
+Sun23 14:21:  Auto Tool probe disabled 
+Sun23 14:24: Loaded tool 99
+Sun23 14:24: Tool 99: Haimer Probe 
+Sun23 14:25: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/shock mount/shock mount op2.ngc
+Sun23 14:25: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/shock mount/shock mount op2.ngc
+Sun23 14:26: Tool 36: 3/8" long 3F end mill 
+Sun23 14:26:  Auto Tool probe disabled 
+Sun23 14:27: Tool 13: 3/8" 4F chamfer mill 
+Sun23 14:27:  Auto Tool probe disabled 
+Sun23 14:35: Loaded tool 36
+Sun23 14:35: Tool 36: 3/8" long 3F end mill 
