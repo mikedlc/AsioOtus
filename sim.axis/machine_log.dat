@@ -56,3 +56,9 @@ Sat29 13:13:  Block Height: 0.0000
 Sat29 13:13: Tool 22: 3/16" 4F end mill 
 Sat29 13:13:  Probe Result: -12.5830
 Sat29 13:20:  abort pressed
+Sat29 13:48: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/plates machining/ISCG bore.ngc
+Sat29 13:48: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/plates machining/ISCG bore.ngc
+Sat29 13:48:  Probe Height: -16.1460
+Sat29 13:48: Tool 22: 3/16" 4F end mill 
+Sat29 13:48:  Block Height: 0.0000
+Sat29 13:48:  Probe Result: -12.5957

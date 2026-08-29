@@ -6,7 +6,7 @@ T12  P0   D+0.236000 Z+3.214550 ;6mm 2F chamfer mill
 T13  P0   D+0.375000 Z+2.903069 ;3/8" 4F chamfer mill 
 T14  P0   D+0.750000 Z+9.000000 ;1F indexable chamfer mill 
 T21  P0   D+0.125000 Z+2.337090 ;1/8" 4F end drill 
-T22  P0   D+0.187500 Z+3.563009 ;3/16" 4F end mill 
+T22  P0   D+0.187500 Z+3.550274 ;3/16" 4F end mill 
 T23  P0   D+0.250000 Z+9.000000 ;1/4" 4F end mill 
 T24  P0   D+2.000000 Z+9.000000 ;--- 
 T25  P0   D+0.375000 Z+4.534435 ;3/8" 4F end mill 
