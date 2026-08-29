@@ -6,7 +6,7 @@ T12  P0   D+0.236000 Z+3.214550 ;6mm 2F chamfer mill
 T13  P0   D+0.375000 Z+2.903069 ;3/8" 4F chamfer mill 
 T14  P0   D+0.750000 Z+9.000000 ;1F indexable chamfer mill 
 T21  P0   D+0.125000 Z+2.337090 ;1/8" 4F end drill 
-T22  P0   D+0.187500 Z+3.550274 ;3/16" 4F end mill 
+T22  P0   D+0.187500 Z+3.550277 ;3/16" 4F end mill 
 T23  P0   D+0.250000 Z+9.000000 ;1/4" 4F end mill 
 T24  P0   D+2.000000 Z+9.000000 ;--- 
 T25  P0   D+0.375000 Z+4.534435 ;3/8" 4F end mill 
@@ -28,7 +28,7 @@ T71  P0   D+0.125000 Z+4.020420 ;1/8" 2F ball mill
 T72  P0   D+0.187500 Z+3.511942 ;3/16" 2F ball mill 
 T101 P0   D+0.100000 Z+5.862430 ;random ~0.100" twist drill 
 T102 P0   D+0.200000 Z+6.137516 ;random ~0.200" twist drill 
-T103 P0   D+0.300000 Z+6.585968 ;random ~0.300" twist drill 
+T103 P0   D+0.300000 Z+6.765583 ;random ~0.300" twist drill 
 T104 P0   D+0.400000 Z+9.000000 ;random ~0.400" twist drill 
 T105 P0   D+0.500000 Z+9.000000 ;random ~0.500" twist drill 
 T99  P0   Z+6.433000 ;Haimer Probe 
