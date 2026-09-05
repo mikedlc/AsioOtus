@@ -1,77 +1,14 @@
---- QtVCP Screen Started on: Fri, Sep 04 2026 04:01:08 PM ---
+--- QtVCP Screen Started on: Sat, Sep 05 2026 02:15:23 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Fri04 16:01: Machine OFF
-Fri04 16:01: Hard limits tripped
-Fri04 16:01: Tool 0: No Tool
-Fri04 16:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/ST alignment pieces/op1 2x1,1x0,75.ngc
-Fri04 16:01: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/ST alignment pieces/op1 2x1,1x0,75.ngc
-Fri04 16:04: Machine ON
-Fri04 16:06: Loaded tool 35
-Fri04 16:06: Tool 35: 3/8" 3F end mill 
-Fri04 16:07:  abort pressed
-Fri04 16:08:  abort pressed
-Fri04 16:08:  abort pressed
-Fri04 16:09:  abort pressed
-Fri04 16:09:  abort pressed
-Fri04 16:10:  abort pressed
-Fri04 16:11:  abort pressed
-Fri04 16:11:  abort pressed
-Fri04 16:11:  abort pressed
-Fri04 16:15: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/ST alignment pieces/op1 2x1,1x0,75.ngc
-Fri04 16:15: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/ST alignment pieces/op1 2x1,1x0,75.ngc
-Fri04 16:30: Cannot switch pages while in AUTO mode
-Fri04 16:30:  Auto Tool probe disabled 
-Fri04 16:32: Tool 13: 3/8" 4F chamfer mill 
-Fri04 16:32:  Auto Tool probe disabled 
-Fri04 16:33: Tool 35: 3/8" 3F end mill 
-Fri04 16:33:  Auto Tool probe disabled 
-Fri04 16:34: Tool 13: 3/8" 4F chamfer mill 
-Fri04 16:34:  Auto Tool probe disabled 
-Fri04 16:35: Tool 35: 3/8" 3F end mill 
-Fri04 16:35:  Auto Tool probe disabled 
-Fri04 16:36: Tool 13: 3/8" 4F chamfer mill 
-Fri04 16:36:  Auto Tool probe disabled 
-Fri04 16:38: Tool 35: 3/8" 3F end mill 
-Fri04 16:38:  Auto Tool probe disabled 
-Fri04 16:39: Tool 13: 3/8" 4F chamfer mill 
-Fri04 16:39:  Auto Tool probe disabled 
-Fri04 16:39: Cannot switch pages while in AUTO mode
-Fri04 16:39: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/ST alignment pieces/op2.ngc
-Fri04 16:39: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/ST alignment pieces/op2.ngc
-Fri04 16:41: Set Origin of Axis Z to 12.500000
-Fri04 16:42: Tool 35: 3/8" 3F end mill 
-Fri04 16:42:  Auto Tool probe disabled 
-Fri04 16:43: Tool 13: 3/8" 4F chamfer mill 
-Fri04 16:43:  Auto Tool probe disabled 
-Fri04 16:44: Tool 35: 3/8" 3F end mill 
-Fri04 16:44:  Auto Tool probe disabled 
-Fri04 16:44: Tool 13: 3/8" 4F chamfer mill 
-Fri04 16:44:  Auto Tool probe disabled 
-Fri04 16:46: Tool 35: 3/8" 3F end mill 
-Fri04 16:46:  Auto Tool probe disabled 
-Fri04 16:46: Tool 13: 3/8" 4F chamfer mill 
-Fri04 16:46:  Auto Tool probe disabled 
-Fri04 16:47: Cannot switch pages while in AUTO mode
-Fri04 16:47: Tool 35: 3/8" 3F end mill 
-Fri04 16:47:  Auto Tool probe disabled 
-Fri04 16:48: Tool 13: 3/8" 4F chamfer mill 
-Fri04 16:48:  Auto Tool probe disabled 
-Fri04 16:48: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/ST alignment pieces/op3 - hole in end.ngc
-Fri04 16:48: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/ST alignment pieces/op3 - hole in end.ngc
-Fri04 16:50: Tool 54: 0.3125" twist drill, aluminum 
-Fri04 16:50:  Auto Tool probe disabled 
-Fri04 16:51: Tool 33: 1/4" 3F end mill 
-Fri04 16:51:  Auto Tool probe disabled 
-Fri04 16:52: Tool 54: 0.3125" twist drill, aluminum 
-Fri04 16:52:  Auto Tool probe disabled 
-Fri04 16:52: Tool 33: 1/4" 3F end mill 
-Fri04 16:52:  Auto Tool probe disabled 
-Fri04 16:53: Tool 54: 0.3125" twist drill, aluminum 
-Fri04 16:53:  Auto Tool probe disabled 
-Fri04 16:53: Tool 33: 1/4" 3F end mill 
-Fri04 16:53:  Auto Tool probe disabled 
-Fri04 16:54: Tool 54: 0.3125" twist drill, aluminum 
-Fri04 16:54:  Auto Tool probe disabled 
-Fri04 16:55: Tool 33: 1/4" 3F end mill 
-Fri04 16:55:  Auto Tool probe disabled 
-Fri04 16:56: Machine OFF
+Sat05 14:15: Machine OFF
+Sat05 14:15: Hard limits tripped
+Sat05 14:15: Tool 0: No Tool
+Sat05 14:23: Machine ON
+Sat05 14:24:  abort pressed
+Sat05 15:13: Machine OFF
+Sat05 15:31: Machine must be ON and in Manual mode to jog
+Sat05 15:31: Machine must be ON and in Manual mode to jog
+Sat05 15:31: Machine ON
+Sat05 15:33: Loaded tool 36
+Sat05 15:33: Tool 36: 3/8" long 3F end mill 
+Sat05 15:34: Set Origin of Axis Z to 1.000000
