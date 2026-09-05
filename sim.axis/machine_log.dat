@@ -12,3 +12,7 @@ Sat05 15:31: Machine ON
 Sat05 15:33: Loaded tool 36
 Sat05 15:33: Tool 36: 3/8" long 3F end mill 
 Sat05 15:34: Set Origin of Axis Z to 1.000000
+Sat05 15:40: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/Welding access in jig.ngc
+Sat05 15:40: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/Welding access in jig.ngc
+Sat05 15:41:  Auto Tool probe disabled 
+Sat05 15:44: Machine OFF
