@@ -1,18 +1,75 @@
---- QtVCP Screen Started on: Sat, Sep 05 2026 02:15:23 PM ---
+--- QtVCP Screen Started on: Mon, Sep 07 2026 04:58:42 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Sat05 14:15: Machine OFF
-Sat05 14:15: Hard limits tripped
-Sat05 14:15: Tool 0: No Tool
-Sat05 14:23: Machine ON
-Sat05 14:24:  abort pressed
-Sat05 15:13: Machine OFF
-Sat05 15:31: Machine must be ON and in Manual mode to jog
-Sat05 15:31: Machine must be ON and in Manual mode to jog
-Sat05 15:31: Machine ON
-Sat05 15:33: Loaded tool 36
-Sat05 15:33: Tool 36: 3/8" long 3F end mill 
-Sat05 15:34: Set Origin of Axis Z to 1.000000
-Sat05 15:40: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/Welding access in jig.ngc
-Sat05 15:40: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/Welding access in jig.ngc
-Sat05 15:41:  Auto Tool probe disabled 
-Sat05 15:44: Machine OFF
+Mon07 16:58: Machine OFF
+Mon07 16:58: Hard limits tripped
+Mon07 16:58: Tool 0: No Tool
+Mon07 16:58: Machine ON
+Mon07 16:59: Loaded tool 99
+Mon07 16:59: Tool 99: Haimer Probe 
+Mon07 17:00: Divided Axis Y in Half - 0.743001
+Mon07 17:00: Set Origin of Axis Z to 1.250000
+Mon07 17:01: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,875 notch.ngc
+Mon07 17:01: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,875 notch.ngc
+Mon07 17:02: Cannot switch pages while in AUTO mode
+Mon07 17:08: Tool 81: 9/16" 4F HSS long end mill 
+Mon07 17:08:  Auto Tool probe disabled 
+Mon07 17:10:  abort pressed
+Mon07 17:12:  Auto Tool probe disabled 
+Mon07 17:13:  abort pressed
+Mon07 17:37: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,375 notch.ngc
+Mon07 17:37: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,375 notch.ngc
+Mon07 17:37:  Auto Tool probe disabled 
+Mon07 17:40:  abort pressed
+Mon07 18:03: Divided Axis Y in Half - -0.866001
+Mon07 18:06: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,875 notch.ngc
+Mon07 18:06: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,875 notch.ngc
+Mon07 18:06:  abort pressed
+Mon07 18:07:  Auto Tool probe disabled 
+Mon07 18:09:  abort pressed
+Mon07 18:09:  abort pressed
+Mon07 18:09:  abort pressed
+Mon07 18:11:  Auto Tool probe disabled 
+Mon07 18:13:  abort pressed
+Mon07 18:14:  Auto Tool probe disabled 
+Mon07 18:16:  abort pressed
+Mon07 18:16:  abort pressed
+Mon07 18:16:  Auto Tool probe disabled 
+Mon07 18:18:  abort pressed
+Mon07 18:18:  abort pressed
+Mon07 18:18:  abort pressed
+Mon07 18:18:  abort pressed
+Mon07 18:19:  Auto Tool probe disabled 
+Mon07 18:21:  abort pressed
+Mon07 18:21:  abort pressed
+Mon07 18:21:  abort pressed
+Mon07 18:21: Cannot switch pages while in AUTO mode
+Mon07 18:21: Loaded tool 81
+Mon07 18:22:  Auto Tool probe disabled 
+Mon07 18:24:  abort pressed
+Mon07 18:24:  abort pressed
+Mon07 18:24:  abort pressed
+Mon07 18:25:  Auto Tool probe disabled 
+Mon07 18:27:  abort pressed
+Mon07 18:27:  abort pressed
+Mon07 18:35:  abort pressed
+Mon07 18:35:  abort pressed
+Mon07 18:35:  abort pressed
+Mon07 18:38:  abort pressed
+Mon07 18:38:  abort pressed
+Mon07 19:00: Divided Axis Y in Half - 0.863001
+Mon07 19:02: Loaded tool 99
+Mon07 19:02: Tool 99: Haimer Probe 
+Mon07 19:02: Set Origin of Axis Z to 1.500000
+Mon07 19:04: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,5 notch.ngc
+Mon07 19:04: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/d=1,5 notch.ngc
+Mon07 19:04: Loaded tool 81
+Mon07 19:04: Tool 81: 9/16" 4F HSS long end mill 
+Mon07 19:04:  Auto Tool probe disabled 
+Mon07 19:06:  abort pressed
+Mon07 19:06:  abort pressed
+Mon07 19:14:  Auto Tool probe disabled 
+Mon07 19:16:  abort pressed
+Mon07 19:22:  Auto Tool probe disabled 
+Mon07 19:25:  abort pressed
+Mon07 19:25:  abort pressed
+Mon07 19:52: Machine OFF
