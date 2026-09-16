@@ -1,10 +1,28 @@
---- QtVCP Screen Started on: Fri, Sep 11 2026 05:59:51 PM ---
+--- QtVCP Screen Started on: Wed, Sep 16 2026 02:18:12 PM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Fri11 17:59: Machine OFF
-Fri11 17:59: Hard limits tripped
-Fri11 17:59: Tool 0: No Tool
-Fri11 17:59: Machine ON
-Fri11 18:01: Divided Axis Y in Half - 0.869499
-Fri11 18:04:  abort pressed
-Fri11 18:04:  abort pressed
-Fri11 18:06: Machine OFF
+Wed16 14:18: Machine OFF
+Wed16 14:18: Hard limits tripped
+Wed16 14:18: Tool 0: No Tool
+Wed16 14:18: Machine ON
+Wed16 14:18: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/HT jig modification 43,5mm.ngc
+Wed16 14:18: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/HT jig modification 43,5mm.ngc
+Wed16 14:20: Divided Axis X in Half - 1.074001
+Wed16 14:21: Divided Axis Y in Half - -1.074501
+Wed16 14:22: Loaded tool 99
+Wed16 14:22: Tool 99: Haimer Probe 
+Wed16 14:23: Cannot switch pages while in AUTO mode
+Wed16 14:24: Tool 35: 3/8" 3F end mill 
+Wed16 14:24:  Auto Tool probe disabled 
+Wed16 14:28: Divided Axis Y in Half - -1.167001
+Wed16 14:29: Divided Axis X in Half - 1.141998
+Wed16 14:30:  Auto Tool probe disabled 
+Wed16 14:50: Divided Axis Y in Half - 1.142001
+Wed16 14:51: Divided Axis X in Half - 1.142501
+Wed16 14:51:  Auto Tool probe disabled 
+Wed16 14:52:  abort pressed
+Wed16 14:52:  abort pressed
+Wed16 14:52: Cannot switch pages while in AUTO mode
+Wed16 14:52: Cannot switch pages while in AUTO mode
+Wed16 14:52: Loaded tool 35
+Wed16 14:53:  Auto Tool probe disabled 
+Wed16 15:02: Machine OFF
