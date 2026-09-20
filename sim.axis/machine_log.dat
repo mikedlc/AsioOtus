@@ -1,28 +1,19 @@
---- QtVCP Screen Started on: Wed, Sep 16 2026 02:18:12 PM ---
+--- QtVCP Screen Started on: Sun, Sep 20 2026 11:26:16 AM ---
 --- QtDragon_hd Version 1.5 on Linuxcnc 2.9.3 ---
-Wed16 14:18: Machine OFF
-Wed16 14:18: Hard limits tripped
-Wed16 14:18: Tool 0: No Tool
-Wed16 14:18: Machine ON
-Wed16 14:18: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/HT jig modification 43,5mm.ngc
-Wed16 14:18: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/jigs/HT jig modification 43,5mm.ngc
-Wed16 14:20: Divided Axis X in Half - 1.074001
-Wed16 14:21: Divided Axis Y in Half - -1.074501
-Wed16 14:22: Loaded tool 99
-Wed16 14:22: Tool 99: Haimer Probe 
-Wed16 14:23: Cannot switch pages while in AUTO mode
-Wed16 14:24: Tool 35: 3/8" 3F end mill 
-Wed16 14:24:  Auto Tool probe disabled 
-Wed16 14:28: Divided Axis Y in Half - -1.167001
-Wed16 14:29: Divided Axis X in Half - 1.141998
-Wed16 14:30:  Auto Tool probe disabled 
-Wed16 14:50: Divided Axis Y in Half - 1.142001
-Wed16 14:51: Divided Axis X in Half - 1.142501
-Wed16 14:51:  Auto Tool probe disabled 
-Wed16 14:52:  abort pressed
-Wed16 14:52:  abort pressed
-Wed16 14:52: Cannot switch pages while in AUTO mode
-Wed16 14:52: Cannot switch pages while in AUTO mode
-Wed16 14:52: Loaded tool 35
-Wed16 14:53:  Auto Tool probe disabled 
-Wed16 15:02: Machine OFF
+Sun20 11:26: Machine OFF
+Sun20 11:26: Hard limits tripped
+Sun20 11:26: Tool 0: No Tool
+Sun20 11:26: Machine ON
+Sun20 11:28: Divided Axis X in Half - 0.622000
+Sun20 11:28: Divided Axis Y in Half - -0.619999
+Sun20 11:32: Divided Axis Y in Half - 0.619999
+Sun20 11:33: Divided Axis X in Half - 0.623000
+Sun20 11:33: Loaded tool 99
+Sun20 11:33: Tool 99: Haimer Probe 
+Sun20 11:34: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot.ngc
+Sun20 11:34: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot.ngc
+Sun20 11:35: Tool 22: 3/16" 4F end mill 
+Sun20 11:35:  Auto Tool probe disabled 
+Sun20 11:43: Divided Axis Y in Half - -0.627000
+Sun20 11:45: Set Origin of Axis Y to 0.625000
+Sun20 11:45:  Auto Tool probe disabled 
