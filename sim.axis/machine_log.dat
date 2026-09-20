@@ -17,3 +17,30 @@ Sun20 11:35:  Auto Tool probe disabled
 Sun20 11:43: Divided Axis Y in Half - -0.627000
 Sun20 11:45: Set Origin of Axis Y to 0.625000
 Sun20 11:45:  Auto Tool probe disabled 
+Sun20 11:50: Cannot switch pages while in AUTO mode
+Sun20 11:50: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot -2thou.ngc
+Sun20 11:50: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot -2thou.ngc
+Sun20 11:50:  Auto Tool probe disabled 
+Sun20 11:51: Cannot switch pages while in AUTO mode
+Sun20 11:51: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot -4thou.ngc
+Sun20 11:51: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot -4thou.ngc
+Sun20 11:51:  Auto Tool probe disabled 
+Sun20 11:56: Cannot switch pages while in AUTO mode
+Sun20 11:56: Loaded tool 99
+Sun20 11:56: Tool 99: Haimer Probe 
+Sun20 12:03: Divided Axis X in Half - 0.619500
+Sun20 12:03: Divided Axis Y in Half - -0.620999
+Sun20 12:04: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot.ngc
+Sun20 12:04: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot.ngc
+Sun20 12:05: Tool 22: 3/16" 4F end mill 
+Sun20 12:05:  Auto Tool probe disabled 
+Sun20 12:06: Cannot switch pages while in AUTO mode
+Sun20 12:06: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot -2thou.ngc
+Sun20 12:06: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot -2thou.ngc
+Sun20 12:06:  Auto Tool probe disabled 
+Sun20 12:07: Loaded program file : /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot -4thou.ngc
+Sun20 12:07: Loaded file /home/callum/linuxcnc/configs/nc_files/FS bike/tube notching/milling main pivot -4thou.ngc
+Sun20 12:07:  Auto Tool probe disabled 
+Sun20 12:19:  abort pressed
+Sun20 12:19:  abort pressed
+Sun20 15:01: Machine OFF
