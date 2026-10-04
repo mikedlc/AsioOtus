@@ -4,3 +4,25 @@ Sun04 16:45: Machine OFF
 Sun04 16:45: Hard limits tripped
 Sun04 16:45: Tool 0: No Tool
 Sun04 16:45: Machine ON
+Sun04 16:48: Loaded program file : /home/callum/linuxcnc/configs/nc_files/for others/for graham/dog sign numbers.ngc
+Sun04 16:48: Loaded file /home/callum/linuxcnc/configs/nc_files/for others/for graham/dog sign numbers.ngc
+Sun04 16:49: Loaded tool 99
+Sun04 16:49: Tool 99: Haimer Probe 
+Sun04 16:49: Loaded file /home/callum/linuxcnc/configs/nc_files/for others/for graham/dog sign numbers.ngc
+Sun04 16:49: Loaded program file : /home/callum/linuxcnc/configs/nc_files/for others/for graham/dog sign numbers.ngc
+Sun04 16:50: Loaded program file : /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3.ngc
+Sun04 16:50: Loaded file /home/callum/linuxcnc/configs/nc_files/1 circle square v1 r3.ngc
+Sun04 16:50: Loaded program file : /home/callum/linuxcnc/configs/nc_files/for others/for graham/dog sign numbers.ngc
+Sun04 16:50: Loaded file /home/callum/linuxcnc/configs/nc_files/for others/for graham/dog sign numbers.ngc
+Sun04 16:53: Cannot switch pages while in AUTO mode
+Sun04 16:53: Tool 31: 1/8" 3F end mill 
+Sun04 16:54:  Probe Height: -16.1460
+Sun04 16:54:  Block Height: 0.0000
+Sun04 16:54: Tool 31: 1/8" 3F end mill 
+Sun04 16:54:  Probe Result: -12.7699
+Sun04 16:59: Tool 13: 3/8" 4F chamfer mill 
+Sun04 16:59:  Probe Height: -16.1460
+Sun04 16:59:  Block Height: 0.0000
+Sun04 16:59: Tool 13: 3/8" 4F chamfer mill 
+Sun04 16:59:  Probe Result: -13.2441
+Sun04 17:02: Machine OFF

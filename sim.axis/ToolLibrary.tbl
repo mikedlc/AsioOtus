@@ -3,14 +3,14 @@ T2   P0   D+2.000000 Z+9.000000 ;2" facemill, aluminum
 T3   P0   D+2.000000 Z+9.000000 ;2" facemill, steel 
 T11  P0   D+0.125000 Z+3.122278 ;1/8" 2F chamfer mill 
 T12  P0   D+0.236000 Z+3.214550 ;6mm 2F chamfer mill 
-T13  P0   D+0.375000 Z+2.901545 ;3/8" 4F chamfer mill 
+T13  P0   D+0.375000 Z+2.901917 ;3/8" 4F chamfer mill 
 T14  P0   D+0.750000 Z+9.000000 ;1F indexable chamfer mill 
 T21  P0   D+0.125000 Z+2.337090 ;1/8" 4F end drill 
 T22  P0   D+0.187500 Z+3.550277 ;3/16" 4F end mill 
 T23  P0   D+0.250000 Z+9.000000 ;1/4" 4F end mill 
 T24  P0   D+2.000000 Z+9.000000 ;--- 
 T25  P0   D+0.375000 Z+4.534435 ;3/8" 4F end mill 
-T31  P0   D+0.125000 Z+3.376050 ;1/8" 3F end mill 
+T31  P0   D+0.125000 Z+3.376053 ;1/8" 3F end mill 
 T32  P0   D+0.187500 Z+3.550580 ;3/16" 3F end mill 
 T33  P0   D+0.250000 Z+2.938217 ;1/4" 3F end mill 
 T34  P0   D+2.000000 Z+9.000000 ;--- 
