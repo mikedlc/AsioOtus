@@ -23,10 +23,10 @@ RunFromLineDialog_play_sound = True
 RunFromLineDialog_sound_type = READY
 
 [BOOK_KEEPING]
-last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/for others/for graham
+last_loaded_directory = /home/callum/linuxcnc/configs/nc_files/FS bike/final frame accessories/bearing cups
 last_loaded_file = /home/callum/linuxcnc/configs/nc_files/for others/for graham/dog sign numbers.ngc
 style_QSS_Path = DEFAULT
-RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/for others/for graham/dog sign numbers.ngc
+RecentPath_0 = /home/callum/linuxcnc/configs/nc_files/FS bike/final frame accessories/bearing cups/op2 - on plate.ngc
 
 [ORIGINOFFSET_SYSTEM_NAMES]
 __dialogOffsetViewWidget-G54 = User System 1
